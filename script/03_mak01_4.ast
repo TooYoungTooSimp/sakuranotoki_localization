@@ -1,0 +1,4458 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="第Ⅲ章"},
+		{"msg", no=1},
+		{"bgm", file="bgm164"},
+		{"bg", file="ev_com_60_10", path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10607", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“男人的裤子，一打开拉链就很容易侵入。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「男のズボンって、ジッパー開けると結構簡単に侵入できるんだぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 11,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你在干什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「って、お前なにを？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 14,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10608", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“我在摸在意的东西。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「気になっているものを触ってるのですけど？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 17,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你知道这不是智能手机吧！别想直接碰我！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「スマホじゃないのは分かっただろ！　直接触ろうとするんじゃない！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 20,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10609", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“不是直接的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「まーだ直接じゃないよー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 23,
+	},
+	block_00005 = {
+		{"bg", sync=0, face=1, file="ev_com_60_11", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10610", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“我没有直接摸，但是好像湿得很厉害。这是没关系的家伙吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「直接触ってないんだけどさぁ、なんかすごい濡れているんですけど。",
+					{"rt2"},
+					"これ大丈夫なヤツなのかしら？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 30,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我不是说没关系，别碰我。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「大丈夫じゃないから触るなって言っているんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 33,
+	},
+	block_00007 = {
+		{"bg", sync=0, face=1, file="ev_com_60_10", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10611", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“不是的，这么湿的话，之后会不会很冷很辛苦呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「違う違う。こんな濡れたら、あとで冷たくて大変じゃないの？　って話」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 39,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那就不要碰！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だったら触るな！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 42,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10612", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“不，不，重要的是，不湿就好了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「いやいや、要はさ、濡れなきゃいいわけじゃん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 45,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10613", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“什么？咦？……咦，是这里吗？啊，就是这个洞……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「んで？　あれ？　……えっと、ここかな？　あ、この穴だ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 48,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"感觉和以前完全不一样。",
+				},
+			},
+        	ja = {
+				{
+					"それまでとまったく違う感触がした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 51,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嘿嘿！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「くはっっ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 54,
+	},
+	block_00013 = {
+		{"bg", sync=0, face=1, file="ev_com_60_11", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10614", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“什么呀！草薙，净是骗人的。身体不是很诚实吗！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「なんだよ！　草薙ぃ、嘘ばっかりだなぁ。身体は正直じゃん！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 60,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10615", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“果然被淋湿了不是雨水嘛！这么热的液体雨怎么会存在呢！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「やっぱり濡れていたの雨水じゃないじゃん！　こんな熱い液体の雨なんか存在しないじゃんか！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 63,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"鸟谷从内裤的洞里把手伸了进去。",
+				},
+			},
+        	ja = {
+				{
+					"パンツの穴から鳥谷は手を入れていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 66,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“喂，是你啊。你说得好像开玩笑似的……你知道你在摸什么吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お、お前なぁ。そんな冗談みたいに言ってるけど……なに触っているか分かってるのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 69,
+	},
+	block_00017 = {
+		{"bg", sync=0, face=1, file="ev_com_60_12", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10616", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“草薙说说你在摸什么。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「何触っているか、草薙が言ってみてよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 75,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你是笨蛋吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「アホかよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 78,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10617", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“可能是智能手机吧？啊！？应该再触摸确认一下吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「スマホかもしれないじゃん？　はっ！？　もっと触って確かめるべきか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 81,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不是，不是智能手机。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ち、違う、スマホじゃないから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 84,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10618", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“那是什么？什么？我在摸什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「だったら何よー？　何ですかー。私は何触っているのですかー？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 87,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10619", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“你说吧，你好意思。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「言ってみなさいよ。く　さ　な　ぎ　く　ん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 90,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“鸟谷，你啊……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「鳥谷、お前なぁ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 93,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10620", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“嗯？没有答案吗？那就再认真一点吧！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「んー？　答え無しかよー。",
+					{"rt2"},
+					"んじゃ、もっとシコシコしてみようか！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 97,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「んぐっっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 100,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10621", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“哎呀，不用想太多了。只是草薙这里太硬太大了，我只是在意而已。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「あんまさー。深く考えなくていいじゃん。単に、草薙のここがあまりに硬くて",
+					{"rt2"},
+					"大きくなってるから、私が気になっただけだしさぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 104,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「不管是深还是深，你现在所做的就是。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「深くも何も、お前が今やっているのはさぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 107,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10622", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「何？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 110,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“手，用手……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「手、手でその……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 113,
+	},
+	block_00030 = {
+		{"bg", sync=0, face=1, file="ev_com_60_11", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10623", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“不是手嘛！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「手じゃん！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 119,
+	},
+	block_00031 = {
+		{"bg", sync=0, face=1, file="ev_com_60_12", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10624", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“我觉得用嘴做的话会出局的。粘膜接触是出局的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「口でやったらアウトだと思うよ。",
+					{"rt2"},
+					"粘膜接触はアウトだね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 126,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10625", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“不过也只是摸摸而已，这不是在戏弄吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「でも触ったりするぐらい、別に戯れみたいなもんじゃない？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 129,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那嚒，可以用我的手触摸那里吗……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だったら、俺の手であそこを触っていいのかよ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 132,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10626", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“如果对女孩子那样做的话就出局了吧。不是噱头吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「女の子にそれやったらアウトでしょー。ギャグじゃすまないじゃなーい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 135,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我觉得这也不是十足的噱头……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「これも十分ギャグじゃすまないと思うけどな……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 138,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10627", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“嘛，不用想太多了。是你把裤裆拉大了。而且我也很感兴趣，仅此而已。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「まぁ深く考えなくてもいいじゃん。あんたが股間を大きくさせた。それに私が",
+					{"rt2"},
+					"興味を持った。ただそれだけだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 142,
+	},
+	block_00037 = {
+		{"bg", sync=0, face=1, file="ev_com_60_11", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10628", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“说起来，为什么突然让它变大了呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「そもそも、なんでいきなり大きくさせてるんだよー。って話」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 148,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10629", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“我没碰吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「私、触ってなくね？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 151,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是因为你会抱住我吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お前が抱きついてくるからだろ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 154,
+	},
+	block_00040 = {
+		{"bg", sync=0, face=1, file="ev_com_60_13", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10630", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“因为很冷啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「だって寒かったんだもん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 160,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你这嚒一说，我就把我的夹克借给你了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それ言われたら、おれのジャケット貸してやったよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 163,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10631", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“因为我想做那个，所以先抱住啦。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「それやると思ったから、先手で抱きついたんだもの」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 166,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“为什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なんでだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 169,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10632", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“为什么呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「なんでだろ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 172,
+	},
+	block_00045 = {
+		{"bg", sync=0, face=1, file="ev_com_60_10", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10633", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“算了，算了吧。既然做到了这个地步，现在不就完了吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「まぁ、いいじゃん。ここまでやったら今さらじゃない？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 178,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“现在就这样……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「今さらって……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 181,
+	},
+	block_00047 = {
+		{"bg", sync=0, face=1, file="ev_com_60_12", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10634", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“基本上，完全没有色情的感觉。好像在正常对话。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「だいたい、全然エロい感じしないじゃん。",
+					{"rt2"},
+					"なんか、普通に会話してるしさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 188,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我只是像普通的对话一样努力而已。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「普通に会話する様に俺はがんばっているだけだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 191,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10635", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“那是什么？不要忍耐，发出更色情的声音怎么样？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「なにそれ？　我慢せずにもっとエロい声出したら？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 194,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯……手、手动渣……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「くっ……手、手動かすなっ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 197,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10636", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“移动完全移动。再努力一点-加油-草薙♪”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「動かす動かす全然動かすしー。",
+					{"rt2"},
+					"もっとがんばれーがんばれー草薙♪」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 201,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯，嗯，稍微控制一下手的速度，那个有点痛……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「っっ、す、少し手の速度抑えてくれ、それちょっと痛いんだけど……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 204,
+	},
+	block_00053 = {
+		{"bg", sync=0, face=1, file="ev_com_60_10", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10637", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“啊，对不起。因为不习惯……嗯。这样吧？就这样，轻轻地抚摸一下就停下来。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「あ、ごめん。慣れてないから……えっと。",
+					{"rt2"},
+					"こうかな？　こんな感じで、やさしく撫でるぐらいで止めておく」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 211,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「んくっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 214,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10638", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“抚摸，用手。抚摸，抚摸……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「なで、なで。",
+					{"rt2"},
+					"なで、なで……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 218,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「うくっ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 221,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10639", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“喂，喂。喂，喂……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「こちょ、こちょ。",
+					{"rt2"},
+					"こちょ、こちょ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 225,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「う゛ぐっ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 228,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10640", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“温，温。温，温……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「ぬる、ぬる。",
+					{"rt2"},
+					"ぬる、ぬる……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 232,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯，别碰了！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「んがぁ、もう触るな！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 235,
+	},
+	block_00061 = {
+		{"bg", sync=0, face=1, file="ev_com_60_13", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10641", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“为什么？你不是被淋湿了吗！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「なんで？　めっちゃ濡れてきてるじゃん！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 241,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那，被碰了也会被淋湿的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そりゃ、触られたら濡れもするわ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 244,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10642", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“那就好！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「だったらいいじゃん！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 247,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不行，我已经受不了了……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だめだ。もう我慢出来ないんだよ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 250,
+	},
+	block_00065 = {
+		{"bg", sync=0, face=1, file="ev_com_60_10", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10643", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“啊？出来？出来的家伙？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「え？　出る？　出ちゃうやつ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 256,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“出不来！因为出不来所以很痛苦。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「出ねぇよ！　出せないからつらいんだって」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 259,
+	},
+	block_00067 = {
+		{"bg", sync=0, face=1, file="ev_com_60_13", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10644", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“啊，原来如此。确实这种摸法可能会变成焦灼的家伙。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「あー、なるほどねぇ。",
+					{"rt2"},
+					"たしかにこの触り方は、焦らしている的なヤツになるかもー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 266,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“所以不要这样。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だからやめろ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 269,
+	},
+	block_00069 = {
+		{"bg", sync=0, face=1, file="ev_com_60_10", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10645", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“别这样没关系吗？男人不拿出来不是很辛苦吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「やめて大丈夫なの？　男って出さないと大変じゃない？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 275,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“真是够呛。所以以后我会想办法的！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「大変だよ。だからあとでどうにかするから！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 278,
+	},
+	block_00071 = {
+		{"bg", sync=0, face=1, file="ev_com_60_12", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10646", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“以后做什么？自慰吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「あとでナニするの？　オナニーとかする？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 284,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“真烦人。先不要碰那个。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「うるせぇな。とりあえずその触り方やめろ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 287,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10647", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“我要手淫。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「オナニーするんだー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 290,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“烦死了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「うるせぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 293,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10648", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“你会手淫吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「するんでしょ？　オナニー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 296,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那是什么呀！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だったらなんだよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 299,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10649", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“嗯，反正要做的话，就在这里给我看看吧！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「うん、どうせやるなら、ここで見せてよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 302,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“肯定很讨厌吧！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「嫌に決まっているだろ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 305,
+	},
+	block_00079 = {
+		{"bg", sync=0, face=1, file="ev_com_60_13", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10650", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“一点点就好了。稍微看一下，就知道怎么做了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「少しでいいからさー。少し見たら、やり方分かるからー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 311,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“做法？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「やり方？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 314,
+	},
+	block_00081 = {
+		{"bg", sync=0, face=1, file="ev_com_60_10", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10651", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“果然，痛的话不好，但是不拿出来就这样说也很可怜。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「やっぱり、痛くすると悪いし、でも出さないでこのままって言うのもかわいそうだし」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 320,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不要让我处于可怜的状态！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「かわいそうな状態にするなよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 323,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10652", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“我会好好用手做最后一件事的。先给我示范一下吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「ちゃんと手で最後までしてあげるからさ。",
+					{"rt2"},
+					"とりあえずお手本見せてよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 327,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你啊……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お前なぁ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 330,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"鸟谷用充满期待的眼神看着我。",
+				},
+			},
+        	ja = {
+				{
+					"鳥谷は期待に満ちた目で俺を見ている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 333,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“小”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ちっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 336,
+	},
+	block_00087 = {
+		{"bg", file="black", path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我，做自己的东西。",
+				},
+			},
+        	ja = {
+				{
+					"俺は、自分のものをしごく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 342,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"鸟谷好奇地看着那个样子。",
+				},
+			},
+        	ja = {
+				{
+					"その姿を鳥谷は物珍しそうに見ている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 345,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽然很屈辱，但并不是不能忍受。",
+				},
+			},
+        	ja = {
+				{
+					"屈辱的だが、耐えられないわけじゃない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 348,
+	},
+	block_00090 = {
+		{"bg", file="ev_com_60_14", path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10653", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“啊，男人就是这样手淫的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「へー、男ってそうやってオナニーするんだー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 354,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“喂，女人怎么样……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お、女はどうなんだよ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 357,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10654", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“不知道”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「知らなーい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 360,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你说不知道……啊，让我做这样的事，你会装傻吗……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「知らないって……くっ、こんな事させておいてとぼけるのかよ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 363,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10655", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“就算被说成是女人，我也不认识其他人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「女の、って言われてもさ。他の人とか知らないもん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 366,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那个，有个人差别吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あれって、個人差あるのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 369,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10656", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“我不知道。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「さぁ、分からないけど」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 372,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那嚒，我的也可能有个人差别吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だったら、俺のだって個人差があるかもしれないだろ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 375,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10657", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“也许吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「そうかもね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 378,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我也不知道男人手淫的一般东西。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺だって男のオナニーの一般的なものなんて知らない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 381,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10658", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“这样就好了。对我来说，只有在这里看到的东西是唯一的吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「それでいいや。",
+					{"rt2"},
+					"私にとってはここで見たものだけが唯一だろうし」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 385,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么呀……那个……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なんだよ……それ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 388,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10659", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“这就是我的世界里男人的手淫。其他的不知道也可以吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「これが、私の世界では男のオナニー。",
+					{"rt2"},
+					"他のは知らなくていいかんじーかしら？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 392,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么意思……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「どういう意味だよ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 395,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10660", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“别想得太深了。与其这样，还不如让我来做。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「深く考えるな。それよりも、私にもやらせてよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 398,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“能给我看手淫吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「オナニーでも見せてくれるのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 401,
+	},
+	block_00106 = {
+		{"bg", sync=0, face=1, file="ev_com_60_15", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10661", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“哈哈哈，我一辈子都不会了，放心吧。你没见过我的手淫！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「あははは、一生ねぇから安心しろ。",
+					{"rt2"},
+					"あんたが私のオナニーなんて見る事たぁ無い！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 408,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“鸟谷会手淫吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「鳥谷は、オナニーとかするのかよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 411,
+	},
+	block_00108 = {
+		{"bg", sync=0, face=1, file="ev_com_60_14", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10662", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“没有评论”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「ノーコメントでーす」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 417,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你就回答这个吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それぐらい答えろよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 420,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10663", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“嗯，是问女孩子手淫吗？这不是性骚扰吗？真是太糟糕了，草薙。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「えー、女の子にオナニーするか？　とか聞くとかセクハラおやじじゃん。マジやばいぞ草薙ー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 423,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你让我做这种事在说什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「こんな事やらせて何言っているんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 426,
+	},
+	block_00112 = {
+		{"bg", sync=0, face=1, file="ev_com_60_15", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"bg", sync=0, face=1, file="ev_com_60_14", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10664", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“哇，哇。与其这样，还不如让我来做。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「わーた、わーたからさ。",
+					{"rt2"},
+					"それよりも、それ私にやらせてよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 433,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这样说着，鸟谷帮了我的东西。",
+				},
+			},
+        	ja = {
+				{
+					"そう言って、鳥谷は俺のものに手を添えた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 436,
+	},
+	block_00114 = {
+		{"bg", sync=0, face=1, file="ev_com_60_16", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「くっ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 442,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10665", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“哦，你太敏感了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「ほう、すごく敏感だね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 445,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯……嗯。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ん……うっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 448,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“鸟谷来吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「と、鳥谷さぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 451,
+	},
+	block_00118 = {
+		{"bg", sync=0, face=1, file="ev_com_60_17", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10666", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「なに？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 457,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「虽然心情很好……但是，如果这样做的话，不到最后就不行了。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「きもちいいんだけど……、これやったら最後まで出さないとすまないぞ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 460,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10667", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“就是这个意思？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「その気だけど？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 463,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“如果在这样的地方拿出来的话。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「こんな場所で出したら」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 466,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10668", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“我会想办法的，放心，心情会变好的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「どうにかするから安心して気持ち良くなってなさいよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 469,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“放心吧……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「安心してって……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 472,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10669", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“看，我不会出杂念的。草薙也想出吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「ほら、雑念出さない。草薙だって出したいでしょ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 475,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「くっっ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 478,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我先不想太多了。",
+				},
+			},
+        	ja = {
+				{
+					"俺はとりあえず、いろいろ考えるのをやめた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 481,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10670", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“嗯嗯，我很集中精神。总觉得，你这个人太啰嗦了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「うんうん、集中しているねぇ。",
+					{"rt2"},
+					"なんか、お○んちんって、すごくどくどくしているんだねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 485,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"从根部被握住，慢慢地被握住。",
+				},
+			},
+        	ja = {
+				{
+					"根元のあたりから握られ、ゆっくりしごかれる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 488,
+	},
+	block_00129 = {
+		{"bg", sync=0, face=1, file="ev_com_60_18", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10671", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“好厉害的声音啊。你听到了吧？哼哼，哼哼的声音。这么湿啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「結構すごい音だねぇ。聞こえてるでしょ？　ぐちゅ、ぐちゅって音。",
+					{"rt2"},
+					"こんな濡れるんだねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 495,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇，吵死了……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「う、うるさいっっ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 498,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10672", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“真是太强了。但是一点都不厉害。因为被这样的地方触摸，心情变好了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「強がっちゃってぇ。でも全然凄みがないね。",
+					{"rt2"},
+					"こんな場所触られて、気持ち良くなっちゃってるんだから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 502,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“就是这样的地方……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そういう箇所だよ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 505,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10673", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“嗯。但是好香啊。从来没有闻到过的味道。这就是男孩子手淫的声音和味道。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「ふーん。でも凄い匂いだねぇ。いままで嗅いだことない匂い。",
+					{"rt2"},
+					"これが男の子のオナニーの音と匂いなんだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 509,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"真琴以我的龟头为中心扭动。",
+				},
+			},
+        	ja = {
+				{
+					"俺の亀頭を中心に真琴はぐりぐりする。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 512,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「うっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 515,
+	},
+	block_00136 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10674", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“果然这里很舒服吗？这是女人说的克里特里斯吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「やっぱりここが気持ちいいの？　",
+					{"rt2"},
+					"これって女で言うところのクリトリスなんでしょ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 519,
+	},
+	block_00137 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你知道吗……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「し、知るかよ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 522,
+	},
+	block_00138 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10675", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“别那么别扭。你看，你不是一直在响吗？很舒服吧？女孩子也不会被淋湿的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「そんな拗ねないでよ。ほら、くちょくちょ音が鳴ってるじゃん。",
+					{"rt2"},
+					"気持ちいいんでしょ？　女の子だってこんな濡れないぞ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 526,
+	},
+	block_00139 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"用舒适的强度用手包裹。",
+				},
+			},
+        	ja = {
+				{
+					"心地いい強さで手でくるまれる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 529,
+	},
+	block_00140 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，啊……啊”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「はぁ、はぁ……くっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 532,
+	},
+	block_00141 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10676", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“总觉得呼吸变得急促了？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「なんか、息荒くなってきたけど？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 535,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，啊，对了……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あ、ああ、そうだ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 538,
+	},
+	block_00143 = {
+		{"bg", sync=0, face=1, file="ev_com_60_17", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10677", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“这样啊，放心到最后吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「そっか、安心して最後までイきなよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 543,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“出来的时候怎么办？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「出る時にどうするんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 546,
+	},
+	block_00145 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10678", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“没关系，没关系，我不会弄脏佛堂的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「大丈夫。大丈夫。お堂を汚す様な事しないから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 549,
+	},
+	block_00146 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“差不多该……好了……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そろそろ……イきそうだ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 552,
+	},
+	block_00147 = {
+		{"bg", sync=0, face=1, file="ev_com_60_16", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10679", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“是啊。但实际上有这种感觉。脉搏跳动得很厉害，很热，现在都快爆炸了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「そうなんだ。でも実際そんな感じがする。",
+					{"rt2"},
+					"すごく脈打ってて、すごく熱くて、今でも爆発しそうだもの」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 558,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"真琴担心我的表情。",
+				},
+			},
+        	ja = {
+				{
+					"俺を気遣うような真琴の表情。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 561,
+	},
+	block_00149 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“已经不行了……鸟谷”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「も、もうダメだ……鳥谷」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 564,
+	},
+	block_00150 = {
+		{"bg", sync=0, face=1, file="ev_com_60_17", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10680", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“嗯，放心吧，就这样拿出来也没问题……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「うん、安心して、このまま出しても問題ないから……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 569,
+	},
+	block_00151 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，不行，鸟谷……真的……我……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あっ、だ、だめだ。鳥谷……マジで……俺っっっ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 572,
+	},
+	block_00152 = {
+		{"bg", id=9, lv=9, sync=1, time=500, file="white", path=":bg/"},
+		{"bg", id=9, lv=9, sync=1, time=500, alpha=0, file="white", path=":bg/"},
+		{"bg", id=9, lv=9, sync=1, time=1000, alpha=255, file="white", path=":bg/"},
+		{"cgdel", id=9, lv=9},
+		{"bg", file="ev_com_60_19", sync=1, time=1000, vague=100, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我的脑子一片空白。",
+				},
+			},
+        	ja = {
+				{
+					"頭が真っ白になった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 579,
+	},
+	block_00153 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我的脚抽筋了，好像腰上有电一样。",
+				},
+			},
+        	ja = {
+				{
+					"腰に電気が走る様に、俺の足はビクビクと痙攣した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 582,
+	},
+	block_00154 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇，啊，哇，哇……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「くっはっ、あっ、くっ、くっっっ…………」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 587,
+	},
+	block_00155 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10681", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“嗯，嗯，好厉害，很厉害……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「うん、うん、すごい、すごくドクドクしている……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 590,
+	},
+	block_00156 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"鸟谷用手帕包着我的阴茎。",
+				},
+			},
+        	ja = {
+				{
+					"鳥谷はハンカチで俺のペニスを包んでいた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 593,
+	},
+	block_00157 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10682", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“好厉害……手帕上染上了精液……量这么多。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「すごい……ハンカチにすごい勢いで精液が染みてる……こんな量でるんだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 596,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯，因为你让我着急了……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「うっ、お、おまえに焦らされたから……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 599,
+	},
+	block_00159 = {
+		{"bg", sync=0, face=1, file="ev_com_60_20", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10683", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“这样的话，那不是很舒服吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「そう、だったら、それで沢山気持ち良くなれたんじゃない？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 605,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你知道吗……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「知るか……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 608,
+	},
+	block_00161 = {
+		{"bg", sync=0, face=1, file="ev_com_60_19", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10684", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“是的，是的，你不会生气的。你还在提心吊胆的，到最后再拿出来。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「はい、はい、そんなに怒らないの。",
+					{"rt2"},
+					"まだビクビクしてるから、最後までちゃんと出して」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 615,
+	},
+	block_00162 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10685", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“我会用手帕全部擦掉的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「ハンカチで全部拭き取ってあげるから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 618,
+	},
+	block_00163 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「っっっッッッ………」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 621,
+	},
+	block_00164 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我的痉挛还在继续。",
+				},
+			},
+        	ja = {
+				{
+					"俺の痙攣は続く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 624,
+	},
+	block_00165 = {
+		{"bg", file="black", path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"鸟谷用手帕接住我的东西后，用湿纸巾把我弄干净了。",
+				},
+			},
+        	ja = {
+				{
+					"鳥谷はハンカチで俺のものを受け止めたあと、ウェットティッシュで綺麗にしてくれた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 630,
+	},
+	block_00166 = {
+		{"bg", file="ev_com_60_21", path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10686", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“咦，怎么擦掉了，之后没有出来吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「あれ、なんか拭き取っても、あとから出てきてない？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 636,
+	},
+	block_00167 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“后面就出来了，就是这样。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あとから出てくるんだよ。そういうもんなんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 639,
+	},
+	block_00168 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10687", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“嗯。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「ふーん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 642,
+	},
+	block_00169 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"鸟谷认真地帮我擦精液。",
+				},
+			},
+        	ja = {
+				{
+					"鳥谷は丁寧に精液を拭き取ってくれる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 645,
+	},
+	block_00170 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10688", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“草薙不是问你出来的时候要怎么做吗？你以为我会怎么做？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「出る時にどうするんだよって草薙聞いてたじゃない？　",
+					{"rt2"},
+					"私がどうすると思ったの？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 649,
+	},
+	block_00171 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「何が？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 652,
+	},
+	block_00172 = {
+		{"bg", sync=0, face=1, file="ev_com_60_22", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10689", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“你没想过会用嘴接受我吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「口で受け止めてくれるとか想像してなかった？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 658,
+	},
+	block_00173 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我没有。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「してねぇよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 661,
+	},
+	block_00174 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10690", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“嗯，又不是恋人，我不会做那种事的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「くすくす、まぁ恋人でもないし、そんな事はしてあげないよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 664,
+	},
+	block_00175 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“一般都不会用手吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「普通は手でもしねぇだろ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 667,
+	},
+	block_00176 = {
+		{"bg", sync=0, face=1, file="ev_com_60_21", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10691", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“是吗？好像有护理之类的事情。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「そう？　介護とかで手でする事あるみたいよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 673,
+	},
+	block_00177 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“看护？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「介護？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 676,
+	},
+	block_00178 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10692", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“不是老人，是给有残疾的人做的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「老人とかじゃないよ。障害とかある人にやるんだって」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 679,
+	},
+	block_00179 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そうなのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 682,
+	},
+	block_00180 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10693", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“护理的人，不管是男是女都会帮你做的。如果不这样做的话，患者会变得凶暴。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「介護の人は、男とか女とか関係無くやってあげるんだよ。",
+					{"rt2"},
+					"そうしないと患者さんが凶暴になったりするって書いてた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 686,
+	},
+	block_00181 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「何に？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 689,
+	},
+	block_00182 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10694", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“是关于护理设施的新书吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「介護施設に関する新書だったかなぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 692,
+	},
+	block_00183 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽然没有想过那样的事情，但是确实，自己有什么事都做不到的性欲会变得凶暴吗……。",
+				},
+			},
+        	ja = {
+				{
+					"そんなの考えた事が無かったけど、たしかに、自分でどうする事も出来ない性欲で",
+					{"rt2"},
+					"凶暴になる事とかあるのか……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 696,
+	},
+	block_00184 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10695", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“用手做，就是这样。不要想得太深。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「手でするなんて、そんなもんだよ。",
+					{"rt2"},
+					"あんまり、深く考えるな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 700,
+	},
+	block_00185 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“确实，用湿纸巾擦的话好像是在接受护理。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「たしかに、ウェットティッシュで拭かれていると介護受けているみたいだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 703,
+	},
+	block_00186 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10696", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“感觉就像是草薙双手骨折，弓张时代的同学来探望他，用手给他做一样？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「草薙が両手とか骨折して、弓張時代の同級生がお見舞いに来て、手でやってあげるみたいな感じ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 706,
+	},
+	block_00187 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不是吧。一般的想象应该是护士吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それ違うだろ。普通の想像なら看護師さんだろ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 709,
+	},
+	block_00188 = {
+		{"bg", sync=0, face=1, file="ev_com_60_22", time=400, path=":ev/ev_com_60/", set="ev_com_60"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10697", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“什么？你对护士有这样的期待吗？真差劲。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「なに？　看護師にそんな事期待してるの？　最低だなぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 715,
+	},
+	block_00189 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“期待来探望的人能做的人更奇怪吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お見舞いに来たヤツにやってもらえるって期待するヤツの方がおかしいだろうが」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 718,
+	},
+	block_00190 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10698", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“是啊。但是，如果以后有那样的事，我会帮你做的，没关系。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「そうだね。",
+					{"rt2"},
+					"でもさ、今後そういう事があったら、私がやってあげるから大丈夫だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00189",
+		linknext = "block_00191",
+		line = 722,
+	},
+	block_00191 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“没有发球，而且双手不会骨折。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ノーサンキューだ。しかも両手なんて骨折しない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00190",
+		linknext = "block_00192",
+		line = 725,
+	},
+	block_00192 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mak_10699", ch="mak"},
+			},
+		
+            cn = {
+				{
+					"“真的？不会变得凶暴而胡闹吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"真琴"},
+					"「本当？　凶暴になって暴れたりしない？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00191",
+		linknext = "block_00193",
+		line = 728,
+	},
+	block_00193 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不会吧！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「しねぇよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00192",
+		linknext = "block_00194",
+		line = 731,
+	},
+	block_00194 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=139, wait=500, file="black", path=":bg/", vague=40},
+		{"excall", file="03_mak01_5"},
+		{"text"},
+		linkback = "block_00193",
+		line = 736,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

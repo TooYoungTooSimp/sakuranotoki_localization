@@ -1,0 +1,2053 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="第Ⅲ章"},
+		{"msg", no=1},
+		{"bg", file="アイキャッチ03mis", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans"},
+		{"ex", time=5000, func="wait"},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", time=2000, file="ev_etc_01_02", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"几乎和昨天一样的景象。",
+				},
+			},
+        	ja = {
+				{
+					"ほぼ昨日と同じ光景であった。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 25,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"只是和昨天不同的是——。",
+				},
+			},
+        	ja = {
+				{
+					"ただ昨日と違うのは――。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 28,
+	},
+	block_00002 = {
+		{"msgoff"},
+		{"bg", x=480, y=-340, file="zbg028e", path=":bg/", ax=1920, ay=1126, bx=-960, by=-586, sync=0},
+		{"fg", ch="麗華", size="z2", mode=3, resize=1, path=":fg/rei/z2/", file="rei_z2a0100", face="a0005", head="rei_z2a", x=0, lv=5, id=10, sync=0},
+		{"extrans"},
+		{"bgm", file="bgm168"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"除了黑衣服以外，还有心铃君的母亲。",
+				},
+			},
+        	ja = {
+				{
+					"黒服以外にも、心鈴くんのお母さんがいる事だった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 44,
+	},
+	block_00003 = {
+		{"fg", ch="麗華", mode=3, path=":fg/rei/z2/", file="rei_z2a0100", face="a0005", head="rei_z2a", x=0, lv=5, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10036", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“好久不见，夏目的妾。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「久しぶりね。夏目の妾」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 49,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那句话不是针对我，而是针对我身边的人。",
+				},
+			},
+        	ja = {
+				{
+					"その言葉は俺に対してではなく、俺の傍らにいた人間に向けられていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 52,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10154", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“好久不见，没想到会在这里遇到你。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「お久しぶりです。まさかあなたとここで出会うとは思いませんでした」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 55,
+	},
+	block_00006 = {
+		{"fg", ch="麗華", mode=3, path=":fg/rei/z2/", file="rei_z2a0100", face="a0003", head="rei_z2a", x=0, lv=5, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", size="z2", mode=3, path=":fg/rei/z2/", file="rei_z2a0100", face="a0011", head="rei_z2a", x=0, lv=5, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10037", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“是吗？这个学校本来就是我们的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「そうかしら？　そもそもこの学園は私達のものだったのだけどね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 61,
+	},
+	block_00007 = {
+		{"bg", x=-400, y=-430, speed=500, time=500, sync=0, file="zbg028e", path=":bg/", x2=-200, y2=-430, ax=1920, ay=1126, bx=-960, by=-586},
+		{"fg", ch="藍", size="z2", speed=500, time=500, mode=3, resize=1, path=":fg/aix/z2/", file="aix_z2a0100", face="a0005", head="aix_z2a", x2=200, x=0, lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10155", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“这是很久以前的事了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「ずいぶん昔のお話ですが」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 67,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"两个人互相怒视。",
+				},
+			},
+        	ja = {
+				{
+					"二人はにらみ合う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 70,
+	},
+	block_00009 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg028e", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"bg", lv=5, id=5, rule="cinema", file="cinema01", alpha=255, time=400, path=":sys/", vague=40, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我会掌握情况。",
+				},
+			},
+        	ja = {
+				{
+					"俺は状況を把握する。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 80,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"黑衣三人。",
+				},
+			},
+        	ja = {
+				{
+					"黒服は三人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 83,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"一个人，肯定混着不普通的家伙。",
+				},
+			},
+        	ja = {
+				{
+					"一人、間違いなく普通ではないヤツが混ざっている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 86,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"大概是有格斗经验的人吧。是保镖吗。",
+				},
+			},
+        	ja = {
+				{
+					"たぶん格闘技経験者だろう。",
+					{"rt2"},
+					"用心棒ってヤツか。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 90,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽说蓝很强，但重量差也很难说。",
+				},
+			},
+        	ja = {
+				{
+					"藍が強いと言えどもウェイト差はいかんともしがたい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 93,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"说起我，我觉得身材并没有输……，明显是用途不同的肌肉附着方法。",
+				},
+			},
+        	ja = {
+				{
+					"俺と言えば、一応は体つきでは負けていないとは思うが……、あからさまに用途が違った筋肉の付き方だ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 96,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"如果是胳膊相扑之类的比赛的话，也许能赢，但如果是吵架的话，赢的可能性很小。",
+				},
+			},
+        	ja = {
+				{
+					"腕相撲とかの勝負なら勝てるかもしれないが、たぶん喧嘩となれば勝つ見込みは薄い。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 99,
+	},
+	block_00016 = {
+		{"cgdel", lv=5, id=5, rule="cinema", time=400, sync=0},
+		{"bg", file="bg028e", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="麗華", size="z1", mode=3, resize=1, path=":fg/rei/z1/", file="rei_z1a0110", face="a0005", head="rei_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, resize=1, path=":fg/aix/z1/", file="aix_z1a0100", face="a0006", head="aix_z1a", x=345, lv=4, id=6, sync=0},
+		{"extrans", time=300},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10038", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“妾没什么事，我找的是那个萝莉控男人！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「妾には用がないわ。私が用があるのはそっちのロリコン男よ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 110,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这样说着指着我。",
+				},
+			},
+        	ja = {
+				{
+					"そう言って俺を指さした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 113,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"叫萝莉控吧！！",
+				},
+			},
+        	ja = {
+				{
+					"ロリコン呼ばわりかよ！！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 116,
+	},
+	block_00019 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b0100", face="b0005", head="aix_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10156", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“您找直哉有什么事？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「直哉に何のご用でしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 121,
+	},
+	block_00020 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0004", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0005", head="rei_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10039", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"「所以我说这和你没关系，你马上消失啊。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「だからあんたには関係ないと言っているのよ。即刻消えなさい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 127,
+	},
+	block_00021 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b0110", face="b0006", head="aix_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10157", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“你以为会被这么一说就消失吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そう言われて消えると思っているのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 137,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10040", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“那就让他吃苦头吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「だったら痛い目にあってもらうけど？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 140,
+	},
+	block_00023 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a0100", face="a0018", head="aix_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10158", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“谁会遭受痛苦呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「どちらが痛い目にあうのでしょうか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 145,
+	},
+	block_00024 = {
+		{"se", file="se0096", vol=50, id=1},
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b0100", face="b0005", head="aix_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"蓝里隐隐约约传来硬币的声音。",
+				},
+			},
+        	ja = {
+				{
+					"藍から硬貨の音がかすかに聞こえる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 151,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"蓝异常地把细长的袋子用在零钱用的钱包里。",
+				},
+			},
+        	ja = {
+				{
+					"藍は異常に長細い袋を、小銭用の財布に使っている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 154,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这是瞬间被称为锁链玉的武器。",
+				},
+			},
+        	ja = {
+				{
+					"これは瞬時に鎖玉と言われる武器となる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 157,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"蓝好像从小就熟练使用这种暗器。",
+				},
+			},
+        	ja = {
+				{
+					"藍は幼い時からこの手の暗器を使いこなしていたらしい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 160,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"完全是一触即发的感觉。",
+				},
+			},
+        	ja = {
+				{
+					"完全に一触即発という感じだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 163,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"昨天被心铃君钉了那么多钉子，这个人还拘泥于我吗……。",
+				},
+			},
+        	ja = {
+				{
+					"昨日、心鈴くんにあれほど釘を刺されたのに、まだこの人は俺にこだわるのか……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 172,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那么——。",
+				},
+			},
+        	ja = {
+				{
+					"だったら――。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 175,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“如果有事的话，放学后一定会去那里，现在可以请您回去吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「用事でしたら、放課後必ず、そちらに伺いますから、今はお引き取り願えませんか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 185,
+	},
+	block_00032 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a0100", face="a0008", head="aix_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10159", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“直哉！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「直哉！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 190,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“因为教师这个工作，不能像昨天那样不负责任地逃课。因为老师是学生的榜样。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「教師という仕事柄、昨日の様に無責任に授業をサボる事が出来ません。",
+					{"rt2"},
+					"生徒のお手本となるのが教師ですからね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 194,
+	},
+	block_00034 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0011", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君妈妈的眉毛稍微动了一下。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんのお母さんの眉毛が少しだけ動く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 199,
+	},
+	block_00035 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0013", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0003", head="rei_z1a", x=-345, lv=4, id=5},
+			},
+			vl02 = {
+				{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0006", head="rei_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10041", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“老师？你是我的榜样？真是好笑的笑话。这个淫荡教师！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「教師？　あんたがお手本ですって？　笑える冗談ね。この淫行教師が！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 206,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我说了吐了之后还了鼾声。",
+				},
+			},
+        	ja = {
+				{
+					"吐き捨てる様に言った後にきびすを返した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 211,
+	},
+	block_00037 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0005", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10042", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“算了，放学后，下课后马上到中村的家里来。一定要来！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「まぁいいわ。放課後、授業が終わったらすぐに中村の屋敷に来なさい。必ずよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 220,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我明白了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「分かりました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 223,
+	},
+	block_00039 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=139, wait=500, file="black", path=":bg/", vague=40},
+		{"bg", rule=139, vague=40, file="ev_com_14_09", path=":ev/ev_com_14/", set="ev_com_14"},
+		{"bgm", file="bgm136"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10160", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“你在想什么？直哉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「何を考えてるんだ。直哉」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 236,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么事？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「何がですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 239,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10161", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“你昨天今天还打算去中村家吗？你知道那里是什么地方吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「お前は昨日の今日でまたあの中村家に行くつもりか？　あそこがどういう場所か",
+					{"rt2"},
+					"分かっているんだよな？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 243,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那是因为中村家和我们一族长年争斗。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そりゃ、まぁ、中村家と俺ら一族は長年争ってきましたからね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 246,
+	},
+	block_00043 = {
+		{"bg", sync=0, face=1, file="ev_com_14_03", time=400, path=":ev/ev_com_14/", set="ev_com_14"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10162", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“那么！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「だったら！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 251,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“正因为如此，我才去。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だからこそ、行くんです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 254,
+	},
+	block_00045 = {
+		{"bg", sync=0, face=1, file="ev_com_14_09", time=400, path=":ev/ev_com_14/", set="ev_com_14"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10163", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“为什么会这样？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「なぜそうなる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 259,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那个人是心铃君的母亲。那样做的话，冲过来也是因为担心心铃君。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あの人は曲がりなりにも心鈴くんのお母さんです。",
+					{"rt2"},
+					"ああやって、突っかかってくるのも、心鈴くんが心配なわけですから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 263,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10164", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“草薙一族单纯地和本间家联系起来很可怕吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「単純に草薙一族が本間家とつながるのが恐ろしいのだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 266,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“所以呢。正因为心铃和我很有可能结婚，才会有不必要的不安。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だからですよ。心鈴くんと俺が結婚しかねない状態だからこそ、そんないらない不安が出てくる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 269,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10165", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“不需要不安吗？本间家是管理南部集团的权力者。而且那个副总裁是自己的前夫。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「いらない不安か？　本間家は南部グループを束ねる権力者だ。しかもその副総裁が自分の元夫ときている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 272,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“正因为自己在那个本间家，才知道那个巨大的力量。所以，如果我和那个一族有关系的话会很恐怖。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「自分がその本間家にいたからこそ、その絶大な力を知っている。",
+					{"rt2"},
+					"故に、俺がその一族に関係したら怖い」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 276,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“说起来，从那里就偏离了。本间礼次郎这个人不是为了我而行动的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そもそも、そこからしてズレている。本間礼次郎さんという人は、俺のために動いてくれる人じゃないですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 279,
+	},
+	block_00052 = {
+		{"bg", sync=0, face=1, file="ev_com_14_02", time=400, path=":ev/ev_com_14/", set="ev_com_14"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10166", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“为什么这么想呢？可能是女儿的丈夫吧？孙子出生的那天，南部集团也会受到特别的待遇吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「なぜそう思う？　一応は娘の旦那となるのかもしれないのだぞ？",
+					{"rt2"},
+					"孫でも産まれた日には南部グループでも格別の扱いを受ける事になるだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 285,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“如果是这样的人的话，我就不会把心铃变成宫崎美铃了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そんな人ならば、心鈴くんを宮崎みすゞになんてしませんよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 288,
+	},
+	block_00054 = {
+		{"bg", sync=0, face=1, file="ev_com_14_03", time=400, path=":ev/ev_com_14/", set="ev_com_14"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10167", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“那是怎么回事？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「それはどういう事だ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 293,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“看着心铃君，我觉得她是一个像猫一样的女儿。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「心鈴くん見ていると猫みたいな娘だなぁと思うのですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 296,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10168", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“突然说了什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「突然なんの話だ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 299,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嘛，这是个比喻。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「まぁ、例え話なんですけどね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 302,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“和人类一起生活，唯一没有失去野生性的就是猫。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「人間と共に過ごして、唯一、野生性をまったく失っていないのが猫だといいます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 305,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“成为家畜的动物就不用说了，狗也被人类社会染红了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「家畜となった動物はもちろん、犬だって人間社会に染まってしまっている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 308,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「可是，一万多年来，猫一直与人相处，却没有被染上，一直保持着人与猫的距离。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だが、猫は一万年もの間、人といるが染まっていない。",
+					{"rt2"},
+					"人と猫の距離を保ち続けている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 312,
+	},
+	block_00061 = {
+		{"bg", sync=0, face=1, file="ev_com_14_09", time=400, path=":ev/ev_com_14/", set="ev_com_14"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10169", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是吗？你觉得心铃君对你的距离感很乱吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そうか？　心鈴くんのお前に対する距離感はめちゃくちゃだと思うが？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 317,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那种距离感很乱，要说像猫的话，也不是像猫。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「その距離感がめちゃくちゃなのも猫らしいといえば猫らしいじゃない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 320,
+	},
+	block_00063 = {
+		{"bg", sync=0, face=1, file="ev_com_14_06", time=400, path=":ev/ev_com_14/", set="ev_com_14"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10170", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“如果是这样的话，我希望你能安静一点。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「だったらじゃれつく時はもう少し静かにしてほしいものだなぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 326,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"相当带刺的话只能苦笑。",
+				},
+			},
+        	ja = {
+				{
+					"かなり棘のある言葉に苦笑いしかない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 329,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“总之，本间一族不会那么简单地缩短距离。看着那个人，真的很佩服他是心铃君的父亲。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「とりあえず、本間の一族は、そんな簡単に距離を縮めたりしませんよ。",
+					{"rt2"},
+					"あの人を見ているとほんと心鈴くんのお父さんなんだなぁと感心します」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 333,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“本间礼次郎和心铃保持着微妙的距离。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「本間礼次郎氏は心鈴くんと微妙な距離を保っています」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 336,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“所以，小时候也允许去英国留学。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だから、幼い頃にイギリス留学も許している」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 339,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“本来就不会让年幼的女儿一个人去英国吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「本来ならば、幼い娘を一人イギリスなんて行かせないでしょ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 342,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“即使有才能，我也不认为礼次郎曾希望心铃成为世界级画家。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「才能があったとしても、礼次郎さんが心鈴くんに世界的画家になってほしいと",
+					{"rt2"},
+					"思った事が一度でもあったとは思えません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 346,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“从本间礼次郎的立场来看，女儿成为名人绝对不是件好事。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そもそも本間礼次郎さんの立場からすると、娘が有名人になる事は決して好ましい事ではありません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 349,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“即便如此，他还是允许心铃成为宫崎美铃。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それでも、彼は心鈴くんが宮崎みすゞになる事を許した」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 352,
+	},
+	block_00072 = {
+		{"bg", sync=0, face=1, file="ev_com_14_09", time=400, path=":ev/ev_com_14/", set="ev_com_14"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10171", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“也就是说，在允许宫崎美铃的时候，本间先生放任了心铃君。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「つまり宮崎みすゞである事を許している時点で、本間氏は心鈴くんを放任していると」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 358,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“大概就是这样的感觉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だいたいそんな感じです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 361,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10172", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“即使是这样，中村丽华也不会这么想。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「もしそうだとしても、中村麗華はそう考えない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 364,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「でしょうね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 367,
+	},
+	block_00076 = {
+		{"bg", sync=0, face=1, file="ev_com_14_03", time=400, path=":ev/ev_com_14/", set="ev_com_14"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10173", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“那嚒。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「だったら」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 372,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“所以，我要去见你。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だから、会いに行くのですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 375,
+	},
+	block_00078 = {
+		{"bg", sync=0, face=1, file="ev_com_14_02", time=400, path=":ev/ev_com_14/", set="ev_com_14"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"蓝瞪圆了眼睛。",
+				},
+			},
+        	ja = {
+				{
+					"藍は目を丸くした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 380,
+	},
+	block_00079 = {
+		{"bg", sync=0, face=1, file="ev_com_14_08", time=400, path=":ev/ev_com_14/", set="ev_com_14"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"然后不久，他叹了一口气。",
+				},
+			},
+        	ja = {
+				{
+					"そしてややしてから、大きなため息をついた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 385,
+	},
+	block_00080 = {
+		{"bg", sync=0, face=1, file="ev_com_14_06", time=400, path=":ev/ev_com_14/", set="ev_com_14"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10174", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“真是的，你真是一件麻烦事就被炒了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「まったく、お前は本当に面倒ごとにクビを突っ込むよなぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 391,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“没有那样的事。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そんな事ありませんよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 394,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10175", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“知道了。明白了。我允许你去中村家。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「分かった。了解した。お前が中村家に行く事を許可する」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 397,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“即使没有许可我也会去的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「許可がなくても行きますけどね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 400,
+	},
+	block_00084 = {
+		{"bg", sync=0, face=1, file="ev_com_14_08", time=400, path=":ev/ev_com_14/", set="ev_com_14"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10176", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“太吵了。先好好上课，直到放学。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「うるさい。とりあえず放課後までちゃんと授業をやれよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 406,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这不是理所当然的嘛，我就是为了这个才来上学的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「当たり前じゃないですか、そのために登校してきたのですから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 409,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10177", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“那么，走吧，上课时间到了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「さぁ、いくぞ、授業の時間だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 412,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「はい、そうですね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 415,
+	},
+	block_00088 = {
+		{"se", id=1, file="se0016"},
+		{"bg", file="bg026a", path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我和蓝去了各自负责的课。",
+				},
+			},
+        	ja = {
+				{
+					"俺と藍はそれぞれ担当する授業に向かった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 423,
+	},
+	block_00089 = {
+		{"se", stop=1, time=500, id=1},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="03_mis09_2"},
+		{"text"},
+		linkback = "block_00088",
+		line = 429,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

@@ -1,0 +1,3156 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="第Ⅴ章"},
+		{"msg", no=1},
+		{"bg", y=100, speed=180000, time=2000, file="zbg020a", path=":bg/", x2=960, y2=100, x=-960, ax=1920, ay=1080, bx=-960, by=-540},
+		{"bgm", file="bgm162"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"一穿过宫崎绘画学校的门就被送到了教室。",
+				},
+			},
+        	ja = {
+				{
+					"宮崎絵画学校の門をくぐるとすぐに教室に通された。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 13,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"等了几分钟左右，门上有声音。",
+				},
+			},
+        	ja = {
+				{
+					"数分ほど待つと、扉から声がする。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 16,
+	},
+	block_00002 = {
+		{"bg", file="bg020a", path=":bg/"},
+		{"fg", ch="放哉", size="z1", mx=40, mode=3, resize=1, path=":fg/hos/z1/", file="hos_z1a0000", face="a0003", head="hos_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10857", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“哦，您不是草薙直哉老师吗？再次回到宫崎绘画学校有什么事吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「おお、草薙直哉先生ではありませんか、再びこの宮崎絵画学校に戻られるとは",
+					{"rt2"},
+					"どの様なご用件でしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 25,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"太白了，连恶言都想不出来。",
+				},
+			},
+        	ja = {
+				{
+					"白々しすぎて悪態すら思いつかない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 28,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我叹息之后只传达事情。",
+				},
+			},
+        	ja = {
+				{
+					"俺は嘆息してから用件だけを伝える。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 31,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我想画一幅画在摩尔公募展上。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ムーア公募展に出す絵を描こうと思っています」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 34,
+	},
+	block_00006 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0003", head="hos_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10858", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“嗬，嗬，草薙直哉画画？那很有意思！然后呢？然后呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ほう、ほう、草薙直哉くんが絵画を？　それは興味深い！　それで？　それで？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 39,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“请务必在这个学校看准那幅画。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「是非ともこの学校でその絵画を見定めて頂きたい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 42,
+	},
+	block_00008 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10859", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“嗯，什么是断定？那是怎么回事？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ふむ、見定めるとは？　それはどういう事ですかな？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 47,
+	},
+	block_00009 = {
+		{"fg", ch="章一", size="z1", mx=-40, mode=3, resize=1, path=":fg/syo/z1/", file="syo_z1a0000", face="a0001", head="syo_z1a", x=-345, lv=4, id=5},
+		{"fg", ch="放哉", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", x2=0, x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_syo_10121", ch="syo"},
+			},
+		
+            cn = {
+				{
+					"“有破戒老师吧！我想让破戒老师看看这幅画！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"章一"},
+					"「破戒先生がいるのだろう！　破戒先生にこいつの絵画を見て頂きたいんだ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 58,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"中村章一的声音很粗暴。",
+				},
+			},
+        	ja = {
+				{
+					"中村章一が声が荒げる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 61,
+	},
+	block_00011 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0008", head="hos_z1a", x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10860", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“这位是？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「この方は？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 66,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“放哉老师不知道吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「放哉先生は、存じ上げないのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 69,
+	},
+	block_00013 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0010", head="hos_z1a", x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10861", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“啊？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「はて？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 74,
+	},
+	block_00014 = {
+		{"fg", ch="章一", size="z1", mode=3, path=":fg/syo/z1/", file="syo_z1a0000", face="a0005", head="syo_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_syo_10122", ch="syo"},
+			},
+		
+            cn = {
+				{
+					"“你在装傻什么？我以前在这个房子里露过好几次面，和你见过面吧？你不会说忘了吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"章一"},
+					"「な、何をとぼけている？　私は以前この屋敷に何度も顔を出しているし、君とは面識があるだろう？　よもや忘れたなど言わないだろう？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 80,
+	},
+	block_00015 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0009", head="hos_z1a", x=345, lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0011", head="hos_z1a", x=345, lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10862", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“我不知道……像你这样的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「存じ上げませんねぇ……あなたなど」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 86,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"以侮蔑混杂了的表情放哉回答章一。",
+				},
+			},
+        	ja = {
+				{
+					"侮蔑が混ざった表情で放哉は章一に答える。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 89,
+	},
+	block_00017 = {
+		{"fg", ch="章一", size="z1", mode=3, path=":fg/syo/z1/", file="syo_z1a0000", face="a0006", head="syo_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_syo_10123", ch="syo"},
+			},
+		
+            cn = {
+				{
+					"“你在说什么！你们和恩田家是围绕圭的监护权——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"章一"},
+					"「何を言っている！　君ら恩田家とは圭の親権をめぐって――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 94,
+	},
+	block_00018 = {
+		{"quake"},
+		{"fg", ch="章一", size="z1", mode=3, path=":fg/syo/z1/", file="syo_z1a0000", face="a0007", head="syo_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那种事无所谓！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そんな事はどうでもいい！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 101,
+	},
+	block_00019 = {
+		{"fg", ch="章一", size="z1", mode=3, path=":fg/syo/z1/", file="syo_z1a0000", face="a0007", head="syo_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_syo_10124", ch="syo"},
+			},
+		
+            cn = {
+				{
+					"“嗯！？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"章一"},
+					"「んなっ！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 106,
+	},
+	block_00020 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0005", head="hos_z1a", lv=4, id=9, sync=0},
+		{"extrans", time=400},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10863", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 116,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"放哉眯着眼睛看着我。",
+				},
+			},
+        	ja = {
+				{
+					"放哉が眼を細めて俺を見つめる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 119,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“破戒老师在吗，不在吗，我在听。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「破戒先生はいるのか、いないのか、それを聞いている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 122,
+	},
+	block_00023 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10864", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“今天不能回这里了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「本日はここには戻られませんな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 127,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么时候回来？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いつなら戻る？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 130,
+	},
+	block_00025 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0011", head="hos_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10865", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“在那之前我想问一下，你和破戒老师见面后打算怎么做？没想到要向破戒老师请教。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「その前にお聞きしたいのですが？",
+					{"rt2"},
+					"破戒先生と会ってどうするおつもりか？",
+					{"rt2"},
+					"よもや、破戒先生に教えを請おうなどと考えてはいないですよねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 139,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你没听见吗？我说‘看清楚’。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「聞こえなかったのか？",
+					{"rt2"},
+					"俺は“見定めろ”と言っている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 143,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“其他的什么都不希望。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「他の何も望んでなどいない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 148,
+	},
+	block_00028 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0003", head="hos_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10866", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“哦，那我就放心了。宫崎绘画学校的大门已经关上了，所以没有招生。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ほう、それは安心致しましたよ。すでにこの宮崎絵画学校の門は閉めております故、生徒は募集しておりませんので」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 153,
+	},
+	block_00029 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0004", head="hos_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10867", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“但是……为什么要对破戒老师下判断？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ですが……、何故、破戒先生に見定めを？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 159,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 162,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我凝视着放哉。",
+				},
+			},
+        	ja = {
+				{
+					"俺は放哉を見つめる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 165,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"放哉笑着看着我。",
+				},
+			},
+        	ja = {
+				{
+					"放哉はニヤニヤして俺を見つめる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 168,
+	},
+	block_00033 = {
+		{"cgdel", id=-1},
+		{"bg", time=200, rule=280, file="black", path=":bg/", vague=40},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg020a", path=":bg/", sync=0},
+		{"extrans", rule=280, time=200, vague=40},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我就这样向门走去。",
+				},
+			},
+        	ja = {
+				{
+					"俺は、そのまま門に向かい歩き出した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 180,
+	},
+	block_00034 = {
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg020a", path=":bg/", sync=0},
+		{"fg", ch="章一", size="z1", mode=3, path=":fg/syo/z1/", file="syo_z1a0000", face="a0007", head="syo_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", x=345, lv=4, id=6, sync=0},
+		{"extrans", time=300},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_syo_10125", ch="syo"},
+			},
+		
+            cn = {
+				{
+					"“什么，你在做什么？现在，我在请求你的途中，你怎么了？你要去哪里？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"章一"},
+					"「な、なにを？　今、頼み込んでいる途中なのに、どうした？　どこに行く？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 191,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我要回去了，章一。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「帰るぞ、章一」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 194,
+	},
+	block_00036 = {
+		{"fg", ch="章一", size="z1", mode=3, path=":fg/syo/z1/", file="syo_z1a0000", face="a0008", head="syo_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="章一", size="z1", mode=3, path=":fg/syo/z1/", file="syo_z1a0000", face="a0001", head="syo_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_syo_10126", ch="syo"},
+			},
+		
+            cn = {
+				{
+					"“啊，你要回去了？你在说什么？事情还没谈妥吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"章一"},
+					"「か、帰るって？　お前何を言ってるんだ？　まだ話がまとまっていないだろ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 200,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我想和这家伙制作的闹剧交往，如果用这样无聊的三文戏来嘲弄它的话，这里就没有用了！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「こいつが仕立て上げた茶番に付き合ってやろうというのに、それをこんなくだらない三文芝居で茶化すのであれば、ここに用はない！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 203,
+	},
+	block_00038 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10868", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“要回去吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「帰るのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 208,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，我不是为了吐出像烟一样的话而穿过这个门的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ、煙の様な言葉を吐き出しに、この門をくぐったわけではないからな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 211,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你只要一辈子在这里玩艺术这个玩具就好了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「貴様は、一生ここで、芸術という玩具で遊び続ければいいだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 214,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我和放哉的视线交叉了。",
+				},
+			},
+        	ja = {
+				{
+					"俺と放哉の視線が交差した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 217,
+	},
+	block_00042 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0009h", head="hos_z1a", x=345, lv=4, id=6},
+		{"fgact", ch="放哉", act="いいえ", size=4, time=50, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10869", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“——！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「――っッ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 223,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"放哉瑟瑟发抖。",
+				},
+			},
+        	ja = {
+				{
+					"放哉がゾクリと震えた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 226,
+	},
+	block_00044 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我要回去了！章一！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「帰るぞ！　章一！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 231,
+	},
+	block_00045 = {
+		{"fg", ch="章一", size="z1", mode=3, path=":fg/syo/z1/", file="syo_z1a0000", face="a0007", head="syo_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_syo_10127", ch="syo"},
+			},
+		
+            cn = {
+				{
+					"“不，不，不，等一下。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"章一"},
+					"「い、いや、、、ま、待てっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 236,
+	},
+	block_00046 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0006", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10870", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“等一下！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ま、待ってくれ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 243,
+	},
+	block_00047 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0009", head="hos_z1a", lv=4, id=6, sync=0},
+		{"extrans", time=300},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10871", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“不，不，对不起……。不经意间就着魔了呢。我只是想稍微消除一下看到之前无法理解的你的烦躁。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「い、いや、すまん……。つい魔が差してだねぇ。この前の腑抜けた君を見てしまったイライラを少しばかり解消したくなってしまったのだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 257,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 260,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我当场停下来。",
+				},
+			},
+        	ja = {
+				{
+					"俺はその場で立ち止まる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 263,
+	},
+	block_00050 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0003", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10872", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“即便如此，你的眼睛的恐怖是不会改变的。不……比以前更可怕。漆黑得可怕。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「それにしても、君の眼の恐ろしさは変わらないねぇ。",
+					{"rt2"},
+					"いや……以前よりも恐ろしい。",
+					{"rt2"},
+					"恐ろしいほどの漆黒」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 271,
+	},
+	block_00051 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10873", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“简直就像深渊窥视着这边一样……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「まるで深淵がこちらを覗いているかの様だよ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 276,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“如果能有这种感觉，那是因为你想有这种感觉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そう感じられるのならば、お前がそう感じたいからだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 279,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我的眼睛不是深渊，只是眼睛。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺の眼は深淵などではない。ただの眼だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 282,
+	},
+	block_00054 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0003", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10874", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“果然……太棒了。果然……会让人毛骨悚然的……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「やはり……素晴らしいね。やはり……ゾクゾクするよ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 290,
+	},
+	block_00055 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10875", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“和上次见面的时候完全不同，你不是一个人吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「前回会った時とまるで君は別人の様ではないか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 295,
+	},
+	block_00056 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10876", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“之前的你，看起来像是俗世中阴天的凡人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「この前までの君は、俗世で曇りきった凡人の様に見えた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 300,
+	},
+	block_00057 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0005", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10877", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“但是，现在完全不同了，简直就像修验者一样高洁美丽……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「だが、今は、まったく違う、まるで修験者の様に高潔で美しい……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 306,
+	},
+	block_00058 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啰嗦！放哉老师……。我在听呢？破戒老师来吗？不来吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「くどい！",
+					{"rt2"},
+					"放哉先生……。俺は聞いているのですよ？",
+					{"rt2"},
+					"破戒先生は来るのか？　来ないのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 313,
+	},
+	block_00059 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0003", head="hos_z1a", lv=4, id=6},
+		{"fgact", ch="放哉", act="いいえ", size=5, time=70, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10878", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“————————”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「っ――っっ――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 319,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"放哉抱着那个身体发抖。",
+				},
+			},
+        	ja = {
+				{
+					"放哉がその身を抱きしめ震えた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 322,
+	},
+	block_00061 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0003", head="hos_z1a", lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10879", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"「那嚒，如果美之化物再次回到这个艺术世界，破戒老师一定会来的。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「そりゃ、美の化物が再び、この芸術の世界に戻るのであれば、破戒先生は来ますよ。間違いなく来るでしょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 328,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那太好了，那就让我画吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それは良かった、では描かせてもらいましょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 331,
+	},
+	block_00063 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10880", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“画什么？当然是油画了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「何を描くんだい？　もちろん油絵なのだよね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 336,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这是油画。条件是，在完成之前请让我在这里画画。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「油絵です。",
+					{"rt2"},
+					"条件としては、ただ完成するまでここで絵を描かせてほしい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 340,
+	},
+	block_00065 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10881", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“什么时候完成？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「完成はいつなのだ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 345,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“直到我接受‘好’为止”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺が“よし”と納得するまで」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 348,
+	},
+	block_00067 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0003", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10882", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“那嚒，你说‘好’的时候就以完成的形式就好了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「では、君が“よし”と言った時に完成という形で良いね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 353,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“好的，请用那样的形式。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「はい、その様な形でお願い致します」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 356,
+	},
+	block_00069 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10883", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“那么，让我们进入工作吧，离摩尔公募展已经没有时间了！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「では、作業に入ってもらおう、ムーア公募展までもう日にちもない！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 361,
+	},
+	block_00070 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0003", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10884", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“首先是画布，这所绘画学校几乎所有的东西都齐备了，可以马上挑选出来画吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「まずはキャンバスだが、この絵画学校にはほぼすべてのものが揃っている。",
+					{"rt2"},
+					"すぐにでも選んで描く事が出来るが？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 368,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不，画布我自己组装。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いいえ、キャンバスは自分で組ませていただきます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 371,
+	},
+	block_00072 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10885", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“自己？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「自分で？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 376,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是的，为了这一天都准备好了。稍后，请让我把夏目仓库里保管的东西搬过来。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「はい、この日のためにすべて用意してあります。",
+					{"rt2"},
+					"後ほど、夏目の蔵に保管していたものを運ばせていただきます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 380,
+	},
+	block_00074 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0010", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10886", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“那么，今天只是组装画布的工作吗……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「だったら今日はキャンバスを組み立てる作業だけという事か……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 385,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是啊，我想画布完成需要整整一天的时间。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そうですね。キャンバスが完成するのに丸一日はかかると思います」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 388,
+	},
+	block_00076 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0011", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10887", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“在画布上整整一天？那是相当大的工作。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「キャンバスで丸一日？　それは相当な大仕事だが？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 394,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是的，我打算画那样的画。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「はい、その様な絵画を描くつもりですから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 397,
+	},
+	block_00078 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0003", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10888", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“原来如此，那我就很期待了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「なるほど、それでは期待しているよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 402,
+	},
+	block_00079 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10889", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“那我就告辞了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「では私はこれで失礼する」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 407,
+	},
+	block_00080 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10890", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“我会告诉破戒老师和心铃。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「私の方から破戒先生と心鈴くんには伝えておくので」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 412,
+	},
+	block_00081 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0008", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10891", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“只是，破戒老师要来的话需要一些时间……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ただ、破戒先生がお見えになるには幾ばくか時間をいただく事になるが……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 417,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“没有问题，因为这是需要一定时间的工作。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「問題ありません。それなりに時間がかかる作業ではありますので」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 420,
+	},
+	block_00083 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0003", head="hos_z1a", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10892", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“布拉博，我很期待，草薙直哉老师！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ブラボー、期待しているよ。草薙直哉先生！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 425,
+	},
+	block_00084 = {
+		{"fg", ch="放哉", mx=40, mode=-1, lv=4, id=6},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"恩田放哉大声点头，就这样从门走出了教室。",
+				},
+			},
+        	ja = {
+				{
+					"恩田放哉は大きく会釈して、そのまま扉から教室を出た。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 436,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哎呀呀。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「さてと」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 439,
+	},
+	block_00086 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="章一", size="z1", mode=3, path=":fg/syo/z1/", file="syo_z1a0000", face="a0011", head="syo_z1a", lv=4, id=5, sync=0},
+		{"extrans", time=300},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_syo_10128", ch="syo"},
+			},
+		
+            cn = {
+				{
+					"“没关系吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"章一"},
+					"「だ、大丈夫なのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 447,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なにが？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 450,
+	},
+	block_00088 = {
+		{"fg", ch="章一", size="z1", mode=3, path=":fg/syo/z1/", file="syo_z1a0000", face="a0001", head="syo_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_syo_10129", ch="syo"},
+			},
+		
+            cn = {
+				{
+					"“所以，这是你的画。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"章一"},
+					"「だから、お前の絵だよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 455,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“比起那个，章一，你那里有可以用普通驾照驾驶的卡车吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それよりも、章一、あんたのところに普通免許で動かせるトラックはあるか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 458,
+	},
+	block_00090 = {
+		{"fg", ch="章一", size="z1", mode=3, path=":fg/syo/z1/", file="syo_z1a0000", face="a0001", head="syo_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_syo_10130", ch="syo"},
+			},
+		
+            cn = {
+				{
+					"“卡车？啊，刚才你说的要搬运夏目仓库里的道具吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"章一"},
+					"「トラック？　ああ、さっきお前が言ってた夏目の蔵にあるという道具を運ぶのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 463,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，我想要尽可能大的卡车。但是我的驾照不到五吨。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ、できる限り大きいトラックがほしい。だが俺の免許だと五トン未満なのだが」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 466,
+	},
+	block_00092 = {
+		{"fg", ch="章一", size="z1", mode=3, path=":fg/syo/z1/", file="syo_z1a0000", face="a0002", head="syo_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_syo_10131", ch="syo"},
+			},
+		
+            cn = {
+				{
+					"“如果是尽可能大的卡车的话，大型的比较好吧。司机也安排好吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"章一"},
+					"「できる限り大きいトラックなら大型がいいだろう。運転手も手配してやろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 471,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那就得救了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それは助かる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 474,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“如果司机能安排好的话，也希望能有男司机来搬运。运输……不，如果是搬家公司的人的话就帮大忙了，特别是去过事务所等搬家的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「運転手が手配出来るのであれば、出来たらそれを運ぶ男手もほしい。運送……",
+					{"rt2"},
+					"いや引っ越し業者の人間だと助かる、特に事務所などの引っ越しをやった事が",
+					{"rt2"},
+					"ある人間」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 479,
+	},
+	block_00095 = {
+		{"fg", ch="章一", size="z1", mode=3, path=":fg/syo/z1/", file="syo_z1a0000", face="a0001", head="syo_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_syo_10132", ch="syo"},
+			},
+		
+            cn = {
+				{
+					"“为什么是事务所？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"章一"},
+					"「何故、事務所なのだ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 484,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“听说有拆卸和组装桌子的服务。如果是法人搬家的话，我想应该有人有过大量组装办公桌的经验吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「机の解体や組み立てをやるサービスがあると聞いている。法人の引っ越しならばオフィス机など大量に組み立てた経験のある者がいるんじゃないかと思って」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 487,
+	},
+	block_00097 = {
+		{"fg", ch="章一", size="z1", mode=3, path=":fg/syo/z1/", file="syo_z1a0000", face="a0002", head="syo_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_syo_10133", ch="syo"},
+			},
+		
+            cn = {
+				{
+					"“当然有。还有其他需要的吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"章一"},
+					"「もちろんいるさ。他に必要な事は？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 492,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“尽量组装的话，最好是熟练者。差不多吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「出来るだけ組み立ては熟練者が好ましい。それぐらいかな？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 495,
+	},
+	block_00099 = {
+		{"fg", ch="章一", size="z1", mode=3, path=":fg/syo/z1/", file="syo_z1a0000", face="a0010", head="syo_z1a", lv=4, id=5},
+		{"fgact", ch="章一", act="うなづく", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_syo_10134", ch="syo"},
+			},
+		
+            cn = {
+				{
+					"“好的，一切都没问题，我马上安排熟练的工作人员。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"章一"},
+					"「分かった。すべて問題ない。すぐに熟練スタッフを手配させる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 501,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我会向蓝说明的，请告诉业者在现场要遵从蓝的指示。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺から藍に説明するので、現場では藍の指示に従うように業者には伝えてくれ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 504,
+	},
+	block_00101 = {
+		{"fg", ch="章一", size="z1", mode=3, path=":fg/syo/z1/", file="syo_z1a0000", face="a0001", head="syo_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_syo_10135", ch="syo"},
+			},
+		
+            cn = {
+				{
+					"“好的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"章一"},
+					"「分かった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 509,
+	},
+	block_00102 = {
+		{"fg", time=300, mode=-2},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"中村章一马上拿出了手机。",
+				},
+			},
+        	ja = {
+				{
+					"中村章一はすぐにスマホを取り出した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 514,
+	},
+	block_00103 = {
+		{"bgm", stop=1, time=4500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我只有一瞬间放松了肩膀的力量。",
+				},
+			},
+        	ja = {
+				{
+					"俺は一瞬だけ肩の力を抜く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 521,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽然只是半天左右的事，但是背很痛。",
+				},
+			},
+        	ja = {
+				{
+					"ほんの半日程度の事だが、背中がバキバキに痛い。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 524,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"相当僵硬吧。",
+				},
+			},
+        	ja = {
+				{
+					"相当こわばっていたのだろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 527,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我轻轻地做伸展运动。",
+				},
+			},
+        	ja = {
+				{
+					"俺は軽くストレッチをする。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 530,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那么，从现在开始……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「さぁ、これからが始まりだ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 533,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"放哉给予的考验。",
+				},
+			},
+        	ja = {
+				{
+					"放哉によって与えられた試練。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 536,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"也可以这么说。",
+				},
+			},
+        	ja = {
+				{
+					"そうとも言える。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 539,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是，这也可以说是自己想要的考验。",
+				},
+			},
+        	ja = {
+				{
+					"だが、これは自らが望んだ試練だとも言える。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 542,
+	},
+	block_00111 = {
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不，是我自己选择的路。",
+				},
+			},
+        	ja = {
+				{
+					"否、自分で選んだ道だ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 548,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我再次以画家的身份拿起笔来。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺は、再び画家として筆を取る」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 551,
+	},
+	block_00113 = {
+		{"bg", time=300, file="black", path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"用力闭上眼睑。",
+				},
+			},
+        	ja = {
+				{
+					"まぶたを強く閉じる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 556,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"眉间有皱纹，刺痛。",
+				},
+			},
+        	ja = {
+				{
+					"眉間に皺が寄り、チリッと痛くなる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 559,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"尽管如此，眼睑还是紧紧地闭上了。",
+				},
+			},
+        	ja = {
+				{
+					"それでもまぶたを強くつぶる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 562,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"你不要用眼睛看。",
+				},
+			},
+        	ja = {
+				{
+					"眼で見てはいけない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 565,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"用眼睛能看到的只有空间。",
+				},
+			},
+        	ja = {
+				{
+					"眼で見えるのは空間だけだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 568,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我画的不是空间。",
+				},
+			},
+        	ja = {
+				{
+					"俺が描くものは空間ではない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 571,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我画的是刻。",
+				},
+			},
+        	ja = {
+				{
+					"俺が描くものは刻なのだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 574,
+	},
+	block_00120 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="ev_etc_01_06", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"bgm", file="bgm152", time=3000, vol=30},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"大量的部件被带入。",
+				},
+			},
+        	ja = {
+				{
+					"大量の部材が持ち込まれた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 586,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"组装是我指示的，主要是让同业者做的。",
+				},
+			},
+        	ja = {
+				{
+					"組み立ては俺が指示して、主に業者の人間にやってもらった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 589,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不愧是熟练，手艺好。",
+				},
+			},
+        	ja = {
+				{
+					"さすが、熟練だけあって手際がいい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 592,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"用熟练的手势用钻头把螺丝套上。",
+				},
+			},
+        	ja = {
+				{
+					"手慣れた手つきでドリルでネジをはめ込んでいく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 595,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那个螺丝钉没有任何变形。",
+				},
+			},
+        	ja = {
+				{
+					"そのネジ入れに一切の歪みはない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 598,
+	},
+	block_00125 = {
+		{"bgm", file="bgm152", vol=30},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"在该画布上需要通常无法想象的强度。为此，熟练的技巧是必须的。",
+				},
+			},
+        	ja = {
+				{
+					"このキャンバスにおいては通常では考えられない強度が必要となる。",
+					{"rt2"},
+					"そのためには熟練の手際が必須であった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 604,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"按照我的设计图完成骨架。",
+				},
+			},
+        	ja = {
+				{
+					"俺の設計図通りに骨組みが出来上がる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 607,
+	},
+	block_00127 = {
+		{"bg", file="ev_etc_01_07", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"骨架结束，布也结束了。",
+				},
+			},
+        	ja = {
+				{
+					"骨組みが終わり布張りも終わった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 615,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"布匹铺得相当慎重。",
+				},
+			},
+        	ja = {
+				{
+					"布張りはかなり慎重に行なった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 618,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"只有这个时候，我觉得中村章一能在这里真是太好了。",
+				},
+			},
+        	ja = {
+				{
+					"この時ばかりは、中村章一がこの場にいてくれて良かったと思った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 621,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"比起我，商家的人更熟悉材质的特性。",
+				},
+			},
+        	ja = {
+				{
+					"俺よりも業者の人間の方が材質の特性を熟知していた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 624,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"听了这话，除了运输业以外，以前也有很多与建筑业相关的人，这种工作好像已经习惯了。",
+				},
+			},
+        	ja = {
+				{
+					"話を聞くと、運送業以外も昔は建築業などに関わっていた人間が多く、この手の作業は慣れたものらしい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 627,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"工作结束后，业者笑着说：“像这样的监狱墙壁一样的东西绘画是必要的吗？”。",
+				},
+			},
+        	ja = {
+				{
+					"作業が終わったあと、業者の人間には「こんな刑務所の壁みたいなものが絵画に",
+					{"rt2"},
+					"必要なのか？」と笑われた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 631,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"原来是监狱的墙壁啊，确实是这样的感觉。",
+				},
+			},
+        	ja = {
+				{
+					"刑務所の壁か、なるほどたしかにそんな感じだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 634,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"其中一个从业者说他对监狱很熟悉。",
+				},
+			},
+        	ja = {
+				{
+					"業者の一人が刑務所にはなじみがあると言っていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 637,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这是一个完全笑不出来的故事……。",
+				},
+			},
+        	ja = {
+				{
+					"まったく笑えない話だ……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 640,
+	},
+	block_00136 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=139, wait=500, file="black", path=":bg/", vague=40},
+		{"excall", file="05_02_3"},
+		{"text"},
+		linkback = "block_00135",
+		line = 646,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

@@ -1,0 +1,5487 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="第Ⅲ章"},
+		{"msg", no=1},
+		{"bg", file="ev_etc_01_01", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"ex", time=1500, func="wait"},
+		{"bg", time=2000, file="ev_etc_01_05", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"ex", time=1500, func="wait"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"太阳快要倾斜的时候，那家伙穿过了房子的门。",
+				},
+			},
+        	ja = {
+				{
+					"日が傾きかけた頃に、屋敷の門をヤツがくぐった。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 14,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"围绕雪景鹊图花瓶的故事里有一股金的味道。",
+				},
+			},
+        	ja = {
+				{
+					"雪景鵲図花瓶を巡る物語には金の匂いがする。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 17,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"如果有金的香味，那家伙一定会来的。",
+				},
+			},
+        	ja = {
+				{
+					"金の香りがするのであれば、必ずヤツは来る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 20,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这就是我们熟悉的摩尔基金会高级策展人玛蒂·弗里德曼。",
+				},
+			},
+        	ja = {
+				{
+					"毎度おなじみのムーア財団上級キュレーター、マーティ・フリッドマンだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 23,
+	},
+	block_00004 = {
+		{"msgoff"},
+		{"bg", file="bg011b", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="フリッドマン", size="z1", mode=3, resize=1, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9, sync=0},
+		{"extrans"},
+		{"bgm", file="bgm167"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10001", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“然后呢？这个家连茶都不给客人吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「それで？　この家は客人にお茶も出さないのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 36,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不，对不起。讨厌不赚钱的话的弗里德曼，觉得没有悠闲地喝茶的习惯。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いや、すまない。お金にならない様なお話が嫌いなフリッドマンは、のんびりお茶など飲む習慣がないと思ってたよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 39,
+	},
+	block_00006 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10002", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“哼。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ふん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 44,
+	},
+	block_00007 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"无视我的挑衅，弗里德曼把一本日记放在了桌子上。",
+				},
+			},
+        	ja = {
+				{
+					"俺の挑発など無視して、フリッドマンは一冊の日記を机に置いた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 49,
+	},
+	block_00008 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10003", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“那是昨晚的电话吗？你说的这个可以吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「それで昨晩の電話だが？　お前が言ってたのはこれでいいのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 54,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“一本？在多篇日记中仅仅一天就找到了相应的部分吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「一冊？　複数ある日記の中からたった一日で該当部分を見つけたのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 57,
+	},
+	block_00010 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10004", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“我自己还记得那一天。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「私自身、その日付を覚えていてだな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 62,
+	},
+	block_00011 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10005", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“在夏目蓝的介绍下，这是一个独自来到切尔西工作室与草薙健一郎见面的少女。她也会留在记忆中吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「夏目藍の紹介で、チェルシーのアトリエに一人で草薙健一郎に会いにやってきた少女だ。記憶にも残るだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 67,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是吗？所以弗里德曼在场吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そうなのか。それでフリッドマンはその場にいたのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 70,
+	},
+	block_00013 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10006", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“不，好像只有两个人在工作室里度过了两个小时。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「いいや、二人っきりで２時間ほどアトリエで過ごしていた様だな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 75,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“2小时！？那，那不是在情人旅馆休息的时间吗？发生了什么事！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「２時間！？　そ、それって、ラブホテルとかの休憩時間じゃないか？　",
+					{"rt2"},
+					"な、何があったんだ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 79,
+	},
+	block_00015 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0009", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10007", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“我不知道情人旅馆等日本独特的文化……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ラブホテルなど日本独自の文化の事は分からんが……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 84,
+	},
+	block_00016 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10008", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“假设在那两个小时内，你要说的话，我们在这里见面的理由本身就没有了。那只是单纯的男女情事而已。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「仮に、その２時間とやらで、お前が言わんとする様な事があったのなら、",
+					{"rt2"},
+					"我々がここで会う理由そのものがなくなる。",
+					{"rt2"},
+					"それは単なる男女の情事というだけの話なのだからな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 92,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，开玩笑。开玩笑。比起这个，带日记来的事——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ、冗談だ。冗談。",
+					{"rt2"},
+					"それよりも、日記を持ってきたという事は――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 96,
+	},
+	block_00018 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10009", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“正如你所见，草薙健一郎在日记中留下了关于鸟谷静流的事，还有使用弓张釉药的雪景鹊图花瓶。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「お前の見立て通りに、草薙健一郎は日記で、鳥谷静流の事、そして、弓張釉薬を使った",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"について書き残していた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 102,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哪一页？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「どのページだ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 105,
+	},
+	block_00020 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10010", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“我夹了书签，你看看那一页就行了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「しおりを挟んでおいた。そのページを見てみればいい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 110,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“谢谢。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ありがたい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 113,
+	},
+	block_00022 = {
+		{"se", vol=50, id=1, file="se0155"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我开始读那一页。",
+				},
+			},
+        	ja = {
+				{
+					"俺は、その頁を読み始める。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 118,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"确实，他讲述了父亲与鸟谷静流见面时的感想。",
+				},
+			},
+        	ja = {
+				{
+					"たしかに、親父が鳥谷静流と会った時の感想を述べている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 121,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"并且，对雪景鹊图花瓶进行了相当细致的分析和批评。",
+				},
+			},
+        	ja = {
+				{
+					"さらに、",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"に対してかなり細かい分析や批評が試みられている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 125,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"只有那一天，像评论文章一样长。",
+				},
+			},
+        	ja = {
+				{
+					"その日付だけが、批評文の様に長かった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 128,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这篇文章相当值得表扬啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「この文章は、相当褒めているな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 131,
+	},
+	block_00027 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10011", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“啊，草薙健一郎自己就爱好陶艺。更进一步说，他用自己研究的釉药扩大了这种可能性，所以也会表扬他吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ああ、草薙健一郎自身、陶芸を嗜んでいた。",
+					{"rt2"},
+					"さらに言えば、自分が研究していた釉薬を使ってその可能性を広げたのだから、褒めもするだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 138,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“稀世天才草薙健一郎这么夸奖我，我想应该能卖个够吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「希代の天才草薙健一郎がこれだけ褒めているんだ。十分売り出す事が出来るだろう？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 141,
+	},
+	block_00029 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10012", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“如果是那个答案的话，就不可以了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「その答えなら、NOだな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 146,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なに？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 149,
+	},
+	block_00031 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10013", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“不会变成你想的那样。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「お前が思っている様な事にはならないよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 154,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这是怎么回事？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「どういう事だ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 157,
+	},
+	block_00033 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10014", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“你是想把雪景鹊图花瓶作为现代陶艺作家的作品出售吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「お前は、雪景鵲図花瓶を現代陶芸作家の作品として売り出す気なのだろう？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 162,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「啊，是的。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ、そうだが」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 165,
+	},
+	block_00035 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10015", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“市场并不乐观，只要是草薙健一郎认可的才能就能卖出。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「草薙健一郎が認めた才能というだけで売り出せるほど、市場は甘くない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 170,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那是因为弗里德曼没有见过雪景鹊图花瓶，如果你看那个。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それは、フリッドマンが雪景鵲図花瓶を見たことがないからであってだな。",
+					{"rt2"},
+					"あれを見れば」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 174,
+	},
+	block_00037 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10016", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“你说的花瓶就是这个吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「お前が言う花瓶はこれであろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 179,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这样说的话就发一张照片。",
+				},
+			},
+        	ja = {
+				{
+					"そう言うと一枚の写真を出す。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 184,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那里照的是那个花瓶。",
+				},
+			},
+        	ja = {
+				{
+					"そこにはあの花瓶が写っている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 187,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这是雪景鹊图花瓶的照片？弗里德曼？你见过这个吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「これは",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"の写真？",
+					{"rt2"},
+					"フリッドマン？　これを見たことがあるのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 192,
+	},
+	block_00041 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10017", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“不用看那个日记，生前，从健一郎那里听了好几次关于雪景鹊图花瓶的故事。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「その日記を見るまでも無く、生前、何度も健一郎から",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"の話は聞いている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 198,
+	},
+	block_00042 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10018", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“关于弓张釉药，这也是吉泽绿寺产生碧绯的釉药，还有静流这个女性制作的，到底是什么水平呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「弓張釉薬についても、それが吉沢緑寺の碧緋を生み出す釉薬である事も、",
+					{"rt2"},
+					"さらに静流という女性が作り上げたものが、どれだけのレベルであったかもだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 204,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那么——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だったら――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 207,
+	},
+	block_00044 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0005", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10019", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"「让我以策展人的身分来说，雪景鹊图花瓶没有什么价值。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「キュレーターとして言わせてもらおう。",
+					{"rt2"},
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"には、それほどの価値はない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 214,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不，没有那样的事吧。没有比这更出色的作品了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いや、そんな事はないだろう。これほど見事な作品はそうそうない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 217,
+	},
+	block_00046 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10020", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“那嚒，更通俗易懂地说，对于鸟谷静流来说，作为艺术家的经历太弱了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「だったら、もっとわかりやすく言おう、鳥谷静流には芸術家としての経歴が弱すぎる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 223,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“吉泽绿寺的弟子，是人间国宝久部百大的孙弟子。还有在利摩日大学工作的经历。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「吉沢緑寺の弟子であり、人間国宝久部百大の孫弟子にあたる。",
+					{"rt2"},
+					"さらにリモージュ大学に勤務していた経歴だってある」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 227,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“她在利摩日反复试验后完成的就是这个雪景鹊图花瓶。看到这一点的草薙健一郎赞不绝口。作为作品诞生的历史背景不就足够了吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「彼女がリモージュで試行錯誤の末に完成させたのが、この",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"。",
+					{"rt2"},
+					"それを見た草薙健一郎が絶賛する。",
+					{"rt2"},
+					"作品が生まれるための歴史的背景としては十分ではないか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 233,
+	},
+	block_00049 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0011", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10021", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“不，我敢说，只是这样而已。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「いいや。あえて言おう。",
+					{"rt2"},
+					"ただ、それだけだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 240,
+	},
+	block_00050 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10022", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“这不是一部能让市场以这样的逸闻程度运转的作品。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「そんな逸話程度で市場が動くほどの作品ではない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 245,
+	},
+	block_00051 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0005", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0011", head="fri_z1b", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10023", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"「如果你的才能能像御樱禀那样出类拔萃，那嚒你也可以用一幅画来撼动世界，但这个雪景鹊图花瓶并没有那嚒大的力量。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「それこそ御桜稟ほど桁違いの才能であるならば、たった一枚の絵画で世界を動かす事だって出来るだろう。だが、この",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"にそれほどの力はない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 252,
+	},
+	block_00052 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10024", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“你和夏目圭之所以被摩尔展提名，是因为在那之前在国内也有不少实绩。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「お前や夏目圭がムーア展にノミネートされたのは、それ以前にも少なからず国内で実績があったからだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 257,
+	},
+	block_00053 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10025", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“鸟谷静流没有那一切”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「鳥谷静流にはその一切が無い」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 262,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是吗，是吗……。被这么一说应该是这样吧……。确实正如弗里德曼所说……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そ、そうか……。言われてみればそうだよな……。",
+					{"rt2"},
+					"たしかにフリッドマンの言う通りだ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 266,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“本来是专家弗里德曼说的，所以是这样的吧……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そもそも専門家であるフリッドマンが言うのだから、その通りなんだろうな……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 269,
+	},
+	block_00056 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10026", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"「明白了吗？」",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「分かったか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 274,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你以为我会说什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なんて言うと思ったか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 277,
+	},
+	block_00058 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10027", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“哼。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ふん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 282,
+	},
+	block_00059 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10028", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“你想说什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「何が言いたい？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 287,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“确实你说的话大概有九成以上是正确的吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「たしかにお前が言うことはほぼ九割以上正しいだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 290,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“但是，如果是那种程度的话，我打电话的瞬间你应该会注意到的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だが、その程度のことならば、俺が電話した瞬間にお前なら気がつくはずだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 293,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“如果是这样的话，打电话来，你会拒绝这件事的。你的性格不是为了很有礼貌地说明这件事才来的吧。弗里德曼。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だとしたら、電話ごしで、お前はこの話を断るだろう。",
+					{"rt2"},
+					"律儀にそんな事を説明するために、ここまでやってくる様な性格じゃないだろ。",
+					{"rt2"},
+					"フリッドマンは」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 298,
+	},
+	block_00063 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10029", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“哼……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ふっ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 303,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"弗里德曼苦笑。",
+				},
+			},
+        	ja = {
+				{
+					"フリッドマンは苦笑した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 306,
+	},
+	block_00065 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0003", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10030", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“原来如此，草薙直哉似乎也比以前聪明了一些。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「なるほど、草薙直哉も、前よりは少しばかり賢くなった様だな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 311,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，因为六相图的事情被吃了一杯，所以不会像重蹈覆辙一样。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ、六相図の件で一杯食わされているから、同じ轍を踏む様な真似はしないさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 314,
+	},
+	block_00067 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10031", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“然后呢？你知道我在想什么吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「それで？　私が何を考えているか分かっているのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 319,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“鸟谷静流的过去，是在追随他的脚步吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「鳥谷静流の過去、その足取りを追っていたのだろ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 322,
+	},
+	block_00069 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10032", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“在追吗？你在说什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「追っていた？　何を言っている？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 327,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“摩尔基金会的人遍布全世界。静流先生周游了全世界，但追随他的脚步对基金会来说并不是那么困难。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ムーア財団の人間は世界中にいる。",
+					{"rt2"},
+					"静流さんは世界中を旅したが、その足取りを追う事は財団にとってはそれほど難しくないハズだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 331,
+	},
+	block_00071 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“各个地区的负责人调查一下就可以了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それぞれの地域ブロックの担当者が調べればすむ話だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 336,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“说起来，放着那张照片和花瓶的是弓张学园校长室的桌子吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そもそもだが、その写真、花瓶を置いてあるのは弓張学園校長室のテーブルだろ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 339,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“而且不是最近的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「しかも最近のものではない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 342,
+	},
+	block_00074 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10033", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“你怎么知道不是最近的东西？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「何故最近のものでないと分かる？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 347,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我是这所学校的毕业生。学生时代，我曾被叫到过校长室。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺は、ここの学校の卒業生でだな。",
+					{"rt2"},
+					"学生時代に、校長室に呼ばれた事がある」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 351,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那里的桌布十年前还被使用过，但之后就没有被使用了。至少在我成为教员之后使用了不同的东西。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そこに写っているテーブルクロスは十年前までは使われていたが、その後は使われていない。少なくとも俺が教員になってからは違ったものを使っている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 354,
+	},
+	block_00077 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10034", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“听说草薙健一郎也清楚地记得一瞬间看到的地图……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「草薙健一郎も、一瞬見た地図を克明に記憶していたと聞いた事があるが……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 359,
+	},
+	block_00078 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10035", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“直观像记忆是遗传吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「直観像記憶は遺伝というわけか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 364,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我可没有那么大的能力。我本来就是就算记住地图也会迷路的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そんな大層な能力じゃないよ。",
+					{"rt2"},
+					"そもそも俺は地図を覚えても道に迷うぐらいだからな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 368,
+	},
+	block_00080 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0009", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0008", head="fri_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10036", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“你的脑子是怎么回事？真是不可思议。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「お前の脳みそはどうなってるんだ？　まったく不可解だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 374,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我脑子里的话很好。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺の脳みその話はいい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 377,
+	},
+	block_00082 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“比起这个，从这张照片上可以说的一件事，很久以前鸟谷校长和弗里德曼就挂在一起了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それよりも、この写真から一つ言える事は、だいぶ前から鳥谷校長とフリッドマンはつるんでいる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 382,
+	},
+	block_00083 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10037", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“挂什么的……只是给我发了照片而已。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「つるむなど……ただ、写真を送ってもらっただけさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 387,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“如果你只是发张照片让我接受的话，今天也不会来这里了。我已经看了实物，摸了一下，知道是什么样的东西了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お前が、ただ写真を送ってもらって納得する様なものならば、今日ここにすら来ないだろう。すでに現物を見て、触って、どの様なものかまで知っている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 390,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“然后在动。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そして動いている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 393,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“为什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「何故だ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 396,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你不会做不赚钱的事。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お前は、金にならない事はしない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 399,
+	},
+	block_00088 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10038", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 404,
+	},
+	block_00089 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0002", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0011", head="fri_z1b", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10039", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“原来如此，真了不起。那么，你怎么看我来这里的理由？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「なるほど、大したものだ。",
+					{"rt2"},
+					"だとして、私がここに来た理由をどう考える？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 411,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你已经行动了。而且我想尽量控制鸟谷静流的作品。为此，我不喜欢擅自行动。让他觉得没有价值，不要动是明智的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「すでにお前は動いている。そしてできる限り鳥谷静流の作品を押さえておきたい。そのためには、俺が勝手に動く事は好ましくない。",
+					{"rt2"},
+					"価値がないと思わせて、動かさない様にするのが賢明だろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 415,
+	},
+	block_00091 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10040", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“那就算是正确答案吧。如果是这样的话，我就越来越不需要协助你了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「それで正解だとしよう。",
+					{"rt2"},
+					"だとしたら、ますます私がお前に協力する必要がなくなるだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 421,
+	},
+	block_00092 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10041", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“因为你妨碍了我。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「私にはお前が邪魔なのだからな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 426,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不，不会的。我能得到你得不到的信息。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いいや、そうならないさ。",
+					{"rt2"},
+					"お前が手に入らない情報を俺は手に入れられる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 430,
+	},
+	block_00094 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10042", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“如果那张照片是校长室的话，我的消息来源就是鸟谷纱希。你不认为你能收集到比她更多的信息吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「その写真が校長室だとするならば、私の情報源は鳥谷紗希という事になる。",
+					{"rt2"},
+					"お前に彼女以上の情報が集められるとは思えないが？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 437,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你不明白，弗里德曼。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「分かってないな。フリッドマン」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 440,
+	},
+	block_00096 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10043", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 445,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“鸟谷纱希有绝对查不到的消息来源。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「鳥谷紗希には、絶対調べられない情報源があるんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 448,
+	},
+	block_00098 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10044", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“鸟谷纱希和鸟谷静流的关系很好。可以掌握与她相关的所有信息。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「鳥谷紗希と鳥谷静流の関係は良好だ。彼女に関わるすべての情報を押さえる事が出来る」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 453,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“所以我不知道。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だから分かってないつーてるの」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 456,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“鸟谷纱希和鸟谷静流，除了这两个人之外，还有一个与弓张陶艺相关的人物。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「鳥谷紗希と鳥谷静流、この二人の他に一人、弓張陶芸に関わる人物がいる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 459,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这个人和鸟谷静流关系很好，但是和鸟谷纱希是水火不容的关系。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「この人間は、鳥谷静流とは仲が良いが、鳥谷紗希とは犬猿の仲だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 462,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“而且，那个人长期住在鸟谷静流经营的咖啡店Kimira工作。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「しかも、その人物は長らく、鳥谷静流の経営する喫茶店キマイラで住み込みで働いていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 465,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“和很多咖啡一起，也收到了很多行李。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「多くのコーヒーと共に、多くの荷物も受け取っている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 468,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“在鸟谷静流的旅途中发生了什么？看到了什么？最了解的就是那个人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「鳥谷静流の旅先で何かあったのか？　どんなものを見たのか？　一番知っているのはその人物だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 471,
+	},
+	block_00105 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10045", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“是鸟谷真琴吗……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「鳥谷真琴か……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 476,
+	},
+	block_00106 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0011", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10046", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“你说得对。实际上，鸟谷静流对鸟谷纱希并没有说旅行目的地的事情。倒不如说，每次试探都会走散。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「お前の言う通りだ。実際、鳥谷紗希には鳥谷静流は旅先の事はたいして話していない。むしろ、探りを入れるたびにはぐらかされるとの話だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 481,
+	},
+	block_00107 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10047", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“知道其中大部分的只有自己的女儿鸟谷真琴吧……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「そのほとんどを知るのは、自分の娘である鳥谷真琴だけだろうと……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 486,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“就是这么回事。你和鸟谷真琴接触过吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そういう事だ。",
+					{"rt2"},
+					"お前は鳥谷真琴と接触はしたのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 490,
+	},
+	block_00109 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10048", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 495,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你在做吧。但是，说到静流的事，那家伙果然也是含糊其辞的家伙。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「しているよな。だが、静流の件となると、やはりあいつも言葉を濁したハズだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 498,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我不知道弗里德曼在这件事上从什么时候开始行动。但是，这是至今为止无法打开突破口的哈兹。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「フリッドマンが、この件でいつから動いているかは知らない。",
+					{"rt2"},
+					"だが、今のいままで、突破口を開くことが出来なかったハズだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 502,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“大概是不自然，弗里德曼。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だいたい、不自然なんだよ。フリッドマン」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 505,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“像你这样对金钱有害的人，竟然会在我打电话的第二天出现。而且，你还礼貌地否定我的计划，不是那么温柔的人吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お前みたいに金に汚い人間が、俺から電話した次の日にあらわれるなんてさ。",
+					{"rt2"},
+					"しかも、ご丁寧に、俺の計画を否定するなんぞ、そんな優しい人間じゃないだろ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 509,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“如果鸟谷静流是以雪景鹊图花瓶结束的话，你就不会动了吧。但是，你做了和我一样的推理。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「鳥谷静流が",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"で終わっているのならば、お前が動く事はないだろう。",
+					{"rt2"},
+					"だが、お前は俺同様の推理をした」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 514,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“鸟谷静流继续周游世界的理由是什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「鳥谷静流が世界を旅しつづけた理由とは何だろうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 517,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“如果来法国利摩日是为了雪景鹊图花瓶，那很可能是第一次陶艺之旅。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「もし、フランスリモージュに訪れたのが",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"のためであるのならば、",
+					{"rt2"},
+					"それは最初の陶芸の旅だった可能性が高い」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 522,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“她后来持续了十多年的旅程，如果说那是一次陶艺之旅，那嚒她有可能是以雪景鹊图花瓶为开头，一个接一个地创作精品。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「彼女はその後、十年以上も旅を続けた。",
+					{"rt2"},
+					"もしそれが陶芸の旅であったとしたら、彼女は",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"を最初として、",
+					{"rt2"},
+					"次々に名品を作っている可能性がある」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 528,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你想的是哈兹。作为久部百大的孙弟子，让碧绯复苏的吉泽绿寺的弟子，使用与碧绯相同的釉药，用复杂的技巧创造出了雪景鹊图花瓶这个名品。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お前は考えるハズだ。",
+					{"rt2"},
+					"久部百大の孫弟子にして、碧緋をよみがえらせた吉沢緑寺の弟子、それが碧緋と同じ釉薬を使い、複雑な技巧で",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"という名品を生み出す」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 533,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“但是，对那个还不厌烦，她在世界各地旅行，在所有的地方，继续看土。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だが、それに飽き足らず、彼女は世界中を旅して、ありとあらゆる場所で、土を見続ける」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 536,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「它的脚步，从日本各地，再从朝鲜半岛到中国大陆，再经过丝绸之路，到中东的波斯陶器，再到欧洲，再跨海，旅程的终点就是美洲大陆。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「その足取りは、日本各地、さらに朝鮮半島から中国大陸、そしてシルクロードを通り中東のペルシア陶器、そしてヨーロッパに至る。",
+					{"rt2"},
+					"さらに海を渡り、その旅の終着点はアメリカ大陸となった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 540,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“为什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「何故か？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 543,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“南美沉睡着高品质的天然资源，其中还包括陶瓷中不可缺少的高岭石。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「南米には高品質の天然資源が眠っている。その中には、陶磁器には欠かせない",
+					{"rt2"},
+					"カオリン石も含まれている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 547,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“没有比这更能在全世界旅行的陶艺家了。这样的陶艺家在南美居住了十多年。对此你怎么看？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あれほど世界中を旅する陶芸家などいない。",
+					{"rt2"},
+					"そんな陶芸家が南米に十年以上も居を構えた。",
+					{"rt2"},
+					"それをどう考えるか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 552,
+	},
+	block_00124 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10049", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“从鸟谷纱希那里听说是为了进口咖啡。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「鳥谷紗希からは、コーヒーの輸入のためと聞いているがな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 557,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我也是从静流那里听说的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺も静流さんからはそう聞いている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 560,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“她几乎对所有人都这么说，除了一个人，负责自己店铺的鸟谷真琴。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「彼女はほとんどすべての人間にそう言っている。",
+					{"rt2"},
+					"ただ一人、自分の店を任せている鳥谷真琴を除いては」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 564,
+	},
+	block_00127 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10050", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“为什么只告诉鸟谷真琴？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「何故、鳥谷真琴にだけ伝える？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 569,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“也没有必要告诉鸟谷真琴吧。但是，有必要把找到的土和资料等送到日本。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「鳥谷真琴にも伝える必要はないだろう。",
+					{"rt2"},
+					"だが、見つけた土や資料などを、日本に送る必要はある」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 573,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“因为，她每次回国都会用弓张学园的爬窑。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なぜならば、彼女は、帰国するたびに、弓張学園の登り窯を使っていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 576,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那不是从校长那里也听说过吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それは、校長からも聞いているんじゃないか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 579,
+	},
+	block_00131 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10051", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 584,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“静流先生收集了全世界的泥土，将其储存到一定程度后，就用弓张的爬窑，尝试着做了什么。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「静流さんが、世界中の土を集め、それがある程度まで貯まると、弓張の登り窯を使って、何か試していた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 587,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“弗里德曼会明白这意味着什么。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それが何を意味するか、フリッドマンなら分かるだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 590,
+	},
+	block_00134 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10052", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“哼，你变锋利了，草薙直哉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ふっ、鋭くなったな。草薙直哉」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 595,
+	},
+	block_00135 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10053", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“正如你所说。据说静流对鸟谷纱希说‘只是兴趣’，以此来蒙混过关。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「お前の言う通りだ。",
+					{"rt2"},
+					"鳥谷紗希には静流は“ただの趣味”と言って誤魔化していたそうだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 601,
+	},
+	block_00136 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10054", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“不过，只是兴趣而已，没有必要一一回国，使用弓张学园的爬窑。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「だが、ただの趣味で、いちいち帰国してまで、弓張学園の登り窯を使う必要はない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 606,
+	},
+	block_00137 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10055", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“南美也有很多窑。如果她出于兴趣继续陶艺的话，在当地烧就好了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「南米にだって窯は多数ある。",
+					{"rt2"},
+					"彼女が趣味で陶芸を続けているのであれば、現地で焼けばいい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 612,
+	},
+	block_00138 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10056", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“但是，她必须用弓张烧从世界各地收集来的土。为什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「だが、彼女は、世界中から集めた土を、弓張で焼かなければならなかった。",
+					{"rt2"},
+					"何故か？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 618,
+	},
+	block_00139 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「没错，静流的雪景鹊图花瓶，不过是第一件使用弓张釉的作品。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そうだよ。静流さんの",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"は、弓張釉薬を使った最初の作品に過ぎない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 622,
+	},
+	block_00140 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「她走遍世界，把所有的泥土都收集起来，就像雪景鹊图花瓶一样，是为了将弓张釉与他国釉合在一起。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「彼女は、世界を旅して、あらゆる土を集めている。",
+					{"rt2"},
+					"それらは、",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"同様に、弓張釉薬と他国の釉薬を合わせて作るためだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 627,
+	},
+	block_00141 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“她毫无疑问，继续探究着雪景鹊图花瓶的更进一步，弓张釉的可能性。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「彼女は間違いなく、",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"のさらにその先、弓張釉薬の可能性を探究し続けている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 631,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“如果这些都被发表的话，陶艺界作为流浪的陶艺家会知道孤高的存在，鸟谷静流的名字吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それらが、すべて発表されれば、陶芸界は流浪の陶芸家にして孤高な存在、",
+					{"rt2"},
+					"鳥谷静流の名を知るだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 635,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“在那里，摩尔一定要和你联系。不，我想让鸟谷静流成为专属。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そこに、ムーアは是非とも絡みたい。",
+					{"rt2"},
+					"いや、鳥谷静流を専属にしたいと考えている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 639,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“但是，她没有摇头。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だが、彼女は首を縦に振らなかった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 642,
+	},
+	block_00145 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10057", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“是从谁那里听来的？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「誰から聞いたのだ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 647,
+	},
+	block_00146 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“谁也没听说过。即便如此，如果知道弗里德曼这个人，认为他接触了静流是妥当的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「誰からも聞いていないさ。だとしても、フリッドマンという人間を知っていれば、静流さんに接触したと考えるのが妥当だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 650,
+	},
+	block_00147 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“但是，静流先生还是一如既往地处于Kimira店主的地位。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だが、静流さんは相変わらず、キマイラの店主という地位に収まっている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 655,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那嚒，我提议作为陶艺家制作，但已经被拒绝了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ならば、陶芸家としてのプロデュースを提案したが、すでに断られている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 658,
+	},
+	block_00149 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这样想比较妥当吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そう考えるのが妥当だろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 661,
+	},
+	block_00150 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10058", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“原来如此……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「なるほど……くくくく」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 666,
+	},
+	block_00151 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0002", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10059", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“知道了。那就谈对等的商务吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「分かった。ならば対等なビジネスの話として進めよう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 671,
+	},
+	block_00152 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10060", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“你能做什么？如果是做生意的话，首先请你出示给我的好处吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「お前は何が出来る？",
+					{"rt2"},
+					"ビジネスならば、まずお前が私に与えるメリットを提示してもらおうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 677,
+	},
+	block_00153 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg011b", path=":bg/", ax=1920, ay=1126, bx=-960, by=-586, sync=0},
+		{"fg", ch="フリッドマン", size="z2", mode=3, resize=1, path=":fg/fri/z2/", file="fri_z2b0000", face="b0010", head="fri_z2b", lv=5, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“把静流先生拖出去。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「静流さんを引きずり出す」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 687,
+	},
+	block_00154 = {
+		{"fg", ch="フリッドマン", size="z2", mode=3, path=":fg/fri/z2/", file="fri_z2b0000", face="b0001", head="fri_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10061", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“哦。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ほう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 692,
+	},
+	block_00155 = {
+		{"fg", ch="フリッドマン", size="z2", mode=3, path=":fg/fri/z2/", file="fri_z2b0000", face="b0011", head="fri_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10062", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“你能让她站在舞台上吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「お前に、彼女を表舞台に立たせられると言うのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 697,
+	},
+	block_00156 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「我就是这么打算的。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そのつもりだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 700,
+	},
+	block_00157 = {
+		{"fg", ch="フリッドマン", size="z2", mode=3, path=":fg/fri/z2/", file="fri_z2b0000", face="b0001", head="fri_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10063", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“那个代价是？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「その対価は？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 705,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“恩田放哉可能会泄露六相图的秘密，希望你能阻止它。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「恩田放哉が六相図の秘密をばらすかもしれない。それを阻止してほしい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 708,
+	},
+	block_00159 = {
+		{"fg", ch="フリッドマン", size="z2", mode=3, path=":fg/fri/z2/", file="fri_z2a0000", face="a0010", head="fri_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10064", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“为什么会变成那样？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「何故、その様な事になった？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 713,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“各种各样的麻烦都被卷入其中，变成了这样的形式。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いろいろとな、厄介ごとに巻き込まれてそんな形になった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 716,
+	},
+	block_00161 = {
+		{"fg", ch="フリッドマン", size="z2", mode=3, path=":fg/fri/z2/", file="fri_z2a0000", face="a0001", head="fri_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10065", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“只有放哉会动吗？我不认为仅凭这一点就能做点什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「放哉だけが動くのか？　それだけで何か出来るとは思わないが？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 721,
+	},
+	block_00162 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg011b", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="フリッドマン", size="z1", mode=3, resize=1, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“本间礼次郎这个人物有可能会动。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「本間礼次郎という人物が動く可能性がある」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 731,
+	},
+	block_00163 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0010", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10066", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“本间礼次郎……原来如此。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「本間礼次郎……ほう、なるほどね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 737,
+	},
+	block_00164 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你知道吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「知っているのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 740,
+	},
+	block_00165 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0008", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10067", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“当然。本间的本家是泡沫经济时期买画最多的日本人一族。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「当たり前だ。本間の本家はバブル期にもっとも絵画を買った日本人の一族だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 746,
+	},
+	block_00166 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，我听说泡沫时代是世界级富豪。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ、バブル時代は世界的な富豪だったと聞いた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 749,
+	},
+	block_00167 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0005", head="fri_z1b", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10068", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“本间礼次郎先生也有见过面。只是，如果把他当成敌人的话，那就相当麻烦了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「本間礼次郎氏も面識はあるよ。",
+					{"rt2"},
+					"ただ、彼を敵に回したのならば相当厄介だぞ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 756,
+	},
+	block_00168 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我知道，所以我们的条件就是这样。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「分かっている。だからこちらの条件はそれだけでいい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 759,
+	},
+	block_00169 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0004", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10069", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“仅此而已，这是相当大的工作……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「それだけというが、かなりの大仕事だ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 764,
+	},
+	block_00170 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“但是，我一定会让静流作为陶艺家登上舞台。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だが、静流さんを必ず陶芸家として表舞台に出させる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 767,
+	},
+	block_00171 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这不是你花了几年都做不到的事情吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「これだって、お前が何年かけても出来なかった事じゃないか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 770,
+	},
+	block_00172 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“如果是调查静流的脚步，那也花了不少钱吧。因为她正是周游世界的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「静流さんの足取りを調べたとするならば、それなりに金もかかっただろう。",
+					{"rt2"},
+					"彼女はそれこそ世界中を旅しているのだからな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 774,
+	},
+	block_00173 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“到目前为止，花费的成本还没有回收。而且，如果我不动的话，也没有回收的希望。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「今のところ、それに費やしたコストは回収出来ていない。",
+					{"rt2"},
+					"そして、俺が動かなければ回収出来る見込みもない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 778,
+	},
+	block_00174 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我认为我的建议对弗里德曼来说是足够的代价？不，是因为这样想才特意来这个家的吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺の提案は、フリッドマンにとって十分な対価だと思うが？",
+					{"rt2"},
+					"いや、そう思ったからわざわざこの家に来たのだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 782,
+	},
+	block_00175 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"弗里德曼笑了一会儿之后。",
+				},
+			},
+        	ja = {
+				{
+					"フリッドマンは少しだけ笑った後。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 787,
+	},
+	block_00176 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0003", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10070", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“知道了，我来处理这件事吧。但是，保密六相图是需要相当辛苦的，我认为没有比这更好的报酬了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「分かった、その件を引き受けよう。ただし、六相図を秘密にするのは相当な苦労を要するものだ、それ以上の報酬は無いものと思え」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 793,
+	},
+	block_00177 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“足够了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「十分だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 796,
+	},
+	block_00178 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10071", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“好的。那我就提供有关鸟谷静流的资料吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「分かった。では、鳥谷静流に関して私が持っている資料は提供しよう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 801,
+	},
+	block_00179 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这是鸟谷真琴知道的事情。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「こちらは、鳥谷真琴が知る事を教える」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 804,
+	},
+	block_00180 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“但是，说服静流的始终是我。你们在背后行动的话会产生反效果。大概静流会变得固执。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だが、静流さんを説得するのはあくまでも俺だ。",
+					{"rt2"},
+					"お前らが陰で動くと逆効果になる。たぶん静流さんは意固地になる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 808,
+	},
+	block_00181 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10072", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“好的，我明白了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「分かった。了解しよう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 813,
+	},
+	block_00182 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10073", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“那嚒，这是合同。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「では、契約書だが」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 818,
+	},
+	block_00183 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不，合同以后再签吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いや、契約書は後でいいだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 821,
+	},
+	block_00184 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10074", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“不，不行，马上让他准备。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「いや、ダメだ。すぐに用意させる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 826,
+	},
+	block_00185 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我拿出手机。",
+				},
+			},
+        	ja = {
+				{
+					"俺はスマホを取り出す。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 829,
+	},
+	block_00186 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“现在的对话都录下来了。把它作为议事录写成文字。有背叛行为的契约书全部无效。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「今の会話は全部録音している。",
+					{"rt2"},
+					"それを議事録として文字にする。",
+					{"rt2"},
+					"裏切り行為がある様な契約書はすべて無効だと約束してもらおう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 834,
+	},
+	block_00187 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10075", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“原来如此，真是小心啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「なるほど、用心深いな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 839,
+	},
+	block_00188 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“弗里德曼告诉我，契约书的可怕程度令人讨厌。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「フリッドマンという男に、嫌というほど、契約書の恐ろしさを教わっているからな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 842,
+	},
+	block_00189 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10076", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"「我明白了，我答应你，我现在答应你的事，我不会说谎，也不会背叛你。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「分かった。約束しよう。",
+					{"rt2"},
+					"今約束した件は、一切の嘘偽りも無く、そして反故にもしない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 848,
+	},
+	block_00190 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“拜托你了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「頼んだぞ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00189",
+		linknext = "block_00191",
+		line = 851,
+	},
+	block_00191 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10077", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“啊，知道了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ああ、分かった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00190",
+		linknext = "block_00192",
+		line = 856,
+	},
+	block_00192 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10078", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“不过，正如我多次所说，这是一个商业故事。关于鸟谷静流作品的管理，摩尔基金会也会让我咬一口的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「だが、何度も言う通り、これはビジネスの話だ。",
+					{"rt2"},
+					"鳥谷静流作品の管理については、ムーア財団も一枚噛ませてもらうぞ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00191",
+		linknext = "block_00193",
+		line = 862,
+	},
+	block_00193 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么是管理？反正就是摩尔财团收藏的吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なにが管理だ。",
+					{"rt2"},
+					"どうせムーア財団所蔵という事になるんだろう？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00192",
+		linknext = "block_00194",
+		line = 866,
+	},
+	block_00194 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0002", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10079", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“那就听凭你的想象了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「それはそちらの想像に任せるとするよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00193",
+		linknext = "block_00195",
+		line = 871,
+	},
+	block_00195 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00194",
+		linknext = "block_00196",
+		line = 874,
+	},
+	block_00196 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“最后我想问你。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「最後に聞きたいのだが」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00195",
+		linknext = "block_00197",
+		line = 877,
+	},
+	block_00197 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10080", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「なんだ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00196",
+		linknext = "block_00198",
+		line = 882,
+	},
+	block_00198 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我认为我有价值，我认为我有足够的胜算。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺は価値があると思っているし勝算は十分あると思っている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00197",
+		linknext = "block_00199",
+		line = 885,
+	},
+	block_00199 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那是因为弗里德曼的牵连，所以变得更确信了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それはフリッドマンが絡む事でより確信に変わった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00198",
+		linknext = "block_00200",
+		line = 888,
+	},
+	block_00200 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“但是——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だが――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00199",
+		linknext = "block_00201",
+		line = 891,
+	},
+	block_00201 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10081", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“雪景鹊图花瓶原本是作为赝品制作的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「雪景鵲図花瓶はそもそも贋作として作られた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00200",
+		linknext = "block_00202",
+		line = 896,
+	},
+	block_00202 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10082", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“美术界和赝品有着密不可分的关系。正因为如此，画坛和陶艺界才极度害怕赝品，而且讨厌赝品。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「美術界というのは、贋作と切っても切れない関係だ。",
+					{"rt2"},
+					"だからこそ、画壇や陶芸界は極度に贋作を恐れ、そして忌み嫌う」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00201",
+		linknext = "block_00203",
+		line = 903,
+	},
+	block_00203 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0011", head="fri_z1b", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10083", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“如果鸟谷静流在那之后没有制作出超过雪景鹊图花瓶的作品的话，也不会有胜算的碎片吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「もし仮に、鳥谷静流がその後、雪景鵲図花瓶を超える様な作品を作っていないとしたら、勝算の欠片もないだろうな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00202",
+		linknext = "block_00204",
+		line = 909,
+	},
+	block_00204 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“但是，弗里德曼认为陶艺家鸟谷静流并没有停留在那里，而是走在了更前面。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だが、フリッドマンは陶芸家鳥谷静流がそこでとどまらずに、さらに先を歩いていると考えている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00203",
+		linknext = "block_00205",
+		line = 912,
+	},
+	block_00205 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0002", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10084", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“哼，你误会什么了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ふっ、お前は何か勘違いしているな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00204",
+		linknext = "block_00206",
+		line = 917,
+	},
+	block_00206 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你误会了吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「勘違い？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00205",
+		linknext = "block_00207",
+		line = 920,
+	},
+	block_00207 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10085", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“我对艺术家并没有那么大的期望。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「私は芸術家に対してそれほど期待はしていない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00206",
+		linknext = "block_00208",
+		line = 925,
+	},
+	block_00208 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10086", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“只是单纯地说策展人是发掘可能成为金钱的新才能的工作。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ただ単にキュレーターというのが、金になりそうな新しい才能を発掘する仕事だというだけだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00207",
+		linknext = "block_00209",
+		line = 930,
+	},
+	block_00209 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10087", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“除了鸟谷静流，我还有全世界都关注的艺术家。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「鳥谷静流以外にも、私は世界中に目を付けている芸術家がいる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00208",
+		linknext = "block_00210",
+		line = 935,
+	},
+	block_00210 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10088", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“对我来说，艺术家是否开花只是一个概率，在很多艺术家中鸟谷静流并不是特别的存在。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「私にとっては芸術家が開花するかどうかは確率にしかすぎない。",
+					{"rt2"},
+					"多くの芸術家の中で鳥谷静流が特別な存在などではないさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00209",
+		linknext = "block_00211",
+		line = 941,
+	},
+	block_00211 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，是吧……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あぁ、そうだろうな……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00210",
+		linknext = "block_00212",
+		line = 944,
+	},
+	block_00212 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10089", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“只是，如果一切都按照我的想法行动的话，那就另当别论了……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ただ、私の思惑通りにすべてが動くのならば、話は別だが……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00211",
+		linknext = "block_00213",
+		line = 949,
+	},
+	block_00213 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“弗里德曼的想法？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「フリッドマンの思惑？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00212",
+		linknext = "block_00214",
+		line = 952,
+	},
+	block_00214 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10090", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“就算你长大了，变得聪明了一点，我和你看到的东西也太不一样了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「お前がいくら大人になり、少しばかり賢くなったとしても、私とお前では見ているものが違いすぎる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00213",
+		linknext = "block_00215",
+		line = 957,
+	},
+	block_00215 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なんだと」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00214",
+		linknext = "block_00216",
+		line = 960,
+	},
+	block_00216 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10091", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“我是艺术专家，摩尔基金会的策展人。为了成功，我会收集所有的信息。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「私は芸術のプロだ。ムーア財団のキュレーターだ。成功させるためには、",
+					{"rt2"},
+					"あらゆる情報を仕入れておく」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00215",
+		linknext = "block_00217",
+		line = 966,
+	},
+	block_00217 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10092", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“然后，调查一下所有人物的性格。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「そして、すべての人物の性格をリサーチしておく」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00216",
+		linknext = "block_00218",
+		line = 971,
+	},
+	block_00218 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00217",
+		linknext = "block_00219",
+		line = 974,
+	},
+	block_00219 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10093", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“草薙健一郎经常说。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「草薙健一郎は良く言っていたよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00218",
+		linknext = "block_00220",
+		line = 979,
+	},
+	block_00220 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“父亲呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「親父が？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00219",
+		linknext = "block_00221",
+		line = 982,
+	},
+	block_00221 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10094", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“啊，你也被问过吧。艺术和批评的关系。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ああ、お前も問われた事があるだろう。",
+					{"rt2"},
+					"芸術と批評の関係というヤツをな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00220",
+		linknext = "block_00222",
+		line = 988,
+	},
+	block_00222 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“艺术和批评？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「芸術と批評？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00221",
+		linknext = "block_00223",
+		line = 991,
+	},
+	block_00223 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10095", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“印象派中有两个批评家有着相反的意思。你知道那是谁吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「印象派には二人の批評家が逆説的な意味を持って存在している。",
+					{"rt2"},
+					"それが誰だか分かるか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00222",
+		linknext = "block_00224",
+		line = 998,
+	},
+	block_00224 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你是说露洛娃和……二重唱吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ルロワと……デュレの事か？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00223",
+		linknext = "block_00225",
+		line = 1001,
+	},
+	block_00225 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10096", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“对了对了，卢洛娃和杜勒，这两个人的立场正好相反。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ああそうだ、ルロワとデュレ。",
+					{"rt2"},
+					"この二人が正反対の立場だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00224",
+		linknext = "block_00226",
+		line = 1007,
+	},
+	block_00226 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0011", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10097", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“但是，与批评的态度相反，哪位批评家对印象派这一运动做出了贡献，只要是理解艺术史的人都知道。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「だが、その批評の態度と逆説的に、印象派という運動にどちらの批評家が貢献したかは、芸術史を理解する者ならば誰でも知るところだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00225",
+		linknext = "block_00227",
+		line = 1012,
+	},
+	block_00227 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“反论的批评家……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「逆説的な批評家……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00226",
+		linknext = "block_00228",
+		line = 1015,
+	},
+	block_00228 = {
+		{"bgm", stop=1, time=8000},
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0002", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10098", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“哼，我很期待，草薙直哉……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ふっ、まぁ、期待しているよ。草薙直哉くん……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00227",
+		linknext = "block_00229",
+		line = 1022,
+	},
+	block_00229 = {
+		{"bg", file="ev_etc_01_05", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"说完，弗里德曼离开了。",
+				},
+			},
+        	ja = {
+				{
+					"そう言って、フリッドマンは出て行った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00228",
+		linknext = "block_00230",
+		line = 1027,
+	},
+	block_00230 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=139, wait=500, file="black", path=":bg/", vague=40},
+		{"se", stop=1, time=500, id=1},
+		{"excall", file="03_mak05_3"},
+		{"text"},
+		linkback = "block_00229",
+		line = 1033,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

@@ -1,0 +1,2711 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="第Ⅱ章"},
+		{"msg", no=1},
+		{"bg", file="アイキャッチ02", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans"},
+		{"ex", time=5000, func="wait"},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", speed=180000, time=2000, file="zev_etc_01_28", path=":ev/ev_etc_01/", x2=0, y2=-540, x=0, y=540, set="ev_etc_01", ax=1920, ay=1080, bx=-960, by=-540},
+		{"bgm", file="bgm124"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我依然来到屋顶。",
+				},
+			},
+        	ja = {
+				{
+					"俺は相変わらず屋上に来ている。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 30,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“樱花真美啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「桜が綺麗だな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 33,
+	},
+	block_00002 = {
+		{"se", id=1, file="se0007"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"他还俯视着播放演讲的体育馆，点燃了香烟。",
+				},
+			},
+        	ja = {
+				{
+					"まだ、スピーチが流れる体育館を見下ろしながら、たばこに火をつけた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 41,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"模仿校长的样子围了起来。",
+				},
+			},
+        	ja = {
+				{
+					"校長の真似をして手巻きだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 44,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“告一段落了。是这样的感觉吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「一段落した。って感じかな？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 47,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“因为最近是相当稠密的时间。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ここ最近、かなり濃密な時間だったからな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 50,
+	},
+	block_00006 = {
+		{"bg", file="ev_com_22_01", path=":ev/ev_com_22/", set="ev_com_22"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"从那之后过了一段时间。",
+				},
+			},
+        	ja = {
+				{
+					"あれから少しだけ時間が経った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 59,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"从至今为止的长时间来看，就像一瞬间一样，而且很长的感觉。",
+				},
+			},
+        	ja = {
+				{
+					"今までの長い時間からみたら、ほんの一瞬の様な、それでいて長い様な、そんな",
+					{"rt2"},
+					"感じ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 63,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“没有他们的欢闹。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「やつらのはしゃぎ様ったら無かった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 66,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你看起来那么高兴。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あんなうれしそうな顔されると」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 69,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我感觉教师的工作也不尽如人意。",
+				},
+			},
+        	ja = {
+				{
+					"教師の仕事もまんざらではないという感じがする。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 72,
+	},
+	block_00011 = {
+		{"bgm", stop=1, time=3000},
+		{"bg", time=2000, file="white", path=":bg/"},
+		{"ex", time=1000, func="wait"},
+		{"bg", speed=250000, time=2000, file="zbg031a", path=":bg/", x2=100, y2=0, x=-960, y=0, ax=1920, ay=1126, bx=-960, by=-586},
+		{"bgm", file="bgm148"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"第一张传单做好的瞬间。",
+				},
+			},
+        	ja = {
+				{
+					"一枚目のチラシが出来上がった瞬間。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 86,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"在场的所有人都发出了声音。",
+				},
+			},
+        	ja = {
+				{
+					"その場にいる全員が声を上げた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 89,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"根据冰川的原版。新生美术部的插图传单完成了。",
+				},
+			},
+        	ja = {
+				{
+					"氷川ルリヲ原版による。新生美術部のリトグラフチラシが完成した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 92,
+	},
+	block_00014 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg031a", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="桜子", size="z1", mode=3, resize=1, path=":fg/sku/z1/", file="sku_z1a0000", face="a0007", head="sku_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="鈴菜", size="z1", mode=3, resize=1, path=":fg/suz/z1/", file="suz_z1a0000", face="a0016", head="suz_z1a", x=345, lv=4, id=6, sync=0},
+		{"extrans"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="桜子", size="z1", mode=3, path=":fg/sku/z1/", file="sku_z1a0000", face="a0003", head="sku_z1a", x=-345, lv=4, id=5, sync=0},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_sku_00459", ch="sku"},
+			},
+		
+            cn = {
+				{
+					"“哇，好厉害。这个好厉害啊！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"桜子"},
+					"「す、すごい。これすごいよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 107,
+	},
+	block_00015 = {
+		{"fg", ch="鈴菜", size="z1", mode=3, path=":fg/suz/z1/", file="suz_z1a0000", face="a0017", head="suz_z1a", x=345, lv=4, id=6},
+		{"fgact", ch="鈴菜", act="おじぎ", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_suz_00394", ch="suz"},
+			},
+		
+            cn = {
+				{
+					"“虽然很不甘心，但是在这个小图表前自己的作品会变得模糊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"鈴菜"},
+					"「くやしいですけど、このリトグラフの前では自分の作品が霞みますわ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 113,
+	},
+	block_00016 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="ノノ未", size="z1", ex03="a0097", mode=3, resize=1, path=":fg/non/z1/", file="non_z1a0000", face="a0002", head="non_z1a", x=-680, lv=4, id=1, sync=0},
+		{"fg", ch="寧", size="z1", mode=3, resize=1, path=":fg/nei/z1/", file="nei_z1a0000", face="a0002", head="nei_z1a", x=-210, lv=4, id=7, sync=0},
+		{"fg", ch="奈津子", size="z1", mode=3, resize=1, path=":fg/nat/z1/", file="nat_z1a0000", face="a0003", head="nat_z1a", x=210, lv=4, id=8, sync=0},
+		{"fg", ch="ルリヲ", size="z1", mode=3, resize=1, path=":fg/rur/z1/", file="rur_z1a0000", face="a0001", head="rur_z1a", x=680, lv=4, id=2, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_nat_00114", ch="nat"},
+			},
+		
+            cn = {
+				{
+					"“好漂亮的蓝天啊。和云的对比很好。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"奈津子"},
+					"「すごい青空が綺麗だね。雲とのコントラストがすばらしいよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 127,
+	},
+	block_00017 = {
+		{"fg", ch="ノノ未", size="z1", ex03="a0097", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0004", head="non_z1a", x=-680, lv=4, id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_non_00140", ch="non"},
+			},
+		
+            cn = {
+				{
+					"“夕阳的部分也很棒哦，真不敢相信这是用12块铝板做的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ノノ未"},
+					"「夕日の部分も素晴らしいですよ。これが12枚のアルミ板で作られているなんて",
+					{"rt2"},
+					"信じられませんよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 133,
+	},
+	block_00018 = {
+		{"fg", ch="寧", size="z1", mode=3, path=":fg/nei/z1/", file="nei_z1a0000", face="a0003", head="nei_z1a", x=-210, lv=4, id=7},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_nei_00088", ch="nei"},
+			},
+		
+            cn = {
+				{
+					"“果然小鲁里奥很厉害啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"寧"},
+					"「やっぱりルリヲちゃんはすごいね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 140,
+	},
+	block_00019 = {
+		{"fg", ch="ルリヲ", size="z1", mode=3, path=":fg/rur/z1/", file="rur_z1a0000", face="a0003", head="rur_z1a", x=680, lv=4, id=2},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rur_00309", ch="rur"},
+			},
+		
+            cn = {
+				{
+					"“你在说什么，因为小宁给我改了颜色。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ルリヲ"},
+					"「何を言ってるのですか、寧ちゃんが色味変更してくれたからです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 145,
+	},
+	block_00020 = {
+		{"fg", ch="寧", size="z1", mode=3, path=":fg/nei/z1/", file="nei_z1a0000", face="a0002", head="nei_z1a", x=-210, lv=4, id=7},
+		{"fg", ch="ノノ未", size="z1", ex03="a0097", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0002", head="non_z1a", x=-680, lv=4, id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_nei_00089", ch="nei"},
+			},
+		
+            cn = {
+				{
+					"“我只是稍微改变了一下墨水的配方。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"寧"},
+					"「インクの配合をほんの少し変えただけですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 151,
+	},
+	block_00021 = {
+		{"fg", ch="奈津子", size="z1", mode=3, path=":fg/nat/z1/", file="nat_z1a0000", face="a0001", head="nat_z1a", x=210, lv=4, id=8},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="奈津子", size="z1", mode=3, path=":fg/nat/z1/", file="nat_z1a0000", face="a0002", head="nat_z1a", x=210, lv=4, id=8},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_nat_00115", ch="nat"},
+			},
+		
+            cn = {
+				{
+					"“小宁，对颜料有那么多的讲究啊。我没想到稍微配上一点颜色，印象就会有那么大的变化。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"奈津子"},
+					"「寧ちゃんって、あれだけ絵の具にこだわるだけはあるんですねぇ。",
+					{"rt2"},
+					"少しの色の配合で、あれだけイメージが変わるなんて思いませんでした」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 158,
+	},
+	block_00022 = {
+		{"fg", ch="ノノ未", size="z1", ex03="a0097", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0004", head="non_z1a", x=-680, lv=4, id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_non_00141", ch="non"},
+			},
+		
+            cn = {
+				{
+					"“好厉害啊。看到他闪耀的才能，我真是太喜欢了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ノノ未"},
+					"「すごいねぇ。やっぱり輝く才能って見ててほれぼれしますねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 163,
+	},
+	block_00023 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg031a", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"bg", lv=5, id=5, rule="cinema", file="cinema01", alpha=255, time=400, path=":sys/", vague=40, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"卢里奥的作品是少女描绘蓝天和夕空的作品。那个题目是。",
+				},
+			},
+        	ja = {
+				{
+					"ルリヲの作品は少女が青空と夕空を描いているという作品だ。",
+					{"rt2"},
+					"その題名は。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 175,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"《描绘天空》",
+				},
+			},
+        	ja = {
+				{
+					"『空を描く』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 178,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"描绘天空的少女有影子。天空中，有清澈的蓝色和闪耀的红色。",
+				},
+			},
+        	ja = {
+				{
+					"空を描く少女には影が。空には、透き通る様な青と、輝く様な赤を、落とし込んでいた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 181,
+	},
+	block_00026 = {
+		{"fg", mode=-2, sync=0},
+		{"cgdel", lv=5, id=5, rule="cinema", time=400, sync=0},
+		{"fg", ch="ルリヲ", size="z1", mode=3, path=":fg/rur/z1/", file="rur_z1a0000", face="a0001", head="rur_z1a", lv=4, id=2, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“超出想象了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「想像以上だったな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 193,
+	},
+	block_00027 = {
+		{"fg", ch="ルリヲ", size="z1", mode=3, path=":fg/rur/z1/", file="rur_z1a0000", face="a0003", head="rur_z1a", lv=4, id=2},
+		{"fgact", ch="ルリヲ", act="うなづく", lv=4, id=2},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rur_00310", ch="rur"},
+			},
+		
+            cn = {
+				{
+					"“谢谢草薙。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ルリヲ"},
+					"「ありがと草薙ちゃん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 199,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“虽然做出来了，但是没想到用了12块铝板。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「出来もだが、12枚もアルミ板使うと思わなかったよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 202,
+	},
+	block_00029 = {
+		{"fg", ch="ルリヲ", size="z1", mode=3, path=":fg/rur/z1/", file="rur_z1b0000", face="b0002", head="rur_z1b", lv=4, id=2},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rur_00311", ch="rur"},
+			},
+		
+            cn = {
+				{
+					"“渐变的重叠效果相当有趣，所以不断增加。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ルリヲ"},
+					"「グラデーションの重ねが、結構面白い効果だったので、どんどん増やしてしまい",
+					{"rt2"},
+					"ましたねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 208,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“最初明明是8张啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「最初は８枚だったのになぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 211,
+	},
+	block_00031 = {
+		{"fg", ch="ルリヲ", size="z1", mode=3, path=":fg/rur/z1/", file="rur_z1b0000", face="b0015", head="rur_z1b", lv=4, id=2},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rur_00312", ch="rur"},
+			},
+		
+            cn = {
+				{
+					"“对不起。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ルリヲ"},
+					"「ごめんね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 216,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不，但是，这么厉害啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いや、でも、これだけすごいとなぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 219,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽然我说要控制在10张，但是这样的限制是很愚蠢的。",
+				},
+			},
+        	ja = {
+				{
+					"10枚に抑えてくれと言った俺だが、そんな制約なんぞバカバカしくなる出来だ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 222,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那个传单在历代的力作中也显得格外耀眼。",
+				},
+			},
+        	ja = {
+				{
+					"そのチラシは、歴代の力作の中でもひときわ輝いて見えた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 225,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"完全不逊色于鸟谷和明石。",
+				},
+			},
+        	ja = {
+				{
+					"鳥谷や明石にもまったく引けを取らない出来だった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 228,
+	},
+	block_00036 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="桜子", size="z1", mode=3, path=":fg/sku/z1/", file="sku_z1b0000", face="b0003", head="sku_z1b", lv=4, id=5, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sku_00460", ch="sku"},
+			},
+		
+            cn = {
+				{
+					"“这样的话，在社团活动说明会上也能加油哦！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"桜子"},
+					"「これだったら、部活説明会でもがんばれるよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 238,
+	},
+	block_00037 = {
+		{"fg", ch="桜子", size="z1", mode=3, path=":fg/sku/z1/", file="sku_z1b0000", face="b0002", head="sku_z1b", lv=4, id=5},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そうだな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 242,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"新生社团活动说明会。",
+				},
+			},
+        	ja = {
+				{
+					"新入生部活説明会。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 247,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"并不是所有的部门都会做。",
+				},
+			},
+        	ja = {
+				{
+					"すべての部が行うわけではない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 250,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"也就是说，把新生聚集到体育馆，提出希望的部会发表三分钟左右的演讲。",
+				},
+			},
+        	ja = {
+				{
+					"体育館に新入生を集め、希望を出した部が、三分ほどのスピーチをするというものだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 253,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不是以前就有的东西。",
+				},
+			},
+        	ja = {
+				{
+					"前からあったものではない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 256,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"话说回来，在前美术部存在的时候是没有的。",
+				},
+			},
+        	ja = {
+				{
+					"というか、前美術部が存在していた時にはなかったものだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 259,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"所以，在那之前，没有什么是怎么演讲的。",
+				},
+			},
+        	ja = {
+				{
+					"なので、それまで、どの様にスピーチをやっていたのかというものはない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 262,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是，咲崎说一定要做。",
+				},
+			},
+        	ja = {
+				{
+					"なのだが、咲崎くんは是非やりたいと言った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 265,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"而且，所有的人都赞同。",
+				},
+			},
+        	ja = {
+				{
+					"そして、それに全部員が賛同した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 268,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"真是的，今年的美术部都是合作的家伙。",
+				},
+			},
+        	ja = {
+				{
+					"まったく、今年の美術部は連携が取れてるやつらばかりだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 271,
+	},
+	block_00047 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="奈津子", size="z1", mode=3, path=":fg/nat/z1/", file="nat_z1b0000", face="b0002", head="nat_z1b", x=-570, lv=4, id=3, sync=0},
+		{"fg", ch="桜子", size="z1", mode=3, path=":fg/sku/z1/", file="sku_z1a0000", face="a0003", head="sku_z1a", x=0, lv=4, id=9, sync=0},
+		{"fg", ch="ルリヲ", size="z1", mode=3, path=":fg/rur/z1/", file="rur_z1a0000", face="a0001", head="rur_z1a", x=570, lv=4, id=4, sync=0},
+		{"extrans", time=500},
+		{"fgact", ch="桜子", act="ジャンプ", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sku_00461", ch="sku"},
+			},
+		
+            cn = {
+				{
+					"“那么，我也得记住剧本。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"桜子"},
+					"「さぁ、私も台本覚えないとっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 287,
+	},
+	block_00048 = {
+		{"fg", ch="ルリヲ", size="z1", mode=3, path=":fg/rur/z1/", file="rur_z1a0010", face="a0003", head="rur_z1a", x=570, lv=4, id=4},
+		{"fgact", ch="ルリヲ", act="うんうん", lv=4, id=4},
+		{"fgact", ch="ルリヲ", act="icon", lv=4, id=4, icon="icon03z1", x=50, y=-550},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rur_00313", ch="rur"},
+			},
+		
+            cn = {
+				{
+					"“我们也会配合的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ルリヲ"},
+					"「私達も合いの手を入れるよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 294,
+	},
+	block_00049 = {
+		{"fg", ch="奈津子", size="z1", mode=3, path=":fg/nat/z1/", file="nat_z1b0010", face="b0003", head="nat_z1b", x=-570, lv=4, id=3},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_nat_00116", ch="nat"},
+			},
+		
+            cn = {
+				{
+					"“与其说是合二为一，不如说是大家把词尾合在一起。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"奈津子"},
+					"「合いの手というか、語尾をみんなであわせるぐらいだけどね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 299,
+	},
+	block_00050 = {
+		{"fg", ch="桜子", size="z1", mode=3, path=":fg/sku/z1/", file="sku_z1a0010", face="a0002", head="sku_z1a", x=0, lv=4, id=9},
+		{"fgact", ch="桜子", act="うなづく", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="桜子", size="z1", mode=3, path=":fg/sku/z1/", file="sku_z1a0000", face="a0003", head="sku_z1a", x=0, lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_sku_00462", ch="sku"},
+			},
+		
+            cn = {
+				{
+					"“嗯，这样就足够了。我会作为部长努力的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"桜子"},
+					"「うん、それで十分だよ。私は部長としてがんばるからっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 306,
+	},
+	block_00051 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg031a", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="ノノ未", size="z1", ex03="a0097", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0002", head="non_z1a", x=-505, lv=4, id=3, sync=0},
+		{"fg", ch="寧", size="z1", mode=3, path=":fg/nei/z1/", file="nei_z1a0000", face="a0001", head="nei_z1a", x=-820, lv=4, id=1, sync=0},
+		{"fg", ch="奈津子", size="z1", mode=3, path=":fg/nat/z1/", file="nat_z1a0000", face="a0002", head="nat_z1a", x=-175, lv=4, id=7, sync=0},
+		{"fg", ch="桜子", size="z1", mode=3, path=":fg/sku/z1/", file="sku_z1a0000", face="a0002", head="sku_z1a", x=175, lv=4, id=8, sync=0},
+		{"fg", ch="ルリヲ", size="z1", mode=3, path=":fg/rur/z1/", file="rur_z1a0000", face="a0001", head="rur_z1a", x=510, lv=4, id=4, sync=0},
+		{"fg", ch="鈴菜", size="z1", mode=3, path=":fg/suz/z1/", file="suz_z1a0000", face="a0002", head="suz_z1a", x=830, lv=4, id=2, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那么，说明会也是后天。在那之前我会尽可能地印传单的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「さてと、説明会もあさってだ。それまで出来るかぎりチラシを刷るぞ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 322,
+	},
+	block_00052 = {
+		{"fg", ch="奈津子", size="z1", mode=3, path=":fg/nat/z1/", file="nat_z1a0000", face="a0003", head="nat_z1a", x=-175, lv=4, id=7},
+		{"fg", ch="ノノ未", size="z1", ex03="a0097", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0004", head="non_z1a", x=-505, lv=4, id=3},
+		{"fg", ch="寧", size="z1", mode=3, path=":fg/nei/z1/", file="nei_z1a0000", face="a0003", head="nei_z1a", x=-820, lv=4, id=1},
+		{"fg", ch="ルリヲ", size="z1", mode=3, path=":fg/rur/z1/", file="rur_z1a0000", face="a0003", head="rur_z1a", x=510, lv=4, id=4},
+		{"fg", ch="鈴菜", size="z1", mode=3, path=":fg/suz/z1/", file="suz_z1a0000", face="a0003", head="suz_z1a", x=830, lv=4, id=2},
+		{"fg", ch="桜子", size="z1", mode=3, path=":fg/sku/z1/", file="sku_z1a0000", face="a0003", head="sku_z1a", x=175, lv=4, id=8},
+		{"fgact", ch="奈津子", act="ジャンプ", lv=4, id=7},
+		{"fgact", ch="ノノ未", act="ジャンプ", lv=4, id=3},
+		{"fgact", ch="寧", act="ジャンプ", lv=4, id=1},
+		{"fgact", ch="ルリヲ", act="ジャンプ", lv=4, id=4},
+		{"fgact", ch="鈴菜", act="ジャンプ", lv=4, id=2},
+		{"fgact", ch="桜子", act="ジャンプ", lv=4, id=8},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sku_00463", ch="sku"},
+				{"vo", file="fem_nat_00117", ch="nat"},
+				{"vo", file="fem_rur_00314", ch="rur"},
+				{"vo", file="fem_suz_00395", ch="suz"},
+				{"vo", file="fem_nei_00090", ch="nei"},
+				{"vo", file="fem_non_00142", ch="non"},
+			},
+		
+            cn = {
+				{
+					"“”“”“”",
+				},
+			},
+        	ja = {
+				{
+					name = {"一同"},
+					"「「「「「「オッー」」」」」」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 361,
+	},
+	block_00053 = {
+		{"bgm", stop=1, time=2000},
+		{"bg", time=2000, file="white", path=":bg/"},
+		{"ex", time=1000, func="wait"},
+		{"bg", time=2000, file="ev_com_22_01", path=":ev/ev_com_22/", set="ev_com_22"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"香烟的烟雾消失在蓝天上。",
+				},
+			},
+        	ja = {
+				{
+					"たばこの煙が青空に消えていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 374,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"春天的风虽然强劲，但却很温柔。",
+				},
+			},
+        	ja = {
+				{
+					"春の風は力強いが、それでもやさしい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 377,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心情好。",
+				},
+			},
+        	ja = {
+				{
+					"気分がいい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 380,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“咲崎的演讲很不错啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「咲崎くんのスピーチはなかなかのものだったな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 383,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“而且其他人也很努力。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それに他の連中もなかなかがんばってた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 386,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“真好啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いいもんだな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 389,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"看到少女们努力的样子真是太好了。",
+				},
+			},
+        	ja = {
+				{
+					"少女達ががんばる姿を見るのはなかなか良いものだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 392,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那就是青春吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あれが青春ってやつかねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 395,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“年轻真好啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「若いっていいなぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 398,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"啊，我想喝点酒。",
+				},
+			},
+        	ja = {
+				{
+					"あー、酒でも飲みたい気分だ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 401,
+	},
+	block_00063 = {
+		{"se", id=1, file="se0027"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sku_00464", ch="sku"},
+			},
+		
+            cn = {
+				{
+					"“草薙老师！又在这里抽烟了！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"桜子", "？？？"},
+					"「草薙先生！　またこんなところでたばこ吸ってる！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 410,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"伴随着尖锐的钢铁门打开的声音，响起了可爱的怒吼声。",
+				},
+			},
+        	ja = {
+				{
+					"けたたましい鋼鉄製のドアが開かれる音と共に可愛らしい怒鳴り声が響く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 413,
+	},
+	block_00065 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg022a", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="奈津子", size="z1", mode=3, path=":fg/nat/z1/", file="nat_z1a0000", face="a0008", head="nat_z1a", x=-680, lv=4, id=1, sync=0},
+		{"fg", ch="桜子", size="z1", mode=3, path=":fg/sku/z1/", file="sku_z1b0000", face="b0005", head="sku_z1b", x=-210, lv=4, id=7, sync=0},
+		{"fg", ch="ルリヲ", size="z1", mode=3, path=":fg/rur/z1/", file="rur_z1a0000", face="a0005", head="rur_z1a", x=210, lv=4, id=8, sync=0},
+		{"fg", ch="鈴菜", size="z1", mode=3, path=":fg/suz/z1/", file="suz_z1a0000", face="a0005", head="suz_z1a", x=680, lv=4, id=2, sync=0},
+		{"extrans"},
+		{"bgm", file="bgm150", time=5000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rur_00315", ch="rur"},
+			},
+		
+            cn = {
+				{
+					"“为什么不到最后呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ルリヲ"},
+					"「なんで、最後までいないのですかっッ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 428,
+	},
+	block_00066 = {
+		{"fg", ch="鈴菜", size="z1", mode=3, path=":fg/suz/z1/", file="suz_z1a0000", face="a0004", head="suz_z1a", x=680, lv=4, id=2},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_suz_00396", ch="suz"},
+			},
+		
+            cn = {
+				{
+					"“在演讲的过程中出场太过分了！为什么不好好地看到最后呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"鈴菜"},
+					"「スピーチの途中で出るなんてひどいですわ！　なんでちゃんと最後まで見てくれないのですかっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 433,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"啊，果然被骂了。",
+				},
+			},
+        	ja = {
+				{
+					"あ、やっぱり怒られた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 436,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"嘛，当然是当然的。",
+				},
+			},
+        	ja = {
+				{
+					"まぁ、当然といえば当然か。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 439,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"因为我没有确认这些家伙的演讲会结束，而是爬上了屋顶。",
+				},
+			},
+        	ja = {
+				{
+					"こいつらのスピーチが最後まで終わるのを確認せずに、屋上に上がってきたの",
+					{"rt2"},
+					"だから。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 443,
+	},
+	block_00070 = {
+		{"fg", ch="奈津子", size="z1", mode=3, path=":fg/nat/z1/", file="nat_z1a0000", face="a0013", head="nat_z1a", x=-680, lv=4, id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_nat_00118", ch="nat"},
+			},
+		
+            cn = {
+				{
+					"“老师，有这么冷的地方吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"奈津子"},
+					"「先生って、そういう冷たいところありますよねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 448,
+	},
+	block_00071 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="ルリヲ", size="z1", mode=3, path=":fg/rur/z1/", file="rur_z1b0000", face="b0018", head="rur_z1b", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="鈴菜", size="z1", mode=3, path=":fg/suz/z1/", file="suz_z1a0000", face="a0004", head="suz_z1a", x=345, lv=4, id=6, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rur_00316", ch="rur"},
+			},
+		
+            cn = {
+				{
+					"“其实，我被学生们的身影感动了，不想让他们看到眼泪。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ルリヲ"},
+					"「実はー、生徒達の姿に感動して、涙を見せたくなかったとかですよねー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 460,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“看起来像那样吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そういう風に見える？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 463,
+	},
+	block_00073 = {
+		{"fg", ch="ルリヲ", size="z1", mode=3, path=":fg/rur/z1/", file="rur_z1b0000", face="b0004", head="rur_z1b", x=-345, lv=4, id=5},
+		{"fgact", ch="ルリヲ", act="いいえ", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rur_00317", ch="rur"},
+			},
+		
+            cn = {
+				{
+					"“完全没有。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ルリヲ"},
+					"「全然っ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 469,
+	},
+	block_00074 = {
+		{"fg", ch="鈴菜", size="z1", mode=3, path=":fg/suz/z1/", file="suz_z1b0000", face="b0013", head="suz_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_suz_00397", ch="suz"},
+			},
+		
+            cn = {
+				{
+					"“那么，为什么呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"鈴菜"},
+					"「だったら、なんでですかっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 474,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"为什么。也可以这么说啊。",
+				},
+			},
+        	ja = {
+				{
+					"なんでですか。",
+					{"rt2"},
+					"と言われてもなぁ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 478,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不知怎么的，太高兴了，弄得我都不好意思了。不可能说什么。",
+				},
+			},
+        	ja = {
+				{
+					"なんか、うれしくて、にやけてしまって、こっちが恥ずかしくなってしまった。",
+					{"rt2"},
+					"なんて言えるわけもなく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 482,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「因为尼可在里面，所以只要雅尼断了就会去吸。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ニコ中だからね。ヤニが切れると吸いに行っちゃうんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 485,
+	},
+	block_00078 = {
+		{"fg", ch="鈴菜", size="z1", mode=3, path=":fg/suz/z1/", file="suz_z1b0000", face="b0004", head="suz_z1b", x=345, lv=4, id=6},
+		{"fg", ch="ルリヲ", size="z1", mode=3, path=":fg/rur/z1/", file="rur_z1a0010", face="a0006", head="rur_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="ルリヲ", act="びっくり", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rur_00318", ch="rur"},
+			},
+		
+            cn = {
+				{
+					"“香烟比我们还多吗！？真糟糕！？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ルリヲ"},
+					"「私達よりもたばこですか！？　ヤニなのですか！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 492,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「因为那就是尼可里面。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それがニコ中ですから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 495,
+	},
+	block_00080 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="ノノ未", size="z1", ex03="a0097", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0004", head="non_z1a", lv=4, id=3, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_non_00143", ch="non"},
+			},
+		
+            cn = {
+				{
+					"“呵呵，老师不擅长说谎。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ノノ未"},
+					"「ふふふ、先生は嘘が下手ですねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 506,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「何が？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 509,
+	},
+	block_00082 = {
+		{"fg", ch="ノノ未", size="z1", ex03="a0097", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0016", head="non_z1a", lv=4, id=3},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_non_00144", ch="non"},
+			},
+		
+            cn = {
+				{
+					"“诺诺从讲台上一直看着老师。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ノノ未"},
+					"「ノノは先生の事壇上からずっと見てたんですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 515,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そうなんだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 518,
+	},
+	block_00084 = {
+		{"fg", ch="ノノ未", size="z1", ex03="b0097", mode=3, path=":fg/non/z1/", file="non_z1b0000", face="b0016", head="non_z1b", lv=4, id=3},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_non_00145", ch="non"},
+			},
+		
+            cn = {
+				{
+					"“那是因为太高兴了，被晒黑了，讨厌看到这样的表情。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ノノ未"},
+					"「あれは、うれしすぎて、にやけてしまって、そんな表情見られるのが嫌だった。",
+					{"rt2"},
+					"って感じでした」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 524,
+	},
+	block_00085 = {
+		{"fg", ch="ノノ未", mode=3, path=":fg/non/z1/", file="non_z1b0000", face="b0016", ex03="b0097", head="non_z1b", x2=0, x=-345, lv=4, id=3},
+		{"fg", ch="桜子", size="z1", mx=40, mode=3, path=":fg/sku/z1/", file="sku_z1a0000", face="a0007", head="sku_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sku_00465", ch="sku"},
+			},
+		
+            cn = {
+				{
+					"“是吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"桜子"},
+					"「そうなんですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 531,
+	},
+	block_00086 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不是。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ち、ちがっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 536,
+	},
+	block_00087 = {
+		{"fg", ch="ノノ未", size="z1", ex03="a0097", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0002", head="non_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="ノノ未", size="z1", ex03="a0097", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0004", head="non_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_non_00146", ch="non"},
+			},
+		
+            cn = {
+				{
+					"“我想大概是吧。因为他看起来很高兴，所以用手藏起来了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ノノ未"},
+					"「たぶん、そうだと思いますよ。だってすごくうれしそうな顔してるの手で隠して",
+					{"rt2"},
+					"ましたもん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 543,
+	},
+	block_00088 = {
+		{"fg", ch="桜子", size="z1", mode=3, path=":fg/sku/z1/", file="sku_z1a0010", face="a0008", head="sku_z1a", x=345, lv=4, id=6},
+		{"fgact", ch="桜子", act="いいえ", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sku_00466", ch="sku"},
+			},
+		
+            cn = {
+				{
+					"“为什么不让我看到你的脸呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"桜子"},
+					"「なんで、その顔見せてくれなかったんですかっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 549,
+	},
+	block_00089 = {
+		{"fg", ch="ノノ未", size="z1", ex03="a0097", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0002", head="non_z1a", x=-345, lv=4, id=5},
+		{"fg", ch="ノノ未", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0002", ex03="a0097", head="non_z1a", x2=-345, x=-570, lv=4, id=5},
+		{"fg", ch="桜子", mode=3, path=":fg/sku/z1/", file="sku_z1a0010", face="a0008", head="sku_z1a", x2=345, x=0, lv=4, id=6},
+		{"fg", ch="鈴菜", size="z1", mx=40, mode=3, path=":fg/suz/z1/", file="suz_z1a0000", face="a0005", head="suz_z1a", x=570, lv=4, id=4},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="鈴菜", size="z1", mode=3, path=":fg/suz/z1/", file="suz_z1a0000", face="a0009", head="suz_z1a", x=570, lv=4, id=4},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_suz_00398", ch="suz"},
+			},
+		
+            cn = {
+				{
+					"“是啊，太过分了。我以为蒙着脸是忍着笑的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"鈴菜"},
+					"「そうですわ。ひどいです。私は顔隠しているのは笑いを堪えているのだと思いました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 558,
+	},
+	block_00090 = {
+		{"fg", ch="ノノ未", size="z1", ex03="a0097", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0004", head="non_z1a", x=-570, lv=4, id=5},
+		{"fgact", ch="ノノ未", act="うんうん", lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="ノノ未", size="z1", ex03="a0097", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0016", head="non_z1a", x=-570, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_non_00147", ch="non"},
+			},
+		
+            cn = {
+				{
+					"“诺诺一开始也是这么想的。但是，总觉得很单纯。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ノノ未"},
+					"「ノノも最初はそうだと思ったんですよー。けど、なんか、単純にうれしそうで」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 565,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「吵死了，吵死了。怎么可能会有这种事，我一直忍着笑。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「うるさいうるさい。そんな事あるわけないだろ。笑いを堪えてたんだよっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 568,
+	},
+	block_00092 = {
+		{"fg", ch="桜子", size="z1", mode=3, path=":fg/sku/z1/", file="sku_z1a0010", face="a0001", head="sku_z1a", x=0, lv=4, id=6},
+		{"fg", ch="鈴菜", size="z1", mode=3, path=":fg/suz/z1/", file="suz_z1a0000", face="a0001", head="suz_z1a", x=570, lv=4, id=4},
+		{"fg", ch="ノノ未", size="z1", ex03="a0097", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0002", head="non_z1a", x=-570, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="ノノ未", size="z1", ex03="a0097", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0004", head="non_z1a", x=-570, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_non_00148", ch="non"},
+			},
+		
+            cn = {
+				{
+					"“高兴的和笑的表情有点不一样。笑起来好像太温柔了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ノノ未"},
+					"「うれしいのと笑うのは少し表情が違いますよ。笑うにはあまりにやさしそうな顔でした」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 577,
+	},
+	block_00093 = {
+		{"fg", ch="鈴菜", size="z1", mode=3, path=":fg/suz/z1/", file="suz_z1a0000", face="a0007", head="suz_z1a", x=570, lv=4, id=4},
+		{"fg", ch="桜子", size="z1", mode=3, path=":fg/sku/z1/", file="sku_z1a0000", face="a0007", head="sku_z1a", x=0, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sku_00467", ch="sku"},
+			},
+		
+            cn = {
+				{
+					"“老师温柔地微笑着。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"桜子"},
+					"「先生がやさしそうに微笑むっッ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 583,
+	},
+	block_00094 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg022a", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="ノノ未", size="z1", ex03="a0097", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0002", head="non_z1a", x=-505, lv=4, id=3, sync=0},
+		{"fg", ch="寧", size="z1", mode=3, path=":fg/nei/z1/", file="nei_z1a0000", face="a0001", head="nei_z1a", x=-820, lv=4, id=1, sync=0},
+		{"fg", ch="奈津子", size="z1", mode=3, path=":fg/nat/z1/", file="nat_z1a0000", face="a0003", head="nat_z1a", x=-175, lv=4, id=7, sync=0},
+		{"fg", ch="桜子", size="z1", mode=3, path=":fg/sku/z1/", file="sku_z1a0000", face="a0007", head="sku_z1a", x=175, lv=4, id=8, sync=0},
+		{"fg", ch="ルリヲ", size="z1", mode=3, path=":fg/rur/z1/", file="rur_z1a0000", face="a0007", head="rur_z1a", x=510, lv=4, id=4, sync=0},
+		{"fg", ch="鈴菜", size="z1", mode=3, path=":fg/suz/z1/", file="suz_z1a0000", face="a0007", head="suz_z1a", x=830, lv=4, id=2, sync=0},
+		{"extrans", time=500},
+		{"fgact", ch="奈津子", act="うんうん", lv=4, id=7},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_nat_00119", ch="nat"},
+			},
+		
+            cn = {
+				{
+					"“美，我想看。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"奈津子"},
+					"「み、見たいっッ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 599,
+	},
+	block_00095 = {
+		{"fg", ch="ルリヲ", size="z1", mode=3, path=":fg/rur/z1/", file="rur_z1a0000", face="a0003", head="rur_z1a", x=510, lv=4, id=4},
+		{"fgact", ch="ルリヲ", act="おじぎ", lv=4, id=4},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rur_00319", ch="rur"},
+			},
+		
+            cn = {
+				{
+					"“原来如此，草薙应该很害羞吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ルリヲ"},
+					"「はー、なるほどねぇ。草薙ちゃんは恥ずかしがってたわけですね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 605,
+	},
+	block_00096 = {
+		{"fg", ch="ノノ未", size="z1", ex03="a0097", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0016", head="non_z1a", x=-505, lv=4, id=3},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_non_00149", ch="non"},
+			},
+		
+            cn = {
+				{
+					"“老师总是想表现得很酷。你以为微笑不是自己的角色吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"ノノ未"},
+					"「先生はクールに見せようといつもしてるからねぇ。微笑みは自分のキャラではないと思ったのでしょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 610,
+	},
+	block_00097 = {
+		{"fg", ch="桜子", size="z1", mode=3, path=":fg/sku/z1/", file="sku_z1a0010", face="a0009", head="sku_z1a", x=175, lv=4, id=8},
+		{"fgact", ch="桜子", act="おじぎ", lv=4, id=8},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sku_00468", ch="sku"},
+			},
+		
+            cn = {
+				{
+					"“嗯，我想看。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"桜子"},
+					"「うー、私見たかった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 616,
+	},
+	block_00098 = {
+		{"fg", ch="鈴菜", size="z1", mode=3, path=":fg/suz/z1/", file="suz_z1a0000", face="a0017", head="suz_z1a", x=830, lv=4, id=2},
+		{"fgact", ch="鈴菜", act="おじぎ", lv=4, id=2},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_suz_00399", ch="suz"},
+			},
+		
+            cn = {
+				{
+					"“我也是。你竟然露出这样的表情。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"鈴菜"},
+					"「私もですわ。そんな表情されてるなんて」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 622,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“没有。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「してないっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 625,
+	},
+	block_00100 = {
+		{"fg", ch="鈴菜", size="z1", mode=3, path=":fg/suz/z1/", file="suz_z1a0000", face="a0013", head="suz_z1a", x=830, lv=4, id=2},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_suz_00400", ch="suz"},
+			},
+		
+            cn = {
+				{
+					"“那么，为什么要把视线从我们身上移开呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"鈴菜"},
+					"「なら、何故、私達から目線を逸らしているのですかっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 635,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“为什么呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なんでだろ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 638,
+	},
+	block_00102 = {
+		{"fg", ch="鈴菜", size="z1", mode=3, path=":fg/suz/z1/", file="suz_z1a0000", face="a0004", head="suz_z1a", x=830, lv=4, id=2},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_suz_00401", ch="suz"},
+			},
+		
+            cn = {
+				{
+					"“装模作样。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"鈴菜"},
+					"「すっとぼけですかっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 643,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我从口袋里拿出传单。",
+				},
+			},
+        	ja = {
+				{
+					"俺はポケットからチラシを取り出す。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 648,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"弓张学园新生美术部的传单。",
+				},
+			},
+        	ja = {
+				{
+					"弓張学園新生美術部のチラシ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 651,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这是全体成员制作的，然后全体人员登上了讲台。",
+				},
+			},
+        	ja = {
+				{
+					"これを部員全員で作り、そして全員で壇上にあがった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 654,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"嘛，和角色没有关系，会很高兴的。",
+				},
+			},
+        	ja = {
+				{
+					"まぁ、キャラなんて関係無く、うれしくはなるよなぁ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 657,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这个传单。真的很好。你们也这么想吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「このチラシ。本当にいいな。",
+					{"rt2"},
+					"お前らもそう思うだろ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 663,
+	},
+	block_00108 = {
+		{"fg", ch="奈津子", size="z1", mode=3, path=":fg/nat/z1/", file="nat_z1a0000", face="a0001", head="nat_z1a", x=-175, lv=4, id=7},
+		{"fg", ch="桜子", size="z1", mode=3, path=":fg/sku/z1/", file="sku_z1a0010", face="a0001", head="sku_z1a", x=175, lv=4, id=8},
+		{"fg", ch="ノノ未", size="z1", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0001", ex03="a0097", head="non_z1a", x=-505, lv=4, id=3},
+		{"fg", ch="ルリヲ", size="z1", mode=3, path=":fg/rur/z1/", file="rur_z1a0000", face="a0007", head="rur_z1a", x=510, lv=4, id=4},
+		{"fg", ch="鈴菜", size="z1", mode=3, path=":fg/suz/z1/", file="suz_z1a0000", face="a0001", head="suz_z1a", x=830, lv=4, id=2},
+		{"fg", ch="寧", size="z1", mode=3, path=":fg/nei/z1/", file="nei_z1a0000", face="a0007", head="nei_z1a", x=-820, lv=4, id=1},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"面对突然的提问，大家都恭恭敬敬地点头。大声地回答了。",
+				},
+			},
+        	ja = {
+				{
+					"突然の問いに、キョトンとした皆だが、互いに目線を合わせると、大きく頷いて。",
+					{"rt2"},
+					"大声で返事をした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 674,
+	},
+	block_00109 = {
+		{"fg", ch="奈津子", size="z1", mode=3, path=":fg/nat/z1/", file="nat_z1a0000", face="a0003", head="nat_z1a", x=-175, lv=4, id=7},
+		{"fg", ch="桜子", size="z1", mode=3, path=":fg/sku/z1/", file="sku_z1a0010", face="a0003", head="sku_z1a", x=175, lv=4, id=8},
+		{"fg", ch="ノノ未", size="z1", mode=3, path=":fg/non/z1/", file="non_z1a0000", face="a0004", ex03="a0097", head="non_z1a", x=-505, lv=4, id=3},
+		{"fg", ch="ルリヲ", size="z1", mode=3, path=":fg/rur/z1/", file="rur_z1a0000", face="a0003", head="rur_z1a", x=510, lv=4, id=4},
+		{"fg", ch="鈴菜", size="z1", mode=3, path=":fg/suz/z1/", file="suz_z1a0000", face="a0003", head="suz_z1a", x=830, lv=4, id=2},
+		{"fg", ch="寧", size="z1", mode=3, path=":fg/nei/z1/", file="nei_z1a0000", face="a0003", head="nei_z1a", x=-820, lv=4, id=1},
+		{"fgact", ch="奈津子", act="うなづく", lv=4, id=7},
+		{"fgact", ch="桜子", act="うなづく", lv=4, id=8},
+		{"fgact", ch="ノノ未", act="うなづく", lv=4, id=3},
+		{"fgact", ch="ルリヲ", act="うなづく", lv=4, id=4},
+		{"fgact", ch="鈴菜", act="うなづく", lv=4, id=2},
+		{"fgact", ch="寧", act="うなづく", lv=4, id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sku_00469", ch="sku"},
+				{"vo", file="fem_nat_00120", ch="nat"},
+				{"vo", file="fem_rur_00320", ch="rur"},
+				{"vo", file="fem_suz_00402", ch="suz"},
+				{"vo", file="fem_nei_00091", ch="nei"},
+				{"vo", file="fem_non_00150", ch="non"},
+			},
+		
+            cn = {
+				{
+					"“”“”“”",
+				},
+			},
+        	ja = {
+				{
+					name = {"一同"},
+					"「「「「「「はいっッ」」」」」」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 713,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这是新生美术部的第一部作品，也是开始。",
+				},
+			},
+        	ja = {
+				{
+					"これが、新生美術部の最初の作品であり、そしてスタートなのだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 716,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“还不错。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「悪く無いな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 719,
+	},
+	block_00112 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="02_05_2"},
+		{"text"},
+		linkback = "block_00111",
+		line = 725,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

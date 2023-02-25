@@ -1,0 +1,5356 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="第Ⅴ章"},
+		{"msg", no=1},
+		{"bg", file="アイキャッチ05", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans"},
+		{"ex", time=5000, func="wait"},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", label="flagon", cond="g.countdown9==1"},
+		{"skipstop"},
+		{"autoplay", speed=500, wait=500, auto=500},
+		{"bg", file="カウントダウン09_1", id=1, lv=5, path=":cg/"},
+		{"ex", time=1500, func="wait"},
+		{"se", id=1, file="se0147"},
+		{"bg", file="カウントダウン09_2", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans", time=500},
+		{"ex", time=3000, func="wait"},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"autoplay", mode="stop"},
+		{"excall", label="join"},
+		{"bg", file="カウントダウン09_1", id=1, lv=5, path=":cg/"},
+		{"ex", time=1500, func="wait"},
+		{"se", id=1, file="se0147"},
+		{"bg", file="カウントダウン09_2", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans", time=500},
+		{"ex", time=3000, func="wait"},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"eval", exp="g.countdown9=1"},
+		{"bg", time=2000, speed=120000, file="zbg004f", path=":bg/", x2=-520, y2=-210, x=-960, y=-210, ax=1920, ay=1347, bx=-960, by=-807},
+		{"bgm", file="bgm149"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"到了我们进入摩尔财团建筑的时候，入口大厅已经挤满了人。",
+				},
+			},
+        	ja = {
+				{
+					"俺達がムーア財団の建物に入る頃になると、すでにエントランスホールは人で溢れていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 60,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"考虑到会场只有相关人员才能进入，所以聚集了很多人。",
+				},
+			},
+        	ja = {
+				{
+					"会場には関係者しか立ち入れない事を考えると、大層な人数が集まっている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 63,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"昨天因为自己出场而没注意到，但再次感受到了这个大会的社会关注度。",
+				},
+			},
+        	ja = {
+				{
+					"昨日は自分が出場したために気が付かなかったが、あらためてこの大会の世間の注目度を思い知らされる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 66,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"电视台的大型船员等的身影也很多。这是在绘画相关的活动中很久没有看到的景象。",
+				},
+			},
+        	ja = {
+				{
+					"テレビ局の大がかりなクルーなどの姿も多く見受けられた。",
+					{"rt2"},
+					"絵画関連の催しものでは久しく見ていない光景だ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 70,
+	},
+	block_00004 = {
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg004f", path=":bg/", ax=960, ay=673, bx=0, by=-133, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, resize=1, path=":fg/aix/z1/", file="aix_z1b0110", face="b0001", head="aix_z1b", lv=4, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11592", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“今天早上比昨天还要匆忙啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「今朝は昨日よりも慌ただしかったなぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 80,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“睡得很晚，到这里的时间也很花。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「寝たの遅かったし、ここまで来る時間かかるし」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 83,
+	},
+	block_00006 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b0110", face="b0002", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11593", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“两个人都在车里睡着了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「二人とも車の中では爆睡してたなぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 88,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“因为是非常放松的车……高级车好厉害啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だってめっちゃくつろげる車なんだもの……高級車すげぇなぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 91,
+	},
+	block_00008 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b0100", face="b0008", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b0100", face="b0015", head="aix_z1b", lv=4, id=9},
+				{"fgact", ch="藍", act="あくび", time=500, lv=4, id=9},
+			},
+			vl02 = {
+				{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b0100", face="b0008", head="aix_z1b", lv=4, id=9},
+				{"fgact", ch="藍", act="停止", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11594", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“话虽这么说……嗯，还是有点困。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そうは言っても……ふぁぁ、まだ少し眠いよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 100,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我也是。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺もだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 103,
+	},
+	block_00010 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b0100", face="b0001", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“即便如此，对我来说心情也很轻松。今天只是单纯的观众，所以不需要像昨天那样上台事先准备。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それでも俺的には気が楽だよ。",
+					{"rt2"},
+					"今日は単なる観客だから、昨日みたいに壇上入りして事前準備などいらないし」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 109,
+	},
+	block_00011 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b0100", face="b0004", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11595", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“这是可以说的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「それは言えてるな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 114,
+	},
+	block_00012 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b0100", face="b0002", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11596", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“今天不是你的比赛，不用担心受伤之类的，我也很轻松。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「今日はお前の試合じゃないから、怪我とかいろいろな心配しなくていいし、",
+					{"rt2"},
+					"私も気が楽だよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 120,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“比赛不是运动。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「試合って、スポーツじゃないんだから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 123,
+	},
+	block_00014 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b0100", face="b0012", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a0100", face="a0005", head="aix_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11597", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是吗？那比赛叫什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そうか？　だったらあの勝負をなんというのだ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 129,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"重新被说了之后才注意到。因为从以前开始就什么都不想就以那种形式来了。",
+				},
+			},
+        	ja = {
+				{
+					"改めて言われてみて気がついた。",
+					{"rt2"},
+					"昔から何も考えずにあの形式でやってきたからな。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 133,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“……确实，被说了之后会说那是什么呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……たしかに、言われてみればあれってなんて言うんだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 136,
+	},
+	block_00017 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a0100", face="a0008", head="aix_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11598", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“从昨天的那场比赛来看，比起蹩脚的运动，更像是比赛。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「昨日のあれを見るかぎりは、下手なスポーツよりも試合って感じだったが」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 141,
+	},
+	block_00018 = {
+		{"fg", mode=-2, sync=0},
+		{"extrans", time=300},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"蓝说的话也有道理。",
+				},
+			},
+        	ja = {
+				{
+					"藍の言う事も一理ある。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 150,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"本来，绘画的胜负是很朴素的。",
+				},
+			},
+        	ja = {
+				{
+					"本来、絵画の勝負など地味なものだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 153,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"只是拿着画的作品来展示并评价的程度。",
+				},
+			},
+        	ja = {
+				{
+					"描いた作品をただ持ってきて見せて品評する程度。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 156,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不是像足球和棒球那样实时决定胜负的。",
+				},
+			},
+        	ja = {
+				{
+					"サッカーや野球の様にリアルタイムで勝負が決まる様なものじゃない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 159,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是，昨天我和心铃君的战斗可能从根本上颠覆了一般常识。",
+				},
+			},
+        	ja = {
+				{
+					"だが、昨日の俺と心鈴くんの戦いはその一般常識を根底から覆したかもしれない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 162,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"电视船员们从我旁边走过。简直就像体育转播一样大规模。",
+				},
+			},
+        	ja = {
+				{
+					"俺の横をテレビクルー達が通り過ぎる。",
+					{"rt2"},
+					"まるでスポーツ中継でもするかの様な大がかりなものだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 166,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"也许一夜之间，他对绘画的看法发生了改变。",
+				},
+			},
+        	ja = {
+				{
+					"一晩で絵画への見方が変わったのかもしれない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 169,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“有各种各样的人啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いろいろな人間がいるな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 172,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"人种也各不相同。",
+				},
+			},
+        	ja = {
+				{
+					"人種もさまざまだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 175,
+	},
+	block_00027 = {
+		{"bg", time=50, file="bg004f", path=":bg/", ax=960, ay=673, bx=0, by=-133},
+		{"fg", ch="トーマス", size="z1", mx=-40, mode=3, resize=1, path=":fg/tho/z1/", file="tho_z1a0000", face="a0001", head="tho_z1a", x=-950, lv=4, id=9},
+		{"ex", time=300, func="wait"},
+		{"fg", ch="トーマス", mx=40, mode=-1, lv=4, id=9},
+		{"ex", time=0, func="wait"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 191,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我看到了不好的东西。",
+				},
+			},
+        	ja = {
+				{
+					"なんか気色わるいものを見た。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 194,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“话虽如此，那家伙也是相关人员吧……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「とは言ってもあいつも関係者だろうしな……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 197,
+	},
+	block_00030 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="083r", wait=250, file="black", path=":bg/", vague=40},
+		{"bg", rule="083r", vague=40, file="bg004f", path=":bg/", ax=960, ay=673, bx=0, by=-133},
+		{"bgm", file="bgm167"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11010", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“正因为是草薙健一郎设计的胜负法，所以才是真正的竞争形式吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉", "？？？"},
+					"「草薙健一郎が考案した勝負法だからこそ、まさに仕合といった形だろうな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 210,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あんたは……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 213,
+	},
+	block_00032 = {
+		{"fg", ch="放哉", size="z1", time=400, mode=3, resize=1, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"穿过入口大厅进入会场，一个男人靠近了。",
+				},
+			},
+        	ja = {
+				{
+					"エントランスホールを抜けて会場に入ると一人の男が近寄ってきた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 218,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽然是令人讨厌的事实，但却变成了耳熟能详的声色。",
+				},
+			},
+        	ja = {
+				{
+					"嫌な事実だが、すっかり聞き覚えがある声色になっている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 221,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“有什么事吗？放哉老师。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なんの用ですか？　放哉先生」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 230,
+	},
+	block_00035 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11011", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“不，这次我对你没什么事，你还是等一会儿吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「いや、今回は君に対して用事はないさ。",
+					{"rt2"},
+					"少し人を待っていてだね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 237,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你在等谁？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「待っている？　誰を？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 240,
+	},
+	block_00037 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0005", head="hos_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11012", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“是不适合这个场合的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「この場にふさわしくない人物だよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 245,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不适合这个场合，人物……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「この場に、ふさわしくない、人物……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 248,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10218", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“草薙先生早上好！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「草薙さんおはようございます！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 251,
+	},
+	block_00040 = {
+		{"fg", time=400, mode=-2},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"从后面传来了现在听惯了的声音。",
+				},
+			},
+        	ja = {
+				{
+					"後ろから、今となっては聞き慣れた声がする。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 257,
+	},
+	block_00041 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="香奈", size="z1", mode=3, resize=1, path=":fg/kan/z1/", file="kan_z1a0400", face="a0003", head="kan_z1a", lv=4, id=9, sync=0},
+		{"extrans", time=400},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，早上好，你休息好了吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ、おはよう。お前はちゃんと休んだのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 267,
+	},
+	block_00042 = {
+		{"fg", ch="香奈", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a0400", face="a0004", head="kan_z1a", lv=4, id=9},
+		{"fgact", ch="香奈", act="いいえ", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10219", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“不，不！从那以后就兴奋得睡不着觉了！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「いえいえ！　あれから興奮して全然寝られませんでしたね！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 273,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“即使准备需要很长时间，但完全不睡觉也不令人佩服。这次的比赛非常需要体力。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「準備に時間がかかるにしても、まったく寝ないのは感心しないぞ。",
+					{"rt2"},
+					"今回の勝負はめちゃくちゃ体力必要だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 277,
+	},
+	block_00044 = {
+		{"fg", ch="香奈", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a0410", face="a0002", head="kan_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="香奈", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a0400", face="a0004", head="kan_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10220", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「いやいや大丈夫ですよ！　私まだ若いですし、草薙さんみたいな心配しなくても問題ありませんって」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 283,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“……不，你和我是同龄人吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……いや、お前と俺は同い年だよな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 286,
+	},
+	block_00046 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="放哉", size="z1", mx=40, mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0003", head="hos_z1a", lv=4, id=9, sync=0},
+		{"extrans", time=300},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11013", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“哦！这是！长山香奈老师，我一直在等你呢！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「おお！　これはこれは！　",
+					{"rt2"},
+					"長山香奈先生、私はあなたをお待ちしていたのですよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 298,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"恩田放哉打断了我和长山的对话。",
+				},
+			},
+        	ja = {
+				{
+					"俺と長山の会話を遮って、恩田放哉が割り込んでくる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 303,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10221", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“嗯？什么事？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「ん？　なんですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 308,
+	},
+	block_00049 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0003", head="hos_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11014", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「いやいや、こんな事ならば前回のムーア残念会に私は出席すべきだったと思っております。",
+					{"rt2"},
+					"この様な愚行を許してしまうと思いませんでしたので！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 314,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10222", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“愚蠢的行为？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「愚行？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 319,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"放哉用比平时更缓慢、抑扬顿挫的明确语调说出来。",
+				},
+			},
+        	ja = {
+				{
+					"放哉はいつもよりもよりゆっくり、抑揚のあるはっきりとした口調で言い放つ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 322,
+	},
+	block_00052 = {
+		{"bg", file="ev_con_06_01", path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11015", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“请辞职。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「辞退したまえ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 329,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10223", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“是吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「はい？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 332,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11016", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“你知道我的事吧？长山君。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「私の事は知っているよねぇ？　長山くん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 335,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10224", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“当然。是在文展上担任理事的恩田放哉老师吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「もちろんです。文展で理事をされている恩田放哉先生ですよね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 338,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11017", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“啊，是的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ああ、その通りだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 341,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10225", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“请问，谢绝是怎么回事？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「あのぉ、辞退するというのはどういう事でしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 344,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11018", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“长山香奈。获奖经历、三科展新人奖励奖、特选一次、文展无获奖经历，其他还有FIRST展及弗里斯克·里昂奖奖励奖。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「長山香奈。受賞歴、三科展新人奨励賞、特選一回、文展での受賞歴無し、その他、FIRST展およびフリスク・リヤン賞で奨励賞」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 347,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11019", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“布尔巴基的华丽活动受到了相当大的关注。在过激的艺术家集团中有一点红的存在，嘛，是偶像的卖点吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ブルバギの派手な活動でそれなりに注目を浴びている。過激な芸術家集団において紅一点の存在、まぁアイドル的な売り方と言ったところか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 350,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10226", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“偶像这种光荣的表达方式，谢谢！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「アイドルなんて光栄な言い回し、ありがとうございます！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 353,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11020", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“艺术大众化已经很久了，这么多闹剧混进来真是太遗憾了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「芸術が大衆化して久しいが、これほどの茶番が紛れ込んでくるとは甚だ遺憾だよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 356,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10227", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“大众化！让更多的人喜欢艺术是一个很棒的时代。非常欢迎茶番！大家都很喜欢！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「大衆化！　多くの人に芸術が愛される様になったのは素晴らしい時代ですよね。",
+					{"rt2"},
+					"茶番大歓迎！　そういうのみんな大好きですものね！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 360,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"恩田放哉过于直接的单方面要求。之后继续的讨厌。对方是画坛的大人物，即使是血气方刚的男性也会失去语言吧。",
+				},
+			},
+        	ja = {
+				{
+					"恩田放哉の直接的すぎるほど一方的な要求。その後に続く嫌味。",
+					{"rt2"},
+					"相手は画壇の大物、普通ならば血気盛んな男性でも言葉を失うだろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 364,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是，长山香奈对那个完全不害怕，完全不破坏笑容。",
+				},
+			},
+        	ja = {
+				{
+					"だが、長山香奈はそれに一切怯むことがなく、笑みをまったく崩さない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 367,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11021", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“这次战斗是艺术的怪物们的圣战。可以说是美中的众神和恶魔的战斗吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「今回の戦いは芸術の化け物どもの聖戦だ。美における神々と悪魔の戦いと言ってもいいだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 370,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10228", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“是的！都是很厉害的人。站在这样的舞台上，心跳加速连睡觉都做不到！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「はい！　凄い方々ばかりです。そんな舞台に立てるのドキドキして寝る事すらできませんでした！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 373,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11022", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“获得御樱禀、摩尔公募展最高奖普拉蒂努·埃波拉尔，之后也登上了数不清的世界性艺术奖的顶峰。是所有人都认可的历史性画家。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「御桜稟、ムーア公募展最高賞であるプラティヌ・エポラールを受賞、その後も数え切れないほどの世界的な芸術賞の頂点に立つ。すべての人間が認める歴史的な画家だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 376,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10229", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“她和我是同龄人，真是难以置信。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「彼女と私ってば同い年なんですよねー。信じられないぐらい凄いですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 379,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11023", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“艾丽亚·霍恩克，美国新锐画家。以世界最古老的奖项——鲁沙龙展为首，登上了许多世界性奖项的顶峰。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「アリア・ホー・インク。アメリカの新進気鋭の画家。",
+					{"rt2"},
+					"世界最古の賞であるル･サロン展をはじめ、数々の世界的賞の頂点に立つ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 383,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11024", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“得到了摩尔财团的支持，作为‘资产价值最高的艺术家’，全世界的投资者都以数亿的价格交易了这部作品。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ムーア財団のバックアップを受けており、“もっとも資産価値が上がる芸術家”",
+					{"rt2"},
+					"として世界中の投資家がその作品を数億で取引している」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 387,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10230", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“我还以为艾丽亚·霍·仁克是美国人呢，原来是日本人啊。我听说他叫冰川里奈，有没有和御樱禀上过同一所学校。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「アリア・ホー・インクさんってアメリカ人だとばかり思っていたら、日本人なのですねぇ。たしか氷川里奈さんとかいう方で、あの御桜稟さんと同じ学校に通っていた時期があるとかないとか聞きました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 390,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10231", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“总觉得有点因缘，心跳加速呢！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「なんか因縁めいたものを感じてドキドキしますね！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 393,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11025", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“宫崎美铃是宫崎破戒的最后弟子。以日本奖金最高的小松良二奖为首，在伦敦国际艺术公开征集展和沙龙展等世界性的公开征集展上留下了无可挑剔的结果。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「宮崎みすゞ、宮崎破戒の最後の弟子と言われる存在。日本でもっとも賞金額が高いとされる小松良二賞をはじめ、ロンドン国際アート公募展やル･サロン展など",
+					{"rt2"},
+					"世界的な公募展で申し分ない結果を残している」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 397,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10232", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“原来是那样的年轻人啊。和原天才草薙直哉的战斗很厉害！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「あんなお若い方だったのですねぇ。元天才、草薙直哉との戦い凄かったです！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 400,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"原天才……说话方式。",
+				},
+			},
+        	ja = {
+				{
+					"元天才って……言い方がさ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 403,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11026", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“草薙直哉，年轻时几乎所有国内知名奖项都是史上最年轻的。最后一部作品甚至在摩尔公募展上获得最终提名。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「草薙直哉。若き頃に国内の有名賞のほとんどを史上最年少で総なめにしている。最後の作品はムーア公募展で最終ノミネートまでされた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 406,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10233", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“这样问的话，总觉得只有草薙先生的地位很低。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「そうやって聞くと、なんか草薙さんだけ格下という感じが否めませんね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 409,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"真烦人。那种事是大家都承认的。",
+				},
+			},
+        	ja = {
+				{
+					"うるせぇよ。そんな事は自他共に認めるところだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 412,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11027", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“不，没这回事。至少，御樱禀、咏叹调、宫崎美铃都对草薙直哉评价很高。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「いいや、そんな事はないさ。",
+					{"rt2"},
+					"少なくとも、御桜稟もアリアも宮崎みすゞも草薙直哉を高く評価している」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 416,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10234", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“是啊。真厉害。草薙是能得到世界级天才画家认可的美术教员，想必授课很棒吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「そうなんですよねぇ。すごいですよねぇ。",
+					{"rt2"},
+					"草薙さんって、そんな世界的な天才画家から認められるほどの美術教員なのだから、さぞかし授業が素晴らしいのでしょうねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 420,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"如果能上那么好的课就好了。",
+				},
+			},
+        	ja = {
+				{
+					"それだけ素晴らしい授業も出来てたらいいけどな。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 423,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11028", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“这是不合时宜的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「場違いなのだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 426,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10235", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“没有那样的事！草薙先生是美术教员，作为画家也很优秀吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「そんな事ありませんよ！　草薙さんは美術教員ですが、画家としてもまぁまぁ優秀ですよ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 429,
+	},
+	block_00084 = {
+		{"bg", sync=0, face=1, file="ev_con_06_02", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"quake"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11029", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“我是说你！不合时宜！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「君が！　場違いだ！　と私は言っているのだよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 436,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10236", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“是我吗？咦？那是什么意思？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「私がですかぁ？　あれぇ？　それってどういう意味でしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 439,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11030", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“说起来，正因为御樱禀认可草薙直哉的才能，才举办了这次大会。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「そもそも、御桜稟が草薙直哉の才能を認めているからこそ、今回の大会が開催された」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 442,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11031", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“也许你明白地说，草薙直哉已经打败了宫崎美铃。那场胜利使他现在成了国内最高峰的画家。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「君は分かってて言っているのであろうが、すでに草薙直哉は宮崎みすゞを下している。あの勝利によって彼は今や国内最高峰の画家となった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 445,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11032", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“一夜之间，草薙直哉是全日本都关注的艺术家。电视船员的数量和昨天大不相同吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「一夜にして草薙直哉は日本中が注目する芸術家だ。テレビクルーの数が昨日とは段違いだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 448,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10237", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“确实，照相机的数量在增加。收视率高吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「たしかに、カメラの数とか増えてますよねぇ。視聴率とか高かったのかしら？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 451,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11033", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“说起来，你和草薙直哉的一切都太不一样了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「そもそもだが、君と草薙直哉ではすべてが違いすぎるのだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 454,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10238", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“不过，这不是结果论吗？在比赛开始之前，草薙先生比我更不合时宜吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「でもぉ。それは結果論じゃないですかー。",
+					{"rt2"},
+					"勝負が始まる前は、それこそ私よりも草薙さんの方が場違いじゃありませんか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 458,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11034", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“但是现在不一样了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「だが今は違う」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 461,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10239", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“那我也要打倒艾丽亚·霍·仁克。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「だったら私もアリア・ホー・インクを倒してですね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 464,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11035", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“是你吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「君が？　アリアを？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 467,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10240", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“至少草薙是个教师，也是个业余画家，但我只靠绘画吃饭，也就是说我是专业画家！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「少なくとも草薙さんは教師であり画家としてアマチュアですが、私は絵画だけで食べていますよ。つまり私はプロの画家です！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 470,
+	},
+	block_00096 = {
+		{"bg", sync=0, face=1, file="ev_con_06_03", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11036", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“哈哈，你是专业的吧。如果把和皇宫的亚文化艺术家睡觉得到工作称为专业的话，妓女都会成为艺术家的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ははは、君がプロかね。大御所のサブカル芸術家と寝て仕事を得る事をプロと",
+					{"rt2"},
+					"いうのなら、売春婦はすべて芸術家になるねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 477,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10241", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“哎呀哎呀，这是不洒脱的发言。担任文展理事的恩田放哉老师说了那样的话没关系吗？现在的性骚扰不是等级的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「あらあら、洒落にならない発言ですよー。文展の理事をされている恩田放哉先生がその様な発言をして大丈夫ですか？　今のセクハラなんてレベルじゃありません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 480,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11037", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“不管怎么说，你不是为了进入艺术大学而去了六浪吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「なんでも、君は藝大に入るのに六浪したそうではないか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 483,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10242", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“托您的福，我现在还是现役美大学生。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「おかげさまで今もって現役美大生なのですよー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 486,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11038", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“是30岁左右的现役美大学生吗？那个年龄不是还做过烤肉的性图标、泳衣写真吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「アラサーで現役美大生か。",
+					{"rt2"},
+					"その年齢でブルバギの性的アイコン、水着グラビアまでやっている様ではないか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 490,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10243", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“我看起来很可爱，很多出版社都在咨询。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「私って結構可愛いみたいで出版社から問い合わせ多数なのですよねー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 493,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11039", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“没能弹出像你这样头脑迟钝的人是我的失误。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「君みたいな頭が緩い人間を弾けなかったのは私のミスだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 496,
+	},
+	block_00103 = {
+		{"bg", sync=0, face=1, file="ev_con_06_02", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11040", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“大部分有希望的艺术家都没有参加这次大会。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ほとんどの有望な芸術家が今回の大会に出場していない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 502,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11041", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“你知道为什么吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「なぜだかわかるか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 505,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10244", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“那么，为什么呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「さぁ、なんでですかぁ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 508,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11042", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“参加这个大会意味着不能再跨过摩尔公募展的门槛。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「この大会に出るということは、ムーア公募展の敷居は二度と跨げない事を意味する」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 511,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11043", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“更不用说面对的是世界级的艺术家，失去的东西太多了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ましてや相手にするのが、世界的な芸術家だ。失うものが多すぎる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 514,
+	},
+	block_00108 = {
+		{"bg", sync=0, face=1, file="ev_con_06_03", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11044", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"「但是，像你这样既不会用筷子也不会用棍子的艺术家，原本就无缘公开招募摩尔。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「だが、君のように箸にも棒にもかからない芸術家ならば、そもそもムーア公募受賞など無縁だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 520,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11045", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“说来说去，和其他艺术家不同，你没有什么可舍弃的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「言ってしまえば、他の芸術家と違って、君は捨てるべきものがない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 523,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11046", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“不仅如此，对你来说，即使输了也只能是宣传。只要是五彩的你和稀世的艺术家们竞争的事实，对你来说就足够了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「それどころか、君にとっては負けても宣伝にしかならない。",
+					{"rt2"},
+					"色物の君が、希代の芸術家達と競ったという事実だけで、君にとっては十分な価値になる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 527,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10245", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“真是不可思议啊。如果是血气方刚的年轻人的话，不是会举手参加这个大会吗？很少有机会和世界级的艺术家较量吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「それ不思議だったのですよねー。血気盛んな若手なら諸手を挙げてこの大会に名乗りをあげそうじゃないですか？　世界的な芸術家と差しで勝負出来るチャンスなんて滅多にないですよ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 530,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11047", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“你说得对。所以，那些还太年轻，连自己思考行动都不擅长的艺术家们提出要参加这个大会。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「君の言う通りだよ。だから、まだ若すぎて自分で考えて行動する事すらおぼつかない芸術家達がこの大会に出たいと申し出てきた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 533,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10246", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“是啊。那么那些人为什么没有出场呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「そうなんですねぇ。だったらその人達がなぜ出場してないのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 536,
+	},
+	block_00114 = {
+		{"bg", sync=0, face=1, file="ev_con_06_02", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11048", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“这是当然的！不是那种半吊子能进去的地方。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「当たり前だ！　その様な生半可な者が立ち入れる様な場所ではない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 541,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11049", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“所有的艺术团体和巨匠都强行阻止了自己弟子和年轻人的鲁莽挑战。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ありとあらゆる芸術団体や巨匠が自分達の弟子や若手の無謀な挑戦を無理矢理止めている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 544,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11050", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“如果是在画坛有正经地位的年轻人，就不得不放弃站在这里。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「画壇でまともな地位がある若手であれば、ここに立つ事を断念せざるを得ない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 547,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11051", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“从这个意义上说，这个大会并不是开得很广。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「そう言った意味ではこの大会は広く門戸が開かれているわけではないのだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 550,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11052", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“但是！我并没有师从任何人，也没有加入有力的艺术团体。只是碰巧有一个不成熟的艺术家参加了！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「だが！　誰を師事しているわけでもなく、有力芸術団体にも加盟していない。",
+					{"rt2"},
+					"ただたまたまあの場にいただけの未熟な芸術家が参加してしまった！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 554,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10247", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「いえいえ、あの場で手を挙げただけで参加なんて出来ませんよー。",
+					{"rt2"},
+					"私だってちゃんと団体の推薦を受け取っています」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 558,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11053", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“反正是因为广告店的关系而勉强推荐的吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「どうせ、広告屋つながりでむりやりもぎ取った推薦だろうが」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 561,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11054", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“如果不是的话，我一定会申请许可的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「でなければ、かならず私のもとに許可の申請が来るハズだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 564,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10248", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“是啊。如果不是这样的推荐信，就不能参加这个大会。不仅是国内，海外几乎没有艺术家参加。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「そうですね。逆にそういう推薦状でなければこの大会には参加出来ません。",
+					{"rt2"},
+					"国内のみならず、海外でもほとんどの芸術家が参加していない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 568,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10249", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“虽说是突然决定的大会也不自然。大概就像恩田放哉老师说的那样，全世界的大人物都在施加压力吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「いきなり決まった大会とはいっても不自然ですよねぇ。",
+					{"rt2"},
+					"たぶん恩田放哉先生がおっしゃる様に世界中のお偉いさんみんなで圧力をかけているのでしょうねぇ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 572,
+	},
+	block_00124 = {
+		{"bg", sync=0, face=1, file="ev_con_06_02", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11055", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“这是理所当然的。这是美的圣战。是被美所爱的人，不是人的东西都在争夺的世界。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「当たり前だ。これは",
+					{"ruby", text="カリス"},
+					"美",
+					{"/ruby"},
+					"の聖戦だ。",
+					{"rt2"},
+					{"ruby", text="カリス"},
+					"美",
+					{"/ruby"},
+					"に愛された者、人ではない物どもが争う世界だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 581,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11056", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“人的风情，不允许污染那个地方。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「人風情が、その場を穢す事など許されようもない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 584,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11057", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“更何况，像你这样的凡人中的凡人不是污秽的好圣战。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ましてや、おまえごとき凡人中の凡人が穢して良い聖戦ではない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 587,
+	},
+	block_00127 = {
+		{"bg", sync=0, face=1, file="ev_con_06_16", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10250", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“这不是凡人中的凡人污秽的好圣战吗？原来如此。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「凡人中の凡人が穢して良い聖戦ではないですかぁ。なるほどー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 593,
+	},
+	block_00128 = {
+		{"bg", sync=0, face=1, file="ev_con_06_04", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11058", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“长山香奈。你见过用血画的画吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「長山香奈。貴様は血を以てして描かれた絵を見た事があるか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 599,
+	},
+	block_00129 = {
+		{"bg", sync=0, face=1, file="ev_con_06_03", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10251", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“没有，我只见过用颜料画的画。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「いいえ、普通に絵の具で描いた絵しか見たことがありませんねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 604,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11059", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“如果人要与非人之物战斗，就需要与之相称的天赋之才、自己以及他人的鲜血。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「人が、人ならざる物と戦うのであれば、それに見合うだけの天賦の才、自身のそして他者の生き血が必要だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 607,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11060", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“凡人总是误解。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「凡人は、いつでも、勘違いする」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 610,
+	},
+	block_00132 = {
+		{"bg", sync=0, face=1, file="ev_con_06_02", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11061", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“我误以为那就是眼前的宝物。你知道为什么吗？长山香奈？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「それがあたかも手の届く目の前にある宝物だと錯覚する。",
+					{"rt2"},
+					"何故か分かるか？　長山香奈？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 616,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10252", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“因为凡人都是笨蛋吧。因为什么都看不见所以会产生错觉吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「凡人ってバカだからでしょうねぇ。何も見えてないから錯覚するのでしょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 619,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11062", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“是啊。就是这样！凡人什么都看不见，正因为看不到本质，所以才会轻松地把手放在悬崖上。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「そうだよ。その通りだ！　凡人は何も見えていない、本質が見えてないからこそ、気軽にその断崖に手をかける」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 622,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11063", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“不可能爬得上去。我会把手放在无法到达的高见上。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「登れるわけがない。届くハズもない高見に手をかけてしまう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 625,
+	},
+	block_00136 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11064", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“但是，我够不到。绝对！凡人够不到。有绝对够不到的地方！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「だがな。届かないのだよ。決して！　",
+					{"rt2"},
+					"凡人では届かぬ。絶対届かぬ場所があるのだよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 629,
+	},
+	block_00137 = {
+		{"bg", sync=0, face=1, file="ev_con_06_03", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11065", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“长山香奈是否知道果戈里的《伊万·库帕拉的前夜》呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「長山香奈くんはゴーゴリの『イワン・クパーラの前夜』を存じ上げているかな？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 634,
+	},
+	block_00138 = {
+		{"bg", sync=0, face=1, file="ev_con_06_04", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10253", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“我也没听说过。哎呀，我真是不好意思啊，没什么学的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「聞いた事もありませんねー。いやー私ってば恥ずかしながらーあまり学がないのですよねー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 639,
+	},
+	block_00139 = {
+		{"bg", sync=0, face=1, file="ev_con_06_05", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11066", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“这是一个把财宝柜放在眼前，愚蠢地想要挖进去的男人的故事。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「財宝の",
+					{"ruby", text="はこ"},
+					"櫃",
+					{"/ruby"},
+					"を目の前にして、愚かにも掘り進めようとする男の話だよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 646,
+	},
+	block_00140 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11067", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“这个愚蠢的男人，挖，挖，想得到魔性的财宝。但是，怎么挖都是徒劳的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「この愚鈍な男は、掘って、掘って、魔性の財宝を手に入れようとする。",
+					{"rt2"},
+					"だが、いくら掘っても無駄なのだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 650,
+	},
+	block_00141 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11068", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“凡人，我想挖，能够到。如果继续画的话，能够到。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「凡人は、掘って、届くと思う。",
+					{"rt2"},
+					"描き続ければ届くと思う」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 654,
+	},
+	block_00142 = {
+		{"bg", sync=0, face=1, file="ev_con_06_06", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10254", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“我认为凡人只要努力就能到达。我会这样误解。那是因为凡人……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「凡人は努力すれば届くと思う。そう勘違いする。",
+					{"rt2"},
+					"それは凡人故に……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 661,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11069", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“哦，是的，你不是知道吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ほう、その通りだ。分かっているじゃないか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 664,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10255", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“因为凡人是凡人，所以看不到……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「凡人は凡人が故に、見る事が出来ない……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 667,
+	},
+	block_00145 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10256", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“这种绝对的差别，即使在绝对的美面前也会变得迟钝。因为，这才是凡人的本质……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「その絶対的な差を、絶対的なまでの美を前にしても鈍感でいられる。",
+					{"rt2"},
+					"なぜならば、それが、それこそが凡人の本質……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 671,
+	},
+	block_00146 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10257", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“努力不会背叛”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「努力は裏切らない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 674,
+	},
+	block_00147 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10258", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“天才们，从自己的才能这一罪恶感中发出的免罪符”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「天才どもが、自らの才能という罪悪感から発する免罪符」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 677,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10259", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“他们因为罪恶感而说。‘努力不会背叛’，‘努力一定会得到回报’，‘努力不是徒劳的’。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「彼らは、その罪悪感故に言う。“努力は裏切らない”、“かならず努力は報われる”、“その努力は無駄じゃない”」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 680,
+	},
+	block_00149 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10260", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“罪恶感。单纯是从罪恶感中说出的话。自己偶尔也有才能。不，偶然成功了。为了掩盖这个事实。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「罪悪感。単なる罪悪感から出る言葉。",
+					{"rt2"},
+					"自分にはたまたま才能があった。",
+					{"rt2"},
+					"否、たまたま成功した。その事実を誤魔化すために」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 685,
+	},
+	block_00150 = {
+		{"bg", sync=0, face=1, file="ev_con_06_07", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10261", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“他们说‘谁只要努力就能做到’。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「“誰でもがんばれば出来る”と彼らは言う」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 691,
+	},
+	block_00151 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10262", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“而且，这也是他们自己的救赎之言。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「そして、これは彼ら自身の救いの言葉でもある」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 694,
+	},
+	block_00152 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10263", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“努力是背叛。不，努力等几乎没有回报。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「努力は裏切る。否、努力などほとんど報われる事などない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 697,
+	},
+	block_00153 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10264", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“但是，同样的才能也会被背叛。到昨天为止充满的才能，第二天早上就全部枯竭了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「だが、同じぐらい才能もまた裏切る。昨日まで溢れるほど満ちていた才能も、翌朝にはすべて涸れてしまう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 700,
+	},
+	block_00154 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10265", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“如果有美的女神的话，他们偶然出现在才人面前，给予的美也只不过是反复无常的产物。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「",
+					{"ruby", text="カリス"},
+					"美の女神",
+					{"/ruby"},
+					"とやらがいるのなら、そいつらが才人の前にたまたま現れて、授ける",
+					{"ruby", text="カリス"},
+					"美",
+					{"/ruby"},
+					"などもまた気まぐれの産物にしか過ぎない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 705,
+	},
+	block_00155 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10266", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“被很多美所喜爱的才人，也有一个，又一个，被那个美的女神抛弃，然后注意到的时候就失去了一切。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「",
+					{"ruby", text="カリテス"},
+					"多くの美",
+					{"/ruby"},
+					"に愛された才人も、また一人、また一人、その",
+					{"ruby", text="カリス"},
+					"美の女神",
+					{"/ruby"},
+					"から見捨てられ、そして気がついた時にはすべてを失っている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 710,
+	},
+	block_00156 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10267", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“努力会背叛别人，但才能也会背叛别人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「努力は人を裏切るが、だけど才能もまた人を裏切る」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 713,
+	},
+	block_00157 = {
+		{"bg", sync=0, face=1, file="ev_con_06_08", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10268", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“你认为美为什么不会背叛你？为什么你认为自己的身边总是留有才能？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「そもそも",
+					{"ruby", text="カリス"},
+					"美",
+					{"/ruby"},
+					"が何故裏切らないと考える？　何故、自分の手元にはいつでも才能が残ると考える？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 720,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11070", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“所以，努力和才能都是徒劳的。所以作为凡人的自己也能参加天才们的盛典这场战斗吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「だから、努力も才能も等しく無駄であると。故に凡人である自分も天才達の祭典であるこの戦いに参加出来るとでも？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 723,
+	},
+	block_00159 = {
+		{"bgm", vol=0, file="bgm167"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10269", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“你不懂日语吗？爷爷？还是只是耳朵不好？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「日本語が分からねぇのか？　ジジィ？　それとも単に耳が悪いのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 728,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11071", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「何？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 731,
+	},
+	block_00161 = {
+		{"bgm", vol=100, file="bgm167"},
+		{"bg", sync=0, face=1, file="ev_con_06_09", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10270", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“没什么。虽然努力和才能都是一样的背叛，但是像我这样的笨蛋也能充分理解那些人和那样的人是特别的存在。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「いいえなんでもありません。",
+					{"rt2"},
+					"努力も才能も等しく裏切りますけど、あの方々がそんなものと別格な存在である事ぐらい私の様なバカでも十分に分かりますよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 740,
+	},
+	block_00162 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11072", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"「原来如此，你明白吗？」",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「なるほど、それは分かるのか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 743,
+	},
+	block_00163 = {
+		{"bg", sync=0, face=1, file="ev_con_06_06", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10271", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“所有的伟业都只能靠天赋和时间的乘法。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「すべての偉業は、",
+					{"rt2"},
+					"天賦と時間のかけ算でしかありえない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 750,
+	},
+	block_00164 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10272", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“无论在零上加多少，零就是零，无论是一还是二都没有多大差别。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「ゼロにいくら数をかけても、ゼロはゼロです。",
+					{"rt2"},
+					"それが一だとしても二だとしても大した差なんてありません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 754,
+	},
+	block_00165 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10273", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“如果一个才能做了一百个努力，结果也只有一百个。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「一の才能が百の努力をしたとして、その結果は百にしかなりません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 757,
+	},
+	block_00166 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10274", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“如果你的才能是十，那嚒一百个努力就会有一千个结果。而且，如果你有一个天赋，有一百个才能的人，如果这个人付出一百个努力，就会有万个结果。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「もし仮に、その才能が十だったら、百の努力は千の結果になります。",
+					{"rt2"},
+					"そして、おおよそ考えられないほどの天賦、百の才を持つ者がいたとして、",
+					{"rt2"},
+					"この人間が百の努力をすれば万の結果になります」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 762,
+	},
+	block_00167 = {
+		{"bg", sync=0, face=1, file="ev_con_06_07", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10275", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“我从小就一直画画，复读了好几次，终于考上了艺术大学。嘛，说起来，每个班都有一个人，画得有点好。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「私は子供の時から絵を描き続けて、何度も浪人して、それでやっとこさ藝大に受かったぐらいの才能です。まぁ、言ってみればどこのクラスにも一人はいる少し絵が上手いヤツぐらいでしょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 768,
+	},
+	block_00168 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10276", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“不睡觉，画了十几年，现在拥有的获奖经历就是我的全部。虽然才能不是零，但是，即使有，那也是一二，好也是三吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「寝ずに絵を十数年描き続けて、今持っている受賞歴が私のすべてです。",
+					{"rt2"},
+					"才能はゼロではないでしょうけど、まぁ、あってもそれは一か二、良くて三でしょうね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 774,
+	},
+	block_00169 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10277", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“御樱禀和宫崎美铃，还有我战斗的艾丽亚·霍·仁克的才能是一百，说不定是一千。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「御桜稟や宮崎みすゞ、そして私が戦うアリア・ホー・インクの才能は百、もしかしたら千かもしれません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 779,
+	},
+	block_00170 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10278", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“如果她们和我有这样的才能差距的话，即使我继续画一百年，也绝对达不到她们的高度吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「そんな才能の差が彼女達と私にあったとしたら、私が百年描き続けても彼女たちの高みには決して届かないでしょうね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 782,
+	},
+	block_00171 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11073", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“原来如此，好像稍微懂一点。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「なるほど、少しは話が分かる様だな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 785,
+	},
+	block_00172 = {
+		{"bg", sync=0, face=1, file="ev_con_06_09", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10279", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“我的行业经历也很长，所以很清楚艺术是什么样的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「私も無駄に業界歴は長いので、芸術がどんなものかは良く分かってますよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 791,
+	},
+	block_00173 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11074", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“如果你推辞我就不做坏事。至少我在文展上很有面子。虽然不知道要花多久，但如果在文展上登上会员的话，你也不用做那种杂技混迹的事。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「辞退してくれれば悪いようにはしない。少なくとも私は文展ではかなり顔が利く。",
+					{"rt2"},
+					"いつまでかかるか分からないが文展で会員まで登り詰めれば、君だってあんな曲芸紛いな事をしなくていい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 795,
+	},
+	block_00174 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11075", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“为了让你在日本画坛上有相应的地位，我也会尽力的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「君が、日本画壇でのそれなりの地位になれる様に私も尽力しよう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 798,
+	},
+	block_00175 = {
+		{"bg", sync=0, face=1, file="ev_con_06_10", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10280", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“真的吗？也就是说能在文展上获奖吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「本当ですか？　つまり文展で賞をいただけるという事でしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 804,
+	},
+	block_00176 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11076", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“我会努力做到这一点。当然我的力量也有限。如果你自己不努力画出好的画，就不能轻易获奖。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「その様に取りはからう努力はしよう。もちろん私の力にも限界がある。",
+					{"rt2"},
+					"君自身が頑張ってちゃんとした良い絵を描かなければ、おいそれと賞を与える事は出来ない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 808,
+	},
+	block_00177 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10281", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“但是，努力了的话，恩田放哉老师会支持你的吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「でもぉ、がんばっちゃったら、恩田放哉先生が後押ししてくれるって事ですよね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 811,
+	},
+	block_00178 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11077", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“啊，不是什么坏事吧。像你这样没有画坛中枢师傅的人，很难在文展上获奖。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ああ、悪い話ではないだろう。君のように、画壇の中枢の師匠を持たぬ者が、文展で受賞する事は難しい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 814,
+	},
+	block_00179 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10282", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“哇，好厉害啊。在放哉老师的支持下，我可以在这个日本画坛生活下去。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「わ、すごいですね。放哉先生が後押しして、私はこの日本画壇で生活していけるのですね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 817,
+	},
+	block_00180 = {
+		{"text"},
+		delay = {
+			vl01 = {
+				{"bg", x=1040, y=-1050, zoom=150, speed=100, time=150, sync=0, file="zev_con_06_11", path=":ev/ev_con_06/", z2=120, x2=800, y2=-750, set="ev_con_06", ax=1920, ay=1080, bx=-960, by=-540},
+				{"quake", size=12},
+				{"se", id=1, file="se0053"},
+				{"bgm", stop=1, time=0},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11078", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“啊，作为艺术家活下去很辛苦。这不是坏事吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ああ、芸術家として生きていくのは大変だ。悪い話では――っッッ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 830,
+	},
+	block_00181 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11079", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“哇！？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「んごぉ！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 833,
+	},
+	block_00182 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊！？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なっ！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 838,
+	},
+	block_00183 = {
+		{"fgf", frame="frame_sd", bg="zev_con_06_11", bx=-710, by=-200, bz=70, disp="出左", bgpx=":ev/ev_con_06/", mode=3},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10283", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“吃他妈的……吉吉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「クソ食らえだ……ジジィ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 843,
+	},
+	block_00184 = {
+		{"bg", x=0, y=0, zoom=50, speed=1000, time=1000, sync=0, file="zev_con_06_11", path=":ev/ev_con_06/", z2=150, x2=1040, y2=-1050, set="ev_con_06", ax=1920, ay=1080, bx=-960, by=-540},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"一瞬间不知道发生了什么。",
+				},
+			},
+        	ja = {
+				{
+					"一瞬なにが起きたか分からなかった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 848,
+	},
+	block_00185 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不，我没能理解。",
+				},
+			},
+        	ja = {
+				{
+					"いや、理解出来なかった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 851,
+	},
+	block_00186 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"因为连想象都想象不到那样的东西……。",
+				},
+			},
+        	ja = {
+				{
+					"そんなものを想像する事すらできなかったから……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 854,
+	},
+	block_00187 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，长山，你……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「な、長山お、お前……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 857,
+	},
+	block_00188 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11080", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“啊`灬.°啊……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「あ゛あ゛あぁ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 860,
+	},
+	block_00189 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"长山香奈打了恩田放哉的肚子。",
+				},
+			},
+        	ja = {
+				{
+					"長山香奈が恩田放哉の腹を殴っていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 867,
+	},
+	block_00190 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不是平手之类的水平。",
+				},
+			},
+        	ja = {
+				{
+					"平手とかそういうレベルではない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00189",
+		linknext = "block_00191",
+		line = 870,
+	},
+	block_00191 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"尽情地瞄准胸口，在身体上挂着钩子。",
+				},
+			},
+        	ja = {
+				{
+					"思いっきりみぞおち狙いでボディにフックを入れていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00190",
+		linknext = "block_00192",
+		line = 873,
+	},
+	block_00192 = {
+		{"bg", sync=0, face=1, file="ev_con_06_12", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10284", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“努力？才能？美的怪物？听腻了。我从小就看着这些家伙。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「努力？　才能？　美の化け物？　聞き飽きている。",
+					{"rt2"},
+					"こちとら、そういうヤツらを子供の時から見てるんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00191",
+		linknext = "block_00193",
+		line = 880,
+	},
+	block_00193 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10285", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“你觉得我对我的才能绝望了多长时间？你觉得我对我的努力绝望了多长时间？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「私が、私の才能に絶望してどのくらいの時間が経ったと思う？",
+					{"rt2"},
+					"私が、私の努力に絶望してどのぐらいの時間が経ったと思う？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00192",
+		linknext = "block_00194",
+		line = 884,
+	},
+	block_00194 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10286", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“你觉得我和怪物们的差距持续多久了？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「私が、化け物どもとの差を見続けてどのくらい経ったと思う？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00193",
+		linknext = "block_00195",
+		line = 887,
+	},
+	block_00195 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10287", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"「对了，我再也不需要废话啦。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「そういう、くだらねぇ与太話はもういらないんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00194",
+		linknext = "block_00196",
+		line = 890,
+	},
+	block_00196 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_11081", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“喂，你……做了这样的事……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「き、貴様……こんな事をして……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00195",
+		linknext = "block_00197",
+		line = 893,
+	},
+	block_00197 = {
+		{"bg", sync=0, face=1, file="ev_con_06_13", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10288", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“啊？你说这样做会怎么样？毕竟你是日本画坛这座山的大将啊。事实上，我甚至没能阻止你参加这场战斗。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「あぁ？　こんな事してどうなるって言うんだ？　所詮、お前なんざ日本画壇というお山の大将だろうが。事実、私がこの戦いに出るのを止める事すら出来なかった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00196",
+		linknext = "block_00198",
+		line = 899,
+	},
+	block_00198 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10289", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“结果，直接威胁我，我会怀柔你的。真是烂透了。日本画坛什么的！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「そのあげくに、直に脅してくるわ、懐柔してくるわ。ほんっと、腐ってるな。日本画壇とやらは！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00197",
+		linknext = "block_00199",
+		line = 902,
+	},
+	block_00199 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10290", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“在文展上和他口交吧？啊！我才不要这种东西呢。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「文展で口利きしてやろう？　はっ！　そんなもんいらねぇんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00198",
+		linknext = "block_00200",
+		line = 905,
+	},
+	block_00200 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10291", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“别小看我的艺术！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「私の芸術を舐めるな！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00199",
+		linknext = "block_00201",
+		line = 908,
+	},
+	block_00201 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10292", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“我有我的艺术！无论是什么样的人都不能污秽。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「私には私の芸術がある！",
+					{"rt2"},
+					"それは如何なる者であろうと穢す事は出来ない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00200",
+		linknext = "block_00202",
+		line = 912,
+	},
+	block_00202 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10293", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“我不需要你们所信仰的文展和后光。我的价值是我自己决定的！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「貴様らが信仰する文展とやらの後光なんていらねぇんだよ。",
+					{"rt2"},
+					"私の価値は私自身が決める事だ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00201",
+		linknext = "block_00203",
+		line = 916,
+	},
+	block_00203 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，长山……没用……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「な、長山……無駄だ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00202",
+		linknext = "block_00204",
+		line = 919,
+	},
+	block_00204 = {
+		{"bg", sync=0, face=1, file="ev_con_06_14", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10294", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“什么！说什么没用！！你们说什么，我都不动！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「何が！　何が無駄だって言うのですか！！",
+					{"rt2"},
+					"あんたらに何言われても、私は動じない！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00203",
+		linknext = "block_00205",
+		line = 926,
+	},
+	block_00205 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10295", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“我的美，大概只有我一个人相信！即使其他人不相信，我也相信！那个美，一定会追上你们这些天才，被那块喉咙吃掉的！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「私の美は、たぶん私だけが信じている！　",
+					{"rt2"},
+					"他が信じなくても、私は信じているんだ！",
+					{"rt2"},
+					"その美が、必ずお前ら天才どもに追いつき、そののど元に食らいつくと！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00204",
+		linknext = "block_00206",
+		line = 931,
+	},
+	block_00206 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10296", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“我的美一定会传达给你们。我的美就是这样的美！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「私の美は必ず、お前らに届く。",
+					{"rt2"},
+					"私の美は、そういう美なんだ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00205",
+		linknext = "block_00207",
+		line = 935,
+	},
+	block_00207 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不是，长山。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「違うんだ。長山」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00206",
+		linknext = "block_00208",
+		line = 938,
+	},
+	block_00208 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10297", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“有什么不同！没有什么不一样的！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「何が違うんですか！　違う事なんてないです！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00207",
+		linknext = "block_00209",
+		line = 941,
+	},
+	block_00209 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不，不是那样的，恩田老师晕倒了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いや、そうじゃなくて、恩田先生気絶しているから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00208",
+		linknext = "block_00210",
+		line = 946,
+	},
+	block_00210 = {
+		{"bg", sync=0, face=1, file="ev_con_06_15", time=400, path=":ev/ev_con_06/", set="ev_con_06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10298", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“咦？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「へ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00209",
+		linknext = "block_00211",
+		line = 951,
+	},
+	block_00211 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"是怎么进去的呢？身体上插着钩子，恩田放哉晕倒了。",
+				},
+			},
+        	ja = {
+				{
+					"どんな入り方をしたのだろうか？",
+					{"rt2"},
+					"ボディにフックが突き刺さったまま、恩田放哉は失神していた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00210",
+		linknext = "block_00212",
+		line = 955,
+	},
+	block_00212 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10299", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“啊！！这个，杀了！？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「え！！　こ、殺した！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00211",
+		linknext = "block_00213",
+		line = 965,
+	},
+	block_00213 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不，你没死吧。你没有那嚒大的力气吧……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いや、死んでないだろ。お前そんな腕力ないだろ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00212",
+		linknext = "block_00214",
+		line = 968,
+	},
+	block_00214 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10300", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“啊，不，我是想杀你才打你的……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「あ、いや、殺す気で殴ったので……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00213",
+		linknext = "block_00215",
+		line = 971,
+	},
+	block_00215 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“别想杀我，打我……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「殺す気で殴るなよ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00214",
+		linknext = "block_00216",
+		line = 974,
+	},
+	block_00216 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10301", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“总之，先从这里逃走！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「と、とりあえずこの場から逃げます！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00215",
+		linknext = "block_00217",
+		line = 979,
+	},
+	block_00217 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不，你跑了怎么办？你接下来要参加大会吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いや、逃げてどうするんだよ。お前これから大会だろ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00216",
+		linknext = "block_00218",
+		line = 982,
+	},
+	block_00218 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10302", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“啊，是的。怎么办呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「あ、そうでした。どうしましょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00217",
+		linknext = "block_00219",
+		line = 985,
+	},
+	block_00219 = {
+		{"excall", file="05_09_2"},
+		{"text"},
+		linkback = "block_00218",
+		line = 987,
+	},
+	label = {
+		flagon = { block="block_00000", label=33 },
+		join = { block="block_00000", label=47 },
+		top = { block="block_00000", label=1 },
+	},
+}

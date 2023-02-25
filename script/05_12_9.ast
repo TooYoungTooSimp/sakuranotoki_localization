@@ -1,0 +1,3026 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bgm", file="bgm022"},
+		{"bg", file="ev_con_18_01", path=":ev/ev_con_18/", set="ev_con_18"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10090", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“那时候我还是个小孩子。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あの頃はまだガキだった」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 9,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10091", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“尽管如此，他还是与世界一流画家交笔。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それでも、世界の一流画家と筆を交えていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 12,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10092", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“我只看到一件事。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「自分には一つの事しか見えておらず」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 15,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10093", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“我只是为了这个目的而跃跃欲试。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「その目的のためだけに躍起になっていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 18,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10094", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“所以，我当时只看到了父亲的背影。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だから、俺はその当時は親父の背中ぐらいしか見てなかった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 21,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10095", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"「可是就在那个时候……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「けどそんな時にさ――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 24,
+	},
+	block_00006 = {
+		{"bg", sync=0, file="ev_con_18_02", path=":ev/ev_con_18/", set="ev_con_18"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10096", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“那家伙来到了我身边。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あいつが俺の元にやってきた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 30,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10097", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“那家伙的眼神很厉害，态度很差。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あいつはすげぇ目つきでさ。すげぇ態度悪くて」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 33,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10098", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“是个乱吼的孩子，太厉害了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「やたら怒鳴るガキで、すげぇうざかった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 36,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10099", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“但是，第一次看到那个家伙的画的时候。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「けど、そんなヤツの絵を最初に見た時」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 39,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10100", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“我还以为你被打得很正常呢。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「普通にやられたと思ったよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 42,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10101", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“啊，听说有这样的家伙。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ、こんなヤツがいたんだってさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 45,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10102", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“名字是夏目圭”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「名前は夏目圭」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 48,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10103", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“老实说，这名字我没听说过，但我觉得这个世界很大。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「正直、聞いた事もない名前だったけれども、世の中は広いと思ったよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 51,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10104", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“但是。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「けどさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 54,
+	},
+	block_00015 = {
+		{"bg", sync=0, file="ev_con_18_03", path=":ev/ev_con_18/", set="ev_con_18"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10105", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“其实，还有一个我不知道的天才。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「本当は、俺が知らない天才がもう一人いてさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 60,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10106", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"「那家伙是我父亲的徒弟。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そいつは、親父の弟子だった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 63,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10107", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“正因为是父亲迷恋的才能，实际上，好像是比我和圭更厉害的家伙。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「親父が惚れ込んだ才能だけあってさ、実際、俺や圭よりもすごいヤツだった",
+					{"rt2"},
+					"らしいよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 67,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10108", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“那嚒厉害的家伙好像想什么时候和我对决。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そんなすげぇヤツがいつか俺と対決したいと思っていたらしい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 70,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10109", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“名字是御樱禀”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「名前は御桜稟」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 73,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10110", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“我所知道的禀，虽然很认真，但也有相当笨拙的地方，是个普通的少女。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺が知っている稟は、マジメだけど、結構ドジなところもある普通の少女だったけれども」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 76,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10111", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“是节孔吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「節穴だよな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 79,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10112", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“因为那个天真的少女，连那么厉害的家伙都看不穿。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あのあどけない少女が、そんなすげぇヤツだって見抜けなかったんだからさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 82,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10113", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"「所以呢。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だからかな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 85,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10114", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“所以说不定是天罚也下了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だから天罰でも下ったのかもしれない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 88,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10115", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“我不知道那家伙的想法是什么……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺はそいつの想いなんて終ぞ知らずにいて……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 91,
+	},
+	block_00026 = {
+		{"bg", sync=0, file="ev_con_18_04", path=":ev/ev_con_18/", set="ev_con_18"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10116", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“那个天才画家在某次事故中失去了那个能力。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「その天才画家はとある事故でその能力を失った」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 97,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10117", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“因为太过天才，连世界的道理都扭曲了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そのあまりの天才性が、世界の道理すらねじまげてしまったから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 100,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10118", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“从太古时代流传下来的巫女夺走了她的力量。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「太古の昔から伝わる、巫女が彼女の力を奪ってしまった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 103,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10119", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“从那以后，我和她都是作为非常平凡的人度过的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そこから、俺も彼女も、ごく平凡な人間として過ごしていった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 106,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10120", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“在不同的生活中”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「別々の暮らしの中で」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 109,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10121", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“时间在流逝”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「時は流れていく」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 112,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10122", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“我什么都没做就这样度过了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺はなにもせずに過ごしていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 115,
+	},
+	block_00033 = {
+		{"bg", sync=0, file="ev_con_18_05", path=":ev/ev_con_18/", set="ev_con_18"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10123", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“尽管如此，圭还是继续画下去。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それでも圭は描き続けた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 121,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10124", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“像傻瓜一样画着画着画着画着画着画着”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「バカみたいに描いて描いて描いて描いて」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 124,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10125", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“抛弃一切，成为无知的人，他完成了一项工作。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「すべてを捨てて、無知の人となって、ヤツは一つの仕事を成し遂げた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 127,
+	},
+	block_00036 = {
+		{"bg", sync=0, file="ev_con_18_06", path=":ev/ev_con_18/", set="ev_con_18"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10126", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“他的画有很多，但他的工作只有一个。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ヤツの絵画は多数あるが、ヤツの仕事はたった一つのものだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 133,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10127", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“但是，那是一件可怕的大工作。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「けれども、それは恐ろしく大きな仕事だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 136,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10128", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“他的笔比任何翅膀都强，飞向天空。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あいつの筆はどんな翼よりも強く、大空に向かう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 139,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10129", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“飞向天空，飞向天空。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「空へ、空へと舞い上がっていった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 142,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10130", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“我为了再次追上，拿起了笔。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺は再び追いつこうと、筆を取ったが」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 145,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10131", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“我没能送到。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「届く様なもんじゃなかったよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 148,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10132", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“圭只留下了作品，消失在虚空中。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「圭は作品だけを残し、虚空の中に消えていった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 151,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10133", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“巨大的美，是以与虚无的代价留在这个世界上的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「大いなる美は、虚無との対価によってこの世に残った」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 154,
+	},
+	block_00044 = {
+		{"bg", sync=0, file="ev_con_18_07", path=":ev/ev_con_18/", set="ev_con_18"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10134", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“那个时候，少女又恢复了改变世界的力量。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「その時に少女に再び、世界を改変する様な力が戻った」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 160,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10135", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“在那里，少女和吞梦的巫女一起发誓。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そこで少女は、夢呑みの巫女と共に誓う」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 163,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10136", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“让我再次回到消失在虚空的圭身边的力量。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「虚空に消えた圭の元に飛び立てるぐらいの力を、再び俺に戻そうってさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 166,
+	},
+	block_00047 = {
+		{"bg", file="white", path=":bg/"},
+		{"ex", time=500, func="wait"},
+		{"bg", file="ev_con_16_01", path=":ev/ev_con_16/", set="ev_con_16"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10137", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“命运真残酷啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「運命は残酷だな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 175,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10138", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“如果命运允许的话。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「もし、運命が許してくれていたら」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 178,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10139", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“圭在，我在，还有禀在。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「圭がいて、俺がいて、そして稟がいてさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 181,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10140", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“作为彼此都留在历史上的画家，也许被提高了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「互いが歴史に残る画家として、高められたかもしれない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 184,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10141", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“但是，没有那样的未来。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「けど、そんな未来なんて無かった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 187,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10142", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“命运是千古拥抱”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「運命はチグハグで」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 190,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10143", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“什么都没能如愿以偿。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なにも望み通りになんてならなかった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 193,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10144", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“即便如此，禀给我的，是雫给我的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それでも、稟がくれたもの、雫がくれたもの」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 196,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10145", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“我收到了那些。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それらを俺は受け取った」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 199,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10146", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“这是永远的相，太可爱了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「これを永遠の相というには、あまりに愛おしくて」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 202,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10147", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“太温柔了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「優しすぎて」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 205,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10148", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“所以——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だから――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 208,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10149", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“从遥远的记忆到现在的路程”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「遠い記憶から、今に至るまでの道のり」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 211,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10150", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“从遥远的彼方来到这里的感觉”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「遙か彼方から、ここまできた感触」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 214,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10151", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“因为它们都放在画布上。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それらすべてをキャンバスにのせるのだから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 217,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10152", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“我想那一定是非常大的东西。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それはとびっきり大きなモノじゃないといけないと思っていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 220,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10153", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“但是，这幅画描绘了所有的记忆，因为自焚而失去了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だけど、すべての記憶を描き込んだ、その絵画は焼身によって失われた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 223,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10154", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“虽然很愕然，但是很不可思议。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「愕然としたが、でも不思議と」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 226,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10155", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“不可思议，也很清爽。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「不思議と、すっきりもした」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 229,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10156", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“我想大概是那个时候直觉到的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「たぶん、その時に直感したんだと思う」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 232,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10157", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“巨大的画布燃烧后，我才知道。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「巨大なキャンバスが燃えて、はじめて分かったんだと思う」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 235,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10158", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“随着时间的流逝，确实产生了很多想法并消失了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「時間の流れで、たしかに沢山の想いが生まれて消えていった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 238,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10159", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“时间的流逝是残酷的，即使是多么轰鸣的音乐，也会在无限的大地上烟消云散。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「時の流れは残酷で、それこそどんなに轟音で奏でた音楽ですら、",
+					{"rt2"},
+					"無限の大地に霧散してしまう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 242,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10160", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“在有声音的地方，只有大地，天空轻轻地歌颂着永远。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「音があった場所には、ただ大地があるだけであり、大空がぽっかりと永遠を",
+					{"rt2"},
+					"たたえている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 246,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10161", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“我们的旋律太小了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺達の旋律なんて小さなものだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 249,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10162", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“因为这个世界是无限的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だって、この世界は無限なのだからさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 252,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10163", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“但是，不是。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「けどさ、けど違うんだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 255,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10164", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“在歌颂着永远的天空中，本应消失的声音们”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「永遠をたたえた大空で、消えてしまったはずの音達は」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 258,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10165", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“但确实有。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それでもたしかにあったんだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 261,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10166", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“这一切，现在都在这里。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そのすべてが、今、ここにあったんだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 264,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10167", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“正因为如此，这个大小就可以了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だからこそ、この大きさでいいんだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 267,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10168", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“圭选择的画布尺寸”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「圭が選んだキャンバスのサイズ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 270,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10169", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“那家伙画向日葵的画布”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あいつが向日葵を描いたキャンバス」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 273,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10170", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“那嚒大就足够了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それぐらいの大きさで十分だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 276,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10171", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“人的头是1400cc左右。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「人の頭は1400cc程度だけど」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 279,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10172", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“尽管如此，它还是与无限相连。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それでも、それは、無限とつながっている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 282,
+	},
+	block_00083 = {
+		{"bg", file="ev_con_16_02", path=":ev/ev_con_16/", set="ev_con_16"},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我一摇，用容器的碎片在画布上画上血和梦水。",
+				},
+			},
+        	ja = {
+				{
+					"俺は一振り、器の欠片でキャンバスに血と夢水を描き込む。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 290,
+	},
+	block_00084 = {
+		{"se", id=1, file="se0102"},
+		{"bgm", stop=1, time=0},
+		{"bg", rule=063, time=150, file="black", path=":bg/"},
+		{"bg", rule=063, time=150, file="ev_con_16_03", path=":ev/ev_con_16/", set="ev_con_16"},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"最后的思念。",
+				},
+			},
+        	ja = {
+				{
+					"最後の想い。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 303,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"禀，还有雫，这是我最后的笔。",
+				},
+			},
+        	ja = {
+				{
+					"稟、そして雫、これが俺の最後の筆だ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 306,
+	},
+	block_00086 = {
+		{"bg", file="black", path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"梦水和我的血渗透到画布上——",
+				},
+			},
+        	ja = {
+				{
+					"夢水と俺の血がキャンバスに染みこむと――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 311,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"约定好的奇迹会发生。",
+				},
+			},
+        	ja = {
+				{
+					"約束された奇跡が起こる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 314,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这是所有灵魂赌上人生而产生的必须收获的奇迹。",
+				},
+			},
+        	ja = {
+				{
+					"これは、あらゆる魂がその人生を賭して生み出した、実らなければならない奇跡。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 317,
+	},
+	block_00089 = {
+		{"msgoff", time=0},
+		{"movie", file="scriptmv"},
+		{"ex", time=0, func="wait"},
+		{"bg", file="sunflower", time=3000, id=1, lv=5, path=":cg/"},
+		{"ex", time=0, func="wait"},
+		{"msgon", time=1000},
+		{"bgm", file="bgm174", time=10000},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"漆黑的画布。",
+				},
+			},
+        	ja = {
+				{
+					"真っ黒なキャンバス。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 571,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"有形状的东西，在那里什么都没有留下。",
+				},
+			},
+        	ja = {
+				{
+					"形があるものは、そこには何も残らない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 574,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"最好不要给幸福的日子赋予形状。有形状的东西一定会坏的。",
+				},
+			},
+        	ja = {
+				{
+					"幸せな日々に、形を与えない方がいい。",
+					{"rt2"},
+					"形があるものは必ず壊れる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 578,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"所以不用留下形状。",
+				},
+			},
+        	ja = {
+				{
+					"だから形なんて残らなくていい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 581,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"即便如此，最后的想法",
+				},
+			},
+        	ja = {
+				{
+					"それでも最後の想いは、",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 584,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"就像被收割后枯萎的太阳一样。",
+				},
+			},
+        	ja = {
+				{
+					"まるで刈られてしなびた太陽の様であったが。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 587,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"向日葵。",
+				},
+			},
+        	ja = {
+				{
+					"向日葵。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 590,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10174", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“你的开始就是这幅画的结束。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お前のはじまりが、この絵画の終わりなんだな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 593,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10175", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“圭——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「圭――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 596,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"以樱花开始的绘画，通过向日葵结束了其自焚。",
+				},
+			},
+        	ja = {
+				{
+					"桜ではじまった絵画は、向日葵によってその焼身を終える。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 599,
+	},
+	block_00099 = {
+		{"cgdel", id=-1},
+		{"bg", time=2000, file="black", path=":bg/"},
+		{"bg", zoom=50, file="zbg062a", path=":bg/", ax=1920, ay=1080, bx=-960, by=-540},
+		{"bgm", file="bgm174"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"会场响起了仿佛在摇晃的欢呼声。",
+				},
+			},
+        	ja = {
+				{
+					"会場が揺れているかの様な歓声が沸き起こる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 614,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我只是呆呆地站在那里。",
+				},
+			},
+        	ja = {
+				{
+					"俺はただ呆然とその場に立ち尽くす。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 617,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"已经站着就到极限了。",
+				},
+			},
+        	ja = {
+				{
+					"もう立っているだけで限界だった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 620,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"连视野都模糊了。",
+				},
+			},
+        	ja = {
+				{
+					"視界すらぼんやりしている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 625,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那么热的身体变冷了。",
+				},
+			},
+        	ja = {
+				{
+					"あれほど熱かった身体が冷えてくる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 628,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"流下的血，不久就会变冷……。",
+				},
+			},
+        	ja = {
+				{
+					"流れた血は、やがて冷たくなる……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 631,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"禀来到我身边。",
+				},
+			},
+        	ja = {
+				{
+					"稟が俺の横に来る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 634,
+	},
+	block_00106 = {
+		{"fg", ch="稟", size="z2", time=300, mode=3, resize=1, path=":fg/rin/z2/", file="rin_z2a0110", face="a0010", head="rin_z2a", lv=5, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="稟", size="z2", mode=3, path=":fg/rin/z2/", file="rin_z2a0110", face="a0002", head="rin_z2a", lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rin_10100", ch="rin"},
+			},
+		
+            cn = {
+				{
+					"“太棒了……谢谢。留下了这样的作品。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"稟"},
+					"「素晴らしかったです……ありがとう。こんな作品を残してくれて」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 640,
+	},
+	block_00107 = {
+		{"bg", file="white", id=8, lv=8, alpha=30, time=1000, path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10176", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"“没有留下作品。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「作品は残らなかったよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 645,
+	},
+	block_00108 = {
+		{"bg", file="white", id=8, lv=8, alpha=40, time=1000, path=":bg/"},
+		{"fg", ch="稟", size="z2", blur=2, mode=3, path=":fg/rin/z2/", file="rin_z2a0110", face="a0010", head="rin_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rin_10101", ch="rin"},
+			},
+		
+            cn = {
+				{
+					"“没有，确实留下了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"稟"},
+					"「いいえ、確実に残りましたよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 652,
+	},
+	block_00109 = {
+		{"bg", file="white", id=8, lv=8, alpha=50, time=1000, path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_nao_10177", ch="nao"},
+			},
+		
+            cn = {
+				{
+					"「你能这么说，我真的很高兴，禀。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そう言ってもらえると、素直にうれしいよ。稟」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 657,
+	},
+	block_00110 = {
+		{"bg", file="white", id=8, lv=8, alpha=60, time=1000, path=":bg/"},
+		{"fg", ch="稟", size="z2", blur=3, mode=3, path=":fg/rin/z2/", file="rin_z2a0110", face="a0002", head="rin_z2a", lv=5, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="稟", size="z2", blur=3, mode=3, path=":fg/rin/z2/", file="rin_z2a0110", face="a0003", head="rin_z2a", lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rin_10102", ch="rin"},
+			},
+		
+            cn = {
+				{
+					"“嗯，我觉得很厉害。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"稟"},
+					"「ええ、すごいと思うよ。なおくん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 665,
+	},
+	block_00111 = {
+		{"bg", file="white", id=8, lv=8, alpha=70, time=1000, path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"禀笑。",
+				},
+			},
+        	ja = {
+				{
+					"稟が笑う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 670,
+	},
+	block_00112 = {
+		{"bg", file="white", id=8, lv=8, alpha=80, time=1000, path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"看那个。",
+				},
+			},
+        	ja = {
+				{
+					"それを見て。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 675,
+	},
+	block_00113 = {
+		{"fg", time=0, mode=-2},
+		{"bg", file="white", path=":bg/"},
+		{"bg", file="white", id=2, lv=2, alpha=100, time=1000, path=":bg/"},
+		{"bg", id=1, lv=1, file="ev_con_16_04", path=":ev/ev_con_16/", set="ev_con_16"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"啊，好怀念啊。我想。",
+				},
+			},
+        	ja = {
+				{
+					"ああ懐かしいな。と思った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 684,
+	},
+	block_00114 = {
+		{"bg", file="white", id=2, lv=2, alpha=110, time=1000, path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这家伙笑得这么温柔啊。",
+				},
+			},
+        	ja = {
+				{
+					"こいつはこんな優しい笑顔で笑っていたな。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 690,
+	},
+	block_00115 = {
+		{"bg", file="white", id=2, lv=2, alpha=120, time=1000, path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"所以——是啊。",
+				},
+			},
+        	ja = {
+				{
+					"だから――そうだよな。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 696,
+	},
+	block_00116 = {
+		{"bg", file="white", id=2, lv=2, alpha=130, time=1000, path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"啊，原来如此——是吗。",
+				},
+			},
+        	ja = {
+				{
+					"ああ、なるほど――そうか。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 702,
+	},
+	block_00117 = {
+		{"bg", file="white", id=2, lv=2, alpha=150, time=1000, path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"天空慢慢地旋转。",
+				},
+			},
+        	ja = {
+				{
+					"空がゆっくりまわる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 711,
+	},
+	block_00118 = {
+		{"bg", file="white", id=2, lv=2, alpha=160, time=1000, path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"天空和大地的颜色交融在一起。",
+				},
+			},
+        	ja = {
+				{
+					"空と大地の色が溶け合っていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 717,
+	},
+	block_00119 = {
+		{"bg", file="white", id=2, lv=2, alpha=170, time=1000, path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"就这样结束了吗。",
+				},
+			},
+        	ja = {
+				{
+					"これで終わりか。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 723,
+	},
+	block_00120 = {
+		{"bg", id=3, lv=3, time=1000, sync=0, face=1, file="ev_con_16_05", path=":ev/ev_con_16/", set="ev_con_16"},
+		{"bg", file="white", id=4, lv=4, alpha=200, time=1000, path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"美丽的风景们。",
+				},
+			},
+        	ja = {
+				{
+					"素晴らしい風景達。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 731,
+	},
+	block_00121 = {
+		{"bg", file="white", id=4, lv=4, alpha=220, time=1000, path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我的生命，被所有流逝的东西所满足。",
+				},
+			},
+        	ja = {
+				{
+					"俺の生は、すべての流れゆくものによって、満たされている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 738,
+	},
+	block_00122 = {
+		{"bg", file="white", id=4, lv=4, alpha=255, time=1000, path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"时光流逝。",
+				},
+			},
+        	ja = {
+				{
+					"刻が流れていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 743,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那是樱花时节。",
+				},
+			},
+        	ja = {
+				{
+					"それは桜の刻。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 746,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"怀念的日子。",
+				},
+			},
+        	ja = {
+				{
+					"懐かしい日々。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 749,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽然很怀念，但在这里的日子。",
+				},
+			},
+        	ja = {
+				{
+					"懐かしくありながらも、",
+					{"rt2"},
+					"ここにある日々。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 753,
+	},
+	block_00126 = {
+		{"bgm", stop=1, time=10000},
+		{"msgoff", time=800},
+		{"ex", time=500, func="wait"},
+		{"bg", id=4, lv=4, time=1500, file="ev_con_16_06", path=":ev/ev_con_16/", set="ev_con_16"},
+		{"ex", time=1000, func="wait"},
+		{"msgon", time=1000},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"所以，在那之前——",
+				},
+			},
+        	ja = {
+				{
+					"だから、その先で――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 768,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我说出了那句话。",
+				},
+			},
+        	ja = {
+				{
+					"俺はその言葉を口にした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 771,
+	},
+	block_00128 = {
+		{"bgm", stop=1},
+		{"msgoff", time=800},
+		{"ex", time=500, func="wait"},
+		{"bg", id=5, lv=5, time=4000, rule=30, file="ev_con_16_07", path=":ev/ev_con_16/", set="ev_con_16"},
+		{"ex", time=3000, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="white", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=0, func="wait"},
+		{"ex", time=8000, func="wait"},
+		{"staffroll", route="staff_05"},
+		{"bg", time=4000, file="white", path=":bg/"},
+		{"excall", file="gend01"},
+		{"text"},
+		linkback = "block_00127",
+		line = 795,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

@@ -1,0 +1,5385 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="第Ⅴ章"},
+		{"msg", no=1},
+		{"bgm", file="bgm162"},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg005a", path=":bg/", sync=0},
+		{"fg", ch="フリッドマン", size="z1", mode=3, resize=1, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9, sync=0},
+		{"extrans", rule=139, vague=40},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"弗里德曼站在眼前。",
+				},
+			},
+        	ja = {
+				{
+					"フリッドマンが目の前に立っていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 18,
+	},
+	block_00001 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10344", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“工作时间差不多要到三分之一了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「そろそろ作業時間は、三分の一を切る事になる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 25,
+	},
+	block_00002 = {
+		{"bg", file="ev_con_13_01", path=":ev/ev_con_13/", set="ev_con_13"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"确认手表。",
+				},
+			},
+        	ja = {
+				{
+					"腕時計を確認する。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 31,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 34,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“体感时间真是完美啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「体感時間は完璧だな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 37,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10345", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“冥想吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「瞑想か？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 40,
+	},
+	block_00006 = {
+		{"bg", sync=0, face=1, file="ev_con_13_02", time=400, path=":ev/ev_con_13/", set="ev_con_13"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，我想要一点集中力。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ、少しばかり集中力がほしくてな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 46,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10346", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“在这个时候想要集中力吗……真是太残忍了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「このタイミングで集中力がほしいか……まったく無残だな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 49,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，差太大了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ、すごい差だよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 52,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"画布已经被美丽的色彩填满了。",
+				},
+			},
+        	ja = {
+				{
+					"キャンバスはすでに美しい色彩で埋め尽くされている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 55,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"当然不是我的。",
+				},
+			},
+        	ja = {
+				{
+					"もちろん俺のものではない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 58,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那独特的色彩一眼就能看出是宫崎美铃的。",
+				},
+			},
+        	ja = {
+				{
+					"その独特な彩色はひと目で宮崎みすゞによるものだと分かる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 61,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10347", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“从旁边看，比赛等开始只是几十分钟就决定了吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「傍から見たら、勝負など開始ほんの数十分で決まった様に見えるだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 64,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，说实话，我觉得她真的是个很厉害的少女。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ、正直、本当にすごい少女だと思うよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 67,
+	},
+	block_00014 = {
+		{"bg", time=500, file="ev_con_05_04", path=":ev/ev_con_05/", set="ev_con_05"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君开始画之后一次也没休息过。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんは描き始めてからまだ一度も休んでいない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 72,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"画布上几乎是独占场。",
+				},
+			},
+        	ja = {
+				{
+					"キャンバスの上はほぼ独擅場。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 75,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"没有保持绘画对决的样子。",
+				},
+			},
+        	ja = {
+				{
+					"絵画対決の体裁など保っていなかった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 78,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"就好像从一开始我就不存在，这里只能看到一个画家孤独地在巨大的画布前继续画名画。",
+				},
+			},
+        	ja = {
+				{
+					"まるで最初から俺なんて存在はなく、此処には一人の画家が孤独に巨大なキャンバスの前で名画を描き続けている様にしかみえない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 81,
+	},
+	block_00018 = {
+		{"bg", time=500, file="ev_con_13_02", path=":ev/ev_con_13/", set="ev_con_13"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“真遗憾。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「残念だな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 86,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10348", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“是吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「だろうな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 91,
+	},
+	block_00020 = {
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10349", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“所有的炸弹都安装好了吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「もう、すべての爆弾は設置し終わったのだろ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 96,
+	},
+	block_00021 = {
+		{"bg", sync=0, face=1, file="ev_con_13_03", time=400, path=":ev/ev_con_13/", set="ev_con_13"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 103,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你知道吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「分かっていたのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 106,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10350", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“啊，当然了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ああ、当然だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 109,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10351", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“我一直在看草薙直哉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「私は草薙直哉をずっと見てきた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 112,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10352", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“正因为如此，从你在切尔西的时候开始，到成为弓张学园的教员之后，我一直看到草薙直哉这个画家。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「それこそ、お前がチェルシーにいた頃から、そして弓張学園の教員になった後も、ずっと草薙直哉という画家を見てきた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 115,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10353", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“宫崎美铃确实是个好画家。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「宮崎みすゞはたしかに良い画家だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 118,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10354", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“在漫长的西洋绘画史上，也没有几位画家能达到那个年龄那么高的高度吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「長い西洋絵画史においても、あの年齢であれほどの高みに到達出来た画家など数名もいないだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 121,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10355", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“你就不用说了，夏目圭也没有这么大的技术能力。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「お前はもちろん、あの夏目圭だってこれほどの技術力は持ってなかった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 124,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10356", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“真是了不起的才能。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「桁違いの才能だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 127,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10357", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“但是——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「だが――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 130,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是对方不好啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「相手が悪かったな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 133,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“或者是像普通的公开征集展那样的审查形式，结果可能不一样。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あるいは普通の公募展の様な審査形式ならば結果は違ったのかもしれない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 139,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10358", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"「那也不好啊。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「それもどうかな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 142,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10359", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“在这一瞬间，我无法想象宫崎美铃在所有的比赛中战胜你的样子。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「今の瞬間において、すべての勝負で宮崎みすゞがお前に勝てる姿を私には想像出来ない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 145,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 148,
+	},
+	block_00036 = {
+		{"bg", sync=0, face=1, file="ev_con_13_04", time=400, path=":ev/ev_con_13/", set="ev_con_13"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我苦笑。",
+				},
+			},
+        	ja = {
+				{
+					"俺は苦笑いする。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 154,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“在这种情况下，如果有人问我刚才说的话，我会怀疑你的理智。作为高级策展人的面目也会被打垮。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「この状況で、今の言葉を誰かに聞かれたら正気を疑われるぞ。上級キュレーターとしての面目も丸つぶれになる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 159,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10360", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“再过几个小时，一切都会被颠覆。如果被问到，我作为策展人的观察力之高，大家都会大吃一惊吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「それも、あと数時間後にすべて覆されるさ。もし聞かれていたら私のキュレーターとしての観察眼の高さを皆が驚愕する事になるだけだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 162,
+	},
+	block_00039 = {
+		{"bg", sync=0, face=1, file="ev_con_13_02", time=400, path=":ev/ev_con_13/", set="ev_con_13"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"弗里德曼已经看到了吗。",
+				},
+			},
+        	ja = {
+				{
+					"フリッドマンにはすでに見えているのか。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 168,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我以为只有我一个人知道只有这个。",
+				},
+			},
+        	ja = {
+				{
+					"こればかりはさすがに俺一人しか分からないと思っていたが。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 171,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10361", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“那么，时间快到了吧？宫崎美铃的色彩充分支配了画布。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「さて、そろそろ時間じゃないのか？　宮崎みすゞの色彩が十分にキャンバスを支配し終えた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 174,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是啊。正好合适。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そうだな。頃合いとしてはちょうど良い」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 177,
+	},
+	block_00043 = {
+		{"bg", time=500, file="ev_con_04_01", path=":ev/ev_con_04/", set="ev_con_04"},
+		{"ex", time=500, func="wait"},
+		{"bg", zoom=70, speed=500, time=300, sync=0, file="zev_con_04_03", path=":ev/ev_con_04/", x2=-380, y2=30, x=-190, y=-80, set="ev_con_04", ax=1920, ay=1080, bx=-960, by=-540},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14008", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“嗯。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「っ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 190,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我拿着笔。",
+				},
+			},
+        	ja = {
+				{
+					"俺は筆を構える。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 193,
+	},
+	block_00045 = {
+		{"bg", time=400, sync=0, file="ev_con_04_03", path=":ev/ev_con_04/", set="ev_con_04"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"48英寸。",
+				},
+			},
+        	ja = {
+				{
+					"48インチ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 198,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"用超过1米的常识无法想象的笔。",
+				},
+			},
+        	ja = {
+				{
+					"1メートルを軽く超える常識では考えられない筆。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 201,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"一般情况下，这么长花纹的笔是不能用的。",
+				},
+			},
+        	ja = {
+				{
+					"普通ならばこんな長い柄の筆など使えるものではない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 204,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是，我能用。",
+				},
+			},
+        	ja = {
+				{
+					"だが、俺には使える。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 207,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不，正是这支笔创造了我的画。",
+				},
+			},
+        	ja = {
+				{
+					"否、この筆こそが俺の絵を生み出す。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 210,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哼————”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ふんっっッッ――――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 213,
+	},
+	block_00051 = {
+		{"msgoff", time=0},
+		{"se", id=1, file="se0103"},
+		{"bg", file="battle_002", id=1, lv=5, path=":cg/", sync=0},
+		{"quake", size=15},
+		{"extrans", rule="106l", time=150},
+		{"bg", file="ev_con_04_03", path=":ev/ev_con_04/", set="ev_con_04", sync=0},
+		{"quake", size=15},
+		{"extrans", rule="106l", time=150},
+		{"bgm", file="bgm169"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"哇——————",
+				},
+			},
+        	ja = {
+				{
+					"ザワっっッッ――――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 240,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"会场沸腾起来。",
+				},
+			},
+        	ja = {
+				{
+					"会場が沸き上がる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 243,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"长笔剜画布。",
+				},
+			},
+        	ja = {
+				{
+					"長物の筆がキャンバスを抉る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 246,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"花了很多时间，仔细地在画布上重叠了好几层的油上，颜料渗透开来。",
+				},
+			},
+        	ja = {
+				{
+					"時間をかけて、丁寧にキャンバスに何重にも重ねた油の上で絵の具がにじむ様に広がっていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 249,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是，它们没有色彩。",
+				},
+			},
+        	ja = {
+				{
+					"だが、それらに色彩はない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 252,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那是完全的黑色色彩。",
+				},
+			},
+        	ja = {
+				{
+					"それは完全な黒い色彩。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 255,
+	},
+	block_00057 = {
+		{"msgoff"},
+		{"bg", file="bg005a", path=":bg/", sync=0},
+		{"bg", lv=5, id=5, rule="cinema", file="cinema01", alpha=255, time=400, path=":sys/", vague=40, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那支笔……是草薙直哉全盛时期用的吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"審査員A"},
+					"「あの筆は……草薙直哉が全盛期に使ってたものか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 266,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“但是，笔的形状不同……有好几个弯曲，最重要的是和当时的利手不一样吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"審査員B"},
+					"「だが、筆の形が違う……いくつもの湾曲があり、なによりも当時と利き腕が違うのではないか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 270,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“比起这件事，那美丽而广阔的颜料是……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"審査員A"},
+					"「そんな事よりも、なんだあの美しく広がる絵の具は……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 274,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“水墨画？？不对……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"審査員A"},
+					"「水墨画？？　いや違う……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 278,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“看起来像水墨画，但这原本就不是水彩……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"審査員B"},
+					"「まるで水墨画に見えるが、そもそもこれは水彩ではない……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 282,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“但是，比水彩画更有透明感……比这更重要的是那幅画……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"審査員B"},
+					"「だが、水彩画よりも透明感があり……それよりもなにもあの絵には……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 286,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“有颜色！不，没有颜色，但还是有颜色……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"審査員A"},
+					"「色がある！　い、いや色はない、しかしやはり色がある……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 290,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我以为突然出现了漂亮的色彩，却又回到了弥漫着静谧空气的水墨画中。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"審査員B"},
+					"「突如、見事な色彩があらわれたかと思ったら、静謐な空気が漂う水墨画に戻っている様な――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 294,
+	},
+	block_00065 = {
+		{"bg", time=400, file="ev_con_04_03", path=":ev/ev_con_04/", set="ev_con_04"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"层层叠加的油，因其浓淡而呈现出独特的不均匀感。",
+				},
+			},
+        	ja = {
+				{
+					"何重にも重ねた油は、その濃淡によって独特なムラのあるにじみを見せる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 300,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那就像是，每写一笔，画就会突然出现在那一面。",
+				},
+			},
+        	ja = {
+				{
+					"それはまるで、一筆入れるたびに、その一面に絵画が突然姿をあわらす様に見える。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 303,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"而且，尽管看起来像水墨画一样黑白，但它却让人感受到确实的颜色。",
+				},
+			},
+        	ja = {
+				{
+					"さらに、水墨画の様に白黒に見えるにもかかわらず、それは確実な色を感じさせる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 306,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"观者在感受到色彩的下一个瞬间，再次看到黑白水墨画。",
+				},
+			},
+        	ja = {
+				{
+					"見る者は色彩を感じた次の瞬間には、再び白黒の水墨画を見る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 309,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是再次移动视线就会感受到色彩。",
+				},
+			},
+        	ja = {
+				{
+					"だが再び視線を動かすと色彩を感じる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 312,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14009", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“错觉！？颜色的残效？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「錯視！？　色の残効？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 315,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14010", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“但是，不是……这是”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「でも、違う……これは」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 318,
+	},
+	block_00072 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg064a", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="坂本", size="z1", mode=3, resize=1, path=":fg/skm/z1/", file="skm_z1a0000", face="a0007", head="skm_z1a", lv=4, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0005", head="skm_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10065", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“什么呀！？这种独特的颜色是？？虽然也可以认为是颜色的残效，但是颜色太复杂了！！少年使用的是什么样的魔法？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「なんだぁ！？　この独特に感じる色は？？　色の残効にも思えるが、それにしては色が複雑すぎる！！　ジュニアはどんな魔法を使ってるんだ？？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 333,
+	},
+	block_00073 = {
+		{"fg", ch="坂本", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0005", head="skm_z1a", x2=0, x=345, lv=4, id=9},
+		{"fg", ch="フリッドマン", size="z1", mx=-40, mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10362", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“不，那只是颜色的残效效果。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「いいえ、あれは色の残効効果にすぎません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 340,
+	},
+	block_00074 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0011", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10066", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“弗里德曼，刚才好像还在台上，你和少年在说什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「フリッドマン、さっきまで壇上にいた様だが、ジュニアとなにを話していたんだ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 345,
+	},
+	block_00075 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0003", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10363", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“啊，只是闲话而已。最近身体怎么样？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ああ、ただの世間話ですよ。最近調子はどうか？　ってね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 350,
+	},
+	block_00076 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0009", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0011", head="skm_z1a", x=345, lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10067", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“在那样的地方闲聊什么的。你说过比起那个，少年的那个是颜色的残效效果。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「あんな場所でそんな世間話なんかするかよ。",
+					{"rt2"},
+					"それよりも、ジュニアのあれが色の残効効果だとお前は言ったよな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 357,
+	},
+	block_00077 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10364", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“是的，那是颜色的残效效果。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「はい、あれは色の残効効果です」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 362,
+	},
+	block_00078 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0005", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10068", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“色彩的残效效果……。是错觉的一种，之前看到的色彩因为时间差而直接留在黑白画面上的家伙。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「色彩の残効効果……。錯視の一種、それまで見ていた色彩が時間差でそのまま白黒の画面にも残って見えるヤツだよな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 367,
+	},
+	block_00079 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10365", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“是的，原理是那个。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「はい、原理はあれですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 372,
+	},
+	block_00080 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0005", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0010", head="skm_z1a", x=345, lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10069", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“不，不是。对我来说感觉完全不一样。说起来，颜色的残效，看起来太鲜艳了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「いや違う。俺にはまったく違ったものに感じられるぞ。",
+					{"rt2"},
+					"そもそも、色の残効というには、あまりに鮮やかな色に見える」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 379,
+	},
+	block_00081 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0005", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10070", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“比这更重要的是，从少年的画中突然出现的色彩的感觉，以及消失瞬间的感觉是不认为是残效效果的独特的东西。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「それよりもなによりも、ジュニアの絵から突如あらわれる色彩の感覚、そして",
+					{"rt2"},
+					"消える瞬間の感覚が残効効果とは思えない独特なものだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 385,
+	},
+	block_00082 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0001", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10071", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“大概是至今为止谁都没有见过的色彩。我只觉得这是一种未知的不可思议的感觉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「たぶん、いままで誰も見た事がない色彩だ。俺には未知の不可解な感覚にしか思えない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 390,
+	},
+	block_00083 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10366", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“错觉对于一流画家来说，只是众多技法中的一种。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「錯視というのは、一流画家にとっては、多くある技法の一つにしかすぎない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 395,
+	},
+	block_00084 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10367", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“名画无论是有意识的还是无意识的都被大量使用。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「名画には意識的にせよ無意識的にせよかなり多用されています」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 401,
+	},
+	block_00085 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0010", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0011", head="skm_z1a", x=345, lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10072", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“以诡计艺术的手法而闻名的是中世纪德国画家霍尔巴因的《大使们》。从正面看只有两个男人，但从斜方向看，这两个人的脚下突然出现了令人毛骨悚然的骷髅。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「トリックアートの様な手法で有名なのは中世のドイツ画家ホルバインの『大使たち』とかだな。正面から見ると二人の男しか見えないが、斜めから見ると突如その二人の足元に不気味な骸骨姿をあらわす様なヤツだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 407,
+	},
+	block_00086 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10368", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“确实，这一点很有名，但霍尔班恩的《大使们》是用技法来描绘的。为了更有效地展示绘画本身而使用的技法也很多吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「たしかにそういうものが有名ですが、ホルバインの『大使たち』は技法ありきで",
+					{"rt2"},
+					"描かれたものです。もっと絵画そのものを効果的に見せるために使われた技法も",
+					{"rt2"},
+					"多いでしょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 415,
+	},
+	block_00087 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0002", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10073", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“印象派巨匠莫奈以塞纳河为题材的系列《解冰》中，通过视觉对比来表现坚硬的冰和缓慢流动的河流，让人产生一种巨大的流水向观看者的方向流动的错觉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「印象派の巨匠モネがセーヌ川を題材にしたシリーズ『解氷』では、その堅い氷とゆっくりと流れる川を視覚的な対比で表現する事で、見ている者の方向に巨大な流水が流れてくるかの様な錯覚を覚えさせる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 420,
+	},
+	block_00088 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10369", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“由于笔的独特扭曲和明暗，莫奈完成了《解冰》的绘画。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「筆の独特な歪みや明暗によって、モネは『解氷』を動く絵画に仕上げた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 425,
+	},
+	block_00089 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10370", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“如果达到现代画家大师宫崎美铃的水平，那嚒所有的技法都会被用于绘画。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「現代画家の巨匠宮崎みすゞレベルともなれば、それ以上にありとあらゆる技法がその絵画には使われる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 430,
+	},
+	block_00090 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10371", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“评论家、画家、很多博物馆研究员都没有注意到，宫崎美铃的动植物在通常的色觉以外也能看到不同的形状。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「評論家も画家も多くの学芸員も気が付いてない様だが、宮崎みすゞの動植物は通常の色覚以外でも違った形に見える様に工夫されています」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 435,
+	},
+	block_00091 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0011", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10074", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“除了通常的色觉以外？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「通常の色覚以外だと？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 440,
+	},
+	block_00092 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10372", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“也就是说，她使用了人类色觉以外的很多频道。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「つまり彼女は人間の色覚以外の多くのチャンネルを使っている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 445,
+	},
+	block_00093 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0005", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10075", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“这难道是村田研究才完成的三色觉和四色觉的操作吗！？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「それって、もしかして村田が研究してやっと完成させた三色色覚と四色色覚の操作の事か！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 451,
+	},
+	block_00094 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0008", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10373", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“村田老师很遗憾。宫崎美铃很久以前通过的地方，现在还没有注意到自己正在探索。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「村田先生は残念な方だ。",
+					{"rt2"},
+					"宮崎みすゞが遙か昔に通過した地点を、今まさに自分が探索している事に気が付いてないのですからね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 457,
+	},
+	block_00095 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10374", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“而且，宫崎美铃原本就不仅仅使用三色色觉和四色色觉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「しかも、宮崎みすゞはそもそも三色色覚と四色色覚だけを使っているわけではない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 463,
+	},
+	block_00096 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0007", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0005", head="skm_z1a", x=345, lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10076", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“怎么说呢！？那个小姑娘用的是比这更多的色觉吗？不，人类不可能看到那么多的色觉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「なんだと！？　あの小娘はそれ以上の色覚を使っているという事か？　",
+					{"rt2"},
+					"いや、人間にそれほど多くの色覚が見えるわけがない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 470,
+	},
+	block_00097 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10375", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“没必要看，村田老师误会了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「見る必要などないですよ。",
+					{"rt2"},
+					"その事を村田先生は思い違いされている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 476,
+	},
+	block_00098 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0006", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10077", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“为什么不需要看呢！不看的话就不能用那个颜色吧！？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「なぜ見る必要がないんだよ！　見ない事にはその色を使う事は出来ないだろう！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 481,
+	},
+	block_00099 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10376", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“是吗？说起来村田老师不是看不到四色色觉吗？他不过是从能操作两种色觉的人那里获取知识来描绘而已。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「そうですか？　そもそも村田先生は四色色覚が見えてないではないですか？",
+					{"rt2"},
+					"彼は二つの色覚を操作できる人間から知識を得て描いているにすぎない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 488,
+	},
+	block_00100 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0007", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10078", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“啊……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「あ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 493,
+	},
+	block_00101 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0003", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10377", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“如果用眼睛看不见就不能识别，这是很肤浅的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「目で見えなければ認識出来ないと考えるのは浅はかですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 498,
+	},
+	block_00102 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0005", head="skm_z1a", x=345, lv=4, id=9},
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10378", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“感觉是所有器官都像镜子一样反响的像。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「感覚というのはあらゆる器官が鏡の様に反響した像なのですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 504,
+	},
+	block_00103 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10379", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“就像身体的五感分别接受了一样，容易误解。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「それをまるで身体の五感がそれぞれ別に受け取ったものの様に勘違いしがちだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 509,
+	},
+	block_00104 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10380", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“用眼睛看，不仅仅是眼睛这个器官产生的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「眼で見るという事は、眼という器官だけが生み出すものではない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 514,
+	},
+	block_00105 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10381", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“用耳朵看，用眼睛触摸，用手闻，用舌头听，也可以用鼻子品尝。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「耳で見て、眼で触り、手で嗅ぎ、舌で聴き、鼻で味わう事も出来る」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 519,
+	},
+	block_00106 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0011", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10079", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“什么意思？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「どういう意味だ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 524,
+	},
+	block_00107 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10382", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“就是这个意思。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「そのままの意味ですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 529,
+	},
+	block_00108 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10383", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“例如，研究结果显示，失明的少年通过舌头发出的声音，理解了室内的完整构造。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「たとえば盲目の少年は、舌を鳴らす音で、室内の完全な構造を理解したという研究結果があります」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 534,
+	},
+	block_00109 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0005", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10080", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“用声音在室内？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「音で室内を？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 539,
+	},
+	block_00110 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10384", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“使用蝙蝠超声波把握空间，即使使用人类的身体也是可能的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「コウモリの超音波を使った空間把握は、人間の身体を使っても可能という事ですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 544,
+	},
+	block_00111 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0011", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10081", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“按着舌头时的回音，人能做那样的事吗……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「舌を鳴らした時の反響音で、人はそんな事が出来るのか……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 549,
+	},
+	block_00112 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0011", head="fri_z1b", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10385", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“为了了解蝙蝠的感觉，必须成为蝙蝠本身，这是哲学上的讨论。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「コウモリの感覚を知るためにはコウモリそのものにならなければならない、なんて哲学的議論はありますが」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 555,
+	},
+	block_00113 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10386", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“蝙蝠的空间感知能力即使不是蝙蝠也能获得。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「コウモリの空間感知能力はコウモリにならなくても獲得出来ます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 560,
+	},
+	block_00114 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10387", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“同样，只有三色色觉的人，没有理由不能利用其他生物所能看到的四色色觉、五色色觉以及其他东西。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「同じ様に、三色色覚しか持たない人間が、他の生物に見える四色色覚や五色色覚、それ以上のものを利用出来ない理由はない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 565,
+	},
+	block_00115 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0005", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10082", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“宫崎美铃做到了吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「宮崎みすゞはそれを成し遂げていたという事か？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 570,
+	},
+	block_00116 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10388", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“是的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「はい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 575,
+	},
+	block_00117 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10389", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“关于色觉的研究在University College London也很盛行。宫崎美铃当然出入于这个世界级综合大学的Faculty of Arts&Humanities。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「色覚についての研究はUniversity College Londonでも盛んにおこなわれています。当然この世界的総合大学のFaculty of Arts & Humanitiesに宮崎みすゞは出入りしていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 581,
+	},
+	block_00118 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10390", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“人们看不见的色觉对绘画有什么影响的研究也很盛行。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「人に見えない色覚が絵画にどの様な影響を与えるかという研究なども盛んにされています」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 586,
+	},
+	block_00119 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0007", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10083", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“大学的研究机关？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「大学の研究機関が？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 591,
+	},
+	block_00120 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10391", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“这是因为有脑科学部、生命科学部、人文艺术学部的综合大学的优势吧。在日本国内，这样的研究不会和艺术专家一起大规模进行。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「脳科学部も生命科学部も人文芸術学部もある総合大学故の強みでしょうね。",
+					{"rt2"},
+					"日本国内でその様な研究が、芸術の専門家まで交えて大規模におこなわれる",
+					{"rt2"},
+					"事はまずない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 598,
+	},
+	block_00121 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0009", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10084", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“这是最新研究产生的技术吗……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「最新研究が生み出した技法というわけか……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 603,
+	},
+	block_00122 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10392", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“最重要的是，对于宫崎美铃来说，那样的东西只是技法之一。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「一番重要な事は、宮崎みすゞにとっては、そんなものは技法の一つにすぎないという事ですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 608,
+	},
+	block_00123 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0011", head="fri_z1b", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10393", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“敢于炫耀三色色觉和四色色觉操作的画家等，在那个时候也比不上宫崎美铃那样的天才性的脚下。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「三色色覚と四色色覚の操作をあえて見せびらかすように使う画家など、その時点で宮崎みすゞの様な天才性の足元にも及ばない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 615,
+	},
+	block_00124 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0005", head="skm_z1a", x=345, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10085", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“哇，真是讨厌的说法啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「ちッ、嫌な言い方だな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 620,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10192", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“但是这是事实。村田老师把色觉频道从三改为四的程度，认为是世纪的大发明。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「だが事実ですよ。村田先生は、色覚のチャンネルを三から四に変えた程度の事を、世紀の大発明の様に思い込んでしまっているのですから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 623,
+	},
+	block_00126 = {
+		{"bg", speed=500, time=500, sync=0, file="zbg064a", path=":bg/", x2=-400, y2=0, x=-600, y=0, ax=1920, ay=1126, bx=-960, by=-586},
+		{"fg", ch="香奈", size="z2", speed=500, time=500, mode=3, resize=1, path=":fg/kan/z2/", file="kan_z2a0400", face="a0002", head="kan_z2a", x2=200, x=0, lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10086", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“你……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「お前は……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 630,
+	},
+	block_00127 = {
+		{"fg", ch="香奈", size="z2", mode=3, path=":fg/kan/z2/", file="kan_z2a0400", face="a0004", head="kan_z2a", x=0, lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10193", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“因为是下一个战斗的对手，所以是侦察。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「次戦う相手ですからね。偵察です」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 635,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10394", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“你是想确认谁会赢吗？长山老师。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「どちらが勝つか確かめておきたいと言う感じですか？　長山先生」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 638,
+	},
+	block_00129 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg064a", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="香奈", size="z1", mode=3, resize=1, path=":fg/kan/z1/", file="kan_z1b0410", face="b0004", head="kan_z1b", lv=4, id=9, sync=0},
+		{"extrans", time=400},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10194", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“不，胜负已经决定了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「いいえ、勝負など決まっていますよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 648,
+	},
+	block_00130 = {
+		{"fg", ch="香奈", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b0410", face="b0003", head="kan_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10195", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“宫崎美铃在国内是绝对的实力者。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「宮崎みすゞは国内ではダントツの実力者です」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 653,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10087", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“但是，那样的天才宫崎美铃，现在处于劣势。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「だが、そんな天才宮崎みすゞが、今劣勢に立たされている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 656,
+	},
+	block_00132 = {
+		{"fg", ch="香奈", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b0410", face="b0002", head="kan_z1b", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="香奈", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b0410", face="b0005", head="kan_z1b", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10196", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“是啊，不过换个说法，他是个天才，绝对赢不了草薙直哉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「そうですね。だけれども、言い方を変えれば、それほどの天才だから草薙直哉には決して勝てないのです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 663,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10088", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“宫崎美铃赢不了？这是怎么回事？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「宮崎みすゞが勝てない？　どういう事だ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 666,
+	},
+	block_00134 = {
+		{"fg", ch="香奈", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a0400", face="a0004", head="kan_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="香奈", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a0400", face="a0002", head="kan_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10197", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“这是很简单的理由。宫崎美铃拥有数不清的非凡技法和色彩。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「簡単な理由ですよ。",
+					{"rt2"},
+					"宮崎みすゞは数え切れないほどの非凡な技法や色彩を持っている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 673,
+	},
+	block_00135 = {
+		{"fg", ch="香奈", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a0400", face="a0005", head="kan_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10198", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“正因为如此，使用草薙直哉单纯的错觉的技术，才能作为巨大的柜台发挥作用。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「だからこそ、草薙直哉の単純な錯視を使った技法が、とてつもないカウンターとして機能する」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 678,
+	},
+	block_00136 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0008", head="skm_z1a", x=345, lv=4, id=6, sync=0},
+		{"extrans", time=400},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10089", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“所以，那是怎么回事？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「だから、それはどういう事だ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 689,
+	},
+	block_00137 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10395", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“有意识到什么程度……不，大概没有意识到吧。现在的草薙直哉全身都能理解对方的手的内心，任凭其流动，用身体本身来描绘。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「どこまで意識的か……いやたぶん意識なんてしていないのでしょうね。",
+					{"rt2"},
+					"今の草薙直哉は全身で相手の手の内をすべて理解し、その流れに身を任せて身体そのもので描いている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 696,
+	},
+	block_00138 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10396", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“草薙直哉的技法比宫崎美铃要单纯得多。但正因为如此，比起宫崎美铃，更能打动观众的灵魂。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「草薙直哉の技法の方が宮崎みすゞよりも遙かに単純だ。",
+					{"rt2"},
+					"だが、それ故に宮崎みすゞよりも見る者の魂を揺さぶる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 703,
+	},
+	block_00139 = {
+		{"fg", ch="坂本", size="z1", mode=3, path=":fg/skm/z1/", file="skm_z1a0000", face="a0005", head="skm_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_skm_10090", ch="skm"},
+			},
+		
+            cn = {
+				{
+					"“宫崎美铃在技法上遥遥领先……草薙直哉不考虑技法，只做影响观众的事吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"坂本"},
+					"「宮崎みすゞは技法的には遙か上だが……、草薙直哉は技法の事など考えずに、",
+					{"rt2"},
+					"見る者に響く事だけをやっているというわけか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 709,
+	},
+	block_00140 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10397", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“宫崎美铃画画，草薙直哉打动观众的心。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「宮崎みすゞは絵画を描き、草薙直哉は見る者の心を動かす」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 714,
+	},
+	block_00141 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10199", ch="kan"},
+			},
+		
+            cn = {
+				{
+					"“绘画的本质并不是技法和技术的高度。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"香奈"},
+					"「絵画の本質というのは、技法や技術の高さではないのですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 717,
+	},
+	block_00142 = {
+		{"bg", file="ev_con_05_05", path=":ev/ev_con_05/", set="ev_con_05"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14011", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 723,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"宫崎美铃的笔第一次停了下来。",
+				},
+			},
+        	ja = {
+				{
+					"はじめて宮崎みすゞの筆が止まった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 726,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"她在看我的笔。",
+				},
+			},
+        	ja = {
+				{
+					"彼女は俺の筆を見ている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 729,
+	},
+	block_00145 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14012", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“长笔……不仅如此，全身就像变成了笔一样移动的身体……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「長い筆……それだけじゃない、まるで全身が筆になったかの様に動く身体……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 732,
+	},
+	block_00146 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14013", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“像长了根一样不动的脚……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「まるで根が生えた様に動かぬ足……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 735,
+	},
+	block_00147 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14014", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“啊……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「あ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 738,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃注意到了我的鞋子和脚下的垫子。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんは俺の靴と足下のマットに気が付く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 741,
+	},
+	block_00149 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"正因为如此，现在我的身体就像物理上长着根一样固定在地上。",
+				},
+			},
+        	ja = {
+				{
+					"それこそ、今の俺の身体は物理的に根が生えている様に地面に固定されている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 744,
+	},
+	block_00150 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"据说可以攀登超高电阻的垫子和倾斜45°的特殊扣球。",
+				},
+			},
+        	ja = {
+				{
+					"超高抵抗のマットと傾斜45°すら登る事が可能と言われる特殊スパイク。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 747,
+	},
+	block_00151 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这样，我的脚就像地上长了根一样不动。",
+				},
+			},
+        	ja = {
+				{
+					"これによって、俺の足はまるで地に根が生えた様に動かない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 750,
+	},
+	block_00152 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"从那里难以相信的动作从上半身被抽出。",
+				},
+			},
+        	ja = {
+				{
+					"そこから信じがたいほどの動きが上半身から繰り出される。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 753,
+	},
+	block_00153 = {
+		{"bg", sync=0, face=1, file="ev_con_05_06", time=400, path=":ev/ev_con_05/", set="ev_con_05"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14015", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“不，但是不是那样的事……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「いや、でもそういう事じゃない……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 759,
+	},
+	block_00154 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14016", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“果然，即便如此，我也可能沉溺于技能。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「やはり、それでも、私は技量に溺れていたのかもしれない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 762,
+	},
+	block_00155 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14017", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“天才会让你忘记才能……吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「天才は才能を忘れさせてくれる……か」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 765,
+	},
+	block_00156 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14018", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“明明是重复了好几次的话。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「何度も反復した言葉なのに」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 768,
+	},
+	block_00157 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14019", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“尽管如此，通过信任技术，我可能已经摆脱了创作的痛苦。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「それにもかかわらず、技術を信頼する事で、私は創作の苦しさから逃げていたのかもしれない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 771,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14020", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“因为技法是最容易理解的，能保证自己作品的完成——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「技法はもっとも分かりやすく自らの作品の出来を担保してくれるから――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 774,
+	},
+	block_00159 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14021", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"「但是，不是那样的，那可不行。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「だが、そうじゃない。それではダメなんだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 777,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14022", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“所谓绘画，所谓表现，并不是展示技术。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「絵画とは、表現とは、技術を見せ合うものではない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 780,
+	},
+	block_00161 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14023", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“有时即使是最原始的技术，也会强烈地打动人心。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「時にはもっとも原始的な技術ですら、人の心を強くうつ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 783,
+	},
+	block_00162 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14024", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“数万年前的艺术，比如大约3万年前画的肖维洞窟壁画，让我们的心强烈地抑郁——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「数万年前の芸術が、たとえば約3万年前に描かれたショーヴェ洞窟壁画が我々の心を強くうつ様に――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 786,
+	},
+	block_00163 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14025", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“对那件事，我觉得我比谁都自觉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「そのことに、私は誰よりも自覚的であったと思っていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 789,
+	},
+	block_00164 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14026", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“但是，也许正是这种想法，才是自负吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「だが、その思い込みこそが、うぬぼれだったのかもしれない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 792,
+	},
+	block_00165 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14027", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“草薙先生……，这个人连这件事都没想过。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「草薙さんは……、この人は、そんな事すら考えていない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 795,
+	},
+	block_00166 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14028", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“只是，他的意识在探索本质。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ただ、彼の意識が、本質を探っている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 798,
+	},
+	block_00167 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14029", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“然后，让站在前面的相现前。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「そして、その先で立ちあらわれる相を現前させる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 801,
+	},
+	block_00168 = {
+		{"bg", file="ev_con_04_03", path=":ev/ev_con_04/", set="ev_con_04"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「我想得太多了，我只能做到那种程度。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「考えすぎだよ。俺はただその程度しか出来ないんだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 809,
+	},
+	block_00169 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“因为我没有你那样的技术。只是，只能寻找应该站在这里的美的本质。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺は君ほどの技術を持っていないからな。",
+					{"rt2"},
+					"ただ、ここに立ちあらわれるべき美の本質を探す事しかできない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 813,
+	},
+	block_00170 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我只能探索。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「探求しか出来ないのさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 818,
+	},
+	block_00171 = {
+		{"fgf", frame="frame_sd", bg="zev_con_05_07", bx=-300, by=-250, bz=70, disp="出右", bgpx=":ev/ev_con_05/", mode=3},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14030", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“哇————傲慢！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「っっっッッ――――、傲慢な！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 825,
+	},
+	block_00172 = {
+		{"bg", time=300, sync=0, file="ev_con_05_07", path=":ev/ev_con_05/", set="ev_con_05"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14031", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“无论到哪里都是傲慢的！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「どこまでも傲慢な！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 830,
+	},
+	block_00173 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14032", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“果然，你差了一位数。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「やはり、あなたは桁違いでした」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 833,
+	},
+	block_00174 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14033", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“即使这样也不会输——我会一直飞到最后！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「だとしても負けません――私は最後まで飛び続けます！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 836,
+	},
+	block_00175 = {
+		{"bg", sync=0, face=1, file="ev_con_05_04", time=400, path=":ev/ev_con_05/", set="ev_con_05"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"宫崎美铃再次拿起笔。",
+				},
+			},
+        	ja = {
+				{
+					"宮崎みすゞが再び筆を取る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 842,
+	},
+	block_00176 = {
+		{"quake"},
+		{"msgoff", time=0},
+		{"se", id=1, file="se0103"},
+		{"bg", file="paintingeffect05", id=1, lv=1, path=":cg/", sync=0},
+		{"extrans", rule=105, time=100},
+		{"bg", file="zev_con_05_04", id=2, lv=2, zoom=50, alpha=255, time=200, path=":ev/ev_con_05/", z2=53, set="ev_con_05", ax=1920, ay=1080, bx=-960, by=-540, sync=0},
+		{"bg", file="zev_con_05_04", id=3, lv=3, zoom=50, alpha=128, time=250, path=":ev/ev_con_05/", z2=53, set="ev_con_05", ax=1920, ay=1080, bx=-960, by=-540, sync=0},
+		{"bg", file="zev_con_05_04", id=4, lv=4, zoom=50, alpha=128, time=500, path=":ev/ev_con_05/", z2=55, set="ev_con_05", ax=1920, ay=1080, bx=-960, by=-540, sync=0},
+		{"extrans", rule=105, time=100},
+		{"ex", time=0, func="wait"},
+		{"bg", time=0, sync=0, file="ev_con_05_04", path=":ev/ev_con_05/", set="ev_con_05"},
+		{"msg", no=1},
+		{"cgdel", id=-1},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"她以前所未有的热情在画布上落下音色。",
+				},
+			},
+        	ja = {
+				{
+					"彼女はこれまでにないほどの熱意でキャンバスに音色を落とし込む。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 868,
+	},
+	block_00177 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我也回应那个。",
+				},
+			},
+        	ja = {
+				{
+					"俺もそれに応える。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 871,
+	},
+	block_00178 = {
+		{"msgoff"},
+		{"bg", file="bg005a", path=":bg/", sync=0},
+		{"bg", lv=5, id=5, rule="cinema", file="cinema01", alpha=255, time=400, path=":sys/", vague=40, sync=0},
+		{"extrans", time=500},
+		{"quake"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"哇————————————————",
+				},
+			},
+        	ja = {
+				{
+					"ザワッッッ――――っっッッ――――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 883,
+	},
+	block_00179 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"会场乱哄哄的。",
+				},
+			},
+        	ja = {
+				{
+					"会場がどよめく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 886,
+	},
+	block_00180 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不，已经变成了欢呼声。",
+				},
+			},
+        	ja = {
+				{
+					"いや、もはや歓声に変わっていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 889,
+	},
+	block_00181 = {
+		{"bg", time=500, file="ev_con_05_04", path=":ev/ev_con_05/", set="ev_con_05"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14034", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“不管你以多快的速度振翅高飞，我也会飞到更高的地方。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「あなたがどれほどの速さで羽ばたいても、私だって遙か上まで飛び上がります」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 895,
+	},
+	block_00182 = {
+		{"fgf", frame="frame_rt", bg="ev_con_04_03", disp="出左", bgpx=":ev/ev_con_04/", mode=3},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，我知道。说起来，得到这种力量的，是你的笔的力量。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ、分かっている。そもそも、この力を得たのは、君の筆の力だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 900,
+	},
+	block_00183 = {
+		{"bg", sync=0, face=1, file="ev_con_05_08", time=400, path=":ev/ev_con_05/", set="ev_con_05"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14035", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“不高兴。得到我的力量，你的笔竟然能完成这样的上升——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「うれしくありません。私の力を得て、あなたの筆がこんな上昇を果たすなんてっっッッ――――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 906,
+	},
+	block_00184 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"由于创作，心铃君的眉毛扭曲了。",
+				},
+			},
+        	ja = {
+				{
+					"創作で心鈴くんの眉毛が歪む。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 909,
+	},
+	block_00185 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"确实很痛苦。看起来很痛苦。",
+				},
+			},
+        	ja = {
+				{
+					"たしかに苦しそうだ。",
+					{"rt2"},
+					"とてもつらそうだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 913,
+	},
+	block_00186 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"创作的本质在于痛苦。",
+				},
+			},
+        	ja = {
+				{
+					"創作の本質は苦痛にある。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 916,
+	},
+	block_00187 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"只有快乐的创作自然是有限的。",
+				},
+			},
+        	ja = {
+				{
+					"楽しさだけの創作には自ずと限界がある。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 919,
+	},
+	block_00188 = {
+		{"bg", time=500, sync=0, file="ev_con_04_09", path=":ev/ev_con_04/", set="ev_con_04"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“即便如此——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それでもさ――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 925,
+	},
+	block_00189 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14036", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“即便如此？什么事？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「それでも？　なんですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 928,
+	},
+	block_00190 = {
+		{"bg", sync=0, face=1, file="ev_con_04_10", time=400, path=":ev/ev_con_04/", set="ev_con_04"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“好开心啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「楽しいんだよなぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00189",
+		linknext = "block_00191",
+		line = 934,
+	},
+	block_00191 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14037", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“嗯——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「っ――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00190",
+		linknext = "block_00192",
+		line = 937,
+	},
+	block_00192 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“单纯的快乐是不行的”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「単純な楽しさだけではだめだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00191",
+		linknext = "block_00193",
+		line = 940,
+	},
+	block_00193 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“单纯的痛苦是不行的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「単純な苦痛だけではだめだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00192",
+		linknext = "block_00194",
+		line = 943,
+	},
+	block_00194 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“为了让人的灵魂高兴”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「人の魂を喜ばせるには」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00193",
+		linknext = "block_00195",
+		line = 946,
+	},
+	block_00195 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“没有一切就不行。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「すべてがなければだめなんだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00194",
+		linknext = "block_00196",
+		line = 949,
+	},
+	block_00196 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“所以，这个地方。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だから、この場は」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00195",
+		linknext = "block_00197",
+		line = 952,
+	},
+	block_00197 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“无论多么痛苦，还是快乐的。我的心都会跳起来。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「どんなつらくても、やはり楽しい。",
+					{"rt2"},
+					"心が躍るんだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00196",
+		linknext = "block_00198",
+		line = 956,
+	},
+	block_00198 = {
+		{"bg", zoom=70, speed=1500, time=1000, sync=0, file="zev_con_05_09", path=":ev/ev_con_05/", x2=180, y2=-90, x=380, y=90, set="ev_con_05", ax=1920, ay=1080, bx=-960, by=-540},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14038", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“哇！！哇，真遗憾。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「っっ！！　くっ、残念ながらっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00197",
+		linknext = "block_00199",
+		line = 963,
+	},
+	block_00199 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这是这样的画。那么，让我们痛苦到最后，尽情享受吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「これはそういう絵画なんだよ。",
+					{"rt2"},
+					"さぁ、最後まで苦しみ、そして存分に楽しもうぜ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00198",
+		linknext = "block_00200",
+		line = 967,
+	},
+	block_00200 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14039", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“虽然不是我的本意，但我在这里非常痛苦，非常开心！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「不本意ですが、大いに私はここで苦しみ、そして楽しませていただきます！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00199",
+		linknext = "block_00201",
+		line = 970,
+	},
+	block_00201 = {
+		{"bg", time=500, file="ev_con_05_09", path=":ev/ev_con_05/", set="ev_con_05"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不愧是宫崎美铃。",
+				},
+			},
+        	ja = {
+				{
+					"さすがは宮崎みすゞといったところか。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00200",
+		linknext = "block_00202",
+		line = 975,
+	},
+	block_00202 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"笔跳得比刚才还要漂亮。",
+				},
+			},
+        	ja = {
+				{
+					"先ほどよりも筆が美しく踊る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00201",
+		linknext = "block_00203",
+		line = 978,
+	},
+	block_00203 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那激动使她的汗水在聚光灯下发光在空中飞翔。",
+				},
+			},
+        	ja = {
+				{
+					"その激しさで彼女の汗がスポットライトで光を放ち宙を飛ぶ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00202",
+		linknext = "block_00204",
+		line = 981,
+	},
+	block_00204 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"没错。正如她所说，她的飞翔不会停止。",
+				},
+			},
+        	ja = {
+				{
+					"そうだ。",
+					{"rt2"},
+					"彼女の言う通りに、彼女の飛翔は止まらない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00203",
+		linknext = "block_00205",
+		line = 985,
+	},
+	block_00205 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"笔越往高处写她。",
+				},
+			},
+        	ja = {
+				{
+					"さらなる高みへと筆が彼女をいざなう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00204",
+		linknext = "block_00206",
+		line = 988,
+	},
+	block_00206 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是，剩下的时间并不长。",
+				},
+			},
+        	ja = {
+				{
+					"だが、残り時間はさほど長くない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00205",
+		linknext = "block_00207",
+		line = 991,
+	},
+	block_00207 = {
+		{"fgf", frame="frame_ctl", bg="ev_con_05_09", bx=-200, disp="出右", bgpx=":ev/ev_con_05/", mode=3},
+		{"fgf", frame="frame_ctr", bg="ev_con_04_10", disp="出左", bgpx=":ev/ev_con_04/", mode=3},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"尽管如此，我和心铃还是动笔。",
+				},
+			},
+        	ja = {
+				{
+					"それでも俺と心鈴くんは筆を動かし。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00206",
+		linknext = "block_00208",
+		line = 997,
+	},
+	block_00208 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"共同回响灵魂。",
+				},
+			},
+        	ja = {
+				{
+					"共に魂を響かせる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00207",
+		linknext = "block_00209",
+		line = 1000,
+	},
+	block_00209 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这里只有画布、笔和颜料。",
+				},
+			},
+        	ja = {
+				{
+					"ここにはキャンバスと筆と絵の具しかない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00208",
+		linknext = "block_00210",
+		line = 1003,
+	},
+	block_00210 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"尽管如此还是有一切。",
+				},
+			},
+        	ja = {
+				{
+					"それでもすべてがある。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00209",
+		linknext = "block_00211",
+		line = 1006,
+	},
+	block_00211 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这才是名为表现的美。",
+				},
+			},
+        	ja = {
+				{
+					"それこそが、表現という名の美なのだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00210",
+		linknext = "block_00212",
+		line = 1009,
+	},
+	block_00212 = {
+		{"bg", file="black", path=":bg/"},
+		{"bgm", stop=1},
+		{"se", id=1, file="se0077"},
+		{"ex", time=3000, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10398", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“到此结束第一轮比赛的实际操作！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「これにて、第一回戦の実技を終わらせていただきます！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00211",
+		linknext = "block_00213",
+		line = 1018,
+	},
+	block_00213 = {
+		{"se", id=2, file="se0125"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"会场被欢声包围。",
+				},
+			},
+        	ja = {
+				{
+					"会場が歓声に包まれる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00212",
+		linknext = "block_00214",
+		line = 1023,
+	},
+	block_00214 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"在演唱会上会有这样热闹的事情吗。",
+				},
+			},
+        	ja = {
+				{
+					"ライブペイントなんかでこんな盛り上がる事などあるだろうか。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00213",
+		linknext = "block_00215",
+		line = 1026,
+	},
+	block_00215 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"简直就像看完体育比赛之后一样。",
+				},
+			},
+        	ja = {
+				{
+					"まるでスポーツ観戦を終えたあとみたいだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00214",
+		linknext = "block_00216",
+		line = 1029,
+	},
+	block_00216 = {
+		{"se", stop=1, time=500, id=1},
+		{"se", stop=1, time=500, id=2},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", y=-350, file="zbg005a", path=":bg/", ax=1920, ay=1080, bx=-960, by=-540, sync=0},
+		{"fg", ch="心鈴", size="z2", mode=3, resize=1, path=":fg/mis/z2/", file="mis_z2a0810", face="a0014", head="mis_z2a", lv=5, id=9, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14040", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“所有的力量都拿出来了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「力はすべて出し切りました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00215",
+		linknext = "block_00217",
+		line = 1043,
+	},
+	block_00217 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0810", face="a0010", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14041", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“所以我接受这次的结果。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「なので今回の結果は受け入れます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00216",
+		linknext = "block_00218",
+		line = 1048,
+	},
+	block_00218 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你真是太快了，审查还没结束吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「気が早いな。まだ審査は終わってないだろ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00217",
+		linknext = "block_00219",
+		line = 1051,
+	},
+	block_00219 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0810", face="a0001", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14042", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“没必要吧，看看观众的反应。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「必要ないでしょう。観客の反応を見てください」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00218",
+		linknext = "block_00220",
+		line = 1057,
+	},
+	block_00220 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg005a", path=":bg/", sync=0},
+		{"extrans", time=500},
+		{"se", id=1, file="se0130"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"就像演唱会结束后一样。很多人都在起立。",
+				},
+			},
+        	ja = {
+				{
+					"まるでコンサートが終わった後の様だ。",
+					{"rt2"},
+					"多数の者達がスタンディングオベーションしている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00219",
+		linknext = "block_00221",
+		line = 1069,
+	},
+	block_00221 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我不知道那是在对哪一方表示赞赏。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あれじゃどちらに対して賞賛を送っているか分からない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00220",
+		linknext = "block_00222",
+		line = 1072,
+	},
+	block_00222 = {
+		{"se", stop=1, time=1000, id=1},
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="心鈴", size="z1", mode=3, resize=1, path=":fg/mis/z1/", file="mis_z1a0810", face="a0001", head="mis_z1a", lv=4, id=9, sync=0},
+		{"extrans", time=400},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14043", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“是吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「そうでしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00221",
+		linknext = "block_00223",
+		line = 1084,
+	},
+	block_00223 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃再次仰望画布。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんは再びキャンバスを見上げる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00222",
+		linknext = "block_00224",
+		line = 1089,
+	},
+	block_00224 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0010", head="mis_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14044", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“看了这幅画，一眼就能看出哪支笔感动了更多的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「この絵画を見てたら、どちらの筆がより多くの人々に感動を与えたかひと目で",
+					{"rt2"},
+					"分かるでしょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00223",
+		linknext = "block_00225",
+		line = 1097,
+	},
+	block_00225 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0002", head="mis_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_14045", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“很遗憾，我们完败了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「残念ながら完敗ですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00224",
+		linknext = "block_00226",
+		line = 1103,
+	},
+	block_00226 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"汗流浃背的她笑了。",
+				},
+			},
+        	ja = {
+				{
+					"汗だくの彼女が笑う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00225",
+		linknext = "block_00227",
+		line = 1106,
+	},
+	block_00227 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我觉得那个样子很美。",
+				},
+			},
+        	ja = {
+				{
+					"その姿がとても美しく思えた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00226",
+		linknext = "block_00228",
+		line = 1109,
+	},
+	block_00228 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="05_08_3"},
+		{"text"},
+		linkback = "block_00227",
+		line = 1113,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

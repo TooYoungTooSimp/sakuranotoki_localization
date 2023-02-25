@@ -1,0 +1,6717 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="第Ⅲ章"},
+		{"msg", no=1},
+		{"msgoff"},
+		{"bg", file="bg047a", path=":bg/", sync=0},
+		{"fg", ch="麗華", size="z1", mode=3, resize=1, path=":fg/rei/z1/", file="rei_z1a0100", face="a0006", head="rei_z1a", lv=4, id=9, sync=0},
+		{"extrans", time=500},
+		{"bgm", file="bgm167"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10185", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“别开玩笑了！那是莫奈作品的‘远程烧烤’！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「ふざけるな！　あれはモネ作の“リモージュ焼き”だ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 17,
+	},
+	block_00001 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0005", head="rei_z1a", lv=4, id=9},
+		{"quake"},
+		{"se", id=1, file="se0010"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"刚被送到房子的起居室，中村丽华就把手边的糖盒扔了过来。",
+				},
+			},
+        	ja = {
+				{
+					"屋敷の居間に通されるやいなや、中村麗華が手元にあった砂糖入れを投げてきた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 26,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10581", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“哇！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「っッ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 29,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_nei_10751", ch="nei"},
+			},
+		
+            cn = {
+				{
+					"“所以才不一样。那部作品作为现代作家的作品，今后将得到美术界的认可。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"寧"},
+					"「だから、違うのですよ。",
+					{"rt2"},
+					"あの作品は現代作家の作品としてこれから美術界から認められるハズです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 33,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“根据杂志艺术学校的特辑报道和摩尔财团的支持，鸟谷静流会被认为是将幻之釉以所有形式融入现代作品的孤高陶艺家吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「雑誌アートスクールの特集記事とムーア財団のバックアップによって、鳥谷静流は幻の釉薬をあらゆる形で現代作品に取り込んだ孤高の陶芸家と認知されるでしょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 36,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“雪景鹊图花瓶即使不是莫奈作的‘远程烧’，也能得到充分的价值。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"はモネ作の“リモージュ焼き”で無くても、十分な価値を得ます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 40,
+	},
+	block_00006 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0006", head="rei_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10186", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“所以说，这是多余的照顾！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「だから、それが余計なお世話だというんだよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 45,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么是多余的？会有价值的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「何が余計なのですか？　価値が出るのですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 48,
+	},
+	block_00008 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0006", head="rei_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10187", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“是谁拜托你做的！发现那个花瓶的价值的，不是别人！不是我就不行！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「誰がそんな事を頼んだんだよ！　",
+					{"rt2"},
+					"あの花瓶の価値を見いだすのは、他の誰でも無い！　",
+					{"rt2"},
+					"私じゃなきゃダメだったんだよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 55,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“诶？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「え？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 58,
+	},
+	block_00010 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0006", head="rei_z1a", lv=4, id=9},
+		{"fgact", ch="麗華", act="びっくり", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10188", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“别开玩笑了！你懂什么！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「ふざけるな！　お前に何が分かる！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 64,
+	},
+	block_00011 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0006", head="rei_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, resize=1, path=":fg/shi/z1/", file="shi_z1b0700", face="b0008", head="shi_z1b", x=345, lv=4, id=6, sync=0},
+		{"extrans", time=400},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10582", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“丽华……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「麗華……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 75,
+	},
+	block_00012 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0005", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0004", head="rei_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10189", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“叛徒，静流。你又背叛了我……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「裏切り者、静流。あんたはまた私を裏切ったんだ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 81,
+	},
+	block_00013 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0700", face="b0005", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10583", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“背叛，是用赝品欺骗的事？还是没有交出那部作品？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「裏切りって、贋作で騙した事？　それともその作品を渡さなかった事？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 86,
+	},
+	block_00014 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0005", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0006", head="rei_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10190", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“那种过去的事怎样都无所谓！我现在才说‘下次再见’！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「そんな過去の事なんてどうでもいい！　私は“また”と今言ったの！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 92,
+	},
+	block_00015 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0005", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10191", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“我答应过你一次！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「私は一度、あなたと約束したハズよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 97,
+	},
+	block_00016 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10192", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“不，那可能不是约定。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「いいえ、あれは約束では無かったかもしれない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 102,
+	},
+	block_00017 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10193", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“确实，也许只是我单方面传达的事情——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「たしかに、ただ私が一方的に伝えた事だったかもしれない――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 107,
+	},
+	block_00018 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0700", face="b0011", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10584", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“什么，那个约定？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「なに、その約束って？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 112,
+	},
+	block_00019 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0009", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10194", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“没有学问的你怎么可能记得呢。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「学がないあなたが覚えているわけがないわね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 117,
+	},
+	block_00020 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0004", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10195", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“你是笨蛋，真的，脑子里只有陶艺的事，完全不理解艺术的事。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「あなたはバカだから、本当に、陶芸の事しか頭になくて、芸術の事なんてさっぱり理解していない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 123,
+	},
+	block_00021 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0700", face="b0001", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10585", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“艺术的事？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「芸術の事？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 128,
+	},
+	block_00022 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0005", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10196", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“这是泰奥多·杜勒和路易·卢洛娃的故事。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「テオドール・デュレとルイ・ルロワの話よ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 133,
+	},
+	block_00023 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0700", face="b0001", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"泰奥多·杜勒和路易·卢洛娃",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「テオドール・デュレとルイ・ルロワ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 138,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那个名字是……。",
+				},
+			},
+        	ja = {
+				{
+					"その名は……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 141,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13530", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“都是以印象派相关的批评而闻名的人物。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「共に印象派に関わる批評で有名な人物ですね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 144,
+	},
+	block_00026 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0700", face="a0007", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10586", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“是吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「そ、そうなの？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 149,
+	},
+	block_00027 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0009", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10197", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“你看，我还是不记得了。或者说，你连理解都没有吧……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「ほら、やっぱり覚えていない。",
+					{"rt2"},
+					"というか理解すらしてなかったのでしょう……あんたは」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 156,
+	},
+	block_00028 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0700", face="b0008", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0700", face="b0011", head="shi_z1b", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10587", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“嗯，那个，那个叫朱丽的人是谁？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「えっと、その、ルなんとかとジュレって人は誰？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 162,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“泰奥多·杜勒从初期开始就对浮世绘等表现出兴趣，不是在日本而是在亚洲旅行的批评家。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「テオドール・デュレは、初期から浮世絵などに関心を示し、日本ならずアジアを旅した批評家です」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 165,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“为了走在歌川广重描绘的东海道，特意去了禁止出国的日本旅行，这对之后法国的日本产生了很大的影响。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「歌川広重が描いた東海道を歩くために、わざわざ渡航が禁止されていた日本を旅した事で有名で、その後のフランスにおけるジャポニスムに多大な影響を与えた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 168,
+	},
+	block_00031 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0700", face="a0001", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10588", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“啊，我听说过。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「あ、それ聞いた事がある」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 173,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13531", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“对印象派有好感，热心地批评也广为人知。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「印象派に対して好意的であり、熱心に批評した事でも知られます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 176,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“与此相对，路易·卢瓦因在《印象派展览会》这篇新闻报道中痛斥印象派而闻名。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それに対してルイ・ルロワは『印象派の展覧会』という新聞記事で印象派を痛烈に皮肉った事で有名です」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 179,
+	},
+	block_00034 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0700", face="a0001", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13532", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“虽然是杜勒善意介绍的印象派，但讽刺的是，在批判的卢洛瓦的报道中，‘印象派’会广为人知。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「デュレが好意的に紹介した印象派ですが、皮肉にも、批判的であったルロワの",
+					{"rt2"},
+					"記事で、『印象派』は世に知られる様になります」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 185,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“大众和画家们都知道‘印象派’是一个新词汇。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「大衆にも、そして画家達にも、新しい言葉として『印象派』が知れ渡った」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 188,
+	},
+	block_00036 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0700", face="a0007", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10589", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“新词！？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「新しい言葉！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 193,
+	},
+	block_00037 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0700", face="a0001", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0710", face="a0008", head="shi_z1a", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10590", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“那个，我听说过。确实——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「それ、聞いた事がある。たしか――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 199,
+	},
+	block_00038 = {
+		{"bgm", stop=1},
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0700", face="b0010", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10591", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“新美需要新词。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「新しい美には、新しい言葉が必要である」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 206,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“真是有趣的词语。确实很有针对性。在新的艺术活动中，有必要用新的语言来讲述美。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「面白い言葉ですね。たしかに的を射てますよ。",
+					{"rt2"},
+					"新しい芸術活動には、新しい言葉で美を語る必要がある」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 210,
+	},
+	block_00040 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0700", face="b0001", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这是谁的话？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「誰の言葉なのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 215,
+	},
+	block_00041 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", lv=4, id=5, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10198", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“是我啊……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「私よ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 227,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“诶？阿姨？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「え？　おばさんが？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 230,
+	},
+	block_00043 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0006", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10199", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“阿姨，别说了！我还年轻！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「おばさん言うな！　私はまだ若い！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 235,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不，没有说的那么年轻吧。确实，虽然看起来很年轻……。",
+				},
+			},
+        	ja = {
+				{
+					"いや、言うほどは若くないだろ。",
+					{"rt2"},
+					"たしかに、見た目は若いけど……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 239,
+	},
+	block_00045 = {
+		{"bgm", file="bgm153", time=5000},
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0005", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10200", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“你不记得了，我说这话的时候我说过的话。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「覚えてないわよね。その話をした時に、私が言った言葉」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 251,
+	},
+	block_00046 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10201", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“我不知道是作为露洛娃还是二重唱……但还是我为你的新美添加了语言。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「私はルロワとしてかデュレとしてか、そのどちらかは分からないけど……それでもあなたの新しい美に言葉を添えるのは私なのだと」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 256,
+	},
+	block_00047 = {
+		{"bgm", file="bgm153"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是作为露瓦还是二重唱……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ルロワとしてかデュレとしてか……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 261,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13533", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 264,
+	},
+	block_00049 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“难道，作为露洛娃，不，作为露洛娃式的反论……想让静流先生的艺术作品闻名于世吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「もしかして、ルロワとして、いやルロワ的な逆説として……",
+					{"rt2"},
+					"静流さんの芸術作品を世に知らしめたかったのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 275,
+	},
+	block_00050 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"丽华把之前吊着的眉毛垂下来。",
+				},
+			},
+        	ja = {
+				{
+					"麗華さんは、それまでつり上げていた眉毛を下げる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 280,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"抱着胳膊，安静地开始说话。",
+				},
+			},
+        	ja = {
+				{
+					"腕を組み、静かに話を始める。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 283,
+	},
+	block_00052 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10202", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“作品好的话，社会会认可的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「作品が良ければ、世の中が認めてくれる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 288,
+	},
+	block_00053 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10203", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“这个世界并不那么美好。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「それほど世の中は甘くないわ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 293,
+	},
+	block_00054 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10204", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"「如果静流用弓张釉完成作品，也很难让世人知道它的价值……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「静流がもし仮に弓張釉薬で作品を完成させたとしても、",
+					{"rt2"},
+					"その価値を世に知らしめる事は難しい……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 300,
+	},
+	block_00055 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10205", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“好的东西往往会因为好而被埋没。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「良いものは、良い故に埋もれてしまう事がたびたびあるもの」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 305,
+	},
+	block_00056 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10206", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“美丽是必须被发现的”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「美しさは、発見されなければならない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 310,
+	},
+	block_00057 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10207", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“如果没有人发现，谁也不会看它有多美。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「誰かが発見しなければ、それがどんなに美しくとも誰も見向きもしないわ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 315,
+	},
+	block_00058 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10208", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“说起来，艺术就是从世界上发现美。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「そもそも、芸術とは、世界から美を発見する事に他ならない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 320,
+	},
+	block_00059 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10209", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“而且，批评也只能发现艺术作品的美。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「そして、批評もまた、その芸術作品の美を発見する事に他ならない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 325,
+	},
+	block_00060 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10210", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“是我自己想出来的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「私なりに考えたのよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 330,
+	},
+	block_00061 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10211", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“我和你们一样几乎没有和艺术界的接触点。权威和名誉在那个世界上都没有……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「私はあんたらの様に芸術界との接点をほとんど持たない。",
+					{"rt2"},
+					"権威も名誉もその世界では持ち合わせていない……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 336,
+	},
+	block_00062 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10212", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“这样的我让静流的艺术闻名于世。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「そんな私が静流の芸術を世に知らしめる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 341,
+	},
+	block_00063 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10213", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“为此需要做的事……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「そのために必要な事……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 346,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我敢说这是莫奈作品的‘利莫日烧’，古美术商会马上就要把它捏出来了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あえて、モネ作の“リモージュ焼き”だと言い張り、古美術商会からつまはじきにされる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 349,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_nei_10752", ch="nei"},
+			},
+		
+            cn = {
+				{
+					"「咦？为什么要做那种事？」",
+				},
+			},
+        	ja = {
+				{
+					name = {"寧"},
+					"「え？　なんでそんな事を？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 352,
+	},
+	block_00066 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0710", face="a0001", head="shi_z1a", x=345, lv=4, id=6, sync=0},
+		{"extrans", time=400},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10592", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“古美术商会是非常封闭的，而且很顽固。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「古美術商会というのは、非常に閉鎖的でそして頭が固いんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 363,
+	},
+	block_00067 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0710", face="a0010", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10593", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“如果丽华把它交给古美术商的话，就会被骂为‘假货’。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「あれを麗華が古美術商に出せば、“偽物”って一蹴される」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 368,
+	},
+	block_00068 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0005", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10214", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“但是，如果当场胡闹的话，会成为话题吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「でも、その場で暴れてやれば、話題にはなるでしょ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 373,
+	},
+	block_00069 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0003", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10215", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“如果是地方报纸的报道的话，会变成有趣的事情。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「地方新聞の記事にでもなればおもしろい事になるわ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 378,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13534", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“不知道是不是正确的做法，雪景鹊图花瓶会成为话题吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「正しいやり方かどうか分かりませんが、",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"は話題にはなるでしょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 382,
+	},
+	block_00071 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0001", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10216", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“没落的名家被糟蹋了，莫奈作品的远程烧……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「落ちぶれた名家がダマされた、モネ作のリモージュ焼き……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 387,
+	},
+	block_00072 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0010", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10217", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“众愚想看看那是什么样的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「それがどの様なものか見てみようと衆愚は思う」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 392,
+	},
+	block_00073 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0700", face="b0008", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10594", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“你是这么想的吗？丽华……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「そんな事を考えていたの？　麗華……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 397,
+	},
+	block_00074 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0005", head="rei_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10218", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“是啊。如果不是那种愚蠢的梦想，我是做不到的！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「そうよ。そんなバカバカしい夢想でもなければ、私はやってられなかったわ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 403,
+	},
+	block_00075 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5, sync=0},
+		{"extrans", time=400},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0006", head="rei_z1a", lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10219", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“因为，我是！我是！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「だって、私は！　私は！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 413,
+	},
+	block_00076 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0004", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10220", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“嗯。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「くっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 418,
+	},
+	block_00077 = {
+		{"se", id=1, file="se0071"},
+		{"quake"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"把拳头打在桌子上。",
+				},
+			},
+        	ja = {
+				{
+					"拳をテーブルにたたきつける。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 425,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“您说的话，我不认为那个战略会有什么办法……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お言葉ですが、その戦略でどうにかなるとは思えません……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 428,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“古美术商虽然保守，但也有相应的权威。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「古美術商は保守的ではありますが、それなりの権威でもあります」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 431,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“一旦被打上假货的烙印，就很难颠覆它的价值。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「一度、偽物の烙印を押されれば、その価値を覆すのは難しいでしょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 434,
+	},
+	block_00081 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0005", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10221", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“这不是理所当然的事。我的力量是无法解决的。而且中村的力量不是可以解决的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「当たり前じゃない。私の力でどうにかなるものじゃない。",
+					{"rt2"},
+					"そして落ちぶれた中村の力でどうにかなるものじゃない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 441,
+	},
+	block_00082 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0005", head="rei_z1a", lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10222", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“但是，本间的家是从大正开始持续的富豪一族，他们也和摩尔有联系。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「けど、本間の家は大正から続く富豪の一族、彼らはムーアとのつながりもある」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 447,
+	},
+	block_00083 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0700", face="b0008", head="shi_z1b", x=345, lv=4, id=6, sync=0},
+		{"extrans", time=400},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10595", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“难道是为了这个目的在本间？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「もしかして、そんな目的で本間に？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 456,
+	},
+	block_00084 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0006", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10223", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“不可能吧！是为了家，是为了中村家嫁到本间的！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「そんなわけないでしょ！　家のためよ。中村家のために本間に嫁いだのよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 461,
+	},
+	block_00085 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0008", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10224", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“正因为如此，我才告诉你，即使是那样的事，如果不梦想的话也做不到！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「だからこそ、そんな事でも夢想しないとやってられないと言ったのよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 466,
+	},
+	block_00086 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0700", face="b0001", head="shi_z1b", x=345, lv=4, id=6},
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0009", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10225", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“用本间之力，移动摩尔，让雪景鹊图花瓶闻名于世。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「本間の力を使って、ムーアを動かし、雪景鵲図花瓶を世に知らしめる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 473,
+	},
+	block_00087 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0005", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10226", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“所以！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「だから！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 478,
+	},
+	block_00088 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", y=260, file="zbg047a", path=":bg/", ax=1920, ay=1080, bx=-960, by=-540, sync=0},
+		{"fg", ch="麗華", size="z2", mode=3, resize=1, path=":fg/rei/z2/", file="rei_z2a0100", face="a0005", head="rei_z2a", lv=5, id=5, sync=0},
+		{"extrans", time=500},
+		{"quake"},
+		{"se", id=1, file="se0156"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"巴萨。",
+				},
+			},
+        	ja = {
+				{
+					"バサッ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 492,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"纸捆被我们扔了。",
+				},
+			},
+        	ja = {
+				{
+					"紙束が俺達に投げつけられる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 495,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那是大量的纸捆。",
+				},
+			},
+        	ja = {
+				{
+					"それは大量の紙束だった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 498,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10596", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“这是——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「これは――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 503,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“研究？论文？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「研究？　論文？？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 506,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"化学反应的化学式和成分表等也混在一起。它们记载着所有学术机构的名字。",
+				},
+			},
+        	ja = {
+				{
+					"化学反応の化学式や成分表なども混ざっている。それらにはあらゆるアカデミックな機関の名前が記されている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 509,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10597", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“诶？难道是和弓张釉有关的东西？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「え？　もしかして弓張釉薬に関わるもの？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 514,
+	},
+	block_00095 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg047a", path=":bg/", sync=0},
+		{"fg", ch="麗華", size="z1", mode=3, resize=1, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", lv=4, id=5, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10227", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“成分调查都是委托大学来做的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「成分調査は全部、大学などに委託してやってもらっているわ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 526,
+	},
+	block_00096 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10228", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“这个那个，十五年以上都拜托了各种各样的研究机构，知道的只有全体的七成左右……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「かれこれ、十五年以上もいろいろな研究機関に頼んでいるけど、",
+					{"rt2"},
+					"分かったのは全体の七割ぐらいのものね……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 532,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“七成？我拜托大学分析成分的时候连二成都不知道。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「七割も？　俺が大学に成分分析頼んだ時は二割ほども分からなかったのに」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 535,
+	},
+	block_00098 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10229", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“弓张釉药中含有很多与以往已知的可塑性原料、非可塑性原料、除此之外的熔剂原料不同的成分。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「弓張釉薬には、これまで知られていた可塑性原料や非可塑性原料、それ以外の",
+					{"rt2"},
+					"融剤原料とも違う成分が多く含まれている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 541,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我想其他的土也一样，但是木节粘土等混入了有机物，有各种各样的颜色。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それは他の土だって同じだと思いますが、木節粘土などは有機物が混入していていろいろな色をしていますし」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 544,
+	},
+	block_00100 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0004", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10230", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“不是这个问题。那是和更复杂的东西有关的。所以，如果不用各种方法多方面地取得数据的话，完全不知道。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「そういう問題ではない。あれはもっと複雑な何かが関わっている。",
+					{"rt2"},
+					"だから、いろいろな方法で多面的にデータを取らないとまったく分からない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 551,
+	},
+	block_00101 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0011", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10231", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“至少，旧文献中记载的显色图案的说明，不是通过单纯的成分检查就能明白的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「少なくとも、古い文献に記されている発色パターンの説明は、単純な成分検査で分かるものではない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 556,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“旧文献……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「古い文献……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 559,
+	},
+	block_00103 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我读了散乱的论文。",
+				},
+			},
+        	ja = {
+				{
+					"俺は、ばらまかれた論文を読む。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 564,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这是……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「これは……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 567,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10598", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“好厉害，这个！难道这个引用不是中村家流传下来的秘传书吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「すごい、これ！　もしかしてこの引用ってば、中村家に伝わる秘伝の書じゃないの？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 570,
+	},
+	block_00106 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10232", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“是啊，我从学生时代开始就一直在研究碧绯。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「そうよ。私は学生時代から碧緋の研究を続けてきた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 575,
+	},
+	block_00107 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10233", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“千年前的文献很受伤，很难解读。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「千年前の文献はかなり傷んでいて解読が困難だったわ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 580,
+	},
+	block_00108 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0002", head="rei_z1a", lv=4, id=5},
+			},
+			vl02 = {
+				{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0004", head="rei_z1a", lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10234", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“弓张时代将来想进入能成为艺术系的学艺员的大学。将来的梦想是学艺员……现在想起来是纯粹的愚蠢想法。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「弓張時代は将来は芸術系の学芸員になれる様な大学に入りたいと思った。",
+					{"rt2"},
+					"将来の夢は学芸員……今思うと純粋なぐらい愚かな考え」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 588,
+	},
+	block_00109 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10235", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“我进入的是本间运营的大学，那个文学部国文科”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「私が入ったのは、本間が運営する大学、その文学部国文科」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 592,
+	},
+	block_00110 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0009", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10236", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“一开始对完全不感兴趣的大学感到很为难。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「最初はまったく興味がない大学に辟易したものよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 597,
+	},
+	block_00111 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10237", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“但是，有一天我注意到了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「けど、ある日気が付いた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 602,
+	},
+	block_00112 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0002", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10238", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“国文科具备了阅读旧文献的技能和工具。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「国文科には、古い文献を読むためのスキルや道具が揃っていたのよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 607,
+	},
+	block_00113 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0002", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10239", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“我读到了之前没能读过的中村家秘传书籍。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「それまで読む事が出来なかった中村家の秘伝の書籍を読む事が出来た」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 612,
+	},
+	block_00114 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10240", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“成分分析交给专家，我查阅了古典资料。不仅是中村家，似乎有关系的文献都是从一个侧面看的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「成分分析は専門家に任せて、私は古典資料を調べた。",
+					{"rt2"},
+					"中村家だけでなく関係がありそうな文献は片っ端から目を通したわ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 619,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“确实……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「たしかに……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 622,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"引用文献的数量不少。",
+				},
+			},
+        	ja = {
+				{
+					"引用文献の数が半端ない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 625,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"而且，几乎都是一次文献。",
+				},
+			},
+        	ja = {
+				{
+					"しかも、ほとんどが一次文献だ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 628,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"作为论文，水平相当高。",
+				},
+			},
+        	ja = {
+				{
+					"論文としてはかなりレベルが高い。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 631,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"在有关碧绯的综合研究中，这样的东西毫无疑问是不存在的。",
+				},
+			},
+        	ja = {
+				{
+					"碧緋に関する総合研究でこれほどのものは間違いなく存在しない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 634,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10599", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“为什么丽华知道碧绯？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「何故、麗華が碧緋を知っているの？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 637,
+	},
+	block_00121 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10241", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“学生时代，我对弓张学园保存的无数作品进行了品评。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「学生時代。私は弓張学園に保存している数知れない作品を品定めした」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 642,
+	},
+	block_00122 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10242", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“其中也有被难以置信的美所点缀的素描。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「その中には、信じられない様な美に彩られたデッサンもあった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 647,
+	},
+	block_00123 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10243", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“我也马上知道这些应该是草薙健一郎的作品。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「それらが、草薙健一郎作であるだろうことは私でもすぐに分かったわ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 652,
+	},
+	block_00124 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0005", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10244", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“草薙健一郎是仇视我们一族的人，所以我想把这一切都打破……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「草薙健一郎は我々一族に仇をなした者。",
+					{"rt2"},
+					"だからそれらすべてを破り捨てようと思った……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 658,
+	},
+	block_00125 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0008", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10245", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“但是，我没能打破。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「けど、私には破る事が出来なかった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 663,
+	},
+	block_00126 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0004", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10246", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“尽管如此，我也没能把它放在自己手里，毕竟草薙健一郎是个值得憎恨的人……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「さりとて自らの手元に置く事も出来なかった。",
+					{"rt2"},
+					"やはり草薙健一郎は憎むべき人間だったから……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 670,
+	},
+	block_00127 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10247", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“年轻的是小甘。现在的话马上就卖掉换成钱了……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「若いってのは甘ちゃんだわ。",
+					{"rt2"},
+					"今だったらすぐにでも売っ払ってお金に換えてしまったのに……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 676,
+	},
+	block_00128 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0009", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10248", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“连那样的事都做不到。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「そんな事すらできなかった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 681,
+	},
+	block_00129 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10249", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“在那里面，我发现了一个花瓶。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「その中で、私は一つの花瓶を見つけた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 686,
+	},
+	block_00130 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0700", face="b0001", head="shi_z1b", x=345, lv=4, id=6, sync=0},
+		{"extrans", time=400},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10600", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“那就是草薙健一郎作的碧绯？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「それが、草薙健一郎作の碧緋？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 697,
+	},
+	block_00131 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10250", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"「我也不知道这到底是谁的，我只知道他比历代任何一位美术老师都优秀。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「さすがにそれが誰のものかまでは分からなかったわ。",
+					{"rt2"},
+					"ただ歴代のどの美術教師よりも優れていたのは分かった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 704,
+	},
+	block_00132 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10251", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“釉药特别特殊……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「特に釉薬が特殊であった……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 709,
+	},
+	block_00133 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10252", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“吉泽绿寺老师来这里也是为了弄清楚那个花瓶是什么。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「吉沢緑寺先生に来てもらったのも、そもそもはあの花瓶が何であるかを解明する",
+					{"rt2"},
+					"ためでもあった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 715,
+	},
+	block_00134 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0700", face="b0007", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10601", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“啊？是吗？我只是单纯地想我想做陶艺，所以叫了老师。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「え？　そうなの？　単純に私が陶芸やりたいから先生呼んだと思ってた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 720,
+	},
+	block_00135 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0011", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0001", head="rei_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10253", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“为了你一个人，没有必要叫那样的专业作家。因为吉泽老师原本就没有教学生的意思。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「あなた一人のために、あの様なプロ作家を呼ぶ必然性はないわ。",
+					{"rt2"},
+					"そもそも、吉沢先生は、生徒に教える気など毛頭無かったのだから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 727,
+	},
+	block_00136 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0700", face="b0008", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10602", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“嗯……确实听到了那样的话……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「う゛……、たしかにそんな様な話を聞いた……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 732,
+	},
+	block_00137 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10254", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“对于吉泽老师来说，静流只是一个令人高兴的误算。那个人的目的是恢复被认为是虚幻的碧绯。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「吉沢先生にとって、静流はうれしい誤算でしかなかった。",
+					{"rt2"},
+					"あの人の目的は、幻とされた碧緋の復元だった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 739,
+	},
+	block_00138 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0700", face="b0011", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10603", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“真是令人高兴的误算啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「うれしい誤算だったのかなぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 744,
+	},
+	block_00139 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0002", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10255", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“那是肯定的。那个吉泽老师非常喜欢静流。我对你抱有期待，甚至给利摩日大学写推荐信。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「それは間違いないわ。あの吉沢先生はいたく静流を気に入っていた。",
+					{"rt2"},
+					"リモージュ大学に推薦状を書くぐらいには、あなたに期待をしていたわ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 750,
+	},
+	block_00140 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0700", face="b0001", head="shi_z1b", x=345, lv=4, id=6},
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10256", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“本来，碧绯的复原是在我们中村家经营的弓张学园的基础上，由吉泽绿寺老师发表的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「本来ならば、碧緋の復元は、我々中村家の経営した弓張学園の元で、吉沢緑寺先生によって発表されるハズであった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 756,
+	},
+	block_00141 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10257", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“尽管如此，我们还是被卸下了那个梯子。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「にもかかわらず、私達はその梯子を外された」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 761,
+	},
+	block_00142 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10258", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“吉泽老师在成为鸟谷纱希经营的弓张之后，也持有‘不应该公开稀有土地的存在’的意见，碧绯和弓张釉药的关系被隐藏起来了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「吉沢先生も、鳥谷紗希が経営する弓張になってからは、“希少な土の存在を公にするべきではない”という意見を持ち、碧緋と弓張釉薬の関係性は隠される事となった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 766,
+	},
+	block_00143 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0004", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10259", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“那场政变不仅意味着中村家的没落，也夺走了我的目标……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「あのクーデターは、中村家の没落を意味するだけでなく、",
+					{"rt2"},
+					"私の目標をも奪った……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 772,
+	},
+	block_00144 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10260", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“揭开弓张釉药的秘密，将其作为新的方法论，为陶艺界注入新风。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「弓張釉薬の秘密を明かし、それを新しい方法論として、陶芸界に新しい風を吹き込む」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 777,
+	},
+	block_00145 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10261", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“我没有静流和……还有憎恨的鸟谷纱希那样的艺术才能。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「私は、静流や……そして憎き鳥谷紗希の様な芸術の才能はない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 783,
+	},
+	block_00146 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10262", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“我知道自己不是什么人。我只有中村的血统……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「私は、自分が何者でもない事を知っている。",
+					{"rt2"},
+					"私にあるのは中村の血筋だけ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 789,
+	},
+	block_00147 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0004", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10263", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“即使是这样的我，作为批评家，作为为了将艺术作品推向世界而编织语言的人……也能活跃起来吧……我做了那种程度的梦想……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「そんな私だって、批評家として、芸術作品を世に広げるために言葉を紡ぐ者として……活躍が出来るんじゃないかって……その程度の夢は見ていた……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 795,
+	},
+	block_00148 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0009", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10264", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“这一切都被那场政变夺走了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「それすらも、あのクーデターによってすべて奪われた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 800,
+	},
+	block_00149 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10265", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“一切都像黑暗一样关闭了——我是这么想的……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「すべてが、闇の様に閉じてしまった――",
+					{"rt2"},
+					"そう思っていた……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 806,
+	},
+	block_00150 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0001", head="rei_z1a", lv=4, id=5, sync=0},
+		{"extrans", time=400},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10266", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"「可是，有一天，它突然出现在我的眼前。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「でも、それはある日、私の目の前に突然あらわれた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 816,
+	},
+	block_00151 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10267", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“发展、改良碧绯，展示弓张釉的进一步可能性的作品。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「碧緋を発展、改良し、弓張釉薬のさらなる可能性を示した作品」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 821,
+	},
+	block_00152 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10268", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“雪景鹊图花瓶”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 827,
+	},
+	block_00153 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0002", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10269", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“那正是我失去的梦想的延续。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「それはまさに、私が失ってしまった夢の続きだった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 832,
+	},
+	block_00154 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10270", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“弓张学园被夺走，从弓张釉药的一切中分离出来，对我来说是唯一的光……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「弓張学園を奪われ、弓張釉薬についての一切から切り離された、",
+					{"rt2"},
+					"私にとっての唯一の光……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 838,
+	},
+	block_00155 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0010", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0002", head="rei_z1a", lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10271", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“那个光是背叛我的以前的朋友……不，是我的好朋友给我做的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「その光を、私を裏切った昔の友達……、",
+					{"rt2"},
+					"いいえ、私の親友が作り上げてくれた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 845,
+	},
+	block_00156 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0003", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10272", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“所以，我很高兴。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「だから、私はうれしかった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 850,
+	},
+	block_00157 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0002", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10273", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“我还以为能再次做梦呢。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「また、再び夢を見る事が出来ると思ったから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 855,
+	},
+	block_00158 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10274", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“非常喜欢的静流，但是已经变得非常讨厌的静流……。我以为能和这样的静流再次向着梦想前进……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「大好きだった静流、でもすでに大っ嫌いになった静流……。",
+					{"rt2"},
+					"そんな静流と再び、夢に向かって歩き出せると思っていた……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 861,
+	},
+	block_00159 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0005", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10275", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“但是，现实是不一样的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「だけど、現実は違った」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 866,
+	},
+	block_00160 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0005", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10276", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“你背叛了我，把雪景鹊图花瓶放在我够不到的地方，也从这个国家消失了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「あなたは、私を裏切り、",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"を私の手の届かぬ所に置き、そしてこの国からもいなくなった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 873,
+	},
+	block_00161 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10277", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“只有我被留在这里。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「私だけが、ここに取り残された」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 878,
+	},
+	block_00162 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0009", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10278", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“被留在这么小的世界里……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「こんな小さな世界に取り残された……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 883,
+	},
+	block_00163 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_10604", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“丽华……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「麗華……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 888,
+	},
+	block_00164 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0006", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10279", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“所以！我的梦想是让雪景鹊图花瓶闻名于世！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「だから！　",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"を世に知らしめる事が私の夢だったんだ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 899,
+	},
+	block_00165 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0009", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10280", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“尽管……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「にもかかわらず……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 904,
+	},
+	block_00166 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0110", face="a0005", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10281", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“大家都在做多余的事……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「みんなして、余計な事ばかりしやがって……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 910,
+	},
+	block_00167 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0009", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10282", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“这样的话，我就没有回报了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「これじゃ、私が報われないじゃない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 915,
+	},
+	block_00168 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10283", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"「就算再没有我的力量，静流也会成为一流的艺术家，那个雪景鹊图花瓶也会成为名品，在陶艺史上名列前茅。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「もう、私の力が無くても、静流は一流の芸術家になる。",
+					{"rt2"},
+					"あの",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"も名品として、陶芸の歴史に名を連ねる事になる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 922,
+	},
+	block_00169 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0004", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10284", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“只有我，果然还是停下来了……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「私だけが、やっぱり、立ち止まったまま……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 927,
+	},
+	block_00170 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0009", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10285", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“我只是在这里……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「ただ、ここにいるだけ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 932,
+	},
+	block_00171 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0006", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10286", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“那样的，不太好。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「そんなの、あんまりじゃない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 937,
+	},
+	block_00172 = {
+		{"bgm", stop=1},
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0004", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10287", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“嗯……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「くっ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 944,
+	},
+	block_00173 = {
+		{"se", id=1, file="se0071"},
+		{"text"},
+		delay = {
+			[900] = {
+				{"se", id=1, file="se0071"},
+			},
+		},
+		text = {
+		
+            cn = {
+				{
+					"丽华三番五次地打桌子。",
+				},
+			},
+        	ja = {
+				{
+					"麗華さんは何度もテーブルを殴りつける。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 953,
+	},
+	block_00174 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"只有那个声音在房间里回响。",
+				},
+			},
+        	ja = {
+				{
+					"その音だけが部屋に響いた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 956,
+	},
+	block_00175 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是，那个声音也平静了，室内只是沉入了寂静中。",
+				},
+			},
+        	ja = {
+				{
+					"だが、その音も静まり、室内はただ静寂の中に沈んだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 959,
+	},
+	block_00176 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="心鈴", size="z1", mode=3, resize=1, path=":fg/mis/z1/", file="mis_z1a0810", face="a0010", head="mis_z1a", lv=4, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13535", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“精彩的作品需要精彩的故事。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「素晴らしい作品には、素晴らしい物語が必要である」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 969,
+	},
+	block_00177 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃打破了沉默。",
+				},
+			},
+        	ja = {
+				{
+					"その沈黙を心鈴くんがやぶる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 972,
+	},
+	block_00178 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0810", face="a0010", head="mis_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0810", face="a0014", head="mis_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13536", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“最了解这件事的不是母亲吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「その事を一番分かっているのは、お母様ではないのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 978,
+	},
+	block_00179 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10288", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"「喂，你想说什么？」",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「な、何が言いたいのよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 981,
+	},
+	block_00180 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", y=260, file="zbg047a", path=":bg/", ax=1920, ay=1080, bx=-960, by=-540, sync=0},
+		{"fg", ch="心鈴", size="z2", mode=3, resize=1, path=":fg/mis/z2/", file="mis_z2a0810", face="a0001", head="mis_z2a", lv=5, id=9, sync=0},
+		{"extrans", time=500},
+		{"bgm", file="bgm148", time=5000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13537", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“摩尔调查的始终是静流先生的脚步。杂志艺术学校刊登的始终是静流先生作品的极少一部分。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ムーアが調べたのは、あくまでも静流さんの足取りです。",
+					{"rt2"},
+					"雑誌アートスクールが載せたのは、あくまでも静流さんの作品のごく一部です」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 994,
+	},
+	block_00181 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0810", face="a0010", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13538", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“这是为什么被创作出来的呢？还有为什么作家在世界各地流浪呢？这个故事谁都没有说过。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「それが、何故作られたのか？　そして何故作家は世界中を放浪したのか？",
+					{"rt2"},
+					"その物語は誰にも語られてません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 1000,
+	},
+	block_00182 = {
+		{"bgm", file="bgm148"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10289", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“什么，什么，心铃，你是说让我把两个人的事情告诉大家吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「な、なに、心鈴、二人の事をお話にして皆に晒せとでも言うのかしら？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 1005,
+	},
+	block_00183 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b0800", face="b0014", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13539", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“是两个人的故事吗？我说需要的是一个很棒的故事。我没有说两个人的回忆。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「二人のお話ですか？",
+					{"rt2"},
+					"私が必要だと言ったのは素晴らしい物語です。",
+					{"rt2"},
+					"二人の思い出話の話などしていません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 1013,
+	},
+	block_00184 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b0800", face="b0001", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13540", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“一位名叫鸟谷静流的陶艺家，将弓张釉药的可能性作为陶艺家极致，并且他的朋友中村丽华，作为批评家将弓张釉药的美丽推广到世界。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「鳥谷静流という陶芸家は、弓張釉薬の可能性を陶芸家として極め、そしてその友人であった中村麗華が、批評家として弓張釉薬の美しさを世界に広める」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 1018,
+	},
+	block_00185 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b0800", face="b0010", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13541", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“能做到这一点，才能讲述艺术作品，难道不是故事吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「そこまでなし得て、初めて芸術作品を語り得る、物語になるのではないでしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 1023,
+	},
+	block_00186 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b0800", face="b0014", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13542", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“说起来，我并不认为静流会在这次发表中被陶艺界所接受。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「そもそも私は今回の発表で静流さんが陶芸界に受け入れられるとは思っていません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 1028,
+	},
+	block_00187 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b0800", face="b0001", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13543", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“陶艺界是一个非常封闭的地方，原本是赝品的雪景鹊图花瓶不会那么容易被世人接受吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「陶芸界は恐ろしく閉鎖的な場所です。元が贋作であった雪景鵲図花瓶がそれほど簡単に世の中に受け入れられる事はないでしょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 1034,
+	},
+	block_00188 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0800", face="a0014", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13544", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“那嚒，那里就需要语言了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「だったら、そこには言葉が必要となります」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 1039,
+	},
+	block_00189 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0800", face="a0004", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13545", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我需要批评家的话。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「批評家の言葉が必要なのです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 1044,
+	},
+	block_00190 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0810", face="a0014", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13546", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“你对自己的话没有勇气吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「あなたは自分の言葉に勇気が持てないのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00189",
+		linknext = "block_00191",
+		line = 1049,
+	},
+	block_00191 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10290", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"「那、那是……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「そ、それは……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00190",
+		linknext = "block_00192",
+		line = 1052,
+	},
+	block_00192 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b0800", face="b0014", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13547", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“照现在的样子，你不会改变。永远只诅咒自己所处的境遇，把诅咒强加给别人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「今のままでは、あなたは変わらない。いつまでも自分が置かれた境遇だけを呪って、その呪詛を他人にまで押しつけようとする」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00191",
+		linknext = "block_00193",
+		line = 1057,
+	},
+	block_00193 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b0800", face="b0008", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13548", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“憎恨变丑的自己，憎恨这样的世界……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「醜くなる自分を憎み、そしてその様にした世界を憎む……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00192",
+		linknext = "block_00194",
+		line = 1062,
+	},
+	block_00194 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg047a", path=":bg/", sync=0},
+		{"fg", ch="心鈴", size="z1", mode=3, resize=1, path=":fg/mis/z1/", file="mis_z1b0800", face="b0001", head="mis_z1b", lv=4, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13549", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“你母亲总有一天说过吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「お母様はいつか言ってましたよね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00193",
+		linknext = "block_00195",
+		line = 1072,
+	},
+	block_00195 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0010", head="mis_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13550", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“如果在我身边的话，就会让真正的才能枯萎。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「私の側にいたら、本物の才能を枯らしてしまう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00194",
+		linknext = "block_00196",
+		line = 1077,
+	},
+	block_00196 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0010", head="mis_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13551", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我杀死了真正的才能。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「自分は本物の才能を殺してしまった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00195",
+		linknext = "block_00197",
+		line = 1082,
+	},
+	block_00197 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0810", face="a0014", head="mis_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13552", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“你怎么想都是你的自由吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「どの様に思おうがあなたの勝手でしょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00196",
+		linknext = "block_00198",
+		line = 1087,
+	},
+	block_00198 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0810", face="a0010", head="mis_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13553", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“但是，你有看真品的眼睛。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ですが、あなたには本物を見る目がある」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00197",
+		linknext = "block_00199",
+		line = 1092,
+	},
+	block_00199 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0810", face="a0014", head="mis_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13554", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“夏目圭在离开你的身边后也以艺术家的身份在历史上留名，而且我也以艺术家的身份与世界战斗。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「夏目圭は、あなたの元を離れた後も芸術家として歴史に名を残し。",
+					{"rt2"},
+					"そして、私も芸術家として世界と戦っています」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00198",
+		linknext = "block_00200",
+		line = 1099,
+	},
+	block_00200 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0004", head="mis_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13555", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“正因为有看真品的眼睛，才能在真正的意义上诅咒世界。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「本物を見る目があるからこそ、本当の意味で世界を呪う事が出来る」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00199",
+		linknext = "block_00201",
+		line = 1104,
+	},
+	block_00201 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0014", head="mis_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13556", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“正因为这样的情怀在漩涡中，所以很多艺术家在你身边也是事实。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「その様な情念が渦巻くからこそ、多くの芸術家があなたの側にいたのも事実なのです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00200",
+		linknext = "block_00202",
+		line = 1109,
+	},
+	block_00202 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10291", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"「什么呀，那个，我不明白你的意思……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「何よ、それ、意味が分からないわ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00201",
+		linknext = "block_00203",
+		line = 1112,
+	},
+	block_00203 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0001", head="mis_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13557", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“如果不明白就好了。在这里停下来也是一种选择……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「分からないのならいいでしょう。",
+					{"rt2"},
+					"ここで立ち止まるのも選択ですから……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00202",
+		linknext = "block_00204",
+		line = 1118,
+	},
+	block_00204 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0010", head="mis_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13558", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“静流先生对和你见面的事犹豫不决，非常害怕。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「静流さんは、あなたに会う事に躊躇しました。",
+					{"rt2"},
+					"とても、恐れていました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00203",
+		linknext = "block_00205",
+		line = 1124,
+	},
+	block_00205 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0014", head="mis_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13559", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“大概是不想看到你像现在这样暴露出软弱的样子吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「たぶん、今の様に、あなたが弱々しい姿を晒すのを見たくなかったのでしょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00204",
+		linknext = "block_00206",
+		line = 1128,
+	},
+	block_00206 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0800", face="a0014", head="mis_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13560", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“但是，我不会犹豫。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ですが、私は躊躇などしません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00205",
+		linknext = "block_00207",
+		line = 1133,
+	},
+	block_00207 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0800", face="a0010", head="mis_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13561", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我作为你的女儿，因为我相信你会成就这门艺术。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「私はあなたの娘として、あなたがこの芸術を成し遂げると信じているからです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00206",
+		linknext = "block_00208",
+		line = 1138,
+	},
+	block_00208 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0800", face="a0010", head="mis_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13562", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“与弓张釉有关的故事，从那里诞生的艺术们”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「弓張釉薬に関わる物語、そこから生まれる芸術達」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00207",
+		linknext = "block_00209",
+		line = 1143,
+	},
+	block_00209 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0014", head="mis_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13563", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我只相信这种可能性。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「私はその様な可能性しか信じていません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00208",
+		linknext = "block_00210",
+		line = 1148,
+	},
+	block_00210 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0002", head="mis_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13564", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“所以，我想现在正是你拿起雪景鹊图花瓶的那一刻。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「だから、私は今こそあなたが",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"を手に取る瞬間だと思いました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00209",
+		linknext = "block_00211",
+		line = 1154,
+	},
+	block_00211 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0010", head="mis_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13565", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“抱着那个花瓶，就这样关在这里的房子里也不错吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「その花瓶を抱いて、そのままここの屋敷に閉じこもるのもいいでしょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00210",
+		linknext = "block_00212",
+		line = 1159,
+	},
+	block_00212 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0014", head="mis_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13566", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“但是，你也可以拿着它，走向你本来应该做的事，你所描绘的事，你的梦想。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ですが、それを手にして、あなたが本来やるべき事、あなたが思い描いた事、",
+					{"rt2"},
+					"あなたの夢に歩き出す事も出来るのです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00211",
+		linknext = "block_00213",
+		line = 1165,
+	},
+	block_00213 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0810", face="a0014", head="mis_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13567", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“对于那个，已经没有什么必要了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「それに対して必要な事など、もういくつもありません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00212",
+		linknext = "block_00214",
+		line = 1170,
+	},
+	block_00214 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0810", face="a0004", head="mis_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13568", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“只有你对美有多诚实，对美有多勇敢。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「あなたが、どれだけ美に対して誠実であるか。",
+					{"rt2"},
+					"美に対して勇敢であるかだけです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00213",
+		linknext = "block_00215",
+		line = 1176,
+	},
+	block_00215 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10292", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00214",
+		linknext = "block_00216",
+		line = 1179,
+	},
+	block_00216 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0810", face="a0008", head="mis_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13569", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“站在女儿的立场上，还有已经被赶出这个家的立场上，说了狂妄的话，非常抱歉……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「娘の立場、そして、もうこの家を追い出された立場でありながら、生意気な事を言って申し訳ありませんでした……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00215",
+		linknext = "block_00217",
+		line = 1184,
+	},
+	block_00217 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0810", face="a0001", head="mis_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13570", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“只是，最后我能说的只有这个……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ただ、最後に私から言える事はこれだけです……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00216",
+		linknext = "block_00218",
+		line = 1189,
+	},
+	block_00218 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10293", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“为什么……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「なんでよ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00217",
+		linknext = "block_00219",
+		line = 1199,
+	},
+	block_00219 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13571", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00218",
+		linknext = "block_00220",
+		line = 1202,
+	},
+	block_00220 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10294", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“为什么，你总是这样……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「なんで、あなたはいつでもそうなのよ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00219",
+		linknext = "block_00221",
+		line = 1207,
+	},
+	block_00221 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0004", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10295", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“你虽然是我的女儿，却拥有我憧憬的一切……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「あなたは、私の娘でありながら、私が憧れたものをすべてもっている……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00220",
+		linknext = "block_00222",
+		line = 1212,
+	},
+	block_00222 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0009", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10296", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“我有我想得到的所有东西……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「私が手に入れたかったものをすべて持っている……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00221",
+		linknext = "block_00223",
+		line = 1217,
+	},
+	block_00223 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10297", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“绝对的实力、绝对的自信、以及不可动摇的审美意识……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「絶対的な実力と、絶対的な自信、そして揺るがない美意識……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00222",
+		linknext = "block_00224",
+		line = 1223,
+	},
+	block_00224 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0009", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10298", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“成为本间继承人的哈兹的心佐夫，只继承了我软弱的部分……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「本間の跡継ぎになるハズの心佐夫は、私の弱い部分ばかり受け継いだ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00223",
+		linknext = "block_00225",
+		line = 1228,
+	},
+	block_00225 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10299", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“尽管如此，你是我憧憬的自己就那样具体化了的孩子。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「にもかかわらず、あなたは、私が憧れた自分がそのまま具現化した様な子だった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00224",
+		linknext = "block_00226",
+		line = 1233,
+	},
+	block_00226 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0004", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10300", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“你作为我的孩子太耀眼了……我一直都没能看到。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「あなたは、私の子供として眩しすぎて……とてもずっと見てなどいられなかった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00225",
+		linknext = "block_00227",
+		line = 1238,
+	},
+	block_00227 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0009", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10301", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“所以——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「だから――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00226",
+		linknext = "block_00228",
+		line = 1243,
+	},
+	block_00228 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0810", face="a0008", head="mis_z1a", x=345, lv=4, id=6, sync=0},
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0009", head="rei_z1a", x=-345, lv=4, id=5, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0810", face="a0001", head="mis_z1a", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13572", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“骗人的，你是我妈妈，而且我长得很像你。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「嘘ですよ。あなたは私の母親です。",
+					{"rt2"},
+					"そして、私はあなたに良く似ています」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00227",
+		linknext = "block_00229",
+		line = 1256,
+	},
+	block_00229 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0810", face="a0010", head="mis_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13573", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“脸和性格……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「顔もそして性格も……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00228",
+		linknext = "block_00230",
+		line = 1261,
+	},
+	block_00230 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0810", face="a0002", head="mis_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13574", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“只是形状不同而已。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ただ、その形が違うだけです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00229",
+		linknext = "block_00231",
+		line = 1266,
+	},
+	block_00231 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0810", face="a0001", head="mis_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13575", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“当你让我远离自己的时候，我看到了你的审美意识。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「あなたが、私を自分から遠ざけた時、私はあなたの美意識を見ました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00230",
+		linknext = "block_00232",
+		line = 1271,
+	},
+	block_00232 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0810", face="a0001", head="mis_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13576", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我看到了决定。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「決断を見ました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00231",
+		linknext = "block_00233",
+		line = 1276,
+	},
+	block_00233 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0001", head="mis_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13577", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我父亲不允许我去伦敦，但你说服我应该让他去伦敦。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「父は私がロンドンに行く事を許しませんでした。",
+					{"rt2"},
+					"けど、それに対してロンドンにいかせるべきだと説得したのはあなたです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00232",
+		linknext = "block_00234",
+		line = 1282,
+	},
+	block_00234 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", x=-345, lv=4, id=5},
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0001", head="mis_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10302", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“那只是因为，只要你在附近就很可怕……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「それは、ただ、あなたが近くにいるだけで怖いから……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00233",
+		linknext = "block_00235",
+		line = 1293,
+	},
+	block_00235 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0010", head="mis_z1b", x=345, lv=4, id=6},
+		{"fgact", ch="心鈴", act="いいえ", lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0001", head="mis_z1b", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13578", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“不，我害怕的是，我可能只是停留在这条街上，没能发挥出那种才能吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「いいえ、怖かったのは、私がこの街にとどまって、その才能を開花出来なかったかもしれないことではないでしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00234",
+		linknext = "block_00236",
+		line = 1300,
+	},
+	block_00236 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0810", face="a0001", head="mis_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13579", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“然后那个时期”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「そしてあの時期」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00235",
+		linknext = "block_00237",
+		line = 1305,
+	},
+	block_00237 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=-600, y=260, file="zbg047a", path=":bg/", ax=1920, ay=1080, bx=-960, by=-540, sync=0},
+		{"fg", ch="心鈴", size="z2", mode=3, resize=1, path=":fg/mis/z2/", file="mis_z2a0810", face="a0008", head="mis_z2a", lv=5, id=6, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13580", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“最重要的是，夏目圭死了吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「なによりも、夏目圭が死んでしまったからでしょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00236",
+		linknext = "block_00238",
+		line = 1315,
+	},
+	block_00238 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10303", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“哇！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「っッ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00237",
+		linknext = "block_00239",
+		line = 1320,
+	},
+	block_00239 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0810", face="a0001", head="mis_z2a", lv=5, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13581", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“听说夏目圭在这个宅邸的时候，获得了最多的奖项。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「夏目圭がこの屋敷にいた時に、もっとも多くの賞を受賞したと聞きます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00238",
+		linknext = "block_00240",
+		line = 1325,
+	},
+	block_00240 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0810", face="a0002", head="mis_z2a", lv=5, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13582", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“夏目圭的作品最先进的是中村屋时代。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「夏目圭の作品がもっとも先鋭的であったのは、この中村屋敷時代だと言います」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00239",
+		linknext = "block_00241",
+		line = 1330,
+	},
+	block_00241 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0810", face="a0010", head="mis_z2a", lv=5, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13583", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“确实，之后的夏目圭作品，特别是去了夏目家之后，笔更成熟了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「たしかに、その後の夏目圭作品、特に夏目家にいってからの方が、筆はより成熟しています」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00240",
+		linknext = "block_00242",
+		line = 1335,
+	},
+	block_00242 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0810", face="a0001", head="mis_z2a", lv=5, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13584", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"「但是，他的成熟，也是因为他在这个房子里的生活方式。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ですが、その成熟も、この屋敷での生き方があったからです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00241",
+		linknext = "block_00243",
+		line = 1340,
+	},
+	block_00243 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0810", face="a0008", head="mis_z2a", lv=5, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13585", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“即便如此，母亲总觉得在某个地方，阻止夏目圭的才能的，难道不是他们自己吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「それでも、お母様はどこかで、夏目圭の才能にブレーキをかけてしまったのは、",
+					{"rt2"},
+					"自分たちではないかと思っていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00242",
+		linknext = "block_00244",
+		line = 1346,
+	},
+	block_00244 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0810", face="a0010", head="mis_z2a", lv=5, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13586", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“如果不让他留在这个房子里，让他自由地描绘的话，其结局也会不一样吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「この屋敷にとどまらせる事なく、自由に描かせていたら、その結末も違ったのではないかと」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00243",
+		linknext = "block_00245",
+		line = 1351,
+	},
+	block_00245 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b0800", face="b0001", head="mis_z2b", lv=5, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13587", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“你应该是这么想的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「そうあなたは思っていたはずです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00244",
+		linknext = "block_00246",
+		line = 1356,
+	},
+	block_00246 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b0800", face="b0002", head="mis_z2b", lv=5, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13588", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我从宫崎绘画学校来到伦敦，积累了所有的经验。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「私は宮崎絵画学校からロンドンに渡り、あらゆる経験を積みました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00245",
+		linknext = "block_00247",
+		line = 1361,
+	},
+	block_00247 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b0800", face="b0002", head="mis_z2b", lv=5, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13589", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我很自豪，我年轻时就在纽约的工作室里与专业画家们战斗过，不输给草薙直哉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「その経験は、若くしてニューヨークのアトリエでプロの画家達と筆を戦わせていた、草薙直哉に負けないものであると自負しております」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00246",
+		linknext = "block_00248",
+		line = 1366,
+	},
+	block_00248 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b0800", face="b0010", head="mis_z2b", lv=5, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13590", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“而且，如果没有那个经验的话，我就不是现在的宫崎美铃了吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「そして、その経験が無ければ、私は今の宮崎みすゞでは無かったでしょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00247",
+		linknext = "block_00249",
+		line = 1371,
+	},
+	block_00249 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0810", face="a0002", head="mis_z2a", lv=5, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13591", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“宫崎美铃是你勇气打造的画家。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「宮崎みすゞは、あなたの勇気が作り上げた画家です」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00248",
+		linknext = "block_00250",
+		line = 1376,
+	},
+	block_00250 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg047a", path=":bg/", sync=0},
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0008", head="rei_z1a", lv=4, id=5, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10304", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“我只是……为了让你能去海外而做了准备……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「私はただ……、あなたが海外に行く事が出来る様に根回しをしただけよ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00249",
+		linknext = "block_00251",
+		line = 1386,
+	},
+	block_00251 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0100", face="a0004", head="rei_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_10305", ch="rei"},
+			},
+		
+            cn = {
+				{
+					"“这样的我，竟然创造了像你这样的天才，真是太狂妄了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"麗華"},
+					"「そんな私が、あなたの様な天才を作ったなどおこがましいわ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00250",
+		linknext = "block_00252",
+		line = 1391,
+	},
+	block_00252 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13592", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00251",
+		linknext = "block_00253",
+		line = 1394,
+	},
+	block_00253 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="心鈴", size="z1", mode=3, resize=1, path=":fg/mis/z1/", file="mis_z1a0810", face="a0002", head="mis_z1a", lv=4, id=6, sync=0},
+		{"extrans", time=400},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13593", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“那么，大家都回去吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「さて、みなさん、もう帰りましょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00252",
+		linknext = "block_00254",
+		line = 1404,
+	},
+	block_00254 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“诶？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「え？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00253",
+		linknext = "block_00255",
+		line = 1407,
+	},
+	block_00255 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_nei_10753", ch="nei"},
+			},
+		
+            cn = {
+				{
+					"“但是……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"寧"},
+					"「で、でも……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00254",
+		linknext = "block_00256",
+		line = 1412,
+	},
+	block_00256 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0002", head="mis_z1b", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13594", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“还有，静流和母亲说就好了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「あとは、静流さんと母が話せばいい事です」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00255",
+		linknext = "block_00257",
+		line = 1417,
+	},
+	block_00257 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b0800", face="b0002", head="mis_z1b", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13595", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“至今为止的事，还有今后的事——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「これまでの事と、",
+					{"rt2"},
+					"そしてこれからの事を――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00256",
+		linknext = "block_00258",
+		line = 1423,
+	},
+	block_00258 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=-400, y=260, file="zbg047a", path=":bg/", ax=1920, ay=1080, bx=-960, by=-540, sync=0},
+		{"extrans", time=400},
+		{"fg", ch="心鈴", size="z2", mx=40, mode=3, resize=1, path=":fg/mis/z2/", file="mis_z2b0800", face="b0010", head="mis_z2b", lv=5, id=6},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这样说着，回头的时候，推着静流的背。",
+				},
+			},
+        	ja = {
+				{
+					"そう言って、振り向きざまに、静流さんの背中を押す。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00257",
+		linknext = "block_00259",
+		line = 1435,
+	},
+	block_00259 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0810", face="a0014", head="mis_z2a", lv=5, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13596", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我讨厌不勇敢的艺术家，也讨厌不勇敢的批评家。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「私は勇敢でない芸術家を嫌います。",
+					{"rt2"},
+					"勇敢でない批評家も嫌います」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00258",
+		linknext = "block_00260",
+		line = 1442,
+	},
+	block_00260 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0810", face="a0002", head="mis_z2a", lv=5, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13597", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“请让我看看你们的气魄。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「あなた達の心意気を見せてください」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00259",
+		linknext = "block_00261",
+		line = 1447,
+	},
+	block_00261 = {
+		{"bgm", stop=1, time=5000},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="083r", wait=250, file="black", path=":bg/", vague=40},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这样说着，心铃君走出了门。",
+				},
+			},
+        	ja = {
+				{
+					"そう言って、心鈴くんはドアを出る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00260",
+		linknext = "block_00262",
+		line = 1455,
+	},
+	block_00262 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我和恩田也接着走出中村屋的门。",
+				},
+			},
+        	ja = {
+				{
+					"俺と恩田くんも続いて中村屋敷の扉を出る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00261",
+		linknext = "block_00263",
+		line = 1458,
+	},
+	block_00263 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"在房子的大厅里，静流先生和丽华先生留下了。",
+				},
+			},
+        	ja = {
+				{
+					"屋敷の大広間には、静流さんと麗華さんが残された。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00262",
+		linknext = "block_00264",
+		line = 1461,
+	},
+	block_00264 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"与雪景鹊图花瓶一起。",
+				},
+			},
+        	ja = {
+				{
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"と共に。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00263",
+		linknext = "block_00265",
+		line = 1465,
+	},
+	block_00265 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="03_mak08_3"},
+		{"text"},
+		linkback = "block_00264",
+		line = 1469,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

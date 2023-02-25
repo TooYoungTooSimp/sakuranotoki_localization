@@ -1,0 +1,3477 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="第Ⅴ章"},
+		{"msg", no=1},
+		{"excall", label="flagon1", cond="g.skip05_01_1==1"},
+		{"skipstop"},
+		{"autoplay", speed=500, wait=500, auto=500},
+		{"bg", file="logo2_1", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans", time=4000},
+		{"ex", time=3000, func="wait"},
+		{"bg", file="logo2_2", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans", time=3500},
+		{"ex", time=4000, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", label="next"},
+		{"bg", file="logo2_1", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans", time=4000},
+		{"ex", time=3000, func="wait"},
+		{"bg", file="logo2_2", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans", time=3500},
+		{"ex", time=4000, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", label="next"},
+		{"bg", time=2000, file="black", path=":bg/"},
+		{"se", vol=10, loop=1, id=1, file="se0136"},
+		{"eval", exp="g.skip05_01_1=1"},
+		{"autoplay", mode="stop"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"tan——tata",
+				},
+			},
+        	ja = {
+				{
+					"タンッ――タッタッター",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 70,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"tan——tata",
+				},
+			},
+        	ja = {
+				{
+					"タンッ――タッタッター",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 73,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我的手指在空中敲击。",
+				},
+			},
+        	ja = {
+				{
+					"俺の指が宙を叩く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 76,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"音节。",
+				},
+			},
+        	ja = {
+				{
+					"音と音節。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 79,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不能忘记的，只有这些。",
+				},
+			},
+        	ja = {
+				{
+					"忘れてはいけないのは、ただそれだけだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 82,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"永远和一瞬不变。",
+				},
+			},
+        	ja = {
+				{
+					"永遠と一瞬は変わらない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 85,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"所谓感受到流动的东西，就是止步于那个事实。",
+				},
+			},
+        	ja = {
+				{
+					"流れるもの達を感じるとは、その事実に立ち止まることだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 88,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"所以我会继续刻下去。",
+				},
+			},
+        	ja = {
+				{
+					"だから俺は刻み続ける。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 91,
+	},
+	block_00008 = {
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"ex", time=500, func="wait"},
+		{"bg", file="文字スチル05_001", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans", time=1500},
+		{"ex", time=3000, func="wait"},
+		{"bg", file="文字スチル05_002", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans", time=1500},
+		{"ex", time=4000, func="wait"},
+		{"bg", file="文字スチル05_003", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans", time=1500},
+		{"ex", time=4000, func="wait"},
+		{"bg", file="文字スチル05_004", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans", time=1500},
+		{"ex", time=6000, func="wait"},
+		{"bg", file="文字スチル05_005", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans", time=1500},
+		{"ex", time=4000, func="wait"},
+		{"bg", file="文字スチル05_006", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans", time=1500},
+		{"ex", time=6000, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"ex", time=3000, func="wait"},
+		{"excall", label="flagon2", cond="g.countdown1==1"},
+		{"skipstop"},
+		{"autoplay", speed=500, wait=500, auto=500},
+		{"bg", file="カウントダウン01_2", id=1, lv=5, path=":cg/"},
+		{"ex", time=1500, func="wait"},
+		{"se", id=1, file="se0147"},
+		{"bg", file="カウントダウン01_1", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans", time=500},
+		{"ex", time=3000, func="wait"},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"autoplay", mode="stop"},
+		{"excall", label="join"},
+		{"bg", file="カウントダウン01_2", id=1, lv=5, path=":cg/"},
+		{"ex", time=1500, func="wait"},
+		{"se", id=1, file="se0147"},
+		{"bg", file="カウントダウン01_1", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans", time=500},
+		{"ex", time=3000, func="wait"},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"eval", exp="g.countdown1=1"},
+		{"se", loop=1, vol=5, time=2000, id=1, file="se0109"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10932", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“那么，这是什么呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「それで、これはなんだね？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 187,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"校长拿着我递出来的东西。",
+				},
+			},
+        	ja = {
+				{
+					"俺が差し出したものを校長は手に取る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 190,
+	},
+	block_00010 = {
+		{"bg", file="ev_con_01_01", path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我希望你能因为个人原因辞职。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「一身上の都合により退職させていただけたらと思います」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 197,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10933", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“这不是辞职信。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「辞表とはねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 200,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"就这样校长把辞职书还给了我。",
+				},
+			},
+        	ja = {
+				{
+					"そのまま校長は辞表を俺に突き返す。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 203,
+	},
+	block_00013 = {
+		{"bg", time=500, file="ev_con_01_02", path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10934", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“我不能接受这个。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「これは受け取れないよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 209,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“即使不接受，意思也不会改变。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「受け取っていただかなくても意思は変わりません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 212,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10935", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“我不会说漂亮的话。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「綺麗事など言わない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 215,
+	},
+	block_00016 = {
+		{"bg", sync=0, face=1, file="ev_con_01_03", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10936", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“如果你对这个工作有不满，而且已经到了极限的话，我不会挽留你的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「もし、君がこの職場に不満があり、それで限界だというのなら引き留めたりはしないさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 223,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10937", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“只是。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「ただね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 226,
+	},
+	block_00018 = {
+		{"bg", speed=120000, file="zbg025f", path=":bg/", x2=960, y2=100, x=250, y=100, ax=1920, ay=1126, bx=-960, by=-586},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"校长从桌子抽屉里拿出香烟。",
+				},
+			},
+        	ja = {
+				{
+					"校長は机の引き出しからたばこを取り出す。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 232,
+	},
+	block_00019 = {
+		{"se", id=2, file="se0007"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"喀什——喀嚓。",
+				},
+			},
+        	ja = {
+				{
+					"カシュッ――、カチ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 237,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"校长爱用的古典独特运动的打火机点燃了灯。",
+				},
+			},
+        	ja = {
+				{
+					"校長愛用のクラシックユニークスポーツのライターに灯がともる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 240,
+	},
+	block_00021 = {
+		{"se", stop=1, time=500, id=2},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10938", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“啪……——呼——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「スパッ……――、ふぅー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 245,
+	},
+	block_00022 = {
+		{"bg", file="ev_con_01_04", path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"把烟吸大了吐了。",
+				},
+			},
+        	ja = {
+				{
+					"煙を大きく吸って吐いた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 251,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我想校长室是禁烟的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「校長室は禁煙だったと思いますが」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 254,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10939", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“没问题，管理这个学校的是我。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「問題ない、この学園を管理しているのは私だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 257,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“真是傲慢的说法啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「傲慢な言い方ですね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 260,
+	},
+	block_00026 = {
+		{"bg", sync=0, face=1, file="ev_con_01_05", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"bg", sync=0, face=1, file="ev_con_01_15", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10940", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“没有傲慢，人就什么都不能做。你不是不明白吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「傲慢さがなければ、人は何もなし得ないさ。",
+					{"rt2"},
+					"それが分からない君ではないだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 268,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那么，怎么样呢？在多大程度上，这件事是自觉的呢……我自己也不太清楚。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「さぁ、どうでしょう。どの程度、その事を自覚的であったか……自分でも良く分かりません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 271,
+	},
+	block_00028 = {
+		{"bg", sync=0, face=1, file="ev_con_01_05", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"咔嚓，咔嚓——。",
+				},
+			},
+        	ja = {
+				{
+					"カチッ、カチっ――。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 276,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"校长反复多次开关升降臂。每次都会用弹簧敲打轻金属，响起打火机的金属声。",
+				},
+			},
+        	ja = {
+				{
+					"校長はリフトアームの開閉を何度も繰り返す。",
+					{"rt2"},
+					"そのたびに軽い金属がバネでたたきつけられライターの金属音が響く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 280,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10941", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“你以为我什么都不知道吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「私が何も知らないとでも思っているのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 283,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这不是你是否知道的问题。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「知っているかどうかの問題ではありません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 286,
+	},
+	block_00032 = {
+		{"bg", sync=0, face=1, file="ev_con_01_15", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10942", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“给你添麻烦了。你想这么说吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「迷惑をかける。",
+					{"rt2"},
+					"とでも言いたいのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 292,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我凝视着鸟谷校长的视线。",
+				},
+			},
+        	ja = {
+				{
+					"俺は鳥谷校長の視線を見つめる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 295,
+	},
+	block_00034 = {
+		{"bg", sync=0, face=1, file="ev_con_01_07", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"校长垂下了眼睛。",
+				},
+			},
+        	ja = {
+				{
+					"校長が目を伏せた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 301,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10943", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“真是出乎意料，真是出乎意料，草薙直哉老师。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「心外だな。非常に心外だよ。草薙直哉先生」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 304,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10944", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“你以为我什么都不知道就雇了你吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「私が何も知らずに、君を雇ったとでも思っているのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 307,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“即便如此，现在我也确实有可能成为大祸。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だとしても、いまや私が大きな災いになり得るのはたしかです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 310,
+	},
+	block_00038 = {
+		{"bg", sync=0, face=1, file="ev_con_01_06", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10945", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“灾难？难道你不知道转祸为福这个词吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「災い？　災い転じて福となすという言葉を知らないのかね？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 316,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我不是为了玩语言游戏才在这里的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「言葉遊びをするためにここにいるのではありません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 319,
+	},
+	block_00040 = {
+		{"bg", sync=0, face=1, file="ev_con_01_15", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10946", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“语言游戏和认真的语言交流的差别是什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「言葉遊びと真剣な言葉のやりとりの差とは何だ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 324,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我凝视着校长。这次校长也不转移视线。",
+				},
+			},
+        	ja = {
+				{
+					"俺は校長を見つめる。",
+					{"rt2"},
+					"今度は校長も目をそらさない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 328,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10947", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“为了今天这个日子，我已经准备好了你的停职申请书。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「今日という日のために、君の休職届を既に用意してある」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 331,
+	},
+	block_00043 = {
+		{"bg", sync=0, face=1, file="ev_con_01_05", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"从抽屉里取出文件。",
+				},
+			},
+        	ja = {
+				{
+					"引き出しから書類を取り出す。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 337,
+	},
+	block_00044 = {
+		{"bg", time=500, file="ev_con_01_08", path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10948", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“你在这上面签名。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「君はこれにサインを書け」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 343,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我会说很多遍。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「何度も言います」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 346,
+	},
+	block_00046 = {
+		{"bg", sync=0, face=1, file="ev_con_01_09", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10949", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“啰嗦！别小看我！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「くどい！　私をあまり侮るな！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 352,
+	},
+	block_00047 = {
+		{"bg", sync=0, face=1, file="ev_con_01_13", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10950", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“就像恩田放哉赌的那样，我也赌了很多东西。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「恩田放哉が賭けたように、私もいろいろなものに賭けている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 357,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"恩田放哉的名字出现让我有些动摇。",
+				},
+			},
+        	ja = {
+				{
+					"恩田放哉の名前が出た事に幾ばくか動揺した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 360,
+	},
+	block_00049 = {
+		{"bg", sync=0, face=1, file="ev_con_01_08", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"也许是领会到了那个表情，校长微微笑了笑。",
+				},
+			},
+        	ja = {
+				{
+					"その表情を読み取ったのか校長は少し笑った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 366,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10951", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“从那个六相图公开的瞬间开始，一切都开始了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「あの六相図が公開された瞬間から、すべてが始まっているのだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 369,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“一切都开始了吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「すべてがはじまっている？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 372,
+	},
+	block_00052 = {
+		{"bg", sync=0, face=1, file="ev_con_01_16", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10952", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“如果有结束的话，也有开始。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「終わりがあるのなら、始まりもある」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 377,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10953", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“躺在六相图上的樱花，对你来说可能是一个终结。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「六相図と横たわる櫻は、君にとっては一つの終わりだったかもしれない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 380,
+	},
+	block_00054 = {
+		{"bg", sync=0, face=1, file="ev_con_01_10", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10954", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“但是，对我们来说是开始。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「だが、我々にとっては始まりであった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 385,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10955", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“并不是每个人都是节骨眼。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「誰しもが節穴なわけではない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 388,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10956", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“明白的人把相应的赌注放在那幅画上。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「分かる者は、それ相応の賭けをあの絵画にしている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 391,
+	},
+	block_00057 = {
+		{"bg", sync=0, face=1, file="ev_con_01_16", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10957", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“什么都不是只有恩田放哉和本间礼次郎。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「何も、恩田放哉や本間礼次郎だけじゃないさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 396,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“本间礼次郎？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「本間礼次郎？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 399,
+	},
+	block_00059 = {
+		{"bg", sync=0, face=1, file="ev_con_01_11", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10958", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“总之，这个剧本在某种意义上也是我们想要的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「ともかくだ。",
+					{"rt2"},
+					"このシナリオはある意味では我々が望んでいたものでもある」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 406,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10959", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“难得的赌场消失了，希望赌博的人不应该高兴。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「せっかくの賭場が消えてしまうのは、博打を望む者が喜ぶべきものではないさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 409,
+	},
+	block_00061 = {
+		{"bg", sync=0, face=1, file="ev_con_01_16", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10960", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“当然，这对你来说是幸福的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「もちろん、その方が君にとって幸せであった事は間違いないさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 414,
+	},
+	block_00062 = {
+		{"bg", sync=0, face=1, file="ev_con_01_10", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10961", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“但是，直哉。骰子被扔了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「だがね。直哉くん。",
+					{"rt2"},
+					"賽は投げられたのだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 420,
+	},
+	block_00063 = {
+		{"bg", sync=0, face=1, file="ev_con_01_13", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10962", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“那嚒，谁也不允许下这个赌场。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「だったら、誰もこの賭場を降りる事は許されない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 425,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10963", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“你，还有我……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「君も、そして私もだ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 428,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我不知道校长赌了什么。但是，我要在这里当老师——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「校長が何を賭けていたか分かりません。だが、私がここで教師をするには――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 431,
+	},
+	block_00066 = {
+		{"bg", sync=0, face=1, file="ev_con_01_12", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10964", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“吵死了！小孩子的戏言什么的根本听不进去！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「うるさい！　ガキの戯言などに聞く耳など持たない！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 437,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10965", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“如果你也像我这样狡猾的话，你可以再回到我面前。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「君も私ぐらい老獪になれたら、再び私の前に戻ってくるがいい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 440,
+	},
+	block_00068 = {
+		{"bg", sync=0, face=1, file="ev_con_01_13", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10966", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“停职是之前的缓期！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「休職はそれまでの猶予だ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 445,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 448,
+	},
+	block_00070 = {
+		{"bg", sync=0, face=1, file="ev_con_01_11", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10967", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“现在，你可以不明白我说的意思。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「今、私が言っている意味が分からなくてもいい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 453,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10968", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“但是，我能说的只有这些。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「だが、私が言える事はこれだけだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 456,
+	},
+	block_00072 = {
+		{"bg", sync=0, face=1, file="ev_con_01_13", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10969", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“一定要回来。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「必ず帰ってこい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 462,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10970", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“无论什么时候都没关系。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「それがいつになっても構わない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 465,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么时候？不，我辞职的理由是——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いつになったって？　いや、私がここを辞める理由は――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 468,
+	},
+	block_00075 = {
+		{"bg", sync=0, face=1, file="ev_con_01_09", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10971", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“闭嘴！我现在没说小僧的浅见！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「うるさい黙れ。今は小僧の浅知恵の話などしていないんだよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 473,
+	},
+	block_00076 = {
+		{"bg", speed=50000, file="zbg025f", path=":bg/", x2=100, y2=0, x=100, y=230, ax=1920, ay=1126, bx=-960, by=-586},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10972", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 479,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"校长把烟吸得很大。",
+				},
+			},
+        	ja = {
+				{
+					"校長がたばこを大きく吸い込む。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 482,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"香烟的尖端啪嗒啪嗒地燃烧。",
+				},
+			},
+        	ja = {
+				{
+					"パチパチとたばこの先端が燃える。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 485,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10973", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“嗯——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「ふぅ――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 488,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"吐出大烟。",
+				},
+			},
+        	ja = {
+				{
+					"大きな煙を吐く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 491,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10974", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“不要害怕说出像烟一样的话。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「煙の様な言葉を吐く事を恐れるな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 494,
+	},
+	block_00082 = {
+		{"bg", file="ev_con_01_11", path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10975", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“如果是现在的我，应该会对草薙健一郎这么说吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「今の私なら、草薙健一郎にそう言うだろうな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 500,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 503,
+	},
+	block_00084 = {
+		{"bg", sync=0, face=1, file="ev_con_01_18", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10976", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“不要害怕身体浑浊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「身体が濁る事を恐れるな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 508,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10977", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“身体浑浊并不是灵魂浑浊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「身体が濁っているからといって魂が濁るわけじゃない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 511,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10978", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“不要试图保持纯粹。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「純粋でいようとするな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 514,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10979", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“不要当艺术家。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「芸術家であろうとするな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 517,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10980", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“不要做美的守护者。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「美の守護者であろうとするな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 520,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10981", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“不要停留在冰的大地上。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「氷の大地にとどまるな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 523,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10982", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“不要总是美丽地生活。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「いつでも、美しく生きようなどするな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 526,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10983", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“如果是吐出烟弄脏的身体，那就到此为止了……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「煙を吐いて汚れる様な身体なら、それまでの事だ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 529,
+	},
+	block_00092 = {
+		{"bg", sync=0, face=1, file="ev_con_01_17", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10984", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“不——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「いや――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 534,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"校长再次吸烟。",
+				},
+			},
+        	ja = {
+				{
+					"再び校長はたばこを吸う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 537,
+	},
+	block_00094 = {
+		{"bg", sync=0, face=1, file="ev_con_01_11", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"bg", sync=0, face=1, file="ev_con_01_16", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10985", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“——那是他最清楚的事情。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「――そんな事は、あいつが一番分かっていたハズだな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 543,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10986", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“无论空气多么浑浊，即使身体浑浊，也没有人那么熟悉不让灵魂浑浊的方法。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「どれほど空気が濁っていたとしても、身体が濁っていたとしても、それでも魂を濁らせない方法を、あれほど熟知していた人間もいない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 546,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那句话，为什么校长……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「その言葉をなぜ、校長が……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 549,
+	},
+	block_00097 = {
+		{"bg", sync=0, face=1, file="ev_con_01_18", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不回答我的问题，校长又大吸了一口烟。然后吐出了烟。",
+				},
+			},
+        	ja = {
+				{
+					"俺の質問に答えずに、校長は再び大きくたばこを吸い。",
+					{"rt2"},
+					"そして煙を吐いた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 556,
+	},
+	block_00098 = {
+		{"bg", sync=0, face=1, file="ev_con_01_17", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10987", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“等待一两年是稀松平常的人生。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「一年や二年なんて待つのはザラな人生だよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 561,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10988", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“我十年二十年都会等下去。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「私は十年でも二十年でも待ち続ける」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 564,
+	},
+	block_00100 = {
+		{"bg", sync=0, face=1, file="ev_con_01_19", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10989", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“尽管如此，还是回到弓张学园来吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「それでも、この弓張学園に帰ってこい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 570,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“为什么？我——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「何故なのですか？　俺は――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 573,
+	},
+	block_00102 = {
+		{"bg", sync=0, face=1, file="ev_con_01_18", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10990", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“听巴巴的戏言……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「ババァの戯言を聞いておけ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 578,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“巴巴的？？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ババァの？？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 581,
+	},
+	block_00104 = {
+		{"bg", sync=0, face=1, file="ev_con_01_21", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10991", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“我呢。直哉。健一郎不在的时候就在想。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「私はね。直哉くん。",
+					{"rt2"},
+					"健一郎がいなくなった時から考えていたんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 588,
+	},
+	block_00105 = {
+		{"bg", sync=0, face=1, file="ev_con_01_17", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10992", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“我不知道他是怎么想的……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「私はあいつをどう思っていたのだろうってさ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 593,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10993", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“没想到能和那个男人在一起。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「あの男と一緒にいられるなんて思ってはいなかったさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 596,
+	},
+	block_00107 = {
+		{"bg", sync=0, face=1, file="ev_con_01_11", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10994", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“他带着所有关于美的东西。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「あいつは美にまつわるあらゆるものを引き連れていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 601,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10995", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“正因为如此，那个男人才会选择水菜吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「だからこそ、あの男は、水菜くんを選んだのだろうね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 604,
+	},
+	block_00109 = {
+		{"bg", sync=0, face=1, file="ev_con_01_16", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10996", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“水菜是个不可思议的女性。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「水菜くんは不思議な女性だった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 609,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10997", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“再脏也不会失去高洁……不，不是。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「どんなに汚れても高潔さを失わない……、いや違うな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 612,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10998", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“他是一个越脏越有灵魂的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「汚されれば汚されるほど高潔な魂を持つ様な人だった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 615,
+	},
+	block_00112 = {
+		{"bg", sync=0, face=1, file="ev_con_01_22", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_10999", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“我自己在中村家，可以想象她遭遇了什么样的遭遇……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「私自身が中村家にいたのだ、彼女がどの様な目に遭っていたかは想像がつく……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 621,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"校长和我的视线相交了。",
+				},
+			},
+        	ja = {
+				{
+					"校長と俺の視線が交わった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 624,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"被说了自己母亲的事，对方做出怎样的反应也不奇怪。你是在看我的样子吧。",
+				},
+			},
+        	ja = {
+				{
+					"自分の母親の事を言われてるのだ、相手がどんな反応をしても不思議ではない。",
+					{"rt2"},
+					"俺の様子をうかがったのだろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 628,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"母亲被污染的事实。",
+				},
+			},
+        	ja = {
+				{
+					"母親が穢されていたという事実。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 631,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"一般情况下，虽说是上司，但如果被说出这样的话，也许就无法忍受了……。",
+				},
+			},
+        	ja = {
+				{
+					"普通ならば、上司だと言えども、この様な言葉を吐かれたら耐えられるものではないのかもしれない……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 634,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是对我来说，还有对校长来说，都只是不言而喻的事情。",
+				},
+			},
+        	ja = {
+				{
+					"だが俺にとって、そしてまた校長にとっても、自明の事に過ぎなかった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 637,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我只知道坚强的母亲。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「私は、強い母しか知りません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 640,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“无论发生什么事，我都不会动摇，只有爱着一个男人的母亲知道。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「どんな事があってもブレずに、そして一人の男を愛した母しか知りません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 643,
+	},
+	block_00120 = {
+		{"bg", sync=0, face=1, file="ev_con_01_11", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_11000", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“我哪里都是俗人，既没有健一郎那样的才能，也没有水菜那样的勇气。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「私はどこまでも俗人だよ。",
+					{"rt2"},
+					"健一郎の様な才能もなければ、水菜くんの様な勇気もない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 649,
+	},
+	block_00121 = {
+		{"bg", sync=0, face=1, file="ev_con_01_10", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_11001", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“但是，你呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「だけれども、君はどうだ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 654,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_11002", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“夏目圭相信的你怎么样？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「夏目圭が信じた君はどうなんだ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 657,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我不由得低下了眼睛。",
+				},
+			},
+        	ja = {
+				{
+					"俺は思わず目を伏せる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 660,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“在这里说出圭的名字……是不是有点卑鄙？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ここで圭の名前を出すなんて……少し卑怯じゃありませんか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 663,
+	},
+	block_00125 = {
+		{"bg", sync=0, face=1, file="ev_con_01_18", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_11003", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“不，我有那个权利。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「いいや、その権利が私にはあるさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 668,
+	},
+	block_00126 = {
+		{"bg", sync=0, face=1, file="ev_con_01_17", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_11004", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“因为我是圭抚养的母亲。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「私は圭の育ての母なのだからね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 673,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我知道……那种事……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「分かってますよ……そんな事は……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 676,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“但是——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ですが――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 679,
+	},
+	block_00129 = {
+		{"bg", sync=0, face=1, file="ev_con_01_22", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_11005", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“是吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「ですが？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 684,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 687,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那之后的话说不出来。",
+				},
+			},
+        	ja = {
+				{
+					"その先の言葉が出ない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 690,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"被提出圭的名字，不可能回答。",
+				},
+			},
+        	ja = {
+				{
+					"圭の名前を出されて、答える事などできるはずもない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 693,
+	},
+	block_00133 = {
+		{"bg", sync=0, face=1, file="ev_con_01_16", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_11006", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“舞台剧不是只有主人公和女主角就好了”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「舞台は主人公とヒロインだけいれば良いというものじゃない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 698,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_11007", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“为了完成戏剧，其他所有人都是必要的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「劇を完成させるためには、他のあらゆる",
+					{"ruby", text="キャスト"},
+					"人間",
+					{"/ruby"},
+					"が必要だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 702,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_11008", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“而且，一旦升起的帷幕就不能放下。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「そして、一度上げた幕は下ろす事が出来ない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 705,
+	},
+	block_00136 = {
+		{"bg", sync=0, face=1, file="ev_con_01_12", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_11009", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“无论发生什嚒都无法阻止。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「何があっても止められないのだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 710,
+	},
+	block_00137 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“在开始的戏剧的前方……校长为什么会想到我会回到这里呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「始まった劇の先で……なぜ俺がここに戻ってくると校長は思うのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 713,
+	},
+	block_00138 = {
+		{"bg", sync=0, face=1, file="ev_con_01_10", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_11010", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“因为我在那条路上下了赌注。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「私がその道に賭けたからだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 718,
+	},
+	block_00139 = {
+		{"bg", sync=0, face=1, file="ev_con_01_23", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"随着砰的一声，香烟被压在桌子上。",
+				},
+			},
+        	ja = {
+				{
+					"ジュッという音と共に、机にたばこが押しつけられる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 724,
+	},
+	block_00140 = {
+		{"bg", sync=0, face=1, file="ev_con_01_24", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_11011", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"“在停职的文件上签名，然后马上离开这个房间。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「休職の書類に署名して、とっととこの部屋から出るのだな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 729,
+	},
+	block_00141 = {
+		{"bg", sync=0, face=1, file="ev_con_01_26", time=400, path=":ev/ev_con_01/", set="ev_con_01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_11012", ch="sak"},
+			},
+		
+            cn = {
+				{
+					"「要不然，我永远不会让你离开这里。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"紗希"},
+					"「でなければ、私は君をここから永遠に出さないよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 735,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 738,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我叹气。",
+				},
+			},
+        	ja = {
+				{
+					"俺はため息をつく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 741,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"多么傲慢的人啊。",
+				},
+			},
+        	ja = {
+				{
+					"ったく、なんて傲慢な人だろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 744,
+	},
+	block_00145 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我在交给我的文件上签了字。",
+				},
+			},
+        	ja = {
+				{
+					"俺は手渡された書類に署名した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 747,
+	},
+	block_00146 = {
+		{"excall", file="05_01_2"},
+		{"text"},
+		linkback = "block_00145",
+		line = 752,
+	},
+	label = {
+		flagon1 = { block="block_00000", label=21 },
+		next = { block="block_00000", label=36 },
+		top = { block="block_00000", label=1 },
+		flagon2 = { block="block_00008", label=49 },
+		join = { block="block_00008", label=63 },
+	},
+}

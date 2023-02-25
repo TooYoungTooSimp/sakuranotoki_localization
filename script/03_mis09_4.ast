@@ -1,0 +1,8945 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="第Ⅲ章"},
+		{"msg", no=1},
+		{"bg", file="bg012g", path=":bg/", ax=960, ay=563, bx=0, by=-23},
+		{"bgm", file="bgm152"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我回家后搜索了一下。",
+				},
+			},
+        	ja = {
+				{
+					"俺は自宅に帰った後に検索した。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 14,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽然不能说是直观像记忆，但是有意识地看的东西可以像照片一样停留几个小时左右。",
+				},
+			},
+        	ja = {
+				{
+					"直観像記憶とまではいかないが、意識的に見たものを数時間程度写真の様にとどめておく事が出来る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 17,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"几个小时左右是米索，因为不带一夜所以不能用于学习。",
+				},
+			},
+        	ja = {
+				{
+					"数時間程度というのがミソで、一晩持たないので勉強には使えなかった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 20,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我想大概是特别擅长绘画的能力。",
+				},
+			},
+        	ja = {
+				{
+					"たぶん、絵画に特化した能力なのだと思う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 23,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"从记忆中的照片信息在网上搜索。",
+				},
+			},
+        	ja = {
+				{
+					"記憶にある写真の情報からインターネットで検索する。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 26,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“原来如此……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なるほど……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 29,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"像PN一样的东西，像账号一样的东西，还有像“创作物”一样的东西。",
+				},
+			},
+        	ja = {
+				{
+					"PNとおぼしきもの、アカウントとおぼしきもの、さらに「創作物」とおぼしきもの。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 32,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"收集那些片断的信息。",
+				},
+			},
+        	ja = {
+				{
+					"それら断片的な情報を集めていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 35,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“都是从共同的钥匙账户发送的……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「どれも共通の鍵アカウントから発信されたものばかりだな……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 38,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“对于钥匙卡，即使正常申请也会被无视吧……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「鍵アカに対して、普通に申請しても無視されるよなぁ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 41,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那么到底是怎么回事呢……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「さてどうしたもんだか……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 44,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"要说怎么回事，我能做的只有一件事。",
+				},
+			},
+        	ja = {
+				{
+					"どうしたもんだかというか、俺が出来る事など一つしかない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 47,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"用手机开始画画。",
+				},
+			},
+        	ja = {
+				{
+					"スマホで絵を描き始める。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 50,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"美少女画虽然不是专业，但最近的美少女插图大多是写实的身材。",
+				},
+			},
+        	ja = {
+				{
+					"美少女絵は専門外だが、最近の美少女イラストは写実的な体つきが多い。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 53,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"传达给心佐夫君的威廉·阿道夫·布格罗的绘画等，除了脸以外几乎和在Witter上溢出的美少女插图一样。",
+				},
+			},
+        	ja = {
+				{
+					"心佐夫くんに伝えたウィリアム・アドルフ・ブグローの絵画など、顔以外はほぼWitter上で溢れる美少女イラストと変わらない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 56,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"和绘画有很大的差别是脸。这个应该成为最大的瓶颈，不过，那里是从少年期开始净读色情漫画的我。",
+				},
+			},
+        	ja = {
+				{
+					"絵画との大きな差は顔となる。これが最大のネックとなるはずだが、そこは少年期からエロ漫画ばかり読んできた俺だ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 59,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"其实不会成为瓶颈。",
+				},
+			},
+        	ja = {
+				{
+					"実はネックなどにならない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 62,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那样的画也能画好。",
+				},
+			},
+        	ja = {
+				{
+					"そういう絵もちゃんと描ける。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 65,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“原来是这样啊……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「こんなもんかな……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 68,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"是叫万德罗的家伙吗？不，那是一小时一张吗？",
+				},
+			},
+        	ja = {
+				{
+					"ワンドロというやつだろうか？　いや、それは１時間に一枚だったか？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 71,
+	},
+	block_00020 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=139, wait=500, file="black", path=":bg/", vague=40},
+		{"bg", y=-310, rule=139, speed=120000, vague=40, file="zbg012g", path=":bg/", x2=290, y2=-310, x=-290, ax=1920, ay=1126, bx=-960, by=-586},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我一张15分钟左右就继续画了。",
+				},
+			},
+        	ja = {
+				{
+					"俺は一枚１５分ぐらいで描き続けた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 78,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"完全不使用图层等。",
+				},
+			},
+        	ja = {
+				{
+					"レイヤーなど一切使わない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 81,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"在几秒钟内取得雅达利，同时进行涂漆和线条画。",
+				},
+			},
+        	ja = {
+				{
+					"アタリを数秒でとり、塗りと線画を同時に進めていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 84,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"调查了几种画的倾向，用相似的系统画了，自己说，不过，被认为是完全不逊色的完成。",
+				},
+			},
+        	ja = {
+				{
+					"何種類か、絵の傾向を調べて似た系統で描いたが、自分で言ってなんだが、まったく遜色ない出来だと思われる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 87,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"嘛，关于肉体构造和布的质感，基础原本就和他们完全不同。",
+				},
+			},
+        	ja = {
+				{
+					"まぁ、肉体構造に関しても布の質感に関しても基礎がそもそも彼らとはまったく違う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 90,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“虽然是精细艺术，但被称为神童而引起骚动是有才能的……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「一応は、ファインアートではあるが、神童と言われて騒がれたぐらいには才能があるからね……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 93,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"完成了几张插图。",
+				},
+			},
+        	ja = {
+				{
+					"イラストが数枚出来上がった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 96,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“接下来是创建账户的方法……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「次はアカウント作成する方法だが……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 99,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"因为我本来就没有做SNS，所以这边陷入了相当大的苦战。",
+				},
+			},
+        	ja = {
+				{
+					"SNSをそもそもやっていない俺なので、こちらの方がよっぽど苦戦した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 102,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯……这个插图投稿网站，啊，能和这边的SNS合作吗，那就直接使用吧……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「えっと……このイラスト投稿サイトは、あぁ、こっちのSNSと連携出来るのか、",
+					{"rt2"},
+					"だったらそのまま使い回して……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 106,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"好不容易创建了账号，又上传了画。",
+				},
+			},
+        	ja = {
+				{
+					"やっとの事でアカウントを作成して、さらに絵をアップした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 109,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我觉得这样就变成了这样的账户……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「これでそれらしいアカウントになったと思うが……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 112,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"从新出生的账号中，向心佐夫君的钥匙卡提出了关注申请。",
+				},
+			},
+        	ja = {
+				{
+					"新しく生まれたアカウントから、心佐夫くんの鍵アカにフォロー申請を出しておいた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 115,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ふむ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 118,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"用智能手机完成了一次作业后，在电脑上重新审视了自己画的画……。",
+				},
+			},
+        	ja = {
+				{
+					"スマホで作業を一通り終えた後に、PCで自分が描いた絵を見直したが……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 121,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“虽然是微妙粗暴的描写，但如果认为是印象派的话就没有问题了吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「微妙に荒々しい描写だが、印象派みたいなもんだと考えれば問題ないだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 124,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"正在做什么的时候，脚步声从走廊靠近了。",
+				},
+			},
+        	ja = {
+				{
+					"なんて事をしていたら、廊下から足音が近づいてきた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 127,
+	},
+	block_00037 = {
+		{"bg", time=500, file="bg012g", path=":bg/", ax=960, ay=563, bx=0, by=-23},
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「っッッ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 134,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我突然把电脑浏览器掉了下来。",
+				},
+			},
+        	ja = {
+				{
+					"俺は咄嗟にPCのブラウザを落とす。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 137,
+	},
+	block_00039 = {
+		{"msgoff"},
+		{"bg", file="bg009c", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"extrans", time=500},
+		{"bgm", file="bgm152"},
+		{"fg", ch="心鈴", size="z1", mx=40, mode=3, resize=1, path=":fg/mis/z1/", file="mis_z1b1500", face="b0001", head="mis_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃突然露出了脸。",
+				},
+			},
+        	ja = {
+				{
+					"ひょっこりと心鈴くんが顔を出す。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 150,
+	},
+	block_00040 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b1500", face="b0002", head="mis_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12262", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我洗澡了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「お風呂頂きました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 155,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，我也要进去。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ、俺も入るよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 158,
+	},
+	block_00042 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b1500", face="b0001", head="mis_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我本打算无意中回答的。",
+				},
+			},
+        	ja = {
+				{
+					"何気なく答えたつもりであった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 163,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是果然还是传达了不自然的感觉吧。",
+				},
+			},
+        	ja = {
+				{
+					"だがやはり不自然な感じが伝わったのであろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 166,
+	},
+	block_00044 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg012g", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"extrans", time=500},
+		{"fg", ch="心鈴", size="z1", my=-40, mode=3, path=":fg/mis/z1/", file="mis_z1a1510", face="a0010", head="mis_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君从走廊快步走进房间，正坐在拉着的被子上。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんは廊下からスタスタと早歩きで部屋に入ってくると、",
+					{"rt2"},
+					"ひいていた布団に正座した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 178,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你要睡觉了吗？已经成睡衣了？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「もう寝るの？　寝巻きになってるけど？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 181,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"因为是冬天所以已经很暗了，但是时间上还是晚饭前。",
+				},
+			},
+        	ja = {
+				{
+					"冬なのでもう暗いが、時間的にはまだ夕飯前だ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 184,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"蓝也还没回来。",
+				},
+			},
+        	ja = {
+				{
+					"藍もまだ帰ってきてない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 187,
+	},
+	block_00048 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a1510", face="a0013", head="mis_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12263", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 193,
+	},
+	block_00049 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a1510", face="a0010", head="mis_z1a", lv=4, id=9},
+		{"fgact", ch="心鈴", act="うんうん", time=150, lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃小声地说“嗯”，啪嗒啪嗒地敲着被子。",
+				},
+			},
+        	ja = {
+				{
+					"小さな声で「むぅ」と心鈴くんは言って、布団をぽんぽんと叩く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 199,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“怎么了？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「どうしたの？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 202,
+	},
+	block_00051 = {
+		{"fgact", ch="心鈴", act="うんうん", time=150, lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃一直在敲被子。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんは布団をぽんぽんと叩き続ける。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 207,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你的意思是，到旁边来？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それって、横に来いという意味？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 210,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃静静地点头两次。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんが静かに二度頷く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 215,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我耸耸肩，然后坐在她的旁边。",
+				},
+			},
+        	ja = {
+				{
+					"俺は肩をすくめてから、彼女の横に座る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 218,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不高兴？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「不機嫌？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 221,
+	},
+	block_00056 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a1510", face="a0001", head="mis_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12264", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“看起来是这样吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「そう見えますか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 226,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 229,
+	},
+	block_00058 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a1510", face="a0008", head="mis_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12265", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“直哉先生太尖锐了，我很为难。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「直哉さんはいろいろ鋭すぎて困ります」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 234,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“没想到你会这么说。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「君に言われるとはな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 237,
+	},
+	block_00060 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b1500", face="b0014", head="mis_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12266", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“彼此彼此。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「お互いさまです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 242,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“总之，不高兴才是正确答案吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「とりあえず、不機嫌になったの正解なのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 245,
+	},
+	block_00062 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1b1500", face="b0001", head="mis_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12267", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“如果是正确答案的话，我想是因为直哉太温柔了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「もし正解ならば、直哉さんが優しすぎるからだと思います」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 250,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那是什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なんだそれ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 253,
+	},
+	block_00064 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1c1500", face="c0001", head="mis_z1c", lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君扑通一声面向那边。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんがプイっとあちらを向いた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 258,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12268", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“不知从哪里出现，帮助有困难的人……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「どこからともなくあらわれて困った人を助ける……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 261,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12269", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“无论那声音多么孤独，无论相隔多远……都能听到那声音。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「その声がどれほど孤独であっても、どれだけ遠くにあったとしても……。",
+					{"rt2"},
+					"その声を聞く事が出来る」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 265,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你在说什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なんの話だよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 268,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12270", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“据说英雄能听到远处叹息的人的声音。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ヒーローにはどこか遠くで嘆く人の声が聞こえるという話です」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 271,
+	},
+	block_00069 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", y=100, file="zbg012g", path=":bg/", ax=1920, ay=1126, bx=-960, by=-586, sync=0},
+		{"fg", ch="心鈴", size="z2", mode=3, resize=1, path=":fg/mis/z2/", file="mis_z2a1510", face="a0002", head="mis_z2a", lv=5, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"突然面向这边用手包住我的脸。",
+				},
+			},
+        	ja = {
+				{
+					"突然こちらを向いて俺の顔を手で包み込む。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 282,
+	},
+	block_00070 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0010", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12271", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“啾啾……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「チュッ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 287,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君接吻了。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんがキスした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 290,
+	},
+	block_00072 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0008h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12272", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“搞错了，是我想亲直哉的话。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「間違えました。私が直哉さんにキスをしたいという話でした」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 295,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么错误？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「どんな間違いだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 298,
+	},
+	block_00074 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0002h", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12273", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“是那样的错误。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「そんな間違いです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 303,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不——大概不是吧。",
+				},
+			},
+        	ja = {
+				{
+					"いや――たぶん、そうじゃない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 306,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"她很快就醒悟过来了吧。",
+				},
+			},
+        	ja = {
+				{
+					"彼女はすぐに悟ったのだろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 309,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我想做点什么。",
+				},
+			},
+        	ja = {
+				{
+					"俺が何かしようとしている事を。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 312,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是，心铃没有提到那件事。",
+				},
+			},
+        	ja = {
+				{
+					"だが、心鈴くんはその事に触れなかった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 315,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"大概，不高兴是因为担心我的身体，然后原谅了我，觉得这是自己也做不到的问题。",
+				},
+			},
+        	ja = {
+				{
+					"たぶん、不機嫌になったのは俺の身を案じて、",
+					{"rt2"},
+					"そして許してくれたのは、自分でもどうにも出来ない問題であると感づいたからだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 319,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这个姑娘的直觉不好。",
+				},
+			},
+        	ja = {
+				{
+					"この娘は勘が良いなんてものじゃない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 322,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"没有不明白的哈兹。",
+				},
+			},
+        	ja = {
+				{
+					"分からないハズがない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 325,
+	},
+	block_00082 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0001", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12274", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我在想什么，直哉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「なんか考えてます、直哉さん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 330,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我会考虑的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そりゃ考えるよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 333,
+	},
+	block_00084 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0013", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12275", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我在随意地深读。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「勝手な深読みしてます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 338,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么呀？什么叫深读？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なんだよ？　深読みって？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 341,
+	},
+	block_00086 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0004", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12276", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我擅自深读了我想的事情，误解了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「私が考えている事を勝手に深読みして、勘違いしています」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 346,
+	},
+	block_00087 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0013", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0010", head="mis_z2b", lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12277", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我不知道，直哉，你误会我很敏锐。但是我比较迟钝。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「なんか知りませんが、直哉さん、私がすごく鋭いとか勘違いしてます。",
+					{"rt2"},
+					"でも私はわりかし鈍感なのです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 353,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不，不，没有迟钝吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いやいや、鈍感はないだろ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 356,
+	},
+	block_00089 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0001", head="mis_z2b", lv=5, id=9},
+		{"fgact", ch="心鈴", act="いいえ", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12278", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“没有那样的事。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「そんな事ありません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 362,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那么，你在想什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だったら、何を考えていた？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 365,
+	},
+	block_00091 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0009", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12279", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“嗯……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「えっと……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 370,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君语塞。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんは言い淀む。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 373,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"好像没有考虑过欺骗的台词。",
+				},
+			},
+        	ja = {
+				{
+					"どうやら誤魔化す台詞は考えてなかったみたいだな。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 376,
+	},
+	block_00094 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0008", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君移开视线。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんは視線を逸らす。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 381,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なんだい？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 384,
+	},
+	block_00096 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0008h", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12280", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我想做很多……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「せ、せっくす、沢山したいです……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 389,
+	},
+	block_00097 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“诶？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「え゛？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 394,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"对于完全出乎意料的话，我什么反应都没有。",
+				},
+			},
+        	ja = {
+				{
+					"まったく予想外の言葉に俺はなんの反応も出来ない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 397,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不遮住通红的脸，心铃直视着我。",
+				},
+			},
+        	ja = {
+				{
+					"真っ赤な顔を隠すこともせずに心鈴くんはまっすぐに俺を見つめる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 400,
+	},
+	block_00100 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0010h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12281", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“哇，我是这么想的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「わ、私はそんな事を考えてました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 405,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不，是骗人的吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いや、嘘だろ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 408,
+	},
+	block_00102 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1500", face="a0005h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12282", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“噗！！你以为我会用谎言说出这么丢人的台词吗！？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「プクぅ！！　嘘でこんな恥ずかしい台詞言うと思いますかぁ！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 413,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃鼓起脸颊生气。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんが頬を膨らませて怒る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 416,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 419,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"说起来……也许也是这样。",
+				},
+			},
+        	ja = {
+				{
+					"言われてみれば……それもそうかもしれない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 422,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我也想做。现在马上就做，哈哈……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「したいのは俺もそうだ。今すぐにでもな、あはは……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 431,
+	},
+	block_00107 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg012g", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我笑着站起来。",
+				},
+			},
+        	ja = {
+				{
+					"俺は笑いながら立ち上がる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 440,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“但是浴室还没有洗好。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「でも風呂がまだだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 443,
+	},
+	block_00109 = {
+		{"fg", ch="心鈴", size="z1", my=40, mode=3, resize=1, path=":fg/mis/z1/", file="mis_z1a1500", face="a0011h", head="mis_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君抓住了站起来的我的手。",
+				},
+			},
+        	ja = {
+				{
+					"立ち上がった俺の手を心鈴くんが捕まえる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 448,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12283", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我想马上做。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「すぐにしたいのです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 451,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不，但是我还没洗澡。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いや、でも俺は風呂まだだし」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 454,
+	},
+	block_00112 = {
+		{"fg", ch="心鈴", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a1500", face="a0014h", head="mis_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12284", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“这样就可以了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「それでいいのです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 459,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不用了，今天用了身体。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「結構、今日は身体を使ったから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 462,
+	},
+	block_00114 = {
+		{"bg", y=100, time=500, file="zbg012g", path=":bg/", ax=1920, ay=1126, bx=-960, by=-586},
+		{"fg", ch="心鈴", size="z2", my=-40, mode=3, resize=1, path=":fg/mis/z2/", file="mis_z2a1500", face="a0010h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"好像也不想听我说的话一样，心铃君把脸埋在我的胸前。",
+				},
+			},
+        	ja = {
+				{
+					"俺の言い分など聞く気も無いかの様に、心鈴くんが俺の胸に顔を埋める。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 469,
+	},
+	block_00115 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1500", face="a0010h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fgact", ch="心鈴", act="うんうん", time=150, lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12285", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“好厉害……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「すんすん……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 475,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"总觉得有点刺鼻的味道。",
+				},
+			},
+        	ja = {
+				{
+					"なんかめっさ匂いをかがれている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 478,
+	},
+	block_00117 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1500", face="a0010h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12286", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“好厉害……好厉害……好厉害……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「すんすん……すんすん……すん……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 483,
+	},
+	block_00118 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1500", face="a0010h", head="mis_z2a", lv=5, id=9},
+		{"fgact", ch="心鈴", act="うなづく", lv=5, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0002h", head="mis_z2a", lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12287", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“嗯，太棒了！有直哉的味道。太可惜了，我想马上做爱！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ふむ、素晴らしいです！　直哉さんの匂いがしますね。もったいないので、すぐにエッチをしたいと思います！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 490,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“心铃君明明洗澡了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「心鈴くん風呂入ったのに」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 493,
+	},
+	block_00120 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0003h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12288", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我很好，因为我是少女。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「私はいいのです。乙女ですからね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 498,
+	},
+	block_00121 = {
+		{"bg", time=500, file="black", path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这样说的话，心铃自然会把嘴唇重叠在我身上。",
+				},
+			},
+        	ja = {
+				{
+					"そう言うと自然に心鈴くんが俺に唇を重ねてくる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 503,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12289", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“嗯……嗯，嗯……嗯……嗯……嗯……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「んちゅ……ん、ちゅる、ちゅちゅ……ん……ちゅ、ちゅ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 506,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君接吻了。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんは濃厚なキスをしてきた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 509,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12290", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“请紧紧地拥抱我，让我破碎。请紧紧地爱我。请给我很多快乐。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「私が壊れてしまうぐらい強く抱きしめてください。強く愛してください。沢山の快楽をくださいませ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 512,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“如果你希望的话，即使不被说……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「君が望むのなら、言われなくても……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 515,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我紧紧地拥抱着。",
+				},
+			},
+        	ja = {
+				{
+					"俺は強く抱きしめた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 518,
+	},
+	block_00127 = {
+		{"msgoff"},
+		{"bg", y=100, file="zbg012g", path=":bg/", ax=1920, ay=1126, bx=-960, by=-586, sync=0},
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0002h", head="mis_z2a", lv=5, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"——噗。",
+				},
+			},
+        	ja = {
+				{
+					"――ぷにぃ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 527,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 530,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"紧紧地抱住的话，内心会反弹。",
+				},
+			},
+        	ja = {
+				{
+					"強く抱きしめると胸の反発半端ない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 533,
+	},
+	block_00130 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0003h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12291", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“紧紧地……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ぎゅっ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 538,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"——噗。",
+				},
+			},
+        	ja = {
+				{
+					"――ぷにぃ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 541,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"更加强烈地感到排斥。",
+				},
+			},
+        	ja = {
+				{
+					"さらに強く反発を感じる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 544,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我也是性欲不减的青年。这样的感觉持续下去的话，下半身也会有反应。",
+				},
+			},
+        	ja = {
+				{
+					"俺もまだまだ性欲衰えぬ青年だ。こんな感覚が続けば当然の様に下半身も反応する。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 547,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是心铃君的胸很大，连上半身都没碰，大概没注意到吧。",
+				},
+			},
+        	ja = {
+				{
+					"だが心鈴くんの胸が大きく、上半身まで触れてないので、たぶん気が付かれてないだろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 550,
+	},
+	block_00135 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0001h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12292", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“猜中了……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「当たってます……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 555,
+	},
+	block_00136 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“咦？什么事？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「へ？　なにが？？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 558,
+	},
+	block_00137 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0002h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12293", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“即使隔着布也能感受到它的热度。‘小朋友，小朋友’在做。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「布ごしですらその熱さが伝わります。“びくん、びくん”しています」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 564,
+	},
+	block_00138 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「う゛っ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 567,
+	},
+	block_00139 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我是毛驴。",
+				},
+			},
+        	ja = {
+				{
+					"モロバレだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 570,
+	},
+	block_00140 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0002h", head="mis_z2a", lv=5, id=9},
+		{"fgact", ch="心鈴", act="うんうん", time=250, lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12294", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“抚摸我”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「なでなで」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 576,
+	},
+	block_00141 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ひっっっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 581,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君在裤子上抚摸着我的东西。",
+				},
+			},
+        	ja = {
+				{
+					"ズボンごしに心鈴くんが俺のものを撫でる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 584,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那种感觉让我快要崩溃了。",
+				},
+			},
+        	ja = {
+				{
+					"その感覚に腰砕けになりそうだった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 587,
+	},
+	block_00144 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0001h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0002h", head="mis_z2a", lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12295", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“好厉害……好烫……而且还跳得很厉害……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「すごい……熱いです……。それに、すごく跳ねてます……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 593,
+	},
+	block_00145 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「那、那是……那样的接触方式的话。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そ、そりゃ……そんな触れ方したら」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 596,
+	},
+	block_00146 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0001h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12296", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“感觉到了吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「感じるのでしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 601,
+	},
+	block_00147 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「う゛っ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 604,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"认真提问的心铃君。",
+				},
+			},
+        	ja = {
+				{
+					"真顔で質問してくる心鈴くん。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 607,
+	},
+	block_00149 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是，那不是提问，而是语言责备。",
+				},
+			},
+        	ja = {
+				{
+					"だが、それは質問ではなく、言葉責めと言うのだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 610,
+	},
+	block_00150 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0002h", head="mis_z2a", lv=5, id=9},
+		{"fgact", ch="心鈴", act="うんうん", time=250, lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12297", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“抚摸我”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「なでなで」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 616,
+	},
+	block_00151 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嘿嘿。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ひぐっっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 619,
+	},
+	block_00152 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0001h", head="mis_z2a", lv=5, id=9},
+		{"fgact", ch="心鈴", act="うんうん", time=250, lv=5, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0001h", head="mis_z2b", lv=5, id=9},
+				{"fgact", ch="心鈴", act="うんうん", time=250, lv=5, id=9},
+			},
+			vl02 = {
+				{"fgact", ch="心鈴", act="停止", lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12298", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“喂，别抚摸我。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「もぞもぞ、なでなで」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 628,
+	},
+	block_00153 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯，啊。啊……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「う゛っ、あっ。あ゛っ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 631,
+	},
+	block_00154 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0002h", head="mis_z2b", lv=5, id=9},
+		{"fgact", ch="心鈴", act="いいえ", size=3, lv=5, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fgact", ch="心鈴", act="うんうん", time=250, lv=5, id=9},
+			},
+			vl02 = {
+				{"fgact", ch="心鈴", act="いいえ", time=250, size=6, lv=5, id=9},
+			},
+			vl03 = {
+				{"fgact", ch="心鈴", act="停止", lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12299", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“不停地，抚摸着，不停地……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「くりくり、なでなで、くりくり……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 641,
+	},
+	block_00155 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“停止那个拟音吧！如果你像小声说那样的话——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「その擬音やめなさい！　なんか、ささやくようにそんな事言われたら――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 644,
+	},
+	block_00156 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0001h", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		delay = {
+			vl02 = {
+				{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0014h", head="mis_z2b", lv=5, id=9},
+			},
+			vl01 = {
+				{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0003h", head="mis_z2b", lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12300", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“如果被说了呢？会变成什么样呢？真是个谜啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「言われたら？　どうなってしまうのでしょうか？　謎ですね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 652,
+	},
+	block_00157 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这可不是个谜。如果被那种可爱声音的拟声词搞得很厉害的话，那就受不了了……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「謎じゃねぇよ。そんな可愛い声の擬音でえっちな事されたらそりゃ",
+					{"rt2"},
+					"たまらない……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 656,
+	},
+	block_00158 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0007h", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12301", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“哇！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「っッッ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 661,
+	},
+	block_00159 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2c1500", face="c0001", head="mis_z2c", lv=5, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君向后看。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんが後ろを向く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 666,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“怎么，怎么了？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ど、どうしたの？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 669,
+	},
+	block_00161 = {
+		{"fgact", ch="心鈴", act="うんうん", time=250, lv=5, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fgact", ch="心鈴", act="うんうん", time=250, lv=5, id=9},
+			},
+			vl02 = {
+				{"fgact", ch="心鈴", act="いいえ", time=250, size=6, lv=5, id=9},
+			},
+			vl03 = {
+				{"fgact", ch="心鈴", act="停止", lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12302", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“胡尼胡尼，抚摸着，一个接一个……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「フニフニ、なでなで、くりくり……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 677,
+	},
+	block_00162 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，哇，哇，哇！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あっ、あうっ、くっっッッ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 680,
+	},
+	block_00163 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"总觉得向后，就这样用手抚摸着。",
+				},
+			},
+        	ja = {
+				{
+					"なんか後ろ向きで、そのまま手で撫でてくる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 683,
+	},
+	block_00164 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，为什么，一边向后一边抚摸呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「な、なんで、後ろ向きながら撫でるっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 686,
+	},
+	block_00165 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12303", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“啊，因为直哉的语言责备柜台很狡猾。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「な、直哉さんの言葉責めカウンターがズルいからです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 689,
+	},
+	block_00166 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什嚒，这是什嚒？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「な、なんだよ。それっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 692,
+	},
+	block_00167 = {
+		{"fgact", ch="心鈴", act="うんうん", time=250, lv=5, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fgact", ch="心鈴", act="いいえ", time=250, size=6, lv=5, id=9},
+			},
+			vl02 = {
+				{"fgact", ch="心鈴", act="うんうん", time=250, lv=5, id=9},
+			},
+			vl03 = {
+				{"fgact", ch="心鈴", act="停止", lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12304", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“胡尼胡尼，拿铁，国国……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「フニフニ、ナデナデ、くにくに……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 700,
+	},
+	block_00168 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇，哇，哇，哇！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「うあっ、かっあ゛っ、くひっっッッ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 703,
+	},
+	block_00169 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"一边看着后天的方向，一边一直抚摸着下半身。",
+				},
+			},
+        	ja = {
+				{
+					"なんか明後日の方向見られながら、ずっと下半身撫でられている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 706,
+	},
+	block_00170 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“心铃君！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「心鈴くんっっ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 709,
+	},
+	block_00171 = {
+		{"fg", ch="心鈴", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0007h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我抓住心铃的两个脸颊朝这边走。",
+				},
+			},
+        	ja = {
+				{
+					"俺は心鈴くんの両頬を掴んでこちらを向かせる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 714,
+	},
+	block_00172 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1500", face="a0012h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12305", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“哇！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「っッッ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 719,
+	},
+	block_00173 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"超红的脸，泪眼，让人眼花缭乱。",
+				},
+			},
+        	ja = {
+				{
+					"めっちゃ、顔真っ赤で、涙目で、目をぐるぐるさせている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 722,
+	},
+	block_00174 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这个，好好地面向这边吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「こ、こっちをちゃんと向けよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 725,
+	},
+	block_00175 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0008h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽然脸朝着这边，但是视线被无视了。",
+				},
+			},
+        	ja = {
+				{
+					"顔はこちらに向けさせたが、目線はそっぽ向かれる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 730,
+	},
+	block_00176 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0008h", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12306", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“因为直哉的语言柜台太狡猾了，所以不想对视。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「直哉さんの言葉カウンターがズルすぎるので、目を合わせたくありません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 735,
+	},
+	block_00177 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“狡猾……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ずるいって……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 738,
+	},
+	block_00178 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0005h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0009h", head="mis_z2a", lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12307", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“是的，直哉很狡猾！让我心动多久才能解闷呢？萌死我了！心铃就是死亡！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「そうです、直哉さんずるいです！　どれだけ私をときめかせれば気が済むのでしょうか？　萌え殺されます！　心鈴は死亡ですよ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 744,
+	},
+	block_00179 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"被这么说也没关系啊。",
+				},
+			},
+        	ja = {
+				{
+					"そんな事言われてもなぁ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 747,
+	},
+	block_00180 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我不是想责怪你，如果真的用心铃的声音发出尖锐的拟声的话，我就受不了了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「言葉責めのつもりじゃないし、本当に心鈴くんの声でえっちな擬音出されたら",
+					{"rt2"},
+					"我慢できないってっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 751,
+	},
+	block_00181 = {
+		{"se", file="se0061", vol=40, id=1},
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0001h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君放下我裤子的拉链，就这样把手放在内裤上。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんが俺のズボンのジッパーを下ろし、そのままパンツに手をかけていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 757,
+	},
+	block_00182 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“诶？突然问你那边？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「え？　いきなりそっち？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 760,
+	},
+	block_00183 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0008h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12308", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“再从裤子上面摸一下没关系吗？我觉得直哉的○先生很容易被淋湿。所以我觉得内裤会变得很辛苦。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「これ以上、ズボンの上から触っていて大丈夫でしょうか？",
+					{"rt2"},
+					"直哉さんのお○んちんって濡れやすいと思われます。故にパンツが大変な事になると思われるのです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 767,
+	},
+	block_00184 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我以后○酱容易被淋湿吗？不，可能容易被淋湿，但也没有和别人比过！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺のち○ちんって濡れやすいのか？　いや濡れやすいかもしれないが、他の人と比べたことないし！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 770,
+	},
+	block_00185 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0001h", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0014h", head="mis_z2b", lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12309", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“不是相对关系的话题。只是经验上不马上放下内衣的话会很辛苦的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「相対関係の話ではありません。ただ経験上すぐにでも下着を下ろさないと大変な事になると思われます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 776,
+	},
+	block_00186 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君沉着地放下内衣，我的东西猛然飞了出来。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんが落ち着いた感じで下着を下ろすと、勢いよく俺のモノが飛び出た。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 779,
+	},
+	block_00187 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0009h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"看到那个，心铃君露出了有点为难的表情。",
+				},
+			},
+        	ja = {
+				{
+					"それを見て心鈴くんが少し困った顔をする。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 784,
+	},
+	block_00188 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0008h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0001h", head="mis_z2a", lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12310", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“好像脱得有点晚了呢。内裤里面已经塞满了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「少し脱がすのが遅かったみたいですねぇ。",
+					{"rt2"},
+					"もう、パンツの中がぐちょぐちょですよー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 791,
+	},
+	block_00189 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不需要那样的解说！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そんな解説いらないし！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 796,
+	},
+	block_00190 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0002h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0003h", head="mis_z2a", lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12311", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“但是。我很喜欢看到被淋湿的直哉！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「でもなのです。濡れ濡れの直哉さんのを見るのは大好きです！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00189",
+		linknext = "block_00191",
+		line = 802,
+	},
+	block_00191 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“为什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なんで？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00190",
+		linknext = "block_00192",
+		line = 805,
+	},
+	block_00192 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0002h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0002h", head="mis_z2b", lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12312", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我非常喜欢直哉先生的○○，如果最喜欢的直哉先生的○○被淋湿了，我也会觉得很色情。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「私は直哉さんのお○んちんが大好きですし、大好きな直哉さんのお○んちんが",
+					{"rt2"},
+					"これほど濡れていたら、私もたまらなくエッチな気分にもなります」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00191",
+		linknext = "block_00193",
+		line = 812,
+	},
+	block_00193 = {
+		{"fg", ch="心鈴", size="z2", ex03="b0097", mode=3, path=":fg/mis/z2/", file="mis_z2b1510", face="b0003h", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12313", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“那是幸福的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「それは、幸せなのです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00192",
+		linknext = "block_00194",
+		line = 817,
+	},
+	block_00194 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“幸福……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「幸せって……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00193",
+		linknext = "block_00195",
+		line = 820,
+	},
+	block_00195 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0002h", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12314", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“这样，世界上只有我能看到直哉的东西，所以相当幸福。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「こうやって、直哉さんのものを見る事が許されるのは世界で私だけなのですから、相当な幸せですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00194",
+		linknext = "block_00196",
+		line = 825,
+	},
+	block_00196 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“确实，不可能看到这样的样子……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「たしかに、こんな姿は見せる事などありえないが……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00195",
+		linknext = "block_00197",
+		line = 828,
+	},
+	block_00197 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这样的勃起状态不会让别人看到。不，被看到了就想死。",
+				},
+			},
+        	ja = {
+				{
+					"こんな勃起状態を人様に見せる事などない。",
+					{"rt2"},
+					"いや、見られたら死にたくなる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00196",
+		linknext = "block_00198",
+		line = 832,
+	},
+	block_00198 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2b1500", face="b0001h", head="mis_z2b", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12315", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“直哉先生的这里，请好好地隐藏在澡堂和温泉里。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「直哉さんのここは、銭湯や温泉でもちゃんと隠してくださいね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00197",
+		linknext = "block_00199",
+		line = 837,
+	},
+	block_00199 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0005h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12316", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“因为除了我以外，禁止看勃起的东西。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「勃起させたものを私以外見る事を禁じますから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00198",
+		linknext = "block_00200",
+		line = 842,
+	},
+	block_00200 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“为什么？而且在澡堂和温泉里一般都不会爆发。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なんで？　それに銭湯とか温泉で普通はち○こ勃たない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00199",
+		linknext = "block_00201",
+		line = 845,
+	},
+	block_00201 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0008h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12317", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“是啊……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「そうですよねぇ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00200",
+		linknext = "block_00202",
+		line = 850,
+	},
+	block_00202 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不知为什么，心铃转移了视线。",
+				},
+			},
+        	ja = {
+				{
+					"なぜか目をそらす心鈴くん。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00201",
+		linknext = "block_00203",
+		line = 853,
+	},
+	block_00203 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“为什么要转移视线呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なんで目をそらすんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00202",
+		linknext = "block_00204",
+		line = 856,
+	},
+	block_00204 = {
+		{"bgm", stop=1},
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0007h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12318", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“不，我没有别的意思。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「イヤ、他意はありませんよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00203",
+		linknext = "block_00205",
+		line = 863,
+	},
+	block_00205 = {
+		{"fg", ch="心鈴", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a1510", face="a0002h", head="mis_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12319", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“那是这样，我好像能做这样的事……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「それはそうと、私にはこの様な事が出来る様です……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00204",
+		linknext = "block_00206",
+		line = 868,
+	},
+	block_00206 = {
+		{"se", file="se0101", id=1},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这样说着，心铃把浴衣打开了。",
+				},
+			},
+        	ja = {
+				{
+					"そう言って、心鈴くんは浴衣をはだけさせた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00205",
+		linknext = "block_00207",
+		line = 873,
+	},
+	block_00207 = {
+		{"bg", file="ev_com_49_01", path=":ev/ev_com_49/", set="ev_com_49"},
+		{"bgm", file="bgm163", time=3000},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「っッッ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00206",
+		linknext = "block_00208",
+		line = 880,
+	},
+	block_00208 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君丰满的胸部飞出。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんの豊満な胸が飛び出す。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00207",
+		linknext = "block_00209",
+		line = 883,
+	},
+	block_00209 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那个坐在我的胯间。",
+				},
+			},
+        	ja = {
+				{
+					"それが俺の股間に乗っかる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00208",
+		linknext = "block_00210",
+		line = 886,
+	},
+	block_00210 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12320", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“怎么样？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「どうでしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00209",
+		linknext = "block_00211",
+		line = 889,
+	},
+	block_00211 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，不，太棒了……不管看多少次都是压轴。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「い、いや、素晴らしい……何度見ても圧巻だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00210",
+		linknext = "block_00212",
+		line = 892,
+	},
+	block_00212 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12321", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“太好了。因为直哉也喜欢巨乳。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「良かったです。直哉さんは巨乳好きでもありますからね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00211",
+		linknext = "block_00213",
+		line = 895,
+	},
+	block_00213 = {
+		{"bgm", file="bgm163"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"大部分的男人不是喜欢巨乳吗？",
+				},
+			},
+        	ja = {
+				{
+					"大半の男は巨乳好きではないだろうか？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00212",
+		linknext = "block_00214",
+		line = 900,
+	},
+	block_00214 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"说起来，心铃君到现在为止的对话流程也不是有点不自然。",
+				},
+			},
+        	ja = {
+				{
+					"そもそも、心鈴くんのここまでの会話の流れが少し不自然な気がしないでも無い。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00213",
+		linknext = "block_00215",
+		line = 903,
+	},
+	block_00215 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是，连那样的事都无所谓了。",
+				},
+			},
+        	ja = {
+				{
+					"だが、そんな事すらどうでも良くなる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00214",
+		linknext = "block_00216",
+		line = 906,
+	},
+	block_00216 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"——吓了一跳！！",
+				},
+			},
+        	ja = {
+				{
+					"――びくんっッッ！！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00215",
+		linknext = "block_00217",
+		line = 909,
+	},
+	block_00217 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12322", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“果然，在心里有反应啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「やはり、胸で反応しますねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00216",
+		linknext = "block_00218",
+		line = 912,
+	},
+	block_00218 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，如果能让你看到那么棒的胸部的话……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そ、そりゃ、それほど素晴らしい胸を見せられたら……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00217",
+		linknext = "block_00219",
+		line = 915,
+	},
+	block_00219 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12323", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“比刚才更大了。都是发现。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「さっきよりも、もっと大きくなるのですねぇ。発見ばかりです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00218",
+		linknext = "block_00220",
+		line = 918,
+	},
+	block_00220 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不不",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いやいや、この前、めっちゃ見ただろうに、何を今さら発見する事があるんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00219",
+		linknext = "block_00221",
+		line = 921,
+	},
+	block_00221 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12324", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我很喜欢直哉先生的○先生，所以无论几次都能感动。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「私は直哉さんのお○んちん大好きですから何度でも感動出来ます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00220",
+		linknext = "block_00222",
+		line = 924,
+	},
+	block_00222 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你会感动吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「感動するのかよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00221",
+		linknext = "block_00223",
+		line = 927,
+	},
+	block_00223 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这个姑娘……。",
+				},
+			},
+        	ja = {
+				{
+					"この",
+					{"ruby", text="こ"},
+					"娘",
+					{"/ruby"},
+					"は……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00222",
+		linknext = "block_00224",
+		line = 931,
+	},
+	block_00224 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"非常有才能，画得乱七八糟，头脑清晰，连作为大人的我都相形见绌的知识量。才貌双全，清纯。",
+				},
+			},
+        	ja = {
+				{
+					"とてつもなく才能があり、絵がデタラメに上手く、さらに頭脳明晰、大人の俺ですら顔負けの知識量。才色兼備で清純。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00223",
+		linknext = "block_00225",
+		line = 934,
+	},
+	block_00225 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那样完美的女孩子，我不知道，不过，我对○chin显出不可思议的那样的执着。",
+				},
+			},
+        	ja = {
+				{
+					"そんな完璧な女の子が、なんか知らんが、俺のち○ちんに対して不可解なほどの執着を見せる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00224",
+		linknext = "block_00226",
+		line = 937,
+	},
+	block_00226 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"身为画家的她，在人体构造上造诣深得让一般人无法想象，其求知欲非同寻常。",
+				},
+			},
+        	ja = {
+				{
+					"画家としての彼女は、一般人では考えられないほどに人体構造に造詣が深く、その",
+					{"rt2"},
+					"知識欲は並々ならぬものがある。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00225",
+		linknext = "block_00227",
+		line = 941,
+	},
+	block_00227 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"她对人体构造几乎一无所知，但对男性器官的勃起状态至今完全无知。",
+				},
+			},
+        	ja = {
+				{
+					"人体構造のほぼすべてを知り尽くしていた彼女だが、男性器の勃起状態については今まで完全な無知だった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00226",
+		linknext = "block_00228",
+		line = 944,
+	},
+	block_00228 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"当然啦。用素描不画那样的东西。",
+				},
+			},
+        	ja = {
+				{
+					"当たり前だ。",
+					{"rt2"},
+					"デッサンでそんなものを描かない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00227",
+		linknext = "block_00229",
+		line = 948,
+	},
+	block_00229 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽说如此，在现代艺术中，性器官的表现也足够成为武器。",
+				},
+			},
+        	ja = {
+				{
+					"とはいいつつ、現代芸術においては、性器の表現だって十分に武器となる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00228",
+		linknext = "block_00230",
+		line = 951,
+	},
+	block_00230 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"所以，大概她对纯粹勃起的男性器皿感兴趣吧。",
+				},
+			},
+        	ja = {
+				{
+					"だから、たぶん彼女は純粋に勃起した男性器に興味があったのだろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00229",
+		linknext = "block_00231",
+		line = 954,
+	},
+	block_00231 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"人体中未知的部分。最初看到的我勃起后○子，对她来说可能是即兴的。",
+				},
+			},
+        	ja = {
+				{
+					"人体における未知だった部分。最初に見た俺の勃起時のち○こは、彼女にとってインプリンティング的ななにかになったのかもしれない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00230",
+		linknext = "block_00232",
+		line = 957,
+	},
+	block_00232 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这就是心铃君对我异常的爱吗……。",
+				},
+			},
+        	ja = {
+				{
+					"それが、心鈴くんの異常な俺に対するち○こ愛につながったのだろうか……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00231",
+		linknext = "block_00233",
+		line = 960,
+	},
+	block_00233 = {
+		{"bg", sync=0, face=1, file="ev_com_49_02", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12325", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“你在想什么，勃起力有点下降了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「何を考え事をしているのですか、少し勃起力が落ちました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00232",
+		linknext = "block_00234",
+		line = 966,
+	},
+	block_00234 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「咦？你知道那种东西吗？」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「え゛？　そ、そんなもの分かるの？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00233",
+		linknext = "block_00235",
+		line = 969,
+	},
+	block_00235 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12326", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我明白！我已经明白得太多了！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「分かります！　もう、分かりすぎるぐらい、分かります！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00234",
+		linknext = "block_00236",
+		line = 972,
+	},
+	block_00236 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12327", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“直哉！勃起的时候请更加认真地勃起！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「直哉さん！　勃起する時はもっとマジメに、勃起してください！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00235",
+		linknext = "block_00237",
+		line = 975,
+	},
+	block_00237 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“即使被说是认真勃起……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「マジメに勃起と言われても……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00236",
+		linknext = "block_00238",
+		line = 978,
+	},
+	block_00238 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12328", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“好好感受一下就好了。我会这样做的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ちゃんと感じてくださればいいのです。この様にしますから――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00237",
+		linknext = "block_00239",
+		line = 981,
+	},
+	block_00239 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お゛ぁぉぉっ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00238",
+		linknext = "block_00240",
+		line = 984,
+	},
+	block_00240 = {
+		{"bg", sync=0, face=1, file="ev_com_49_03", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我的东西从内裤里猛地飞出来。",
+				},
+			},
+        	ja = {
+				{
+					"パンツから、俺のものが勢いよく飛び出す。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00239",
+		linknext = "block_00241",
+		line = 989,
+	},
+	block_00241 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12329", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“捕获”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「捕獲っ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00240",
+		linknext = "block_00242",
+		line = 992,
+	},
+	block_00242 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"——嗯嗯。",
+				},
+			},
+        	ja = {
+				{
+					"――むにゅっ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00241",
+		linknext = "block_00243",
+		line = 997,
+	},
+	block_00243 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"非常柔软温暖的大膨胀夹在中间。",
+				},
+			},
+        	ja = {
+				{
+					"とてもやわらかくてあたたかい大きなふくらみに「フニュっ」と挟まれる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00242",
+		linknext = "block_00244",
+		line = 1000,
+	},
+	block_00244 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お゛お゛ぉぉぁぁぉぉっ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00243",
+		linknext = "block_00245",
+		line = 1003,
+	},
+	block_00245 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"总觉得被至今为止没有感受过的极好的触感包围着。",
+				},
+			},
+        	ja = {
+				{
+					"なんか今まで感じた事がないぐらい素晴らしい感触に包まれる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00244",
+		linknext = "block_00246",
+		line = 1006,
+	},
+	block_00246 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12330", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“嗯？勃起角度上升了10度。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ふむっ？　勃起角度が１０度上昇しましたね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00245",
+		linknext = "block_00247",
+		line = 1009,
+	},
+	block_00247 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，当然了！如果有这种舒服的感觉的话，就好了！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あ、当たり前だ！　こ、こんな気持ちいい感触があったら、うおっっっッッ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00246",
+		linknext = "block_00248",
+		line = 1012,
+	},
+	block_00248 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12331", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“膨胀率在体感上也上升了约7%。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「膨張率も体感で約７％ほどあがりました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00247",
+		linknext = "block_00249",
+		line = 1015,
+	},
+	block_00249 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お゛ぉぉ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00248",
+		linknext = "block_00250",
+		line = 1018,
+	},
+	block_00250 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"用体感来说太细了吧。",
+				},
+			},
+        	ja = {
+				{
+					"体感で言うには細かすぎだろ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00249",
+		linknext = "block_00251",
+		line = 1021,
+	},
+	block_00251 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是，大概是因为心铃君的观察力，所以我认为这是几乎正确的数值。",
+				},
+			},
+        	ja = {
+				{
+					"でも、たぶん心鈴くんの観察力だから、ほぼ正しい数値なのだと思う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00250",
+		linknext = "block_00252",
+		line = 1024,
+	},
+	block_00252 = {
+		{"bg", sync=0, face=1, file="ev_com_49_04", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12332", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“呵呵”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ほっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00251",
+		linknext = "block_00253",
+		line = 1030,
+	},
+	block_00253 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇！？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「うぉ！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00252",
+		linknext = "block_00254",
+		line = 1033,
+	},
+	block_00254 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"用手捂住胸口。我的东西被恰到好处的温暖包围着。",
+				},
+			},
+        	ja = {
+				{
+					"胸を両方から手で押さえ込む。",
+					{"rt2"},
+					"ほどよい温かさに俺のものが包まれる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00253",
+		linknext = "block_00255",
+		line = 1037,
+	},
+	block_00255 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12333", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“真的，那我就来了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ごほん、それでは参ります」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00254",
+		linknext = "block_00256",
+		line = 1040,
+	},
+	block_00256 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你要来吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「参りますって？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00255",
+		linknext = "block_00257",
+		line = 1043,
+	},
+	block_00257 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"——嗯嗯、嗯嗯、嗯嗯……。",
+				},
+			},
+        	ja = {
+				{
+					"――むにょ、むにゅっ、むにゅ……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00256",
+		linknext = "block_00258",
+		line = 1046,
+	},
+	block_00258 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哦！？啊？嗯……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お！？　あ？　う゛っ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00257",
+		linknext = "block_00259",
+		line = 1049,
+	},
+	block_00259 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"就这样心铃君上下移动着胸部。",
+				},
+			},
+        	ja = {
+				{
+					"そのまま心鈴くんが胸を上下に動かす。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00258",
+		linknext = "block_00260",
+		line = 1052,
+	},
+	block_00260 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"——嗯嗯、嗯嗯、嗯嗯……。",
+				},
+			},
+        	ja = {
+				{
+					"――むにょ、むにゅっ、むにゅ……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00259",
+		linknext = "block_00261",
+		line = 1055,
+	},
+	block_00261 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇！？哇，哇……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お゛うっ！？　ぁお゛？　う゛っ、くうっ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00260",
+		linknext = "block_00262",
+		line = 1058,
+	},
+	block_00262 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我知道自己的下半身多次“胜利”。",
+				},
+			},
+        	ja = {
+				{
+					"自分の下半身が何度も「ビクンビクン」するのが分かる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00261",
+		linknext = "block_00263",
+		line = 1061,
+	},
+	block_00263 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"每一次，脑子都渐渐变白了。",
+				},
+			},
+        	ja = {
+				{
+					"そのたびに、段々頭が真っ白になっていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00262",
+		linknext = "block_00264",
+		line = 1064,
+	},
+	block_00264 = {
+		{"bg", sync=0, face=1, file="ev_com_49_17", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12334", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“虽然嘴上的服务还不怎么样，但内心是怎样的呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「口でのご奉仕はいまいちでしたが、胸はどうでしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00263",
+		linknext = "block_00265",
+		line = 1069,
+	},
+	block_00265 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“诶？你在意我的嘴吗？嗯……啊……啊……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「え？　口の事気にしてたの？　うぁあ゛っっッッ――――あ゛ぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00264",
+		linknext = "block_00266",
+		line = 1072,
+	},
+	block_00266 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12335", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“女人果然是物量啊。虽然嘴上很难叼出来，但这样的话就可以全部包进去了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「やはり女は物量ですね。口だと咥えるのが困難でしたが、これならすべてを包み込めます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00265",
+		linknext = "block_00267",
+		line = 1075,
+	},
+	block_00267 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是，是这样的问题吗？？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そ、そういう問題なのぉ？？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00266",
+		linknext = "block_00268",
+		line = 1078,
+	},
+	block_00268 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12336", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“嗨！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ハイっ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00267",
+		linknext = "block_00269",
+		line = 1081,
+	},
+	block_00269 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃高兴地笑着用胸包住。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんがうれしそうに笑って胸で包み込む。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00268",
+		linknext = "block_00270",
+		line = 1084,
+	},
+	block_00270 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"怎么说呢……感觉是强制天国。",
+				},
+			},
+        	ja = {
+				{
+					"なんというか……強制天国って感じが。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00269",
+		linknext = "block_00271",
+		line = 1087,
+	},
+	block_00271 = {
+		{"bg", sync=0, face=1, file="ev_com_49_05", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，啊，啊！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「うぁっ、あ゛あ゛ぁっっッッ――――あ゛ぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00270",
+		linknext = "block_00272",
+		line = 1093,
+	},
+	block_00272 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12337", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“好厉害啊。每次我一动，直哉的‘战战兢兢’就会涌上心头。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「すごいですね。私が動くたびに直哉さんの“びくんっびくんっ”って胸に伝わります」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00271",
+		linknext = "block_00273",
+		line = 1096,
+	},
+	block_00273 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12338", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“而且，配合着‘虚’，有一种很好的液体‘噗，噗’地流出来了！这个很可爱，很好。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「さらに“びくんっびくんっ”に合わせて、えっちな液が“びゅる、びゅるっ”って出てます！　これはかわいい。良きなのです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00272",
+		linknext = "block_00274",
+		line = 1099,
+	},
+	block_00274 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯……，不，不，不用那么高兴地说明情况……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「う゛っ……、い、いや、そんなうれしそうに状況説明しなくていいから……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00273",
+		linknext = "block_00275",
+		line = 1102,
+	},
+	block_00275 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12339", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“不行，我要实况转播。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「だめです。私はウレシイと実況します」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00274",
+		linknext = "block_00276",
+		line = 1105,
+	},
+	block_00276 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那样太讨厌了！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そんなの嫌すぎるぅぅ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00275",
+		linknext = "block_00277",
+		line = 1110,
+	},
+	block_00277 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12340", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“因为之前完全没有……卖出去。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「だってこの前は全然でしたから……うりうり」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00276",
+		linknext = "block_00278",
+		line = 1113,
+	},
+	block_00278 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"——嗯嗯、嗯嗯、嗯嗯……。",
+				},
+			},
+        	ja = {
+				{
+					"――むにょ、むにゅっ、むにゅ……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00277",
+		linknext = "block_00279",
+		line = 1116,
+	},
+	block_00279 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，啊，啊，啊，啊————”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あ゛、あっ、あうっ、っっッッ――――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00278",
+		linknext = "block_00280",
+		line = 1119,
+	},
+	block_00280 = {
+		{"bg", sync=0, face=1, file="ev_com_49_06", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12341", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“哇，好厉害啊。有H的液体出来的话，滑就好了，感觉更舒服了。这是好的好的好的好的好的好的好的好的好的好的”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ほう、すごいですねぇ。エッチな液体が出てくると滑りが良くなって、さらに",
+					{"rt2"},
+					"気持ちよさそうになるのです。これは良き良き良き良き良き良きです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00279",
+		linknext = "block_00281",
+		line = 1126,
+	},
+	block_00281 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"要持续多好啊。",
+				},
+			},
+        	ja = {
+				{
+					"どれだけ良き続けるんだよぉぉぉ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00280",
+		linknext = "block_00282",
+		line = 1129,
+	},
+	block_00282 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"嘛，实际上，我只是很厉害而已。",
+				},
+			},
+        	ja = {
+				{
+					"まぁ、実際、俺はすげぇいいんだけどぉ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00281",
+		linknext = "block_00283",
+		line = 1132,
+	},
+	block_00283 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「う゛っっッッ――――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00282",
+		linknext = "block_00284",
+		line = 1135,
+	},
+	block_00284 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"——姆、姆、恩……。",
+				},
+			},
+        	ja = {
+				{
+					"――ムにょ、ムにゅっ、むニゅ……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00283",
+		linknext = "block_00285",
+		line = 1138,
+	},
+	block_00285 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇！？哇哦！！？？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お゛お゛ォォ！？　ぉオお゛ぉぉぉぉ！！？？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00284",
+		linknext = "block_00286",
+		line = 1141,
+	},
+	block_00286 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃的动作变得更加激烈。",
+				},
+			},
+        	ja = {
+				{
+					"さらに心鈴くんの動きが激しくなる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00285",
+		linknext = "block_00287",
+		line = 1144,
+	},
+	block_00287 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哈哈哈……呵呵，真的，能让我心情舒畅就好了……能不能控制一下状况说明……。总觉得相当不好意思。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ハァハァ………ほ、本当に、気持ち良くさせてくれるのいいけど……状況説明は",
+					{"rt2"},
+					"控えてくれないかなぁ……。なんか相当恥ずかしいのだが」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00286",
+		linknext = "block_00288",
+		line = 1148,
+	},
+	block_00288 = {
+		{"bg", sync=0, face=1, file="ev_com_49_07", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12342", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“那是请求吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「それはお願いでしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00287",
+		linknext = "block_00289",
+		line = 1153,
+	},
+	block_00289 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「啊……如果你能这么做的话就太好了。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ……そ、そうしてくれると助かる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00288",
+		linknext = "block_00290",
+		line = 1156,
+	},
+	block_00290 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12343", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“拜托的话就没办法了。知道了。我会控制情况说明的。我会优先让直哉心情变好的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「お願いでしたら仕方有りませんね。",
+					{"rt2"},
+					"分かりました。状況説明は控えます。ちゃんと直哉さんに気持ち良くなっていただくのが優先ですから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00289",
+		linknext = "block_00291",
+		line = 1160,
+	},
+	block_00291 = {
+		{"bg", sync=0, face=1, file="ev_com_49_08", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12344", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“如果你分心的话，那就是大问题了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「気が散るのでしたら、大問題です」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00290",
+		linknext = "block_00292",
+		line = 1165,
+	},
+	block_00292 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯……，那真是帮了大忙了……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「う゛っ……、そ、それは助かる……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00291",
+		linknext = "block_00293",
+		line = 1168,
+	},
+	block_00293 = {
+		{"bg", sync=0, face=1, file="ev_com_49_09", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12345", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“但是，请直哉代替我说明情况。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ですが、私のかわりに直哉さんが、状況を説明してください」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00292",
+		linknext = "block_00294",
+		line = 1175,
+	},
+	block_00294 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊！？喂，情况说明？？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「え！？　じょ、状況説明？？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00293",
+		linknext = "block_00295",
+		line = 1178,
+	},
+	block_00295 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12346", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“是的，我会好好说明是怎么回事。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「はい、どうなっているかちゃんと説明するのです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00294",
+		linknext = "block_00296",
+		line = 1181,
+	},
+	block_00296 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“诶？在这里玩逆羞耻游戏？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「え？　ここで逆羞恥プレイ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00295",
+		linknext = "block_00297",
+		line = 1184,
+	},
+	block_00297 = {
+		{"bg", sync=0, face=1, file="ev_com_49_07", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12347", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"「咦？这会成为羞耻游戏吗？」",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「へ？　これって羞恥プレイになるのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00296",
+		linknext = "block_00298",
+		line = 1189,
+	},
+	block_00298 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“因为，状况说明……这是心情舒畅的报告吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だって、状況説明って……それって気持ちよさの報告だよね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00297",
+		linknext = "block_00299",
+		line = 1192,
+	},
+	block_00299 = {
+		{"bg", sync=0, face=1, file="ev_com_49_09", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12348", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“是啊。这对我来说是非常讨厌的，而且帮了我大忙。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「そうですね。そういうの私的にはすごくウレシイですし、そして助かります」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00298",
+		linknext = "block_00300",
+		line = 1197,
+	},
+	block_00300 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那个，不叫羞耻吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それ、羞恥プレイって言わないか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00299",
+		linknext = "block_00301",
+		line = 1200,
+	},
+	block_00301 = {
+		{"bg", sync=0, face=1, file="ev_com_49_08", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12349", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“羞耻游戏……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「羞恥プレイ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00300",
+		linknext = "block_00302",
+		line = 1206,
+	},
+	block_00302 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君稍微考虑了一下之后",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんは少し考えた後に、",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00301",
+		linknext = "block_00303",
+		line = 1209,
+	},
+	block_00303 = {
+		{"bg", sync=0, face=1, file="ev_com_49_07", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12350", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“原来如此，换成自己的话，发现了非常不好意思的事情。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「なるほど、自分に置き換えると、すごく恥ずかしい事に気が付きました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00302",
+		linknext = "block_00304",
+		line = 1215,
+	},
+	block_00304 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12351", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“只是坦率地说，我只是想要一个具体的心情好的感想……对不起。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ただ素直に、どこが具体的に気持ち良かったのか感想的なものが欲しかっただけなのですが……申し訳ありません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00303",
+		linknext = "block_00305",
+		line = 1218,
+	},
+	block_00305 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不是“让人说出状况的羞耻游戏”，心铃好像真的想要感想。",
+				},
+			},
+        	ja = {
+				{
+					"「状況を言わせる羞恥プレイ」では無く、本当に心鈴くんは感想が欲しかったみたいだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00304",
+		linknext = "block_00306",
+		line = 1221,
+	},
+	block_00306 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"嘛，也不是不明白。",
+				},
+			},
+        	ja = {
+				{
+					"まぁ、分からないでもない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00305",
+		linknext = "block_00307",
+		line = 1224,
+	},
+	block_00307 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“美，心铃君的胸部……非常温暖，柔软……。然后……非常……好舒服…………好”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「み、心鈴くんの胸は……とてもあたたかくて、やわらかい……。",
+					{"rt2"},
+					"そして……とてつもなく……き、気持ちいい……………くっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00306",
+		linknext = "block_00308",
+		line = 1228,
+	},
+	block_00308 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我的东西在心铃君的心中扑通一声跳起来。",
+				},
+			},
+        	ja = {
+				{
+					"俺のモノが心鈴くんの胸の中でびくんびくんと跳ねあがる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00307",
+		linknext = "block_00309",
+		line = 1232,
+	},
+	block_00309 = {
+		{"bg", sync=0, face=1, file="ev_com_49_09", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12352", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“真的吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ほ、本当ですか！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00308",
+		linknext = "block_00310",
+		line = 1238,
+	},
+	block_00310 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君，我说了感想是那么高兴吗，声音的情绪高涨。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんは、俺が感想を述べたのがそんなにうれしかったのか、声のテンションが高まる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00309",
+		linknext = "block_00311",
+		line = 1241,
+	},
+	block_00311 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12353", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“那，那我就动了。因为直哉的色情液，我的胸部已经变得乱七八糟了，所以动得相当激烈也没关系吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「そ、それでは動かしますよ。直哉さんのエッチな液で、すでに私の胸がねちゃねちゃになっていますから、かなり激しく動かしても大丈夫ですよね？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00310",
+		linknext = "block_00312",
+		line = 1244,
+	},
+	block_00312 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊……啊，大概……可恶！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ……た、たぶん……くっっッッ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00311",
+		linknext = "block_00313",
+		line = 1247,
+	},
+	block_00313 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"——嗯嗯、嗯嗯、嗯嗯……。",
+				},
+			},
+        	ja = {
+				{
+					"――むにょ、むにゅっ、むにゅ……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00312",
+		linknext = "block_00314",
+		line = 1250,
+	},
+	block_00314 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君的心激烈地包围着我的东西。",
+				},
+			},
+        	ja = {
+				{
+					"激しく心鈴くんの胸が俺のものを包み込む。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00313",
+		linknext = "block_00315",
+		line = 1253,
+	},
+	block_00315 = {
+		{"bg", sync=0, face=1, file="ev_com_49_10", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12354", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“怎么样？感觉舒服吗？嗯……嗯……这样做的话，是用胸部揉桃子的感觉吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「どうでしょうか？　気持ちいいですか？　ん……ふ……こうやって、オッパイで、モミモミもみしごくのどんな感じですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00314",
+		linknext = "block_00316",
+		line = 1259,
+	},
+	block_00316 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“喂，喂，喂，喂……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お゛っ、お゛あぁぁぉ、お゛っ……くっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00315",
+		linknext = "block_00317",
+		line = 1262,
+	},
+	block_00317 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我的东西被温暖柔软的膨胀，变得丰满的我的东西温柔地镇定了。",
+				},
+			},
+        	ja = {
+				{
+					"ムにゅムにゅっと、温かく柔らかいふくらみに、ベチョベチョになった俺のモノが",
+					{"rt2"},
+					"やさしくしごかれる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00316",
+		linknext = "block_00318",
+		line = 1266,
+	},
+	block_00318 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，啊……啊，好舒服……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あ、ああ…………き、気持ちいい……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00317",
+		linknext = "block_00319",
+		line = 1269,
+	},
+	block_00319 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12355", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我很高兴。直哉的小鸡鸡，非常热，变得粘糊糊的……用胸包起来的话，就会“用力”地推回来……………………非常热，会流出很多奇怪的液体。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「うれしいです。直哉さんのおち○ちん、すごく熱くてどろどろになってて……",
+					{"rt2"},
+					"胸で包むと“ぐいぐい”って押し返してきます………………すごく熱い、たくさん",
+					{"rt2"},
+					"のえっちな液が出てきますね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00318",
+		linknext = "block_00320",
+		line = 1274,
+	},
+	block_00320 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"每当心铃君乳房酸痛的时候，我的腰就会变得僵硬。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんがムニュムニュっとおっぱいでしごくたびに、俺の腰がガクガクになる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00319",
+		linknext = "block_00321",
+		line = 1277,
+	},
+	block_00321 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12356", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“啊……直哉的，非常热，脉搏打得很响，每次动都会流出很多液体，所以会湿透………啊，总觉得……连我都很兴奋……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「あぁぁ……直哉さんの、すごく熱くて、脈打ってて、動くたびに沢山のえっちな液が出るので、ぐちょぐちょに濡れていきます………………な、なんだか……私まで、興奮してきました……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00320",
+		linknext = "block_00322",
+		line = 1280,
+	},
+	block_00322 = {
+		{"bg", sync=0, face=1, file="ev_com_49_11", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12357", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“喂……喂……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ぺちょ……ちゅっ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00321",
+		linknext = "block_00323",
+		line = 1286,
+	},
+	block_00323 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“喂喂……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ぐォお゛おっッッ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00322",
+		linknext = "block_00324",
+		line = 1289,
+	},
+	block_00324 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃把舌头伸了出来，说了一声。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴は舌を「レろっ」と出して口をつけた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00323",
+		linknext = "block_00325",
+		line = 1292,
+	},
+	block_00325 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“喂，喂，喂，喂……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お゛おっ、くっっ、くぅぅっっ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00324",
+		linknext = "block_00326",
+		line = 1295,
+	},
+	block_00326 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"——害怕，害怕",
+				},
+			},
+        	ja = {
+				{
+					"――びく、びくびくんっ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00325",
+		linknext = "block_00327",
+		line = 1298,
+	},
+	block_00327 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"拼命忍耐发出奇怪的声音。",
+				},
+			},
+        	ja = {
+				{
+					"変な声が出そうなのを懸命に耐える。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00326",
+		linknext = "block_00328",
+		line = 1301,
+	},
+	block_00328 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12358", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“来吧……来吧……来吧……来吧……来吧……来吧……来吧……来吧……来吧……来吧……来吧……来吧……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「レろレろ……ちゅ……ちゅぴっ、レロレロ、れろ、レろレろ……チュ、ちゅ、くちゅ、ちゅ……れろレろ……ぴちゃ、ぴちゃ……くチュ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00327",
+		linknext = "block_00329",
+		line = 1304,
+	},
+	block_00329 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯……嗯……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「んくっ……ん、くぅ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00328",
+		linknext = "block_00330",
+		line = 1307,
+	},
+	block_00330 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12359", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“喂，喂，喂……直哉？今天你有心情吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ちゅ、ちゅ、くチゅ……直哉さん？　今日はおち○ちん……キモチぃれすか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00329",
+		linknext = "block_00331",
+		line = 1310,
+	},
+	block_00331 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，啊……好舒服……，让心铃夹在胸前舔……非常好……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あ、ああ……すごく気持ちいい……、心鈴くんに胸で挟んでもらいながら舐めてもらうの……すごくイイ…………」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00330",
+		linknext = "block_00332",
+		line = 1313,
+	},
+	block_00332 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12360", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“太好了。今天直哉心情变好了，我很高兴……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ちゅ、ちゅ、クちゅ、よかったです。今日は直哉さんがキモチよくなってくれて、わたしうれしいです……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00331",
+		linknext = "block_00333",
+		line = 1316,
+	},
+	block_00333 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“喂，喂，喂，喂！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お゛っ、お゛っ、くっっッッ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00332",
+		linknext = "block_00334",
+		line = 1319,
+	},
+	block_00334 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12361", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“喂……喂喂……喂，喂……喂，喂，喂……。直哉喜欢用舌头擦背面吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「れろ……レろレろ……ちゅぱ、チゅぱ……チゅ、チュ、くちゅ……。直哉さんは、裏側を舌でこすられるの好きなのでしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00333",
+		linknext = "block_00335",
+		line = 1322,
+	},
+	block_00335 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12362", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“在这里……用舌头用力舔的时候……反应最好。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ここを……強く舌で舐め取っている時に……一番反応します」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00334",
+		linknext = "block_00336",
+		line = 1325,
+	},
+	block_00336 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是啊，也许是这样……性感带是那个家伙吧……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そ、そうかもしれない……性感帯ってヤツなのかな……くっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00335",
+		linknext = "block_00337",
+		line = 1328,
+	},
+	block_00337 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12363", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“啾，啾，啾，啾，啾，啾……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「チュ、チゅ、くちゅ、……レろ、レろ……ぴちゃ、ぴちゃ……くチゅ……レろれろ……んん…………れろレろ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00336",
+		linknext = "block_00338",
+		line = 1331,
+	},
+	block_00338 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃的舌尖用舌头紧紧地舔着龟头的背面。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴の舌先が亀頭の裏側を舌で先液ごと強く舐め取る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00337",
+		linknext = "block_00339",
+		line = 1334,
+	},
+	block_00339 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ぐぉォお゛っッッ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00338",
+		linknext = "block_00340",
+		line = 1337,
+	},
+	block_00340 = {
+		{"bg", sync=0, face=1, file="ev_com_49_10", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12364", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“这里真的很恶心呢……不管怎么说都会出现色情的液体。但是，不管怎么出来，全部都是我舔的……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ほんとうにここがキモチイイのですね……いくらでもエッチな液体が",
+					{"rt2"},
+					"出てきそうですよ。",
+					{"rt2"},
+					"でも、いくら出ても、全部私が舐めてしまいますが……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00339",
+		linknext = "block_00341",
+		line = 1344,
+	},
+	block_00341 = {
+		{"bg", sync=0, face=1, file="ev_com_49_11", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这样说的话，这次从龟头里沿着竿舔到下面。从龟头到竿的下部分，一下子舔了这里，真的让人心情舒畅到头都白了。",
+				},
+			},
+        	ja = {
+				{
+					"そう言うと、今度は亀頭裏から竿を伝って下の方まで舐めていく。",
+					{"rt2"},
+					"亀頭から竿の下部分まで、ここを一気に舐められると、本当に頭が真っ白になるほど気持ちがいい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00340",
+		linknext = "block_00342",
+		line = 1350,
+	},
+	block_00342 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"为了不变成背后的声音，只是咬紧牙关。那么舒服……。",
+				},
+			},
+        	ja = {
+				{
+					"裏声とかにならない様に、ただ歯を食いしばる。",
+					{"rt2"},
+					"それほど、気持ちいい……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00341",
+		linknext = "block_00343",
+		line = 1354,
+	},
+	block_00343 = {
+		{"bg", sync=0, face=1, file="ev_com_49_10", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12365", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“请变得更舒服”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「もっと気持ち良くなってください」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00342",
+		linknext = "block_00344",
+		line = 1359,
+	},
+	block_00344 = {
+		{"bg", sync=0, face=1, file="ev_com_49_12", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃用嘴包住尖尖的部分。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんがさきっぽ部分を口で包み込む。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00343",
+		linknext = "block_00345",
+		line = 1365,
+	},
+	block_00345 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“喂！？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「お゛っ！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00344",
+		linknext = "block_00346",
+		line = 1368,
+	},
+	block_00346 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"然后就这样吸起来。",
+				},
+			},
+        	ja = {
+				{
+					"そしてそのまま吸い上げる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00345",
+		linknext = "block_00347",
+		line = 1371,
+	},
+	block_00347 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"并且，用胸揉拉竿和蛋。",
+				},
+			},
+        	ja = {
+				{
+					"さらに、竿とタマまでを胸で揉み拉く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00346",
+		linknext = "block_00348",
+		line = 1374,
+	},
+	block_00348 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12366", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“啾啾，啾啾，啾啾，啾啾，啾啾，啾啾，啾啾，啾啾，啾啾，啾啾",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「きゅポ、きゅポっ、ちゅプっ、ちゅパ……チュパ…………。",
+					{"rt2"},
+					"お○んちんのさきは口で包んで…………そしてそれ以外の部分はすべて……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00347",
+		linknext = "block_00349",
+		line = 1378,
+	},
+	block_00349 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇！哇！哇！哇……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「くはぁぁぁあ！！　うくっ！　くはっっっ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00348",
+		linknext = "block_00350",
+		line = 1381,
+	},
+	block_00350 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"发了牢骚的东西，被大的胸包围，被揉出。整个下半身仿佛被无限的喜悦包围着。",
+				},
+			},
+        	ja = {
+				{
+					"ぐちょぐちょになったものは、大きな胸に包まれ、揉みしだかれる。",
+					{"rt2"},
+					"下半身全体が、まるで際限ない悦楽に包まれていく様だ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00349",
+		linknext = "block_00351",
+		line = 1385,
+	},
+	block_00351 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇！！哇，啊！啊……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「くっっッッ！！　ぐはっっ、あぁあ゛あ゛……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00350",
+		linknext = "block_00352",
+		line = 1388,
+	},
+	block_00352 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"而且，心铃还用舌头拨动了嘴里最敏感的地方。",
+				},
+			},
+        	ja = {
+				{
+					"さらに、心鈴は口の中に含んでいた一番敏感な場所を舌でかき回した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00351",
+		linknext = "block_00353",
+		line = 1391,
+	},
+	block_00353 = {
+		{"bg", sync=0, face=1, file="ev_com_49_13", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12367", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“中波、丘帕……中、中、中波、中波……中波……。啊……直哉的表情",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ちゅぱ、チュパ……ちゅ、ちゅ、ちゅぷっ、ちゅパ……ちゅぱ…………。",
+					{"rt2"},
+					"あぁ……直哉さんの表情……………………………すごく切なそうで……こんな直哉さんを見る事が出来るのは望外の幸せです……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00352",
+		linknext = "block_00354",
+		line = 1398,
+	},
+	block_00354 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"腰咯吱咯吱地发抖。",
+				},
+			},
+        	ja = {
+				{
+					"腰がガクガクと震えてしまう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00353",
+		linknext = "block_00355",
+		line = 1401,
+	},
+	block_00355 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“表情什么的……被这么说的话……虽然很微妙……但是……这样的心情很好……嗯……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「表情とか…………言われると……微妙だけど…………だけど……こんな気持ち、イイのだから…………ぐっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00354",
+		linknext = "block_00356",
+		line = 1404,
+	},
+	block_00356 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“表情什么的，很在意……不能……啊……啊……美，心铃……嗯……的乳房很强地被咬了的话………………………已经，不知为什么……啊啊………”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「表情なんて、気にして……られなぃ……お゛あっ……み、心鈴く…ん……のおっぱいで強くシゴかれると………………もう、何がなんだか……お゛ぁぁぁあ゛…………」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00355",
+		linknext = "block_00357",
+		line = 1407,
+	},
+	block_00357 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"脚的颤抖不止。",
+				},
+			},
+        	ja = {
+				{
+					"脚の震えが止まらない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00356",
+		linknext = "block_00358",
+		line = 1410,
+	},
+	block_00358 = {
+		{"bg", sync=0, face=1, file="ev_com_49_12", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12368", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“来吧……太辣了，痛吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「レろレろ……ツヨすぎて、痛いレすか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00357",
+		linknext = "block_00359",
+		line = 1416,
+	},
+	block_00359 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不，不痛，也不讨厌……没有……。只是，就这样……坚强的话………这个，很舒服……腰的僵硬，停不下来……差不多吧……是吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「い、痛くないし、イヤじゃ……ない……。ただ、このまま……強いと…………………これ、すごく気持ちいいから…………腰のガクガクが、と、止まらないぃ…………ぐらいか……な？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00358",
+		linknext = "block_00360",
+		line = 1419,
+	},
+	block_00360 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽然尽量装作平静的样子，但是声音相当颤抖，说不好。",
+				},
+			},
+        	ja = {
+				{
+					"なるべく平穏を装うが、声が相当震えて、うまくしゃべれない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00359",
+		linknext = "block_00361",
+		line = 1422,
+	},
+	block_00361 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"可怕的心铃君。",
+				},
+			},
+        	ja = {
+				{
+					"恐るべし心鈴くん。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00360",
+		linknext = "block_00362",
+		line = 1425,
+	},
+	block_00362 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"口交还差一点……灰熊竟然这么舒服……。",
+				},
+			},
+        	ja = {
+				{
+					"フェラは少しいまいちだったけれども……パイズリはこんな気持ちいいなんて……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00361",
+		linknext = "block_00363",
+		line = 1428,
+	},
+	block_00363 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12369", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我明白了……再稍微……更加……更加……更加……更加……更加……更加……更加……更加……更加，更加……更加……更加……更加…更加……更加……更加……更加……更加……更加……更加…更加……更加……更加…更加……更加…更加…更加…更加…更加…更加…更加…更加…更加…更加…更加…更加…更加…更加…更加…更加…更加…更加",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「分かりました………もっと、もっと……強く、胸で、ぐちゃぐちゃに、しますから、私のおっぱいを、堪能してくださいませ…………ちゅ、ちゅ、チゅぷっ、チュパ……ちゅパ…………」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00362",
+		linknext = "block_00364",
+		line = 1431,
+	},
+	block_00364 = {
+		{"bg", sync=0, face=1, file="ev_com_49_13", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君用嘴包住我的东西，一口气吸了起来。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんは俺のものを口で包み込むと一気に吸い上げる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00363",
+		linknext = "block_00365",
+		line = 1436,
+	},
+	block_00365 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，啊！？这个，这个？！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「な、なっぁ！？　こ、これって？！　ぐぁっっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00364",
+		linknext = "block_00366",
+		line = 1439,
+	},
+	block_00366 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12370", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“噗噗……噗噗……噗噗……噗噗……噗噗、噗噗、噗噗、噗噗、噗噗……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「きゅゅッッぽ……キュゅッッぽ……キュュゅッッぽ……きゅポ、ちゅポ、ちゅパ、きゅぽ、ちゅパ………」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00365",
+		linknext = "block_00367",
+		line = 1442,
+	},
+	block_00367 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"比起刚才，吸着的声音变大了。",
+				},
+			},
+        	ja = {
+				{
+					"先ほどよりも、吸い付く音が大きくなる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00366",
+		linknext = "block_00368",
+		line = 1445,
+	},
+	block_00368 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这个……嘿嘿……那，是真空口交？？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「これって……ぐはっっ……ば、バキュームフェラ？？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00367",
+		linknext = "block_00369",
+		line = 1448,
+	},
+	block_00369 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃只是点了点头。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんはただ頷いた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00368",
+		linknext = "block_00370",
+		line = 1451,
+	},
+	block_00370 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"每当被心铃君吸上来的时候，快感的漩涡就会在全身奔跑。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんに吸い上げられるたびに快感の渦が全身を駆け巡る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00369",
+		linknext = "block_00371",
+		line = 1454,
+	},
+	block_00371 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，啊`灬.°啊，不行。这是个不行的家伙……。啊，压倒性的……啊，是个太舒服的家伙啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あ、あ゛あぁぁ、ダメだ。これ、ダメなやつだ………。あ、圧倒的にぃぃ……き、きもちちよすぎるヤツだぁぁぁぁぁァァーーーーーーーーーーーーっッッ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00370",
+		linknext = "block_00372",
+		line = 1457,
+	},
+	block_00372 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12371", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“怦然心动……怦然心动……怦然心动……好厉害，直哉的‘VictorVictorVictorVictorVictorVictorVictorVictorVictorVictorVictorVictorVictorVictorVictorVictorVictorVictorVictorVictorVictorVictor",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「キュュゅっっッッぽ……キュュュゅっッッぽ……キュゅッッぽ……すごい、直哉さんの“ビクンビクン”あばれて…………くちの中でいっぱいエッチな液を……んあぁっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00371",
+		linknext = "block_00373",
+		line = 1460,
+	},
+	block_00373 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12372", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“喂，喂，喂，喂，喂………在我心中出了很多H，有很多直哉的味道……喂，喂，喂，喂，喂，喂，喂，喂，喂，喂，喂，喂……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ちゅ、チュ、くちゅ、キュ…………わたしのなかでエッチなのたくさん出してて、いっぱい直哉さんの味がして………ちゅ、ちゅ、くちゅ、きゅポ、ちゅぽ、ちゅぱ、きゅポ、ちゅぱ……………」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00372",
+		linknext = "block_00374",
+		line = 1463,
+	},
+	block_00374 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊啊啊啊啊啊啊，已经……不行了，不行了。受不了了……这样的心情真好……受不了……也已经……射精了……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「うぁぁあっっ、も、もう……だめだめ、ダメっっ。たえられなっ…………こんなきもちいいの……耐えられない……も、もう……",
+					{"ruby", text="で"},
+					"射精",
+					{"/ruby"},
+					"るぅ…………」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00373",
+		linknext = "block_00375",
+		line = 1467,
+	},
+	block_00375 = {
+		{"bg", sync=0, face=1, file="ev_com_49_12", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12373", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“哇……中、中、中、中……请在口中……满满地射精……全部……接受…………直哉的……全部接受……所以……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ふぁい……ちゅ、ちゅ、ちゅ、くちゅ……口のなかで……いっぱい、いっぱい",
+					{"ruby", text="だ"},
+					"射精",
+					{"/ruby"},
+					"してくらさい………全部……うけとめます…………直哉さんのを……全部うけとめます……から…………」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00374",
+		linknext = "block_00376",
+		line = 1473,
+	},
+	block_00376 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12374", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“请给我直哉的精液，请快点吃饱……我想接受直哉的……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「直哉さんの精液をください、はやくお口いっぱいにしてください……直哉さんのを……うけとめたい…………………」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00375",
+		linknext = "block_00377",
+		line = 1476,
+	},
+	block_00377 = {
+		{"bg", sync=0, face=1, file="ev_com_49_13", time=400, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12375", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“哇，哇，哇，哇，哇，哇，哇，哇，哇，哇，哇，哇，哇，哇，哇，哇，哇，哇，哇，哇，哇，哇，哇，哇，哇，哇，哇，哇………”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ぎゅゅっっッッポ……ぎゅゅっっッッぽ………きゅゅっッッぽ……きゅポ……きゅぽ……ちゅぽ、ちゅぽ、んっ……きゅぽ、きゅぽ……………………」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00376",
+		linknext = "block_00378",
+		line = 1481,
+	},
+	block_00378 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君的真空音变得更加激烈，快感的漩涡变得更加激烈。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんのバキューム音がさらに激しくなり、快感の渦がさらに激しくなる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00377",
+		linknext = "block_00379",
+		line = 1484,
+	},
+	block_00379 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"已经不能忍耐了……。",
+				},
+			},
+        	ja = {
+				{
+					"もう我慢など出来ない……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00378",
+		linknext = "block_00380",
+		line = 1487,
+	},
+	block_00380 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊……不行，不行……啊……那么，射精………………”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あ゛………だ、だめ……あ゛ぁぁ……で、",
+					{"ruby", text="で"},
+					"射精",
+					{"/ruby"},
+					"る…………………」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00379",
+		linknext = "block_00381",
+		line = 1491,
+	},
+	block_00381 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12376", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“请挂在所有的心铃上……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「心鈴のすべてにかけてください…………」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00380",
+		linknext = "block_00382",
+		line = 1494,
+	},
+	block_00382 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12377", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“不仅是嘴……胸……脸……头发……我的全部",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「口だけじゃなくて……胸にも……顔にも…………髪にも………わたしのすべてに…………きゅぽ……きゅぽ……ちゅぽ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00381",
+		linknext = "block_00383",
+		line = 1497,
+	},
+	block_00383 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12378", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“请用直哉先生的精液染一下，不要……浇在全身上……请…………………………………………………………………………………………………………………………………………”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「直哉さんの、精液で、染めてください、ませ…………全身にかけて……ください…………きゅぽ……きゅぽ……ちゅぽ、ちゅぽ、んっ……きゅぽ、きゅぽ……………………」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00382",
+		linknext = "block_00384",
+		line = 1500,
+	},
+	block_00384 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇——————————————！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ぐはっぁぁーーーーーーーーーーーーっッッ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00383",
+		linknext = "block_00385",
+		line = 1503,
+	},
+	block_00385 = {
+		{"bg", id=9, lv=9, sync=1, time=500, file="white", path=":bg/"},
+		{"bg", id=9, lv=9, sync=1, time=500, alpha=0, file="white", path=":bg/"},
+		{"bg", id=9, lv=9, sync=1, time=1000, alpha=255, file="white", path=":bg/"},
+		{"cgdel", id=9, lv=9},
+		{"bg", file="ev_com_49_14", sync=1, time=1000, vague=100, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"令人难以置信的快乐的前方，喷出了连自己都无法相信的热腾腾的麦片。",
+				},
+			},
+        	ja = {
+				{
+					"信じられないほどの快楽の先に、自分でも信じられないほどの熱いほとばしりが噴出した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00384",
+		linknext = "block_00386",
+		line = 1512,
+	},
+	block_00386 = {
+		{"bg", id=9, lv=9, sync=1, time=500, file="white", path=":bg/"},
+		{"bg", id=9, lv=9, sync=1, time=500, alpha=0, file="white", path=":bg/"},
+		{"bg", id=9, lv=9, sync=1, time=1000, alpha=255, file="white", path=":bg/"},
+		{"cgdel", id=9, lv=9},
+		{"bg", file="ev_com_49_15", sync=1, time=1000, vague=100, path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12379", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“哇，哇……好厉害……这么热……哇……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「きゃぁんっ、あぁんっ……すごい……こんな熱いなんて…………きゃっ………」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00385",
+		linknext = "block_00387",
+		line = 1520,
+	},
+	block_00387 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"首先在口中接受了，但并没有因此而平息，我的东西每次被吓到，都会弄脏心铃的全身。",
+				},
+			},
+        	ja = {
+				{
+					"まず口の中で受け止めたが、それでおさまる事なく、俺のものはびくんびくんあばれるたびに、心鈴くんの全身を汚していく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00386",
+		linknext = "block_00388",
+		line = 1523,
+	},
+	block_00388 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12380", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「きゃぁあんっ……ああぁ！　すごいです……はぁっ、はぁっ、はぁ……ま、まだ",
+					{"rt2"},
+					"止まらないのです…………た、たくさん、直哉さん",
+					{"ruby", text="だ"},
+					"射精",
+					{"/ruby"},
+					"してます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00387",
+		linknext = "block_00389",
+		line = 1528,
+	},
+	block_00389 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我的射精永远不会停止。",
+				},
+			},
+        	ja = {
+				{
+					"いつまでも俺の射精は止まらない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00388",
+		linknext = "block_00390",
+		line = 1531,
+	},
+	block_00390 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_12381", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“还没停下来……直哉的……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「まだ止まらない……直哉さんの……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00389",
+		linknext = "block_00391",
+		line = 1534,
+	},
+	block_00391 = {
+		{"bg", file="ev_com_49_16", path=":ev/ev_com_49/", set="ev_com_49"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"心铃君用舌头舔着从我身上吐出来的精液……。心铃仔细地、仔细地、精心地舔着溢出的精液。",
+				},
+			},
+        	ja = {
+				{
+					"心鈴くんは、俺からはき出された精液を舌で舐め取っていく……。",
+					{"rt2"},
+					"丁寧に、丁寧に、溢れるばかりの精液を、心鈴くんは丹念に舐めていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00390",
+		linknext = "block_00392",
+		line = 1541,
+	},
+	block_00392 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇，哇，哇……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「くっ、くっ、くうぅ…………」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00391",
+		linknext = "block_00393",
+		line = 1544,
+	},
+	block_00393 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"还“提心吊胆”。",
+				},
+			},
+        	ja = {
+				{
+					"まだ「ビクンビクン」する。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00392",
+		linknext = "block_00394",
+		line = 1547,
+	},
+	block_00394 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"在这种快乐消失之前，花了相当长的时间——。",
+				},
+			},
+        	ja = {
+				{
+					"その快楽が引くまでには、結構な時間がかかった――。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00393",
+		linknext = "block_00395",
+		line = 1550,
+	},
+	block_00395 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=139, wait=500, file="black", path=":bg/", vague=40},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我的气喘吁吁需要几分钟。",
+				},
+			},
+        	ja = {
+				{
+					"俺の息切れが収まるまで数分を要した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00394",
+		linknext = "block_00396",
+		line = 1556,
+	},
+	block_00396 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"为了不变成奇怪的声音而过于努力，好像有点窒息了。",
+				},
+			},
+        	ja = {
+				{
+					"変な声にならない様に頑張りすぎて、少し窒息状態になった様だ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00395",
+		linknext = "block_00397",
+		line = 1559,
+	},
+	block_00397 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是，因为太舒服了，不由得叫了起来。",
+				},
+			},
+        	ja = {
+				{
+					"だが、あまりの気持ちよさに、思わず「あんあん」叫びそうになった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00396",
+		linknext = "block_00398",
+		line = 1562,
+	},
+	block_00398 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"可怕的心铃君。",
+				},
+			},
+        	ja = {
+				{
+					"恐るべし心鈴くん。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00397",
+		linknext = "block_00399",
+		line = 1565,
+	},
+	block_00399 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"萝莉巨乳不是伊达吗。",
+				},
+			},
+        	ja = {
+				{
+					"ロリ巨乳は伊達じゃなかったのか。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00398",
+		linknext = "block_00400",
+		line = 1568,
+	},
+	block_00400 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="03_mis09_5"},
+		{"text"},
+		linkback = "block_00399",
+		line = 1572,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+		scene = { block="block_00039", label=1 },
+	},
+}

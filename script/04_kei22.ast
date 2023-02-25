@@ -1,0 +1,2255 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="第Ⅳ章"},
+		{"msg", no=1},
+		{"bg", file="アイキャッチ04", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans"},
+		{"ex", time=5000, func="wait"},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", zoom=70, speed=180000, time=2000, file="zev_etc_01_01", path=":ev/ev_etc_01/", x2=380, y2=210, x=-380, y=210, set="ev_etc_01", ax=1920, ay=1080, bx=-960, by=-540},
+		{"bgm", file="bgm147"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11028", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"每天都在流逝。",
+				},
+			},
+        	ja = {
+				{
+					"日々は流れていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 19,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11029", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"最初，笨拙的感情表现，即便如此——也变得像普通人一样笑了。变得生气了。",
+				},
+			},
+        	ja = {
+				{
+					"最初、ぎこちなかった感情表現、それでも――",
+					{"rt2"},
+					"人並みに笑う様になった。",
+					{"rt2"},
+					"怒る様になった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 26,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11030", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"变得悲伤起来。然后变得开心了。",
+				},
+			},
+        	ja = {
+				{
+					"悲しむ様になった。",
+					{"rt2"},
+					"そして楽しむ様になった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 32,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11031", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"在发现虚无之后，发现了美的我，在那之后，虚无就消失了。",
+				},
+			},
+        	ja = {
+				{
+					"虚無を見出した後で、美を見出した俺だけど、",
+					{"rt2"},
+					"さらにその先で、虚無は姿を消してしまった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 38,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11032", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"然后，在我的身边，只剩下美了。",
+				},
+			},
+        	ja = {
+				{
+					"そして、俺の元には、美だけが残った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 43,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11033", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"和直哉也能正常对话了。",
+				},
+			},
+        	ja = {
+				{
+					"直哉とも普通に会話が出来る様になった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 48,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11034", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"也习惯了这家伙那嚒可怕的视线。",
+				},
+			},
+        	ja = {
+				{
+					"あれほど恐ろしかったこいつの視線にも慣れた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 53,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11035", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"话虽如此，现在却明显地隐藏了其锐利。",
+				},
+			},
+        	ja = {
+				{
+					"とは言っても、今じゃ、めっきりその鋭さを潜めてしまったけど。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 58,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11036", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"——尽管如此，直哉依旧保持着不被表层所迷惑的深邃的眼睛。",
+				},
+			},
+        	ja = {
+				{
+					"――それでも、変わらず、表層に惑わされない深い深い眼を直哉はしている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 63,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11037", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"草薙直哉这个艺术家从不止步。",
+				},
+			},
+        	ja = {
+				{
+					"草薙直哉という芸術家は決して立ち止まってなんかいない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 68,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11038", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"在看不到人的地方，拼命地挣扎着，与美搏斗着。",
+				},
+			},
+        	ja = {
+				{
+					"人の見えない所で、懸命にもがき苦しみながら、美と格闘しているのだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 73,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11039", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"所以，你的眼睛不可能浑浊。",
+				},
+			},
+        	ja = {
+				{
+					"だから、その瞳が濁る事などありえない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 78,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11040", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"我追着草薙直哉。",
+				},
+			},
+        	ja = {
+				{
+					"俺はそんな草薙直哉を追いかける。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 83,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11041", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"以音速奔驰。",
+				},
+			},
+        	ja = {
+				{
+					"音速で奔る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 88,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11042", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"但是，直哉大概会更快地穿过这风景吧。",
+				},
+			},
+        	ja = {
+				{
+					"でも、直哉は、たぶんもっともっと速く、この風景を奔り抜けるのだろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 93,
+	},
+	block_00015 = {
+		{"bg", file="black", path=":bg/"},
+		{"bgm", stop=1, time=10000},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"夏目家的生活很好。",
+				},
+			},
+        	ja = {
+				{
+					"夏目家の暮らしは良かった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 101,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"夏目蓝这个人很温柔。",
+				},
+			},
+        	ja = {
+				{
+					"夏目藍という人はとても優しかった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 104,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽然也有严厉的一面，但是非常深思熟虑，非常坚强，而且值得尊敬。",
+				},
+			},
+        	ja = {
+				{
+					"きびしい面もあるが、とても思慮深く、とても強く、そして尊敬できた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 107,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我想如果这个人真的是自己的姐姐，这里真的是自己的家，那该有多好。",
+				},
+			},
+        	ja = {
+				{
+					"この人が本当に自分の姉で、ここが本当の自分の家だったら、どれだけいいかと思った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 110,
+	},
+	block_00019 = {
+		{"bgm", stop=1},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg009b", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, resize=1, path=":fg/aix/z1/", file="aix_z1a1100", face="a0005", head="aix_z1a", x=0, lv=4, id=9, sync=0},
+		{"extrans"},
+		{"bgm", file="bgm161"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10387", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“喂圭！等你回来了要洗手！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「こら圭！　ちゃんと帰ってきたら手を洗うんだぞ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 126,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11043", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“知道了！然后呢！今天和直哉在一起哦！我要去住！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「分かった！　それでさー！　今日、直哉と一緒なんだよ！",
+					{"rt2"},
+					"泊まっていくってさ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 130,
+	},
+	block_00021 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0001", head="aix_z1a", x=0, lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你没说那种话吧！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そんな事言ってねぇだろ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 136,
+	},
+	block_00022 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0002", head="aix_z1a", x=0, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10388", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“这样啊，住下去不也挺好的吗？好久不见了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そうか、泊まっていくのもいいんじゃないか？　久しぶりだろ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 141,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那么晚饭想吃寿司！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なら晩ご飯は鮨が食いたいです！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 144,
+	},
+	block_00024 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0004", head="aix_z1a", x=0, lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0002", head="aix_z1a", x=0, lv=4, id=9},
+			},
+			vl02 = {
+				{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0006", head="aix_z1a", x=0, lv=4, id=9},
+				{"fgact", ch="藍", act="うなづく", lv=4, id=9},
+			},
+			vl03 = {
+				{"fgact", ch="藍", act="停止", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10389", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“哈哈哈……，直哉，你真的不是长得很可爱吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「あははは……、直哉、本当にかわいらしく育ったではないかっっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 153,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇！好痛！好痛！！哇，哇，哇，哇，哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇！哇",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ぎゃわぁ！　痛い！　痛いです！！　ぎ、ギブ、ギブです！！　手の関節とか決めないでください！　普通に手折れそうです！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 156,
+	},
+	block_00026 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0004", head="aix_z1a", x=0, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10390", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“像我这样纤细的手臂，怎么可能折断像你这样的大男人的手臂呢，哈哈哈。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「私みたいな細腕で、お前の様な大男の腕を折れるわけないじゃないかぁー、あはははー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 161,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哎呀，对不起！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ぎゃー、ごめんなさいっっ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 164,
+	},
+	block_00028 = {
+		{"bgm", stop=1, time=2000},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"蓝和直哉好像是很久以前就认识的人，非常亲近。",
+				},
+			},
+        	ja = {
+				{
+					"藍と直哉は昔からの知り合いらしく、とても親しげであった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 169,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"嘛，原本是草薙健一郎找回的家，也是直哉母亲长大的家，当然是理所当然的。",
+				},
+			},
+        	ja = {
+				{
+					"まぁ、元々、草薙健一郎が取り戻した家だし、直哉の母親が育った家でもあるのだから、当然と言えば当然か。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 172,
+	},
+	block_00030 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=139, wait=500, file="black", path=":bg/", vague=40},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", speed=180000, file="zev_etc_01_07", path=":ev/ev_etc_01/", x2=540, y2=-540, x=540, y=540, set="ev_etc_01", ax=1920, ay=1080, bx=-960, by=-540, sync=0},
+		{"extrans", rule=139, vague=40},
+		{"bgm", file="bgm166"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11044", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“我来吧，直哉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「俺さぁ。直哉」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 187,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么呀？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 190,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11045", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“你不是把雅号改成夏目圭了吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「雅号を夏目圭にしたじゃない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 193,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，是啊。那个有点不可思议，你为什么从那个时候开始就姓‘夏目’呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ、そうだな。あれ少し不思議だったんだけど、お前、何であの当時から",
+					{"rt2"},
+					"『夏目』姓を名乗っていたんだ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 197,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11046", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“细节不是很好吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「細かい事はいいじゃない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 202,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“精细吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「細かいか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 205,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11047", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“细小，细小，我会讨厌那样细小的直哉的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「細かい、細かい、俺、そんな細かい直哉とか嫌いになっちゃうぞ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 208,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊？？被讨厌也没关系！？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あ゛ぁ？？　嫌いになられて結構なのだが！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 211,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11048", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“别说这么冷淡的话啦。我都这嚒圆了，你还那嚒尖。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「そんな冷たい事言うなよぉ。",
+					{"rt2"},
+					"ったく、俺がこんなに丸くなったのに、お前は変わらず尖っているなぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 215,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我变了！你变的太极端了！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺は変わったし！　お前は極端に変わりすぎなんだよ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 218,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11049", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“是吗？直哉不会变的。从那时开始，就一直很敏锐。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「そうかな？　直哉は変わらないよ。",
+					{"rt2"},
+					"あの時から、全然、鋭いままだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 222,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11050", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“但是，我变了。一开始也有困惑。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「でも、俺は変わった。",
+					{"rt2"},
+					"最初は戸惑いもあったんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 226,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11051", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“在这样温水般的家里，精神上会越来越不敏锐吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「こんなぬるま湯みたいな家にいたら、精神的にどんどん鋭さが無くなっていくんじゃないかってさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 229,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“夏目的家是温水吗？我觉得蓝是相当严厉的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「夏目の家がぬるま湯か？　藍は相当きびしい人間だと思うが？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 232,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11052", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“嘛，那个人啊。蓝……不，姐姐是个严厉的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「まぁ、あの人はね。",
+					{"rt2"},
+					"藍……いや、姉ちゃんはきびしい人だよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 236,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11053", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“对生活诚实，而且正直。所以，我觉得来到这个家真是太好了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「生きることに誠実で、そしてまっすぐだ。",
+					{"rt2"},
+					"だから、俺は、この家に来て良かったと思っている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 240,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11054", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“我觉得夏目圭太好了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「夏目圭で良かったと思っているんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 243,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11055", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“夏目的雅号并没有这样的想法。但是，现在我很喜欢这个雅号。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「夏目の雅号にそんな想いなんて無かったんだけどさ。",
+					{"rt2"},
+					"でも、今じゃ、すんげぇこの雅号が気に入っている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 247,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11056", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“我是夏目圭，不是‘K’，我是夏目圭。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「俺は、夏目圭だ。『Ｋ』でもなく、俺は夏目圭なんだってさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 250,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"当然，既不是《中村》也不是《鸟谷》。",
+				},
+			},
+        	ja = {
+				{
+					"もちろん、『中村』でも『鳥谷』でもない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 253,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11057", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“画给我的名字，就是夏目圭。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「絵画が俺に与えてくれた名、それが夏目圭だったんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 256,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不，所以，为什么是那个雅号？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いや、だから、そもそもなんでその雅号なの？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 259,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11058", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“真是个在意细节的家伙啊。没关系。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「本当に細かい事気にするヤツだなぁ。いいじゃん別に」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 262,
+	},
+	block_00053 = {
+		{"quake", mode="mw"},
+		{"bgm", stop=1, time=10000},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊`灬.°因为是你甩了我的话，所以会在意的吧！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あ゛ぁ！　てめぇから話振ってきたから気になるだろうが！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 268,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11059", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“哇，不，不，不，脖子，脖子已经不好了，可以取下来了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「わ、やめ、やめて、首は、首はもうやばいの、取れちゃうから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 271,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“能拿到吗！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「取れるか！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 274,
+	},
+	block_00056 = {
+		{"bgm", stop=1},
+		{"bg", file="ev_etc_01_44", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"bgm", file="bgm159", time=5000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11060", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"那天，我骑着草薙健一郎的摩托车，像看到的风景一样，每天都在流逝。",
+				},
+			},
+        	ja = {
+				{
+					"あの日、草薙健一郎のバイクに乗って、見た風景の様に、日々は流れていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 287,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11061", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"像山、海、街道、人、那样的景色一样流淌着。",
+				},
+			},
+        	ja = {
+				{
+					"山や海、街や人、そういった景色の様に流れていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 292,
+	},
+	block_00058 = {
+		{"bgm", file="bgm159"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11062", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"在那个流程中，我只是继续画画。",
+				},
+			},
+        	ja = {
+				{
+					"その流れの中で、俺はただ絵を描き続けた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 299,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11063", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"与弓张入学一起取得驾照，跨越了维斯巴150std。",
+				},
+			},
+        	ja = {
+				{
+					"弓張入学と共に免許を取り、ヴェスバ１５０ｓｔｄにまたがった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 304,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11064", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"然后，为了再次追赶那天看到的风景，我骑摩托车跑了起来。",
+				},
+			},
+        	ja = {
+				{
+					"そして、あの日見た風景を、再び追いかける様に、俺はバイクで走り出した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 309,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11065", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"第一天就坏了。",
+				},
+			},
+        	ja = {
+				{
+					"初日で壊れた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 314,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11066", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"真的是破烂摩托车，快攻坏了。",
+				},
+			},
+        	ja = {
+				{
+					"本当にポンコツバイクで、速攻壊れた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 319,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11067", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"坦克生锈了，驾驶室好像堵住了。",
+				},
+			},
+        	ja = {
+				{
+					"タンクがさびていて、キャブが詰まったらしい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 324,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11068", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"驾驶室大修，更换了水箱。",
+				},
+			},
+        	ja = {
+				{
+					"キャブをオーバーホールして、タンクを交換した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 329,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11069", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"重新站起来，又坏了。",
+				},
+			},
+        	ja = {
+				{
+					"再び乗り出すと、また壊れた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 334,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11070", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"这次把离合器换成了新的。",
+				},
+			},
+        	ja = {
+				{
+					"今度は、クラッチを新品に交換した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 339,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11071", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"已更换制动线。",
+				},
+			},
+        	ja = {
+				{
+					"ブレーキワイヤーを交換した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 344,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11072", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"当然也交换了轻击球。",
+				},
+			},
+        	ja = {
+				{
+					"当然パットも交換した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 349,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11073", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"大修了几次都坏了。",
+				},
+			},
+        	ja = {
+				{
+					"何度オーバーホールしても壊れた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 354,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11074", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"不管是坏了还是坏了，都是修理后乘坐的。",
+				},
+			},
+        	ja = {
+				{
+					"壊れても、壊れても、修理して乗った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 359,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11075", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"那天，草薙健一郎一边分解一边告诉我的摩托车。",
+				},
+			},
+        	ja = {
+				{
+					"あの日、草薙健一郎が分解しながら教えてくれたバイク。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 364,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11076", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"所以，无论怎么坏，也能多次、多次地修理。",
+				},
+			},
+        	ja = {
+				{
+					"だから、いくら壊れても、何度も、何度も、直す事が出来た。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 369,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11077", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"关于零件，因为在座位的背面仔细地写着店里的电话号码和地址，所以完全没有问题。",
+				},
+			},
+        	ja = {
+				{
+					"パーツに関しては、シートの裏に、ご丁寧にお店の電話番号と住所が書いてあったので、まったく問題はなかった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 374,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11078", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"我和庞科茨韦斯巴150std一起去了很多地方。",
+				},
+			},
+        	ja = {
+				{
+					"ポンコツヴェスバ１５０ｓｔｄと共にいろいろな場所に出かけた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 379,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11079", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"为了把所有的风景都印在眼睛上而跑了。",
+				},
+			},
+        	ja = {
+				{
+					"あらゆる風景を目に焼き付けるために走った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 384,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11080", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"我每天都跑步。",
+				},
+			},
+        	ja = {
+				{
+					"毎日走った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 389,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11081", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"画了画，然后骑了摩托车。",
+				},
+			},
+        	ja = {
+				{
+					"絵を描き、そしてバイクに乗った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 394,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11082", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"有时也去旅行了。",
+				},
+			},
+        	ja = {
+				{
+					"時には旅にも出た。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 399,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11083", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"几天到几周。",
+				},
+			},
+        	ja = {
+				{
+					"数日間から数週間。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 404,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11084", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"沿着海边一直北上，南下，露宿，吃便利店的便当，泡免费温泉，做了很多事情。",
+				},
+			},
+        	ja = {
+				{
+					"海沿いをただひたすら北上したり、南下したり、野宿して、コンビニ弁当食べて、無料温泉に入ったり、いろいろした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 409,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11085", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"庞科茨韦斯巴在旅途中也一定会坏的。",
+				},
+			},
+        	ja = {
+				{
+					"ポンコツヴェスバは旅先でも、必ず壊れる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 414,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11086", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"嘛，那样的习惯。",
+				},
+			},
+        	ja = {
+				{
+					"まぁ、そんなの慣れっこ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 419,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11087", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"有时，也会无可奈何地让卡车在最近的摩托车店修理。",
+				},
+			},
+        	ja = {
+				{
+					"時には、どうにもならずに、トラックで一番近くのバイク屋で修理してもらう事もあった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 424,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11088", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"直哉每次看到这辆摩托车都对我说。",
+				},
+			},
+        	ja = {
+				{
+					"直哉はこのバイクを見るたびに俺に言った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 429,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你为什么要骑那么破烂的原付？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なんでそんなおんぼろの原付に乗ってるの？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 432,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11089", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“不是原付！这是一辆很好的摩托车！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「原付じゃない！　これはちゃんとしたバイクなんだぞ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 435,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是吗？怎么看都是原付？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そうか？　どう見ても原付だが？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 438,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11090", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“呵呵，我的Vesba150std呢！要轻轻地超过音速哦！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「ふふふ、俺のヴェスバ１５０ｓｔｄはな！",
+					{"rt2"},
+					"軽く音速を超えるんだぞ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 442,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11091", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"这样的话，直哉一定很麻烦。",
+				},
+			},
+        	ja = {
+				{
+					"そうすると決まって直哉はめんどくさそうに。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 447,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“可以超过音速，但要在法定速度范围内超过。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「音速超えてもいいけど、法定速度の範囲で超えておけよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 450,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11092", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"说了。",
+				},
+			},
+        	ja = {
+				{
+					"と言った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 455,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11093", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"每次转动节气门，风景都会流逝。",
+				},
+			},
+        	ja = {
+				{
+					"スロットルを回すたびに、風景が流れていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 460,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11094", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"随着引擎的声音时间过去了。",
+				},
+			},
+        	ja = {
+				{
+					"エンジン音と共に時は過ぎていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 465,
+	},
+	block_00094 = {
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_11095", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"我在那样的风景的前方遇到了她。",
+				},
+			},
+        	ja = {
+				{
+					"そんな風景の先で彼女と出会った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 472,
+	},
+	block_00095 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="04_kei23"},
+		{"text"},
+		linkback = "block_00094",
+		line = 476,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

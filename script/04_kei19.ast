@@ -1,0 +1,4856 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="第Ⅳ章"},
+		{"msg", no=1},
+		{"bg", rule=139, vague=40, file="bg014c", path=":bg/", ax=960, ay=563, bx=0, by=-23},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"就这样洗了澡。",
+				},
+			},
+        	ja = {
+				{
+					"そんなこんなで風呂に入った。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 9,
+	},
+	block_00001 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=139, wait=500, file="black", path=":bg/", vague=40},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10882", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“为什么只有这样的衣服！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「なんで、こんな服しかないんですか！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 15,
+	},
+	block_00002 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg011c", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="健一郎", size="z1", mode=3, resize=1, path=":fg/ken/z1/", file="ken_z1a0000", face="a0003", head="ken_z1a", lv=4, id=9, sync=0},
+		{"extrans", rule=139, vague=40},
+		{"bgm", file="bgm131"},
+		{"fgact", ch="健一郎", act="うなづく", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10395", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“噗，你太适合了吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「ぷっ、お前似合い過ぎだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 28,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10883", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“我没听说只有女装！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「女服しかないとか聞いてないし！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 31,
+	},
+	block_00004 = {
+		{"fg", ch="健一郎", size="z1", mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0002", head="ken_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10396", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“总比全裸好吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「全裸よりはマシだろ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 36,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10884", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“女人的衣服还是全裸是什么两种选择？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「女の服か全裸ってどんな二択ですか！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 39,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10351", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“对不起，以前直哉也住过，所以也有男孩子的衣服，但是现在没有了。这是我小时候的东西。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「す、すまないなぁ。前は直哉も住んでいたから男の子の服もあったのだが、今はないんだよ。私が幼い時のものだが」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 48,
+	},
+	block_00007 = {
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1b0000", face="b0001", head="ken_z1b", id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"se", id=1, file="se0047"},
+				{"quake"},
+				{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1b0000", face="b0012", head="ken_z1b", id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10397", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“蓝的体型也很小，即使不是蓝小时候的衣服——嗯。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「藍も十分幼い体型してるんだから、藍の幼い時の服じゃなくても――んごっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 68,
+	},
+	block_00008 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, resize=1, path=":fg/aix/z1/", file="aix_z1b1110", face="b0017", head="aix_z1b", lv=4, id=9, sync=0},
+		{"extrans", time=400},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10352", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“我也已经是优秀的大学生了。光说失礼的话，我就揍你。健一郎。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「私ももう立派な大学生だ。失礼な事ばかり言うと殴るぞ。健一郎」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 76,
+	},
+	block_00009 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10398", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“我已经打你了！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「もう殴ってるし！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 82,
+	},
+	block_00010 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1110", face="b0018", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10353", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“像以前一样是要害的意思。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「前みたいに急所という意味だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 87,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10399", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“那就饶了我吧！你也是个大姑娘，以后别再打我了！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「それ勘弁だろ！",
+					{"rt2"},
+					"お前もいい歳頃の娘さんなんだから、人のち○ことか殴るなよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 93,
+	},
+	block_00012 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1110", face="b0014h", head="aix_z1b", lv=4, id=9},
+		{"fgact", ch="藍", act="びっくり", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1100", face="b0018h", head="aix_z1b", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10354", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“别这么说！这是要害。说到底那是要害！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「ち、ち○ことか言うな！　急所だ。あくまでもあれは急所なの！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 101,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10400", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“又有钱，又有钱。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「金的だし、ち○こだし」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 106,
+	},
+	block_00014 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1100", face="b0006h", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10355", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“啊，吵死了，吵死了，说些下流的话，我真的会揍你的！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「ああ、うるさい、うるさい、卑猥な事言ったら、本当に殴るからな！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 111,
+	},
+	block_00015 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1110", face="b0006h", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"迅速做好准备。",
+				},
+			},
+        	ja = {
+				{
+					"素早く構える。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 116,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10401", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“不，别这样！那真的很痛！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「や、やめて！　それ本当に痛いから！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 121,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10885", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“那个，比起那样的事，我更喜欢穿这样的衣服。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「あのー、そんな事よりも、俺がこんな服着ている事についてですがー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 124,
+	},
+	block_00018 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0003", head="ken_z1a", id=9, sync=0},
+		{"extrans", time=400},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10402", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“那个很适合你，所以没有问题。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「それは似合っているから問題ない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 134,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10886", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“没有问题！只有问题！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「問題ないじゃねぇよ！　問題しかない！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 137,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10356", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“圭不知道是男孩还是女孩，所以没有问题吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「圭は男の子だか女の子だか判別つかないから問題ないだろ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 146,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10887", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“因为无法辨别所以没有问题吧！基本上是作为男人的尊严吧！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「判別つかないから問題ないとかないだろ！",
+					{"rt2"},
+					"だいたい男の尊厳としてだな！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 150,
+	},
+	block_00022 = {
+		{"bgm", stop=1},
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0002", head="ken_z1a", id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0001", head="ken_z1a", id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10403", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“别那嚒脆。肚子饿了吧。饭准备好了，等着吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「そうカリカリすんなよ。",
+					{"rt2"},
+					"腹減っただろ。飯の用意すっから待ってろ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 163,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10888", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“饭？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「飯？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 166,
+	},
+	block_00024 = {
+		{"bgm", file="bgm118"},
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0003", head="ken_z1a", id=9},
+		{"fgact", ch="健一郎", act="うなづく", lv=9, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10404", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“啊，这是我引以为豪的万能料理。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「ああ、俺自慢の万能料理だぜ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 178,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10357", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“好久不见，健一郎的料理是？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「久しぶりだな。健一郎の料理は」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 183,
+	},
+	block_00026 = {
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1b0000", face="b0002", head="ken_z1b", id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1b0000", face="b0003", head="ken_z1b", id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10405", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“算了，交给我吧。今天我会给你们吃特别的料理。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「まぁ、任せておけ。今日はスペシャルな料理をお前らに食わせてやるから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 189,
+	},
+	block_00027 = {
+		{"fg", ch="健一郎", mx=40, mode=-1, lv=9, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"草薙健一郎笑着消失在厨房里。",
+				},
+			},
+        	ja = {
+				{
+					"笑みを浮かべながら草薙健一郎はキッチンに消えていった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 202,
+	},
+	block_00028 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0002", head="aix_z1a", lv=4, id=9, sync=0},
+		{"extrans", time=300},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10889", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“什么呀，那个人！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「なんなんだよ。あの人は！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 213,
+	},
+	block_00029 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0003", head="aix_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0016", head="aix_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10358", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“那就是草薙健一郎，是个有趣的男人吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「あれが、草薙健一郎だよ。面白い男だろ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 219,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10890", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“很有趣，只是个奇怪的家伙吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「面白いっつーか、単なる変なヤツじゃねぇかよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 222,
+	},
+	block_00031 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0001", head="aix_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10359", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“但是，作为艺术家很厉害吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「でも、芸術家としては凄いのだろ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 227,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10891", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“那是——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「それは――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 230,
+	},
+	block_00033 = {
+		{"msgoff"},
+		{"bg", file="ev_com_77_13", path=":ev/ev_com_77/", set="ev_com_77", sync=0},
+		{"bg", file="reco", id=9, lv=9, path=":sys/", sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我想起了那个共同作品。",
+				},
+			},
+        	ja = {
+				{
+					"俺はあの共作を思い出していた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 239,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"拼命地画着。",
+				},
+			},
+        	ja = {
+				{
+					"無我夢中で描いていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 242,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"大概也犯了很多错误。",
+				},
+			},
+        	ja = {
+				{
+					"たぶん、沢山のミスもした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 245,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是，那个错误让我变成了美丽的东西。",
+				},
+			},
+        	ja = {
+				{
+					"けど、そのミスを見事に美しいものに変化させてくれた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 248,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"即使是那种游戏般的绘画，也能窥见其非凡之处。",
+				},
+			},
+        	ja = {
+				{
+					"あんな遊びの様な絵画ですら、その非凡さが垣間見える。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 251,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"坦率地觉得是个很厉害的人。",
+				},
+			},
+        	ja = {
+				{
+					"素直に凄い人だと思った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 254,
+	},
+	block_00039 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg011c", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0001", head="aix_z1a", lv=4, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10892", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“真是个了不起的人。不仅是艺术，其他一切都……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「凄い人だよ。芸術だけじゃなくて、他のすべてにおいても……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 264,
+	},
+	block_00040 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1100", face="b0004", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10360", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“圭是诚实的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「圭は正直だな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 269,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10893", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“因为确实很厉害！但是那是以前就想的！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「だってすごいのはたしかだし！　でもそれは前から思ってたし！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 272,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10894", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“但是……，‘厉害’的印象有点变了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「でも……、",
+					{"rt2"},
+					"ちょっと“凄い”のイメージが変わったけどさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 278,
+	},
+	block_00043 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1100", face="b0001", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0003", head="aix_z1a", lv=4, id=9},
+			},
+			vl02 = {
+				{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0002", head="aix_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10361", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是吗？对我来说，从以前开始就是草薙健一郎了。无论到哪里都很奇怪，无论到哪里都很温柔，无论到哪里都很坚强。就是这样的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そうか。私にとっては昔からあれは草薙健一郎だよ。どこまでもおかしくて、",
+					{"rt2"},
+					"どこまでもやさしくて、どこまでも強い。そんな人間だよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 286,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10895", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“确实——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「たしかに――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 289,
+	},
+	block_00045 = {
+		{"bg", speed=180000, file="zbg011c", path=":bg/", x2=-180, y2=100, x=-960, y=100, ax=1920, ay=1126, bx=-960, by=-586},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10896", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"那天，我和温热的乌龙茶一起吃了草薙健一郎做的炒饭。",
+				},
+			},
+        	ja = {
+				{
+					"その日、俺は、温かいウーロン茶と共に、草薙健一郎が作ったチャーハンを食った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 298,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10897", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"我以为是给运动过度吐出来的人吃的料理，但是非常好吃。",
+				},
+			},
+        	ja = {
+				{
+					"運動しすぎで吐いた様な人間に食わせる様な料理かよと思ったけど、めちゃくちゃ旨かった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 303,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10898", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"草薙健一郎说",
+				},
+			},
+        	ja = {
+				{
+					"草薙健一郎曰く",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 308,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10406", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“动了之后洗了澡，稍微放松了一下身体。那样的话肚子会饿的吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「動いたあとに風呂入って少し身体をリラックスさせたんだ。",
+					{"rt2"},
+					"そしたら腹だって空くだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 312,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10407", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“那样动的话，需要水分，也想要盐分。但是，像你这样的小身体突然禁止喝冷饮。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「あれだけ動くと、水分が必要となるし、塩分も欲しくなる。",
+					{"rt2"},
+					"ただし、お前みたいな小さな身体にいきなり冷たい飲み物は厳禁だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 316,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10408", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“热气腾腾的乌龙茶最适合油品。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「温かいウーロン茶は油物に最適だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 319,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10409", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“怎么样，好吃吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「どうだうまいだろ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 322,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10899", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“嗯，非常好吃。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「うん。すげぇうまいですっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 325,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10410", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“是吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「そっか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 328,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10900", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"那天的炒饭很好吃。",
+				},
+			},
+        	ja = {
+				{
+					"あの日のチャーハンはうまかった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 333,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10901", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"虽然只是炒饭，但是很好吃。",
+				},
+			},
+        	ja = {
+				{
+					"ただのチャーハンなのにすげぇすげぇうまかった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 338,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10902", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"活动身体后的饭一定很好吃吧。草薙健一郎说。",
+				},
+			},
+        	ja = {
+				{
+					"身体を動かしたあとの飯は旨いに決まってるだろ。と草薙健一郎は言っていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 343,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10903", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"吃完饭，和草薙健一郎一边读绘画书，一边聊了很多。",
+				},
+			},
+        	ja = {
+				{
+					"飯食って、草薙健一郎と絵画の本を読みながら、いろいろな話をした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 348,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10904", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"健一郎一个一个地说奇怪的话，我在不知不觉中咯咯地笑着。",
+				},
+			},
+        	ja = {
+				{
+					"いちいち健一郎はおかしな事を言うから、俺は知らぬ間にゲラゲラ笑っていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 353,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10905", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"咦？笑就是这样的感觉。我想。",
+				},
+			},
+        	ja = {
+				{
+					"あれ？　笑うってこんな感じなんだ。と思った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 358,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10906", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"总觉得从心底涌出来的笑这种独特的感觉，说实话还不错。",
+				},
+			},
+        	ja = {
+				{
+					"なんか心の底からわき上がる笑いという独特な感覚、正直悪くないなぁと思った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 363,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10907", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"健一郎说。",
+				},
+			},
+        	ja = {
+				{
+					"健一郎は言った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 368,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10411", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"喜欢一切喜怒哀乐。",
+				},
+			},
+        	ja = {
+				{
+					"喜怒哀楽すべてを愛せ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 373,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10412", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"你太爱痛苦了。",
+				},
+			},
+        	ja = {
+				{
+					"お前は苦しみを愛しすぎた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 378,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10413", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"确实，痛苦在艺术中是一个重要的过程，但仅凭这一点是不行的。",
+				},
+			},
+        	ja = {
+				{
+					"たしかに苦しみは芸術において重要な過程だが、それだけでは駄目だ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 383,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10414", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"要了解艺术，就要热爱所有的情感。",
+				},
+			},
+        	ja = {
+				{
+					"芸術を知るには、すべての感情を愛さなければならない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 388,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10415", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"有趣的时候笑。",
+				},
+			},
+        	ja = {
+				{
+					"面白い時は笑い。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 393,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10416", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"生气的时候会生气。",
+				},
+			},
+        	ja = {
+				{
+					"むかつく時は怒り。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 398,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10417", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"悲伤的时候就哭。",
+				},
+			},
+        	ja = {
+				{
+					"悲しい時は泣いて。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 403,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10418", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"享受人生的乐趣吧。",
+				},
+			},
+        	ja = {
+				{
+					"人生の楽しさを満喫しろ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 408,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10419", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"好好吃饭，好好睡觉。",
+				},
+			},
+        	ja = {
+				{
+					"旨い飯食って、しっかりと寝ろ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 413,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10908", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"伟大的艺术家草薙健一郎。",
+				},
+			},
+        	ja = {
+				{
+					"偉大な芸術家、草薙健一郎。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 418,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10909", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"大概，我在这个时候，擅自把这个人认为是“师”。",
+				},
+			},
+        	ja = {
+				{
+					"たぶん、俺は、この時に、勝手に、この人を「師」だと思った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 423,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10910", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"宫崎破戒老师和恩田放哉老师都没有抱过的感情。",
+				},
+			},
+        	ja = {
+				{
+					"宮崎破戒先生にも恩田放哉先生にも抱いたことがない感情だ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 428,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10911", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"但是，我想“啊，这个人是老师，而且我想按照这个人说的活下去”。",
+				},
+			},
+        	ja = {
+				{
+					"ただ、「ああ、この人は師で、そして俺はこの人の言うとおりに生きていきたいな」と思った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 433,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10912", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"所以——。",
+				},
+			},
+        	ja = {
+				{
+					"だから――。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 438,
+	},
+	block_00076 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg011c", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="健一郎", size="z1", mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0003", head="ken_z1a", lv=4, id=9, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10420", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“住在这个家里！然后在我的工作室里一个劲地画画。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「この家に住め！",
+					{"rt2"},
+					"そして俺のアトリエで絵を描きまくれ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 450,
+	},
+	block_00077 = {
+		{"fg", ch="健一郎", size="z1", mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0001", head="ken_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="健一郎", size="z1", mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0002", head="ken_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10421", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“那里是为我改造的特别的地方！虽然现在变成了帅气的摩托车仓库！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「あそこは俺用に改造したスペシャルな場所だ！",
+					{"rt2"},
+					"今は、格好いいバイクの倉庫になっているけどな！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 457,
+	},
+	block_00078 = {
+		{"fg", ch="健一郎", size="z1", mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0001", head="ken_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="健一郎", size="z1", mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0003", head="ken_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10422", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“帅气的摩托车只要盖上盖子就没问题。尽情地使用那个工作室！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「格好いいバイクはカバーをかけておけばとりあえず問題はない。",
+					{"rt2"},
+					"存分にあのアトリエを使え！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 464,
+	},
+	block_00079 = {
+		{"fg", ch="健一郎", size="z1", mode=3, path=":fg/ken/z1/", file="ken_z1b0000", face="b0001", head="ken_z1b", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="健一郎", size="z1", mode=3, path=":fg/ken/z1/", file="ken_z1b0000", face="b0002", head="ken_z1b", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10423", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“然后，让那个捣蛋的笨蛋再拿下笔来！能做到这一点的只有你。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「そして、あのいじけたバカ野郎に再び筆を取らせてやってくれ！",
+					{"rt2"},
+					"それが出来るのはお前だけだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 471,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我点了点头。",
+				},
+			},
+        	ja = {
+				{
+					"俺は大きく頷いた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 474,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10913", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“我只有一个请求。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「ただ一つお願いがあります」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 477,
+	},
+	block_00082 = {
+		{"fg", ch="健一郎", size="z1", mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0007", head="ken_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="健一郎", size="z1", mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0001", head="ken_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10424", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“只有一个愿望？那是什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「ただ一つの願い？　なんだそれは？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 483,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10914", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“请不要把我和健一郎的相遇告诉直哉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「俺と健一郎さんの出会いを、直哉に話さないで下さい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 486,
+	},
+	block_00084 = {
+		{"fg", ch="健一郎", size="z1", mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0011", head="ken_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10425", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“哦，那是为什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「ほう、それは何故なんだ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 491,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10915", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“那个，那是……总觉得。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「そ、それは……、なんとなくです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 494,
+	},
+	block_00086 = {
+		{"fg", ch="健一郎", size="z1", mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0010", head="ken_z1a", lv=4, id=9},
+		{"fgact", ch="健一郎", act="うなづく", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10426", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“原来如此，总觉得呢。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「なるほど、なんとなくねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 500,
+	},
+	block_00087 = {
+		{"fg", mode=-2},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"当然，总觉得是骗人的。",
+				},
+			},
+        	ja = {
+				{
+					"もちろん、なんとなくなんて嘘だ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 505,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我在宫崎绘画学校学习了绘画的基础。实际上可以说是师傅的是恩田放哉老师和宫崎破戒老师。",
+				},
+			},
+        	ja = {
+				{
+					"俺は宮崎絵画学校で絵画の基礎を教わった。",
+					{"rt2"},
+					"実質的には師匠と言えるのは、恩田放哉先生と宮崎破戒先生になる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 509,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"尽管如此，无论什么时候，在宫崎绘画学校的时候，感觉自己是异邦人……。",
+				},
+			},
+        	ja = {
+				{
+					"にもかかわらず、いつでも、宮崎絵画学校にいるときに、自分が異邦人であるかの様に感じた……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 512,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我想大概恩田放哉老师看穿了那件事。",
+				},
+			},
+        	ja = {
+				{
+					"たぶん、その事をうっすらとだが、恩田放哉先生は見抜いていたと思う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 515,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我在那个地方是外国人的理由。",
+				},
+			},
+        	ja = {
+				{
+					"おれがあの場所で、異邦人であった理由。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 518,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我今天知道了。",
+				},
+			},
+        	ja = {
+				{
+					"それが今日、分かった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 521,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我从什么时候开始——不，不是。",
+				},
+			},
+        	ja = {
+				{
+					"俺はいつからか――、",
+					{"rt2"},
+					"いや違う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 525,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"看了自己的画的时候。",
+				},
+			},
+        	ja = {
+				{
+					"自分の絵画を見てもらった時。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 528,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"你给我寄那封信的时候。",
+				},
+			},
+        	ja = {
+				{
+					"あの手紙を送ってくれた時。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 531,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"然后，从对我说可以和草薙直哉成为竞争对手的时候开始。",
+				},
+			},
+        	ja = {
+				{
+					"そして、俺に、草薙直哉とライバルになれると言ってくれた時から。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 534,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我心中的老师是草薙健一郎。",
+				},
+			},
+        	ja = {
+				{
+					"俺の心の師は草薙健一郎であったのだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 537,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我觉得我自称“K”，之后既不是“恩田”也不是“宫崎”，而是“夏目”。",
+				},
+			},
+        	ja = {
+				{
+					"俺が『K』と名乗ったのも、そして、その後に『恩田』でも『宮崎』でもなく、",
+					{"rt2"},
+					"『夏目』を名乗ったのもそういう事だったんだと思う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 541,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我在这个人的引导下来到了这个世界。",
+				},
+			},
+        	ja = {
+				{
+					"俺は、この人に導かれて、この世界に来た。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 544,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"然后，我在那之后遇到了那家伙。",
+				},
+			},
+        	ja = {
+				{
+					"そして、俺はその先で、あいつと出会った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 547,
+	},
+	block_00101 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="ev_com_23_01", path=":ev/ev_com_23/", set="ev_com_23", sync=0},
+		{"bg", file="reco", id=9, lv=9, path=":sys/", sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"草薙直哉。",
+				},
+			},
+        	ja = {
+				{
+					"草薙直哉。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 557,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我舍弃一切，成为无知的人，成为追赶他的存在。",
+				},
+			},
+        	ja = {
+				{
+					"俺は、すべてを捨てて、無知の人となって、あいつを追いかける存在となった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 560,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我在草薙健一郎的引导下，发现了草薙直哉的后背。",
+				},
+			},
+        	ja = {
+				{
+					"俺は、草薙健一郎に導かれて、草薙直哉の背中を見つけたのだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 563,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"所以，我不想用语言来传达那个。",
+				},
+			},
+        	ja = {
+				{
+					"だから、それを言葉なんかで伝えたくない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 566,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"因为我觉得一切都是命中注定的……。",
+				},
+			},
+        	ja = {
+				{
+					"俺には、すべてが運命的である様に思われるから……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 569,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"如果用语言表达的话，就会像烟一样雾散……讨厌。",
+				},
+			},
+        	ja = {
+				{
+					"それを、言葉などにしたら煙の様に霧散してしまいそうで……嫌なのだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 572,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我感受到的命运的东西。",
+				},
+			},
+        	ja = {
+				{
+					"俺が感じた運命的なもの。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 575,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"希望直哉自己也能感受到这一点。",
+				},
+			},
+        	ja = {
+				{
+					"それを、直哉自身にも感じてもらいたい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 578,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"希望你能感受到我们的相遇是命运。",
+				},
+			},
+        	ja = {
+				{
+					"俺達の出会いが運命であった事を感じてほしい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 581,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我希望你知道对我们两个人来说，一切都是必然的。所以——。",
+				},
+			},
+        	ja = {
+				{
+					"俺達二人にとって、すべてが必然であることを知ってほしい。だから――。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 584,
+	},
+	block_00111 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg011c", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0001", head="ken_z1a", id=9, sync=0},
+		{"extrans", time=500},
+		{"fgact", ch="健一郎", act="うなづく", lv=9, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10427", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"「好的，我们约好了。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「分かった。約束しよう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 595,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10916", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“诶？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「え？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 598,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"非常简单地听到了请求，很失望。",
+				},
+			},
+        	ja = {
+				{
+					"やけに簡単にお願いが聞き入れられて、拍子抜けした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 601,
+	},
+	block_00114 = {
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1b0000", face="b0002", head="ken_z1b", id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10428", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“蓝也明白了吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「藍も分かったな？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 612,
+	},
+	block_00115 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0012", head="aix_z1a", lv=4, id=9, sync=0},
+		{"extrans", time=400},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10362", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“啊？这是怎么回事？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「はぁ？　どういう事だ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 620,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10429", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“即使直哉问，你也回答说我们没有见过面。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「直哉に聞かれても、俺達に面識はないと答えてくれ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 625,
+	},
+	block_00117 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0008", head="aix_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10363", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“哇，你是在对我对直哉说假话吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「わ、私に対して、直哉に嘘を言えと言っているのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 630,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10430", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“就是这么回事。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「そういう事だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 636,
+	},
+	block_00119 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1110", face="b0018", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1110", face="b0005", head="aix_z1b", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10364", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“那可不能保证！直哉对我来说，就像亲弟弟一样。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そんなは約束はできん！",
+					{"rt2"},
+					"直哉は私にとって、実の弟の様なものだぞ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 643,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10431", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“正因为如此，请保密。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「だからこそ、内緒にしてくれ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 648,
+	},
+	block_00121 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1100", face="b0012", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10365", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“为什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「何故だ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 653,
+	},
+	block_00122 = {
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg011c", path=":bg/", ax=1920, ay=1126, bx=-960, by=-586, sync=0},
+		{"fg", ch="健一郎", size="z2", lv=9, mode=3, resize=1, path=":fg/ken/z2/", file="ken_z2b0000", face="b0010", head="ken_z2b", id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10432", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“没用的聊天会让身体变得浑浊……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「無駄なおしゃべりは身体を濁らすんだよ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 662,
+	},
+	block_00123 = {
+		{"fg", ch="健一郎", size="z2", lv=9, mode=3, path=":fg/ken/z2/", file="ken_z2b0000", face="b0010", head="ken_z2b", id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10433", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“只有经过磨练的艺术，才能正确地、命运地告诉我们。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「研ぎ澄まされた芸術だけが、正しく、そして運命的に、教えてくれるんだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 668,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10366", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“没用的聊天……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「無駄なおしゃべり……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 676,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10367", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“不是语言，而是应该传达的东西吗……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「言葉でなく、伝えるべきものという事か……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 681,
+	},
+	block_00126 = {
+		{"fg", ch="健一郎", size="z2", lv=9, mode=3, path=":fg/ken/z2/", file="ken_z2b0000", face="b0002", head="ken_z2b", id=9},
+		{"fgact", ch="健一郎", act="うなづく", lv=9, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10434", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“啊，说不定直哉一辈子都不知道那件事。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「ああ、もしかしたら、直哉は一生、その事を知らないかもしれない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 691,
+	},
+	block_00127 = {
+		{"fg", ch="健一郎", size="z2", lv=9, mode=3, path=":fg/ken/z2/", file="ken_z2a0000", face="a0001", head="ken_z2a", id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="健一郎", size="z2", lv=9, mode=3, path=":fg/ken/z2/", file="ken_z2a0000", face="a0010", head="ken_z2a", id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10435", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“那样的话，这样就好了。但是，圭所感受到的，或者相信的，神秘的命运，不能简单地用语言来表达。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「それだったら、それでいいんだ。",
+					{"rt2"},
+					"だが、圭が感じた、あるいは信じた、神秘的とも思える運命を、簡単に言葉にしてはならない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 698,
+	},
+	block_00128 = {
+		{"fg", ch="健一郎", size="z2", lv=9, mode=3, path=":fg/ken/z2/", file="ken_z2a0000", face="a0010", head="ken_z2a", id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10436", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“那必须是在直哉心中再次复苏，飞起来的东西。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「それは、直哉の中で再びよみがえり、飛び立つものでなければならない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 703,
+	},
+	block_00129 = {
+		{"fg", ch="健一郎", size="z2", lv=9, mode=3, path=":fg/ken/z2/", file="ken_z2a0000", face="a0001", head="ken_z2a", id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10437", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“相信命运就是这样，我们艺术家相信上帝就是这样。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「運命を信じるとはそういう事だし、俺達芸術家が神を信じるとはそういう事だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 708,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10917", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“我们艺术家相信上帝……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「俺達芸術家が神を信じる……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 711,
+	},
+	block_00131 = {
+		{"fg", ch="健一郎", size="z2", lv=9, mode=3, path=":fg/ken/z2/", file="ken_z2a0000", face="a0002", head="ken_z2a", id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="健一郎", size="z2", lv=9, mode=3, path=":fg/ken/z2/", file="ken_z2a0000", face="a0001", head="ken_z2a", id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10438", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“啊，我是这么想的。我们艺术家不少，不管是什么形式，都相信上帝。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「ああ、俺はそんなものだと思っているよ。我々芸術家は少なからず、どんな形であれ、神を信じている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 717,
+	},
+	block_00132 = {
+		{"fg", ch="健一郎", size="z2", lv=9, mode=3, path=":fg/ken/z2/", file="ken_z2a0000", face="a0001", head="ken_z2a", id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10439", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“因为那是美的同义词。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「それが、美の同義語だからだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 722,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10918", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“美的同义词……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「美の同義語……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 726,
+	},
+	block_00134 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg011c", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1100", face="b0015", head="aix_z1b", lv=4, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0001", head="aix_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10368", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“啊！我知道了！我知道了。即使直哉问我也不回答。我不会说你们的事。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「ああ！　分かった！　分かった。直哉に聞かれても答えない。",
+					{"rt2"},
+					"お前らの事は喋らないよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 738,
+	},
+	block_00135 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0011", head="aix_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10369", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"「对了，对他隐瞒的事我很不好意思……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「ったく、あいつに隠し事をするのは気が引けるが……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 743,
+	},
+	block_00136 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10919", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“哇，谢谢你这么任性。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「わ、わがままをきいてくれてありがとう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 746,
+	},
+	block_00137 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, resize=1, path=":fg/ken/z1/", file="ken_z1a0000", face="a0001", head="ken_z1a", id=9, sync=0},
+		{"extrans", time=300},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10440", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“但是，圭也要遵守我的要求。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「ただし、圭も俺からの要求をのめ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 755,
+	},
+	block_00138 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10920", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“要求？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「要求？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 758,
+	},
+	block_00139 = {
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0002", head="ken_z1a", id=9},
+		{"fgact", ch="健一郎", act="うなづく", lv=9, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0001", head="ken_z1a", id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10441", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“啊，多和人交往。艺术家用画人、用文字、用声音、用绘画。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「あぁ、もっと人と交われ。",
+					{"rt2"},
+					"芸術家は人を描く、文字で、音で、絵画で」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 766,
+	},
+	block_00140 = {
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0002", head="ken_z1a", id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10442", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“所以，和各种各样的人说话，笑吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「だから、いろいろな人と話したり笑ったりしろ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 771,
+	},
+	block_00141 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10921", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“我没有这样的经验，所以比较不擅长……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「俺、そういう経験ないから、わりかし苦手で……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 776,
+	},
+	block_00142 = {
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0001", head="ken_z1a", id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1b0000", face="b0001", head="ken_z1b", id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10443", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“没那回事，你可以的。对了。到了你能拿到驾照的年龄，我就骑我的摩托车。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「そんな事ねぇよ。お前なら出来る。",
+					{"rt2"},
+					"そうだ。お前が免許取れる年齢になったら、俺のバイクをやる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 783,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10922", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“诶？摩托车？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「え？　バイク？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 786,
+	},
+	block_00144 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0008", head="aix_z1a", lv=4, id=9, sync=0},
+		{"extrans", time=300},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10370", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“健一郎，我反对那个。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「健一郎、私はそれには反対だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 797,
+	},
+	block_00145 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1100", face="b0011", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10371", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“那辆摩托车都很旧，很难。不是像圭那样贫弱的孩子骑的。太危险了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「あのバイクはどちらも古い、いろいろ難しい。圭みたいに貧弱な子が乗るもんじゃない。危険すぎる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 803,
+	},
+	block_00146 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10923", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“我不是贫弱！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「俺は貧弱じゃない！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 806,
+	},
+	block_00147 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1100", face="b0005", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1100", face="b0017", head="aix_z1b", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10372", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“你用那纤细的手臂在说什么……你不是完全无法抗拒我的力量吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「その細腕で何を言ってるんだ……まったく私の力に歯が立たなかったではないか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 812,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10924", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"「那、那倒是……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「そ、それは、そうだけど……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 815,
+	},
+	block_00149 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10444", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“没关系，蓝。那件事，今天圭自己应该有实感了吧。我明白了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「いいんだよ藍。そのことは、今日、圭自身が実感しただろう。よく分かったハズだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 821,
+	},
+	block_00150 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10925", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“啊，真切地感受到了！今后也会锻炼体力的！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「あぁ実感した！　これからは体力作りもするから！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 824,
+	},
+	block_00151 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1110", face="b0018", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10373", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“不是那么简单的问题！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そんな簡単な問題ではない！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 829,
+	},
+	block_00152 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10926", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“太吵了。不管别人怎么反对，我都会骑那辆摩托车的！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「うるさい。どんなに反対されても俺はそのバイクに乗るんだからな！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 832,
+	},
+	block_00153 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0006", head="aix_z1a", lv=4, id=9},
+		{"fgact", ch="藍", act="いいえ", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10374", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“不行不行不行！至少在我说好之前，我是绝对不会承认的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「だめだだめだ！　少なくとも私が良しというまでは、絶対に認めない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 838,
+	},
+	block_00154 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1b0000", face="b0001", head="ken_z1b", id=9, sync=0},
+		{"extrans", time=300},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10445", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"「这样的话就好了。只要蓝能承认，身体就可以做好。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「それならいいだろう。藍が認める程度には身体を作れって事だから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 847,
+	},
+	block_00155 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10927", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“哇，知道了。好好地做身体。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「わ、分かった。ちゃんと身体を作る」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 850,
+	},
+	block_00156 = {
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0002", head="ken_z1a", id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0003", head="ken_z1a", id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10446", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“摩托车很好。就像公路电影一样，在各种各样的地方跑，和各种各样的人见面，画各种各样的画。很帅吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「バイクはいいぞ。ロードムービーみたいにさ、いろいろな場所を走って、",
+					{"rt2"},
+					"いろいろな人と会って、いろいろな絵を描くんだ。格好いいだろ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 858,
+	},
+	block_00157 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10928", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“啊！我想试试看！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「ああ！　やってみたい！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 861,
+	},
+	block_00158 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0015", head="aix_z1a", lv=4, id=9, sync=0},
+		{"extrans", time=300},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0002", head="aix_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10375", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“嗯，那我也有个建议。虽然是仓库里的摩托车，但我会拿到一辆。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「ふぅ、ならば私からも提案がある。",
+					{"rt2"},
+					"倉庫のバイクだが、一台は私がもらっておく」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 871,
+	},
+	block_00159 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10447", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“啊？那是维苏巴150std吗？那太麻烦了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「え？　それってヴェスバ１５０ｓｔｄか？　あれメンテすげぇ大変だぞ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 876,
+	},
+	block_00160 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1100", face="b0003", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10376", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“不，马赫Ⅲ。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「いいやマッハⅢだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 881,
+	},
+	block_00161 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10448", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“我还没听说呢！那种东西又不是女人乘坐的交通工具！保养也很辛苦！不行！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「まてまて聞いてないぞ！　あんなもん女が乗る乗り物じゃないし！　メンテも大変だし！　無理だって！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 887,
+	},
+	block_00162 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1100", face="b0001", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10377", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“不可能啊，我已经自己大修了，上次坐上了大学，感觉很顺利。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「無理なものか、すでに自分でオーバーホールして、この前大学まで乗ってみたが、快調だったぞ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 892,
+	},
+	block_00163 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10449", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“那是大修后坐到东京的吗！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「あれオーバーホールして、東京まで乗ったのかよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 897,
+	},
+	block_00164 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0001", head="aix_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10378", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“东京或者说是多摩地区。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「東京というか多摩地区だけどな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 902,
+	},
+	block_00165 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10450", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“不是更远吗！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「もっと遠いじゃねぇかよ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 907,
+	},
+	block_00166 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1100", face="b0001", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1100", face="b0016", head="aix_z1b", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10379", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“说起来，我的运动神经比健一郎高。你能乘坐的东西我能乘坐吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そもそも、私の運動神経は健一郎より上だ。",
+					{"rt2"},
+					"お前に乗れるものが私に乗れないハズがなかろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 914,
+	},
+	block_00167 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10451", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“不，不，蓝是武道高手，但摩托车不一样吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「いやいや、藍は武道の達人ではあるけど、バイクは違うだろ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 919,
+	},
+	block_00168 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0002", head="aix_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10380", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“武人是会骑马的。如果是那种程度的话，马也没问题。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「武人は馬を乗りこなすものだよ。",
+					{"rt2"},
+					"あのぐらいのじゃじゃ馬程度なら問題ない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 925,
+	},
+	block_00169 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0017", head="aix_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0003", head="aix_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10381", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“而且‘女人’这种说法很有歧视性。不管是女人还是能乘坐的都可以乘坐！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「それに“女が”という言い方は差別的だな。女だろうが乗れるものは乗れる！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 931,
+	},
+	block_00170 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a1100", face="a0005", head="aix_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10382", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“如果给圭摩托车的话，那边是我坐的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「圭にバイクを与えるのならば、あちらは私が乗る」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 936,
+	},
+	block_00171 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10452", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“一般都是相反的吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「普通、逆だろ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 941,
+	},
+	block_00172 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1100", face="b0005", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10383", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“不，这才是正确的选择。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「いいや、それが正しい選択だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 946,
+	},
+	block_00173 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10453", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“嗯……蓝也和水菜一样顽固。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「ぬぅ……、藍もそういうところは水菜に似て頑固だよな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 952,
+	},
+	block_00174 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b1100", face="b0018", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10384", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“只是健一郎想得太多了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「健一郎が考えなさ過ぎなだけだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 957,
+	},
+	block_00175 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10929", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“然后呢？另一辆是什么样的摩托车呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「それで？　もう一台はどんなバイクなんですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 960,
+	},
+	block_00176 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0001", head="ken_z1a", id=9, sync=0},
+		{"extrans", time=300},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10454", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“维斯巴150std。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「ヴェスバ１５０ｓｔｄだな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 969,
+	},
+	block_00177 = {
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0002", head="ken_z1a", id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10455", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“因为是第一辆买的摩托车，所以在纽约坐了街上用的车。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「最初に買ったバイクでな愛着もあって、ニューヨークで街乗り用に乗っていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 974,
+	},
+	block_00178 = {
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0001", head="ken_z1a", id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10456", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“最近，因为换乘了兰布雷达200TV，所以维斯巴送回了这里。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「最近は、ランブレッダ200TVに乗り換えたので、ヴェスバはこちらに送り返したんだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 979,
+	},
+	block_00179 = {
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0008", head="ken_z1a", id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0010", head="ken_z1a", id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10457", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“马赫Ⅲ也不错，但有点不稳定。从这个意义上来说，还是喜欢那种摩托车吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「マッハⅢも良かったのだが、少し落ち着かない。",
+					{"rt2"},
+					"そう言った意味では、やはりあの手のバイクが好きなのだろうな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 986,
+	},
+	block_00180 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10930", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“那个系列？维苏巴和兰布雷达确实是莫斯之类的吧！健一郎老师，因为听说是莫斯，所以是维苏巴和兰布雷达吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「あの系列？　ヴェスバとかランブレッダってたしかモッズとかだよな！　健一郎先生って、モッズとか聞くからヴェスバとかランブレッダなのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 989,
+	},
+	block_00181 = {
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0001", head="ken_z1a", id=9},
+		{"fgact", ch="健一郎", act="うなづく", lv=9, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0003", head="ken_z1a", id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10458", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“啊，是啊。不过我也会听朋克。如果是吉他响起的音乐，我一般都喜欢。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「ああ、そうだな。でもパンクも聞くぞ。ギターがかき鳴らされている音楽なら大抵は好きだな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 996,
+	},
+	block_00182 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10931", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“现在有吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「今持ってますか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 999,
+	},
+	block_00183 = {
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0001", head="ken_z1a", id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0002", head="ken_z1a", id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10459", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“啊，我有。你有兴趣吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「ああ、持ってるぞ。",
+					{"rt2"},
+					"興味あるのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 1006,
+	},
+	block_00184 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_kei_10932", ch="kei"},
+			},
+		
+            cn = {
+				{
+					"“是的，每次读老师的采访，都会出现音乐的话题，非常想听听！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"圭"},
+					"「はい、先生のインタビュー読むたびに、音楽の話が出てて、すげぇ聴いてみたいと思ってました！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 1009,
+	},
+	block_00185 = {
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1a0000", face="a0003", head="ken_z1a", id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10460", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“那就听吧！因为是摇滚的基础教养，所以首先是查克·贝利。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「んじゃ聴くか！",
+					{"rt2"},
+					"ロックの基礎教養という事で、まずはチャック・ベリーからだな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 1015,
+	},
+	block_00186 = {
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1b0000", face="b0001", head="ken_z1b", id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10461", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“这是《JohnnyB.Goode》。这是在《帕克·图·The Futucher》中出现的歌曲。我想是因为有名才知道的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「『",
+					{"ruby", text="ジョニー"},
+					"Johnny",
+					{"/ruby"},
+					" B. ",
+					{"ruby", text="グッド"},
+					"Goode",
+					{"/ruby"},
+					"』だな。",
+					{"rt2"},
+					"これな、『パック・トゥ・ザ・フューチャー』で出てきた曲でな。",
+					{"rt2"},
+					"有名だから知っているとは思うけどな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 1024,
+	},
+	block_00187 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10385", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“喂喂，从这个时间开始听吵死人的音乐吗？请用不会给邻居添麻烦的音量。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「おいおい、こんな時間からうるさい音楽聴くのか。",
+					{"rt2"},
+					"ご近所迷惑にならない程度の音量で頼むぞ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 1030,
+	},
+	block_00188 = {
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1b0000", face="b0003", head="ken_z1b", id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10462", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“没问题！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「問題ない！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 1035,
+	},
+	block_00189 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_10386", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“出了问题我会打你的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「問題が起きたら殴るからな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 1040,
+	},
+	block_00190 = {
+		{"fg", ch="健一郎", size="z1", lv=9, mode=3, path=":fg/ken/z1/", file="ken_z1b0000", face="b0001", head="ken_z1b", id=9},
+		{"fgact", ch="健一郎", act="うなづく", lv=9, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10463", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“啊，交给我吧！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「ああ、任せろ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00189",
+		linknext = "block_00191",
+		line = 1046,
+	},
+	block_00191 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=139, wait=500, file="black", path=":bg/", vague=40},
+		{"bgm", stop=1, time=10000},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"健一郎用不可能的大音量热情演唱了《Johnny B.Goode》，当然附近突然响起了投诉电话，马上就被蓝打了。",
+				},
+			},
+        	ja = {
+				{
+					"ありえない大音量で『Johnny B. Goode』をかけて熱唱した健一郎、当然近所からいきなり苦情の電話が鳴り、さっそく藍に殴られていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00190",
+		linknext = "block_00192",
+		line = 1055,
+	},
+	block_00192 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"之后，在隔音性很高的仓库里一边听音乐一边谈论绘画。",
+				},
+			},
+        	ja = {
+				{
+					"その後は、防音性が高い蔵で音楽を聴きながら、絵画の話をした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00191",
+		linknext = "block_00193",
+		line = 1058,
+	},
+	block_00193 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这是一个从未体验过的愉快而愉快的一夜。",
+				},
+			},
+        	ja = {
+				{
+					"今まで体験した事がないほど愉快で楽しい一夜であった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00192",
+		linknext = "block_00194",
+		line = 1061,
+	},
+	block_00194 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"一直聊到晚上，听音乐。",
+				},
+			},
+        	ja = {
+				{
+					"夜まで喋り、音楽を聴いた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00193",
+		linknext = "block_00195",
+		line = 1064,
+	},
+	block_00195 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="04_kei20"},
+		{"text"},
+		linkback = "block_00194",
+		line = 1068,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

@@ -1,0 +1,7017 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="第Ⅲ章"},
+		{"msg", no=1},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg034a", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, resize=1, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="放哉", size="z1", mode=3, resize=1, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", x=345, lv=4, id=6, sync=0},
+		{"extrans"},
+		{"bgm", file="bgm148"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10712", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“承认心铃君和草薙直哉的交往，承认编入弓张学园。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「心鈴くんと草薙直哉の交際を認めたり、弓張学園への編入を認めたり」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 18,
+	},
+	block_00001 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0009", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10141", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“不像嘛……原来如此，也许是这样。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「らしくないか……。",
+					{"rt2"},
+					"なるほど、そうかもしれんな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 24,
+	},
+	block_00002 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0011", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10713", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“你变心了吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「心変わりでもあったのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 29,
+	},
+	block_00003 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0008", head="rej_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10142", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“我没什么变化，大概我对她一直都是这样的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「心変わりなどないよ。",
+					{"rt2"},
+					"たぶん、私はあの娘に対してはずっとこんな風にしか接する事が出来なかった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 36,
+	},
+	block_00004 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10714", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“只是针对心铃吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「心鈴くんに対してだけでしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 41,
+	},
+	block_00005 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0002", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"本间礼次郎自嘲地笑。",
+				},
+			},
+        	ja = {
+				{
+					"本間礼次郎は自嘲気味に笑う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 46,
+	},
+	block_00006 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10143", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“我为我的家族感到骄傲。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「私は自分の一族に誇りを持っていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 51,
+	},
+	block_00007 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0010", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10144", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“为了家族的繁荣，我想做任何事情。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「一族の繁栄のためならばどんな事だってしようと思っていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 56,
+	},
+	block_00008 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0011", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10145", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“注意到这个弓张的地方，也不是偶然的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「この弓張の地に目を付けたのも、たまたまではないさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 61,
+	},
+	block_00009 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10146", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“离东京很近，有可以卸货的渔港。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「東京からほどよく近く、貨物船の荷下ろしが出来る漁港がある」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 66,
+	},
+	block_00010 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10147", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“战后的混乱时期，运往关东圈的一部分行李被卸给了弓张。当时还是小流氓的夏目一家，从事了这个卸货的事业，成功地扩大了势力。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「戦後の混乱期、関東圏に運ばれる荷物の一部が弓張に卸された。",
+					{"rt2"},
+					"その時にまだ小さなヤクザであった夏目一家が、この荷下ろしの事業に従事し、",
+					{"rt2"},
+					"成功させ勢力を拡大させた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 74,
+	},
+	block_00011 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0004", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10148", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“率领这个组织的是夏目琴子，也是培养出两位伟大艺术家的草薙一族的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「この組織を率いたのが、夏目琴子。",
+					{"rt2"},
+					"二人の偉大な芸術家を輩出した、草薙一族を生み出した人間でもある」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 80,
+	},
+	block_00012 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0008", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10149", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“夏目琴子被称为女杰，令人害怕，但又是女人，人望也很高，特别是与都市圈的巨大组织的管道也很强，是个非常麻烦的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「夏目琴子は女傑と言われ恐れられたが、また女でありながら人望も厚く、",
+					{"rt2"},
+					"特に都市圏の巨大組織とのパイプも強く、非常に厄介な人間であった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 86,
+	},
+	block_00013 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0009", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10150", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“所以，支配弓张一千多年的中村家，渐渐失去了弓张中的幕后社会的力量。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「だから、千年以上もこの弓張を支配していた中村家は、徐々に弓張における",
+					{"rt2"},
+					"裏社会の力を失っていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 92,
+	},
+	block_00014 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10151", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“我对中村家表现出兴趣是理所当然的结果。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「私が中村家に興味を示したのは当然の帰結だよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 97,
+	},
+	block_00015 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0011", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10152", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“对于没落的名家、本间的家来说，没有比这更方便的了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「没落してゆく名家、本間の家にとってこれほど都合が良いものもない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 102,
+	},
+	block_00016 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0005", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10715", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“果然，那是政略结婚吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「やはり、あれは政略結婚だったのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 107,
+	},
+	block_00017 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0010", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10153", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“嘛，就是这种感觉。确实，丽华是个美人，作为妻子来说是无可挑剔的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「まぁ、そんな感じだよ。",
+					{"rt2"},
+					"たしかに、麗華は美人ではあったし、妻としては申し分はなかった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 114,
+	},
+	block_00018 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10154", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"「但是，对我来说，丽华只是那种程度的东西。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「だが、私にとって麗華はその程度のものでしかなかった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 119,
+	},
+	block_00019 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10716", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“但是，您对长子的孩子不是很期待吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ですが、長男のお子さんには期待したのではないですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 124,
+	},
+	block_00020 = {
+		{"fg", ch="礼次郎", size="z1", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0008", ex03="a0097", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10155", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“怎么样？我也有这种感觉，也有种无所谓的感觉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「どうだっただろうな。そんな気もするし、どうでも良かったという気持ちも強い」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 129,
+	},
+	block_00021 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10156", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“说起来，我始终是掌管本间内幕的人。我也不冷酷到让那样的人的接班人成为自己人的程度。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「そもそもだ。私はあくまでも本間の裏側を仕切る人間だ。",
+					{"rt2"},
+					"そんな人間の後継者を身内にさせるほど、私だって冷酷ではないさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 136,
+	},
+	block_00022 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10157", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“关于我的孩子，心佐夫，与我家无关，希望他能正常成长。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「我が子、心佐夫については、私の家など関係なく、普通に育ってほしいと思っている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 141,
+	},
+	block_00023 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10717", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“一般吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「普通ですか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 146,
+	},
+	block_00024 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0002", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"本间礼次郎苦笑。",
+				},
+			},
+        	ja = {
+				{
+					"本間礼次郎は苦笑いをした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 151,
+	},
+	block_00025 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0002", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0008", head="rej_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10158", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“话虽如此，也许我本质上只是想对他们漠不关心。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「とは言ってもだ。やはり私は本質的に彼らに無関心でいたかっただけなのかもしれぬ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 157,
+	},
+	block_00026 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0004", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10159", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“丽华和心佐夫……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「麗華にも心佐夫にも……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 162,
+	},
+	block_00027 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0005", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10718", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“只有那两个人吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「その二人だけなのですか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 167,
+	},
+	block_00028 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10160", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“啊，是啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「ああ、そうだな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 172,
+	},
+	block_00029 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0008", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10161", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“我本想贯彻漠不关心的态度，但我渐渐明白这是做不到的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「私は無関心を貫こうと思っていた。",
+					{"rt2"},
+					"だが、それが出来ない事が徐々に分かっていった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 178,
+	},
+	block_00030 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10719", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“因为是那个女孩啊……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「あの娘さんですからね……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 183,
+	},
+	block_00031 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10162", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“我认为，关于自己的本质，在于合理、理智和冷酷的强大。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「私は、自分の本質について、合理と理知と冷酷さの強さにあると思っている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 188,
+	},
+	block_00032 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0011", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10163", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“我一直认为我是一个可以冷酷无情的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「私は私の意思において冷酷たりうる人間だと考えていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 193,
+	},
+	block_00033 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0008", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10164", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"「可是……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「なのだったけれどもね……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 198,
+	},
+	block_00034 = {
+		{"bg", time=500, file="ev_etc_01_03", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"本间礼次郎仰望天空。",
+				},
+			},
+        	ja = {
+				{
+					"本間礼次郎が空を見上げる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 203,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10165", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“自己的意思是靠不住的。明明知道，却完全不明白。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「自分の意思など当てにならないものだよ。",
+					{"rt2"},
+					"分かっているつもりが、まったく分かっていないものだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 207,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10166", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“那件事，只有我的女儿，心铃很快就看穿啦。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「その事を、私の娘、心鈴だけがすぐに見抜いてしまった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 210,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10167", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“实际上，我对丽华、对心佐夫都不是冷酷无情的。只是笨拙不能很好地接触的丈夫和父亲……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「私が、実際には、麗華に対しても、心佐夫に対しても、冷酷などではなく。",
+					{"rt2"},
+					"単に不器用でうまく接する事が出来ない夫であり父親である事……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 214,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10168", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“而且，对于看穿这些的心铃，最愚蠢的自己——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「そして、他ならぬ、それらを見抜く心鈴に対して、もっとも愚鈍になってしまう自分を――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 217,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10169", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“看到她出生、成长的样子，我深深地体会到了那种东西。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「そんなものを、彼女が生まれ、育っていく姿を見て、痛いほど思い知らされた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 220,
+	},
+	block_00040 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg034a", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0010", head="hos_z1a", x=345, lv=4, id=6, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10720", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“没有孩子的我是不明白的感情。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「子供のいない私には分からない感情ですね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 231,
+	},
+	block_00041 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0004", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10170", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“是吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「なのだろうな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 236,
+	},
+	block_00042 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10721", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“礼次郎基本上反对心铃君进入宫崎的门下和去伦敦。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「礼次郎さんは心鈴くんが宮崎の門下に入る事も、ロンドンに行く事も基本的には反対されていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 241,
+	},
+	block_00043 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0008", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10171", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“对我这样的人来说，女儿站在华丽的舞台上是不好的。因为这是不站在舞台上的权力。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「私の様な人間にとって、娘が華やかな表舞台に立つのは好ましくない。",
+					{"rt2"},
+					"表舞台に立たないからこその権力なのだからな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 248,
+	},
+	block_00044 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		delay = {
+			vl02 = {
+				{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0004", head="hos_z1a", x=345, lv=4, id=6},
+			},
+			vl01 = {
+				{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10722", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“是吗？礼次郎先生长期来看宫崎绘画学校。正因为如此，我才不想让自己的女儿进入那样残酷的世界。我是这样感受到的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「そうでしょうか？　礼次郎さんは、長い間宮崎絵画学校を見て来られた。",
+					{"rt2"},
+					"だからこそ、自分の娘さんをその様な過酷な世界に入れたくは無かった。",
+					{"rt2"},
+					"その様に私には感じられましたが？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 257,
+	},
+	block_00045 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0002", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"本间礼次郎苦笑。",
+				},
+			},
+        	ja = {
+				{
+					"本間礼次郎が苦笑する。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 262,
+	},
+	block_00046 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10172", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“因为和你的交往也很长。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「君との付き合いも長いからな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 267,
+	},
+	block_00047 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0003", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10723", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“因为是从高中开始交往的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「高校からの付き合いですからね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 272,
+	},
+	block_00048 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0003", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="礼次郎", size="z1", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0002", ex03="a0097", head="rej_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10173", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“呵呵，没想到会和你交往这么久。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「ふふふ、君とこんな長い付き合いになるとは思わなかったよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 278,
+	},
+	block_00049 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10724", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“礼次郎从那时候开始就只想着成为经营者，但对从事艺术相关的我表示了兴趣，关系很好。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「礼次郎さんは、あの頃から経営者になる事しか考えていなかったのに、芸術関連に進む私に興味を示し仲良くしてくださった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 284,
+	},
+	block_00050 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10174", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“这是理所当然的。经营中最重要的是逻辑和工艺，还有艺术。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「当たり前さ。経営において大事なのは、ロジックとクラフト、そしてアートだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 289,
+	},
+	block_00051 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0004", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10175", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“其中，企业中唯一无法模仿的东西。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「この中で、企業において唯一真似出来ないものがある」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 294,
+	},
+	block_00052 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10725", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“那就是艺术。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「それがアートであると」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 299,
+	},
+	block_00053 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0005", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10176", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“啊，美是主观的，连最优解都不存在。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「ああ、美は主観的なものだ。最適解すら存在しない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 304,
+	},
+	block_00054 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0011", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10177", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“如果美有正确的标准，梵高、高更等也不会死于失意。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「美に正しい基準があるのならば、ゴッホやゴーギャンなどが失意の元に死ぬこともなかっただろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 309,
+	},
+	block_00055 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0004", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10726", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“但是，梵高和高更现在吸引了全世界的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「だが、ゴッホやゴーギャンは今や世界中の人々を魅了している」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 314,
+	},
+	block_00056 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0002", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10178", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"「没错，人们爱上了他们关于美的故事，爱上了与美融为一体的人生。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「そうだ。人々は彼らの美にまつわる物語そのものを愛した。",
+					{"rt2"},
+					"美と一体化した人生を愛した」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 321,
+	},
+	block_00057 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", x=345, lv=4, id=6},
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0009", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10179", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“美没有根本的正确性，而且与之相关的故事是不可能复制的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「美には、根本的な正しさなどなく、そしてそこにまつわる物語に複製などありえない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 327,
+	},
+	block_00058 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10180", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“我认为经营的本质是美，即使它是缺德之美，也还是要在那里有美。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「私は経営の本質は美だと思っている。",
+					{"rt2"},
+					"それが悪徳の美だとしても、やはりそこに美しさがなければならない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 333,
+	},
+	block_00059 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10727", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“是恶德之美吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「悪徳の美ですか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 338,
+	},
+	block_00060 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0011", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0004", head="rej_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10181", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“啊，对了。这是缺德之美。包括这一点在内，美是很珍贵的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「ああ、そうだ。悪徳の美だよ。",
+					{"rt2"},
+					"それも含めて、美は尊いのだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 345,
+	},
+	block_00061 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0011", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10728", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“为什么礼次郎以中村家的六相图为担保贷款那么多钱呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「何故、礼次郎さんは中村家の六相図を担保にあれほどの金を貸し付けているのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 350,
+	},
+	block_00062 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10182", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“哼，你听那个吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「ふっ、それを聞くか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 355,
+	},
+	block_00063 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0002", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10729", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“一般都会听的，你的眼睛能看透一切。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「普通は聞くでしょう。あなたの眼はすべてを見抜く」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 360,
+	},
+	block_00064 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10730", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“不用我说，我就知道那是赝品。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「私に言われるまでもなく、あれが贋作である事を知っていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 366,
+	},
+	block_00065 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0004", head="hos_z1a", x=345, lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0003", head="hos_z1a", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10731", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“尽管如此，你在那个假货上投入了大量资金，我很在意。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「にもかかわらず、あなたはあの偽物に大金を投じている。",
+					{"rt2"},
+					"普通に気になりますよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 373,
+	},
+	block_00066 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0010", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10183", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“草薙健一郎的事，我从以前就听你说过。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「草薙健一郎の事は、昔から君から聞いていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 378,
+	},
+	block_00067 = {
+		{"fg", ch="放哉", size="z1", mode=3, path=":fg/hos/z1/", file="hos_z1a0000", face="a0001", head="hos_z1a", x=345, lv=4, id=6},
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0010", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10184", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“但是，我没有见到他。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「だが、私は彼に会わなかった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 384,
+	},
+	block_00068 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10185", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“到了现在就会这样想。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「今になるとこんな風に思ったりする」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 389,
+	},
+	block_00069 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0008", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10186", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“说不定连宫崎破戒都不怕的我本能地对草薙健一郎抱有恐惧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「もしかしたら、宮崎破戒すら恐れぬ私が本能的に草薙健一郎に恐れを抱いていたのかもしれない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 394,
+	},
+	block_00070 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10187", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“正因为如此，我想在看到那张六相图的时候和草薙健一郎见面。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「だからこそ、あの六相図を見たときに草薙健一郎に会おうと思った」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 399,
+	},
+	block_00071 = {
+		{"fg", ch="礼次郎", size="z1", ex03="a0097", mode=3, path=":fg/rej/z1/", file="rej_z1a0000", face="a0001", head="rej_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10188", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“因为是他的最后一刻，所以我想一定要和最可怕的美巨人见面吧……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「彼の最後の瞬間だから、もっとも恐ろしい美の巨人と会わなければならないと思ったのだろう……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 404,
+	},
+	block_00072 = {
+		{"bgm", stop=1, time=5000},
+		{"msgoff"},
+		{"bg", time=2000, file="ev_etc_01_28", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"ex", time=3000, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10189", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“那天的事，我忘不了。”",
+				},
+			},
+        	ja = {
+				{
+					"「あの日の事は、忘れられない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 415,
+	},
+	block_00073 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="white", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=0, func="wait"},
+		{"ex", time=1500, func="wait"},
+		{"bg", file="ev_etc_01_07", path=":ev/ev_etc_01/", set="ev_etc_01", sync=0},
+		{"bg", file="reco", id=9, lv=9, path=":sys/", sync=0},
+		{"extrans", time=2000},
+		{"ex", time=2000, func="wait"},
+		{"bg", file="ev_etc_01_07", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"ex", time=2000, func="wait"},
+		{"se", id=1, file="se0003"},
+		{"bg", time=2000, file="bg036c", path=":bg/", ax=960, ay=563, bx=0, by=-23},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10009", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“是谁？会面时间已经结束了吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「誰だ？　もう面会時間は終わったハズだが？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 444,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"美的怪物和让你说的人物。",
+				},
+			},
+        	ja = {
+				{
+					"美の化物と君に言わしめた人物。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 447,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"草薙健一郎。",
+				},
+			},
+        	ja = {
+				{
+					"草薙健一郎。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 450,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽然临近死亡的艺术家的声音确实有些沙哑，但声音确实很有力。",
+				},
+			},
+        	ja = {
+				{
+					"死が間近に近づいた芸術家の声はたしかにかすれてはいたが、それでも声はたしかに力強いものであった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 453,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10190", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“初次见面，我叫本间礼次郎。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「初めまして、私は本間礼次郎と言うものです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 456,
+	},
+	block_00078 = {
+		{"bg", zoom=80, speed=80000, file="zev_com_57_01", path=":ev/ev_com_57/", x2=150, y2=140, x=-90, y=150, set="ev_com_57", ax=1920, ay=1080, bx=-960, by=-540},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10010", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“本间礼次郎？啊，确实是铁道王后裔的资产家。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「本間礼次郎？　ああ、たしか鉄道王の末裔の資産家さんだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 463,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10191", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“对不起，这么晚没能见到您。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「この様な時間に申し訳ありません。",
+					{"rt2"},
+					"否、この様な時間でしかお会いする事がかないませんでした」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 467,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10011", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“那是什么？代表日本的资产家，对这个快要死的艺术家有什么用？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「それはそれは、それで？　日本を代表する様な資産家が、この死にかけの芸術家に何用ですかい？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 470,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10192", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“我看了中村家收藏的六相图。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「私、中村家所蔵の六相図を見まして」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 473,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10012", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“哦，那个还没有公开，我记得只有一部分人知道？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「ほう、アレはまだ公開すらされておらず、一部の人間しか知らないものだと記憶しておりますが？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 478,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10193", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“这是只有资产家才有的故事吗？我今天在中村府邸看到了那个作为老师的作品。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「資産家ならではのつてというものでしょうか？",
+					{"rt2"},
+					"私はアレを本日、中村邸で先生の作品として拝見させていただきました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 482,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10013", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“原来如此……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「なるほど……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 485,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"草薙健一郎点了点头，微微一笑，问道：。",
+				},
+			},
+        	ja = {
+				{
+					"草薙健一郎は頷くと、小さく笑ってこんな問いかけをしてきた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 488,
+	},
+	block_00086 = {
+		{"bg", file="ev_com_57_01", path=":ev/ev_com_57/", set="ev_com_57"},
+		{"bgm", file="bgm176", vol=30, time=120000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10014", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“让我直截了当地问一下，你觉得那个美怎么样？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「端的に聞きましょう。",
+					{"rt2"},
+					"あの美に関してどう思われましたか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 496,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10194", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 499,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"在那一瞬间，放哉君。我明白你害怕草薙健一郎的原因了。",
+				},
+			},
+        	ja = {
+				{
+					"その瞬間に、放哉くん。",
+					{"rt2"},
+					"君が草薙健一郎を恐れた理由が分かったよ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 503,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"他不是问“你觉得那幅画怎么样？”而是问“你对那幅画有什么看法？”。",
+				},
+			},
+        	ja = {
+				{
+					"彼は「あの絵をどう思いましたか？」ではなく「あの美に関してどう思われましたか？」と聞いた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 506,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"明确地说，被问到了六相图的本质。",
+				},
+			},
+        	ja = {
+				{
+					"端的に、六相図の本質を問われたのだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 509,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10195", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“是关于那个美吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「あの美に関してですか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 512,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10196", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“为什么不是对那幅画的感想，而是问与那幅画相关的美呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「何故、あの絵の感想ではなく、あの絵に関わる美について問われるのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 515,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10015", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“是啊，直截了当地说——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「そうですねぇ。端的にいえば――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 518,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10016", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“我一直以艺术家这个骗局为生，所以我在强烈的审美意识下工作。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「私は芸術家というペテンを生業としてきました。",
+					{"rt2"},
+					"故に、私は強い美意識の元に仕事をやってきた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 522,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10017", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“正因为如此，我才会问那幅画所具有的‘美’。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「だからこそ、あの絵が持つ“美”について問うのです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 525,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10197", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“是艺术这个骗局吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「芸術というペテンですか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 528,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10018", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“骗子是一种把虚构的故事真实地卖给别人的职业。我一直把艺术这个空虚的故事真实地呈现出来，并不断地卖给别人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「ペテン師は架空の物語を真実にして人に売りつける職業です。",
+					{"rt2"},
+					"私は、芸術という空虚な物語を真実にし、他人に売り続けてきました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 532,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10198", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"「如果空洞的故事是真实的，那不就不是骗局了吗？因为骗子的谎言会变得不真实，所以才是骗子。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「空虚な物語が真実となるのならばペテンではないのではないですか？",
+					{"rt2"},
+					"ペテン師は、その嘘が真実で無くなるからこそ、詐欺師なのですから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 536,
+	},
+	block_00099 = {
+		{"bgm", file="bgm176", vol=30},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10019", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“把谎言像真实一样出卖的是三流骗子。把谎言变成真实的是二流骗子。把谎言变成真实，连世界都改变的是一流的骗子。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「嘘を真実の様に売りつけるのは三流のペテン師です。",
+					{"rt2"},
+					"嘘を真実に変えるのは二流のペテン師です。",
+					{"rt2"},
+					"嘘を真実に変えて、世界すらも変えてしまうのが一流のペテン師です」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 543,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10199", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“用谎言改变世界是一流的骗子吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「嘘で世界を変えてしまうのが一流のペテン師ですか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 546,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10020", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“是的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「そうです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 549,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10021", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“如果不能用谎言改变世界，就不能说是真正的梦想家。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「嘘で世界を変える事が出来なければ、真の夢想家とは言えない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 552,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10022", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“真正不是梦想家的艺术家是没有价值的。那样的东西远远比不上优秀的工匠。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「真に夢想家でない芸術家など価値はない。",
+					{"rt2"},
+					"そんなものは、優れた職人に遠く及ばない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 556,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10023", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“空想家只有通过美，才能在美的本性中推测其力量。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「空想家は、美によってだけ、美の本性においてのみ、その力を推し量ることが出来る」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 559,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10024", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"「所以我才要问，关于那部作品中蕴含的美。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「だから問うのです。あの作品に宿る",
+					{"ruby", text="カリス"},
+					"美",
+					{"/ruby"},
+					"について」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 563,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10200", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“那么，我也有问题。可以吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「ならば、私からも質問があります。よろしいでしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 566,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10025", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“请。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「どうぞ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 569,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10201", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“那是老师的作品吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「あれは、先生の作品なのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 572,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10026", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“那是我的作品，是我的墓志铭。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「あれは、私のための作品です。",
+					{"rt2"},
+					"私の墓碑銘という名の絵画です」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 576,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10027", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“作者是草薙直哉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「作者は草薙直哉」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 579,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10202", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“这是草薙直哉为老师画的作品吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「草薙直哉氏が、先生のために描いた作品という事でしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 582,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10028", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“是啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「そうですね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 585,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10029", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“我很喜欢那个六相图，我想大概，它有改变世界的力量。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「あの六相図を私は気に入っています。",
+					{"rt2"},
+					"たぶん、あれは世界を変える力を持つと思います」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 589,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10030", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“因为一流的骗子是为了结束一生而献上的最好的骗局。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「一流のペテン師が、その生涯を閉じるために捧げられた最高のペテンなのですから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 592,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10203", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 595,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"他完全不想隐瞒那部作品是赝品。",
+				},
+			},
+        	ja = {
+				{
+					"彼は、あの作品が贋作である事をまったく隠そうとしなかった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 598,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不仅如此，他还对我说：“面对那赝品，你会选择什么呢？”。",
+				},
+			},
+        	ja = {
+				{
+					"それどころか、私に対して「あの贋作を目の前にして、あんたは何を選択するのだ？」と迫る様な言葉を投げかけてきた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 601,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我不由得笑了起来。",
+				},
+			},
+        	ja = {
+				{
+					"私は思わず笑ってしまったよ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 604,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10204", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“我正在考虑投资那幅画。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「私はあの絵に投資しようと考えています」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 607,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10205", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“所以，我想和你见面。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「だから、あなたと会っておきたかった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 610,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10206", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“被称为美之化物的你”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「美の化物と言われるあなたに」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 613,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10031", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“是美的怪物吗……竟然被你这种怪物般的人这么说。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「美の化物か……。",
+					{"rt2"},
+					"あんたみたいな化物の様な人間に言われるとはなぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 617,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10207", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“我是怪物吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「私が化物ですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 620,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10032", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“有自觉吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「自覚はあるのでしょう？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 623,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10208", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“是啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「そうですね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 626,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10209", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“呵呵，因为彼此都被称为怪物，所以人类的世界可能很难熟悉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「ふふふ、お互い化物と呼ばれるのですから、人の世はとかく我々には馴染みにくいのかもしれません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 629,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10033", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“怎么样？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「どうでしょうねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 632,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10034", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“我觉得人类的世界也不坏。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「俺は、なかなか人の世も悪くなかったと思っています」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 635,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10210", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“哦……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「ほう……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 638,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10035", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“人世间，有一切。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「人の世には、すべてがある」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 641,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10036", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“快乐，痛苦，喜悦，悲伤，愤怒，美丽，丑陋，所有的东西都塞满了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「快楽も、苦痛も、喜びも、悲しみも、怒りも、美しさも、醜さも、ありとあらゆるものが詰まっている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 644,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10037", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“世界上有一切——但我不属于那里。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「世界にはすべてがありながら――",
+					{"rt2"},
+					"――だが私はそこに属さない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 648,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10038", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“正因为如此，我才能找到‘生存’的意义和意义。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「だからこそ私は“生きる”意義と意味を見いだす事が出来る」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 651,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10211", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“同样，我也能发现‘活着’的无意义和不可理解……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「また同じく、私は“生きる”無意味さと不可解さを見いだす事も出来ると……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 654,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10039", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“没错。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「その通りです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 657,
+	},
+	block_00136 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10040", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“把我这个东西当作现象来看——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「私というものを現象の様にして見ると――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 660,
+	},
+	block_00137 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10041", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“就像是世界上明灭的光。就像美丽鸣响的光的音节。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「あたかも世界に明滅する光。",
+					{"rt2"},
+					"美しく鳴り響く光の音節の様です」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 664,
+	},
+	block_00138 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10212", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“是音节吗？在那个音节中，我们有幸福和不幸的声音。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「音節ですか。",
+					{"rt2"},
+					"その音節の中に我々は幸福という音や不幸という音を持つ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 668,
+	},
+	block_00139 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10213", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“音节中的声音，是变高变低，像波长一样闪烁吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「音節の中の音は、高くなったり低くなったり波長の様にきらめくというわけですかな？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 671,
+	},
+	block_00140 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10042", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“啊哈哈，我明白了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「あはは、良くおわかりだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 674,
+	},
+	block_00141 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10043", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“声音绝对不是连续的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「音は決して連続ではない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 677,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10044", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“但是，在明灭的声音的流动中，人们看到了音乐。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「だが、明滅する音の流れに、人は音楽を見る」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 680,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10045", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“在明灭的节奏中看世界”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「明滅というテンポの中に世界を見る」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 683,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10046", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“如果没有明灭，即使有一切，也只能给人虚无。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「明滅が無ければ、すべてが有ったとしても、人には虚無しか与えられないでしょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 686,
+	},
+	block_00145 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10047", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“明灭的声音成为音节，告诉我们时间的流逝——告诉我们风景的流逝——然后我们可以安心地看到世界的身影。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「明滅という音が音節となり、時が流れる事を我々に教え――、風景が流れる事を我々に教え――、そして我々は安心して世界の姿を見る事が出来るのです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 689,
+	},
+	block_00146 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10048", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“我认为艺术作品是让我们意识到这一点的契机。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「芸術作品とは、その様な事を我々に気が付かせてくれる契機となるものだと思います」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 692,
+	},
+	block_00147 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10214", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“原来如此，对于这样的草薙健一郎老师来说，‘美’到底是什么呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「なるほど、そんな草薙健一郎先生にとって“美”とはいかなるものになるのでしょうね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 695,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10049", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“所谓美，就是外侧的东西。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「美とは、外側にあるものですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 698,
+	},
+	block_00149 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10215", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“外侧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「外側？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 701,
+	},
+	block_00150 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10050", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“美也不属于世界。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「美もまた、世界に属していません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 704,
+	},
+	block_00151 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10051", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“所谓世界中的美丽，不过是作为现象的美丽明灭而已。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「世界の中にあるうつくしさとは、現象としてのうつくしさが明滅しているに過ぎない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 707,
+	},
+	block_00152 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10052", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“但是，那个明灭不是本质。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「だが、その明滅は本質ではありません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 710,
+	},
+	block_00153 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10053", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“美不是一种现象。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「美は現象ではないのです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 713,
+	},
+	block_00154 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10054", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“被认为是现象的美，只是世界上明灭的光。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「現象としてみられる美とはあくまでも、世界で明滅する光に過ぎない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 716,
+	},
+	block_00155 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10055", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“正因为如此，当别人收到它的时候，才会得到无与伦比的瞬间。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「だからこそ、人がそれを受け取った時に、比類無い瞬間を手に入れる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 719,
+	},
+	block_00156 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10056", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“只有在消失的光芒中，我们才能得到永恒。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「消え去る光の中にこそ、我々は永遠を手にするのです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 722,
+	},
+	block_00157 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10216", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“正因为毁灭，我们才能得到永恒。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「滅するからこそ、我々は永遠を手に入れる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 725,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10217", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“正因为产生，我们才能得到瞬间。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「生じるからこそ、我々は瞬間を手に入れる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 728,
+	},
+	block_00159 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10218", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“但是，我听了那个故事也会产生疑问。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「だが、私はそのお話を聞いて疑問も生まれます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 731,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10057", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“有什么疑问吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「どの様な疑問でしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 734,
+	},
+	block_00161 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10219", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“如果是这样的话，就没有产生和毁灭的必要了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「だとしたら、生じる事も滅する必要もない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 737,
+	},
+	block_00162 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10058", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“是什么原因呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「どの様な理由ででしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 740,
+	},
+	block_00163 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10220", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“不生，不灭，不出现，不去。因此，产生，毁灭，出现，消失。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「生じず、滅せず、現れず、去らず。",
+					{"rt2"},
+					"故に、生じて、滅して、現れ、消えていく」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 744,
+	},
+	block_00164 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10221", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“正因为如此，那才是永远和瞬间。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「だからこそ、それは永遠であり瞬間でありえる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 747,
+	},
+	block_00165 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10222", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“把瞬间的美作为永远的相来看，不就是这样的吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「瞬間としての美を永遠の相として見るとは、その様なものではないでしょうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 750,
+	},
+	block_00166 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10059", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“是的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「はい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 753,
+	},
+	block_00167 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10060", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“没错。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「その通りです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 756,
+	},
+	block_00168 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10061", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“但是，我不喜欢这样的说法。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「ですが、私はその様な言い方を好みません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 759,
+	},
+	block_00169 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10062", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“我们只要坦率地感受到它的诞生和消失。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「我々は、それが生まれること、そして消えていくこと。",
+					{"rt2"},
+					"それらを、素直にただ感じれば良いのです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 763,
+	},
+	block_00170 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10063", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“不要胡思乱想。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「いたずらに、難しく考えてはならない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 766,
+	},
+	block_00171 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10064", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“好像有。那件事只是神秘的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「ありようにしてある。",
+					{"rt2"},
+					"その事がただ神秘であるのです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 770,
+	},
+	block_00172 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10223", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“正因为做了那样的事，才是神秘吗……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「ありようにしてある事こそが、神秘ですか……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 773,
+	},
+	block_00173 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10065", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“偶尔也会有改变人生的时候。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「たまに、人生を振りかえる時があります」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 776,
+	},
+	block_00174 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10066", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“美丽的瞬间和丑陋的瞬间”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「美しい瞬間と醜い瞬間」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 779,
+	},
+	block_00175 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10067", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“那就像不幸和幸福一样。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「それは不幸な時と幸福な時と同じようなものです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 782,
+	},
+	block_00176 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10068", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“所以我想。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「だから私は思うのです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 785,
+	},
+	block_00177 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10069", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“我的人生充满了美，被美诅咒，并被美祝福。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「私の人生は美に満ちていました。",
+					{"rt2"},
+					"美に呪われ、そして美に祝福されていた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 789,
+	},
+	block_00178 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10070", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“在我身边，无论何时，都有美丽的花朵盛开，枯萎，散发着腐臭，腐朽不堪。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「私の傍らには、いつでも、美の花が咲き乱れ、枯れ、腐臭を放ち、朽ち果てている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 792,
+	},
+	block_00179 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10071", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“丑美是祝福和诅咒的同义词。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「醜美とは、祝福と呪いの同義です」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 795,
+	},
+	block_00180 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10072", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“那是非常棒的东西。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「それは、恐ろしくも素晴らしきものたちです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 798,
+	},
+	block_00181 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10073", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“我的生命就是这样的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「私の生とはその様なものでした」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 801,
+	},
+	block_00182 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10224", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 804,
+	},
+	block_00183 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10074", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“你是放哉的朋友吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「あなたは。放哉の友人なのでしょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 807,
+	},
+	block_00184 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10225", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“是的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「ええ、そうです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 810,
+	},
+	block_00185 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10075", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“我以为是。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「だと思いました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 813,
+	},
+	block_00186 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10226", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“你为什么这么想？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「何故、そう思われたのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 816,
+	},
+	block_00187 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10076", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“因为那家伙周围容易聚集浓重的面子。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「あいつの周りには濃い面子が集まりやすいですから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 819,
+	},
+	block_00188 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10227", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"「原来如此。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「なるほど、たしかに」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 822,
+	},
+	block_00189 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10077", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“那么，这是怎么回事呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「さて、どうしたものだろうか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 825,
+	},
+	block_00190 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10078", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“让难得的客人站着……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「せっかくの客人を立たせたままというのも……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00189",
+		linknext = "block_00191",
+		line = 828,
+	},
+	block_00191 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10079", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“但是，在遇见你之前，我已经喝完了幸福的美酒。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「だが、私は、あなたに出会う前に、すでに幸福の美酒を飲み干し終わっている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00190",
+		linknext = "block_00192",
+		line = 831,
+	},
+	block_00192 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10080", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“所以，我们不能一起喝酒。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「だから、共に酒を飲む事は出来ません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00191",
+		linknext = "block_00193",
+		line = 834,
+	},
+	block_00193 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_ken_10081", ch="ken"},
+			},
+		
+            cn = {
+				{
+					"“但是，如果是热茶的话也可以拿出来。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"健一郎"},
+					"「ですが、温かいお茶なら出す事も出来ます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00192",
+		linknext = "block_00194",
+		line = 837,
+	},
+	block_00194 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10228", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“那太好了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「それはありがたい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00193",
+		linknext = "block_00195",
+		line = 840,
+	},
+	block_00195 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10229", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“那我就恭敬不如从命了，占用您的时间。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「それではお言葉に甘えて、お時間を頂きます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00194",
+		linknext = "block_00196",
+		line = 843,
+	},
+	block_00196 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"画家说。",
+				},
+			},
+        	ja = {
+				{
+					"画家は語る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00195",
+		linknext = "block_00197",
+		line = 846,
+	},
+	block_00197 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"所以我也说了。",
+				},
+			},
+        	ja = {
+				{
+					"だから私も語った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00196",
+		linknext = "block_00198",
+		line = 849,
+	},
+	block_00198 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我们那天晚上。像老朋友一样说话。",
+				},
+			},
+        	ja = {
+				{
+					"我々はその晩。",
+					{"rt2"},
+					"旧友の様に語らった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00197",
+		linknext = "block_00199",
+		line = 853,
+	},
+	block_00199 = {
+		{"bg", file="black", time=1000, alpha=32, id=1, lv=9, sync=0, path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10230", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"赝品中蕴含着赝品的真实。其价值根据时间和场所的不同而有很大的变化，这只是与真作的差别。",
+				},
+			},
+        	ja = {
+				{
+					"贋作には贋作の真実が宿る。",
+					{"rt2"},
+					"その価値が時と場所によって大きく変わるのが真作との差なだけだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00198",
+		linknext = "block_00200",
+		line = 863,
+	},
+	block_00200 = {
+		{"bg", file="black", time=1000, alpha=50, id=1, lv=9, sync=0, path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10231", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"他和我说了那样的话……。",
+				},
+			},
+        	ja = {
+				{
+					"彼と私はそんな言葉を交わした……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00199",
+		linknext = "block_00201",
+		line = 870,
+	},
+	block_00201 = {
+		{"bg", file="black", time=1000, alpha=64, id=1, lv=9, sync=0, path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10232", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"不可思议的是，我和他是很久以前就认识的人，只感受到了好久没见面的感觉。",
+				},
+			},
+        	ja = {
+				{
+					"不思議と、彼とは昔からの知り合いであり、久しぶりに会ったという感じしか受けなかった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00200",
+		linknext = "block_00202",
+		line = 877,
+	},
+	block_00202 = {
+		{"bg", file="black", time=1000, alpha=75, id=1, lv=9, sync=0, path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10233", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"正因为如此，至今为止没有见面的事情令人费解，也很得意。",
+				},
+			},
+        	ja = {
+				{
+					"だからこそ、今まで会わなかった事を不可解としながら、得心もした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00201",
+		linknext = "block_00203",
+		line = 884,
+	},
+	block_00203 = {
+		{"bg", file="black", time=1000, alpha=90, id=1, lv=9, sync=0, path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10234", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"美是不可思议的东西。",
+				},
+			},
+        	ja = {
+				{
+					"美とは不思議なものだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00202",
+		linknext = "block_00204",
+		line = 891,
+	},
+	block_00204 = {
+		{"bg", file="black", time=1000, alpha=100, id=1, lv=9, sync=0, path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10235", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"完全没见过，也不知道的人。和这样的人，通过美能很强地连接起来。",
+				},
+			},
+        	ja = {
+				{
+					"まったく会った事もない、知りもしない人間。",
+					{"rt2"},
+					"そんな人間と、美によって強くつながる事が出来る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00203",
+		linknext = "block_00205",
+		line = 899,
+	},
+	block_00205 = {
+		{"bg", file="black", time=1000, alpha=110, id=1, lv=9, sync=0, path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10236", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"相反，无论多么亲密，无论重复多少语言，也有无法连接的关系。",
+				},
+			},
+        	ja = {
+				{
+					"逆に、どれほど親しくしていても、どれほどの言葉を重ねても、つながる事が出来ない関係もある。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00204",
+		linknext = "block_00206",
+		line = 906,
+	},
+	block_00206 = {
+		{"bg", file="black", time=1000, alpha=120, id=1, lv=9, sync=0, path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10237", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"越是和身边的人交谈，越会感到深深的孤独。",
+				},
+			},
+        	ja = {
+				{
+					"身近な人と、言葉を交わせば交わすほど、深い孤独を覚える。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00205",
+		linknext = "block_00207",
+		line = 913,
+	},
+	block_00207 = {
+		{"bg", file="black", time=1000, alpha=125, id=1, lv=9, sync=0, path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10238", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"语言的数量、时间、距离都没有关系。",
+				},
+			},
+        	ja = {
+				{
+					"言葉の数も、時間も、距離も、関係ない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00206",
+		linknext = "block_00208",
+		line = 920,
+	},
+	block_00208 = {
+		{"bg", file="black", time=1000, alpha=130, id=1, lv=9, sync=0, path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10239", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"如果那里没有美的话，人在本质上是无法联系在一起的。",
+				},
+			},
+        	ja = {
+				{
+					"そこに美がなければ、人は本質的な意味で、つながりあう事は出来ない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00207",
+		linknext = "block_00209",
+		line = 927,
+	},
+	block_00209 = {
+		{"bg", file="black", time=1000, alpha=135, id=1, lv=9, sync=0, path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10240", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"那么，草薙健一郎和我有什么美呢？",
+				},
+			},
+        	ja = {
+				{
+					"だったら、草薙健一郎と私にどんな美があったのだろうか？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00208",
+		linknext = "block_00210",
+		line = 934,
+	},
+	block_00210 = {
+		{"bg", file="black", time=1000, alpha=140, id=1, lv=9, sync=0, path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10241", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"他有作为艺术的美，我有作为缺德的美。",
+				},
+			},
+        	ja = {
+				{
+					"彼には、芸術としての美があり、私には悪徳としての美があった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00209",
+		linknext = "block_00211",
+		line = 941,
+	},
+	block_00211 = {
+		{"bg", file="black", time=1000, alpha=145, id=1, lv=9, sync=0, path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10242", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"我觉得这两个是不可能相交的——，——不可思议地相交了。",
+				},
+			},
+        	ja = {
+				{
+					"その二つは交わる事などあり得ない様に思えたが――、",
+					{"rt2"},
+					"――不思議と交わる事が出来た。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00210",
+		linknext = "block_00212",
+		line = 949,
+	},
+	block_00212 = {
+		{"bg", file="black", time=1000, alpha=150, id=1, lv=9, sync=0, path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10243", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"美的本质既不是“同意”，也不是“赞同”，也不是“想法相同”。",
+				},
+			},
+        	ja = {
+				{
+					"美の本質は、「同意」する事でも「同調」する事でも「考えが同じ」事でもない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00211",
+		linknext = "block_00213",
+		line = 956,
+	},
+	block_00213 = {
+		{"bg", file="black", time=1000, alpha=155, id=1, lv=9, sync=0, path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10244", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"无论多么遥远的存在，都能瞬间连接起来。",
+				},
+			},
+        	ja = {
+				{
+					"どんな遠い存在とも、瞬時につながる事が出来るという事。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00212",
+		linknext = "block_00214",
+		line = 963,
+	},
+	block_00214 = {
+		{"bg", file="black", time=1000, alpha=160, id=1, lv=9, sync=0, path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10245", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"这才是艺术的本性。",
+				},
+			},
+        	ja = {
+				{
+					"それこそ芸術の本性なのだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00213",
+		linknext = "block_00215",
+		line = 970,
+	},
+	block_00215 = {
+		{"bgm", stop=1, time=3000},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"ex", time=2000, func="wait"},
+		{"msgon", time=1000},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"真是个不可思议的夜晚。",
+				},
+			},
+        	ja = {
+				{
+					"不思議な夜だった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00214",
+		linknext = "block_00216",
+		line = 981,
+	},
+	block_00216 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我的缺德之美，与草薙健一郎的美融为一体，经历了最好的时刻。",
+				},
+			},
+        	ja = {
+				{
+					"私の悪徳の美は、草薙健一郎の美と溶けて交わって、最良の時を経験する事になった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00215",
+		linknext = "block_00217",
+		line = 984,
+	},
+	block_00217 = {
+		{"bgm", stop=1},
+		{"msgoff", time=1000},
+		{"ex", time=500, func="wait"},
+		{"bg", time=3000, file="ev_etc_01_87", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"bgm", file="bgm148"},
+		{"msgon", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10732", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“……你在想什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「……考え事ですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00216",
+		linknext = "block_00218",
+		line = 1006,
+	},
+	block_00218 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10246", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“不，没什么。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「いや、なんでもないさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00217",
+		linknext = "block_00219",
+		line = 1011,
+	},
+	block_00219 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10733", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“如果是和美有关的事，我随时都在想那个男人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「美に関わる事となれば、いつでもあの男の事を考えていますね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00218",
+		linknext = "block_00220",
+		line = 1016,
+	},
+	block_00220 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10734", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“一流骗子的墓志铭……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「一流のペテン師の墓碑銘……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00219",
+		linknext = "block_00221",
+		line = 1021,
+	},
+	block_00221 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10735", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“老实说，我很羡慕你。我和他是老朋友了，却听不到这样的话。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「正直、羨ましいですよ。私や彼は昔からの知り合いなのに、そんな言葉を聞く事は終ぞなかった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00220",
+		linknext = "block_00222",
+		line = 1027,
+	},
+	block_00222 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10247", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“那是因为世界上唯一与我所拥有的恶德之美交融的美，就是他的骗局。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「それは、世界で唯一私が持つ悪徳の美と溶け合う美が、彼のペテンだったからだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00221",
+		linknext = "block_00223",
+		line = 1033,
+	},
+	block_00223 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10736", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“一流的缺德之美和一流的骗局之美，是吗……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「一流の悪徳の美と一流のペテンの美、ですか……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00222",
+		linknext = "block_00224",
+		line = 1038,
+	},
+	block_00224 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10248", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“画家说……像诗人一样……不，是‘诗人说’。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「画家は語る…詩人の様に……いや。",
+					{"rt2"},
+					"“詩人は語る”だな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00223",
+		linknext = "block_00225",
+		line = 1045,
+	},
+	block_00225 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10737", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“诗人说？是Schumann的Der Dichter spricht吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「詩人は語る？　SchumannのDer Dichter sprichtですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00224",
+		linknext = "block_00226",
+		line = 1052,
+	},
+	block_00226 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10249", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“不，不是那样的。只是，无论是画家还是商人，在那样美丽的时间里编织语言的话，那就是诗人的语言。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「いや、そうじゃない。",
+					{"rt2"},
+					"ただ、画家であろうと商人であろうと、あの様な美しい時間の中で言葉を紡ぐとしたら、それは詩人の言葉だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00225",
+		linknext = "block_00227",
+		line = 1058,
+	},
+	block_00227 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10738", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“原来如此……是在美丽的‘刻’中说的话吗？那确实是‘诗’吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「なるほど……美しい“刻”の中で語られた言葉ですか。",
+					{"rt2"},
+					"それはたしかに“詩”でしょうね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00226",
+		linknext = "block_00228",
+		line = 1065,
+	},
+	block_00228 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10739", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“优美的节奏才是诗歌的源泉。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「美しいテンポこそが詩の源泉なのですから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00227",
+		linknext = "block_00229",
+		line = 1070,
+	},
+	block_00229 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10740", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“诗人说，从各自强大的世界开始。正因为如此，才会成为美相互重叠的诗。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「詩人は語る、それぞれの強い世界から。",
+					{"rt2"},
+					"だからこそ、それぞれ美が重なり合い詩となる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00228",
+		linknext = "block_00230",
+		line = 1076,
+	},
+	block_00230 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10741", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“因为‘诗人说’，所以‘诗人互相理解’”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「“詩人は語る”ゆえに”詩人はわかり合う”」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00229",
+		linknext = "block_00231",
+		line = 1081,
+	},
+	block_00231 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10250", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“哼，这是你的说法。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「ふっ、君らしい言い方だな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00230",
+		linknext = "block_00232",
+		line = 1086,
+	},
+	block_00232 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10742", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“您不喜欢吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「お気に召しませんでしたか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00231",
+		linknext = "block_00233",
+		line = 1091,
+	},
+	block_00233 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10251", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“不，是你的品位很好的话。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「いや、君らしいセンスが良い言葉だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00232",
+		linknext = "block_00234",
+		line = 1096,
+	},
+	block_00234 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10743", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“谢谢。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「ありがとうございます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00233",
+		linknext = "block_00235",
+		line = 1101,
+	},
+	block_00235 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10252", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“那么，差不多该回去工作了吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「さて、そろそろ仕事に戻るとするか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00234",
+		linknext = "block_00236",
+		line = 1106,
+	},
+	block_00236 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10744", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“你不去看看你女儿穿新制服的样子吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「娘さんの新しい制服姿を見ていかないのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00235",
+		linknext = "block_00237",
+		line = 1111,
+	},
+	block_00237 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10253", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“呵呵，你和草薙直哉约好了，下次见面是特别的时候。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「ふふふ、草薙直哉くんとは約束していてだね。",
+					{"rt2"},
+					"次に会うときは特別な時だと決めているのだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00236",
+		linknext = "block_00238",
+		line = 1118,
+	},
+	block_00238 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hos_10745", ch="hos"},
+			},
+		
+            cn = {
+				{
+					"“原来如此，怪人本间礼次郎先生也只是一个父母。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"放哉"},
+					"「なるほど、怪人本間礼次郎氏もまた、一人の親でしかないと」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00237",
+		linknext = "block_00239",
+		line = 1123,
+	},
+	block_00239 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10254", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“是啊，但如果你不让她幸福，我随时都会让那个男人再跑一趟。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「そうだな。だが、あの娘を幸せにしないのであれば、私はいつでもあの男を再び奔らせるさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00238",
+		linknext = "block_00240",
+		line = 1129,
+	},
+	block_00240 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_rej_10255", ch="rej"},
+			},
+		
+            cn = {
+				{
+					"“在艺术的漩涡中。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"礼次郎"},
+					"「芸術という渦の中にね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00239",
+		linknext = "block_00241",
+		line = 1136,
+	},
+	block_00241 = {
+		{"bgm", stop=1, time=3000},
+		{"bg", time=2000, file="ev_etc_01_28", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"两个人走了起来……离开了弓张。",
+				},
+			},
+        	ja = {
+				{
+					"二人は歩き出し……弓張を後にした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00240",
+		linknext = "block_00242",
+		line = 1145,
+	},
+	block_00242 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"她看着从那样的梦浮坂下来的两个人。",
+				},
+			},
+        	ja = {
+				{
+					"そんな夢浮坂を降りる二人を彼女は見ていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00241",
+		linknext = "block_00243",
+		line = 1148,
+	},
+	block_00243 = {
+		{"bgm", file="bgm165"},
+		{"bg", zoom=80, speed=5000, file="zev_com_56_01", path=":ev/ev_com_56/", x2=210, y2=-90, x=410, y=160, set="ev_com_56", ax=1920, ay=1080, bx=-960, by=-540},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13285", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00242",
+		linknext = "block_00244",
+		line = 1157,
+	},
+	block_00244 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不让你看到制服的样子真是太好了吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「制服姿、見せなくて良かったのか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00243",
+		linknext = "block_00245",
+		line = 1160,
+	},
+	block_00245 = {
+		{"bg", file="ev_com_56_01", path=":ev/ev_com_56/", set="ev_com_56"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13286", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我想大概很好。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「たぶん、良いと思います」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00244",
+		linknext = "block_00246",
+		line = 1165,
+	},
+	block_00246 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“为什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なぜ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00245",
+		linknext = "block_00247",
+		line = 1168,
+	},
+	block_00247 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13287", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“今天早上，蓝先生说了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「今朝、藍さんが仰ってました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00246",
+		linknext = "block_00248",
+		line = 1173,
+	},
+	block_00248 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13288", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“各种各样的人都帮助了我。正因为如此，才有了现在的我。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「いろいろな人が助けてくれた。",
+					{"rt2"},
+					"だからこそ今の私がある」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00247",
+		linknext = "block_00249",
+		line = 1177,
+	},
+	block_00249 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13289", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我也完全一样。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「私もまったく同じです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00248",
+		linknext = "block_00250",
+		line = 1180,
+	},
+	block_00250 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13290", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“来这里之前发生了很多好事，很多坏事，真的发生了很多。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ここに来るまで沢山の良いこと、沢山の悪いこと、本当にいろいろありました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00249",
+		linknext = "block_00251",
+		line = 1183,
+	},
+	block_00251 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13291", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“这一切都有各种各样的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「そのすべてに、いろいろな人の姿がありました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00250",
+		linknext = "block_00252",
+		line = 1186,
+	},
+	block_00252 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13292", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我总是迷路——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「私はいつも迷子で――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00251",
+		linknext = "block_00253",
+		line = 1189,
+	},
+	block_00253 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13293", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“自己是从哪里来的——自己是什么人——然后要去哪里——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「自分が何処から来たのか――",
+					{"rt2"},
+					"自分が何者であるか――",
+					{"rt2"},
+					"そして何処に行こうとしているか――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00252",
+		linknext = "block_00254",
+		line = 1194,
+	},
+	block_00254 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13294", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我不知道所有的事情，只是彷徨的存在。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「すべてのことが分からずにただ彷徨うだけの存在でした」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00253",
+		linknext = "block_00255",
+		line = 1197,
+	},
+	block_00255 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13295", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"「可是，那个时候——我的师傅给了我一本饼干书。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ですが、あの時――、",
+					{"rt2"},
+					"一冊のクロッキーブックを、私の師匠が与えてくれました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00254",
+		linknext = "block_00256",
+		line = 1201,
+	},
+	block_00256 = {
+		{"bg", sync=0, face=1, file="ev_com_56_02", time=400, path=":ev/ev_com_56/", set="ev_com_56"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13296", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“从那里，我在纸和铅笔里找到了我。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「そこから、私は私を紙と鉛筆の中に見つける事ができました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00255",
+		linknext = "block_00257",
+		line = 1208,
+	},
+	block_00257 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13297", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“只要动动铅笔，画出来，我就得救了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「鉛筆を動かし、ただ描く事で、私は救われました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00256",
+		linknext = "block_00258",
+		line = 1211,
+	},
+	block_00258 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13298", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“因为是那样的我……所以不希望太多。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「そんな私でしたから……あまり多くの事は望みませんでした」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00257",
+		linknext = "block_00259",
+		line = 1214,
+	},
+	block_00259 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13299", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“不，太多的幸福太多了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「いいえ、あまりに多くの幸福は手に余ります」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00258",
+		linknext = "block_00260",
+		line = 1217,
+	},
+	block_00260 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13300", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我想无论什么时候都要谨慎地生活。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「私はいつでも慎ましく生きようと思いました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00259",
+		linknext = "block_00261",
+		line = 1220,
+	},
+	block_00261 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13301", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“自从和师傅分手后，我一直这么想……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「師匠と別れてから、ずっとそう思ってきました……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00260",
+		linknext = "block_00262",
+		line = 1223,
+	},
+	block_00262 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13302", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“但是，我和你相遇——”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「けど、私はあなたと出会って――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00261",
+		linknext = "block_00263",
+		line = 1226,
+	},
+	block_00263 = {
+		{"bg", sync=0, face=1, file="ev_com_56_03", time=400, path=":ev/ev_com_56/", set="ev_com_56"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13303", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我想要比这更幸福的幸福……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「私は、それ以上の幸せが欲しいと思ってしまいました……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00262",
+		linknext = "block_00264",
+		line = 1233,
+	},
+	block_00264 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13304", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“我的手中，现在充满了幸福。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「私の手には、今や溢れんばかりの幸せでいっぱいです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00263",
+		linknext = "block_00265",
+		line = 1236,
+	},
+	block_00265 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13305", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“如果不注意的话，就会充满很多幸福……，会变得害怕……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「注意しないと、こぼれ落ちそうなぐらい沢山の幸せが溢れていて……、怖くなります……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00264",
+		linknext = "block_00266",
+		line = 1239,
+	},
+	block_00266 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“为什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「何故だい？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00265",
+		linknext = "block_00267",
+		line = 1242,
+	},
+	block_00267 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13306", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“因为连一点点的瞬间都不想错过……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「ほんの少しの瞬間さえ逃したくないからです……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00266",
+		linknext = "block_00268",
+		line = 1245,
+	},
+	block_00268 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13307", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“和你在一起的幸福时光，不应该有遗漏。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「あなたとの幸せな時を、取りこぼすことがあってはならないから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00267",
+		linknext = "block_00269",
+		line = 1248,
+	},
+	block_00269 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“没关系的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「大丈夫だよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00268",
+		linknext = "block_00270",
+		line = 1251,
+	},
+	block_00270 = {
+		{"bg", time=500, file="ev_com_56_04", path=":ev/ev_com_56/", set="ev_com_56"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我从后面抱住心铃。",
+				},
+			},
+        	ja = {
+				{
+					"俺は後ろから心鈴くんを抱きしめる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00269",
+		linknext = "block_00271",
+		line = 1256,
+	},
+	block_00271 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“无论多少，只要传达幸福的时间就好了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いくらでも、幸福な時間を取りこぼせばいいさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00270",
+		linknext = "block_00272",
+		line = 1261,
+	},
+	block_00272 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“因为那种幸福，是永远持续涌出的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「その幸福は、いつまでも湧き続けるハズだから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00271",
+		linknext = "block_00273",
+		line = 1264,
+	},
+	block_00273 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“至少，如果你希望的话，我会继续给予你。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「少なくとも、君が望むのならば、俺はいくらでも与え続ける」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00272",
+		linknext = "block_00274",
+		line = 1267,
+	},
+	block_00274 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13308", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“真是的……正因为如此。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「まったく……そんなだからですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00273",
+		linknext = "block_00275",
+		line = 1270,
+	},
+	block_00275 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13309", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“太幸福了……还不能告诉爸爸……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「あまりに幸せすぎて……、まだお父さんに伝えることが出来ません……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00274",
+		linknext = "block_00276",
+		line = 1273,
+	},
+	block_00276 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13310", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“以这样幸福的心情，向那个人传达什么好呢……我还不知道。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「こんな幸せな気持ちで、あの人に何を伝えればいいのか……まだ私には分かりません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00275",
+		linknext = "block_00277",
+		line = 1276,
+	},
+	block_00277 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是吗，也许是吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そうか、そうかもな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00276",
+		linknext = "block_00278",
+		line = 1279,
+	},
+	block_00278 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“但是，知道了的时候一起去传达吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「でもさ、それが分かった時には伝えに一緒に行こう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00277",
+		linknext = "block_00279",
+		line = 1282,
+	},
+	block_00279 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“两个人告诉爸爸吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「二人でお父さんに伝えよう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00278",
+		linknext = "block_00280",
+		line = 1285,
+	},
+	block_00280 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“谢谢你。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ありがとうございましたってな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00279",
+		linknext = "block_00281",
+		line = 1288,
+	},
+	block_00281 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_13311", ch="mis"},
+			},
+		
+            cn = {
+				{
+					"“是的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"心鈴"},
+					"「はい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00280",
+		linknext = "block_00282",
+		line = 1291,
+	},
+	block_00282 = {
+		{"bg", time=2000, file="white", path=":bg/"},
+		{"ex", time=1000, func="wait"},
+		{"bg", time=3000, file="ev_etc_01_28", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"冬天过去了，春天来了。",
+				},
+			},
+        	ja = {
+				{
+					"冬が過ぎて、春が来た。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00281",
+		linknext = "block_00283",
+		line = 1298,
+	},
+	block_00283 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"弓张丘上樱花盛开的时候……。",
+				},
+			},
+        	ja = {
+				{
+					"弓張の丘に桜が咲き誇る頃……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00282",
+		linknext = "block_00284",
+		line = 1301,
+	},
+	block_00284 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我们交换了约定的吻。",
+				},
+			},
+        	ja = {
+				{
+					"俺達は約束の口づけをかわした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00283",
+		linknext = "block_00285",
+		line = 1304,
+	},
+	block_00285 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="white", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=0, func="wait"},
+		{"ex", time=5000, func="wait"},
+		{"staffroll", route="staff_03mis"},
+		{"bg", time=3000, file="white", path=":bg/"},
+		{"eval", exp="g.mis=1"},
+		{"タイトル"},
+		{"text"},
+		linkback = "block_00284",
+		line = 1318,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

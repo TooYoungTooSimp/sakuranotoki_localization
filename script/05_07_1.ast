@@ -1,0 +1,3331 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="第Ⅴ章"},
+		{"msg", no=1},
+		{"bg", file="アイキャッチ05", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans"},
+		{"ex", time=5000, func="wait"},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", label="flagon", cond="g.countdown7==1"},
+		{"skipstop"},
+		{"autoplay", speed=500, wait=500, auto=500},
+		{"bg", file="カウントダウン07_1", id=1, lv=5, path=":cg/"},
+		{"ex", time=1500, func="wait"},
+		{"se", id=1, file="se0147"},
+		{"bg", file="カウントダウン07_2", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans", time=500},
+		{"ex", time=3000, func="wait"},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"autoplay", mode="stop"},
+		{"excall", label="join"},
+		{"bg", file="カウントダウン07_1", id=1, lv=5, path=":cg/"},
+		{"ex", time=1500, func="wait"},
+		{"se", id=1, file="se0147"},
+		{"bg", file="カウントダウン07_2", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans", time=500},
+		{"ex", time=3000, func="wait"},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"eval", exp="g.countdown7=1"},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg062a", path=":bg/", sync=0},
+		{"fg", ch="フリッドマン", size="z1", mode=3, resize=1, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9, sync=0},
+		{"extrans"},
+		{"bgm", file="bgm136"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 68,
+	},
+	block_00001 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0010", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10304", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“你怎么露出惊讶的表情？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「どうした怪訝な顔をして」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 73,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“也会露出惊讶的表情吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「怪訝な顔にもなるだろ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 76,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我来到了那个绘画对决的会场。",
+				},
+			},
+        	ja = {
+				{
+					"俺はくだんの絵画対決する会場に来ていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 79,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“虽然是向摩尔财团反旗的大会，但这里不是摩尔财团的设施吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ムーア財団に反旗を翻した大会なのにもかかわらず、ここはムーア財団の施設なんじゃないのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 84,
+	},
+	block_00005 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10305", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“啊，是的。不过这是东亚地区摩尔财团管理的设施。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ああそうだ。ただ正しくは東アジア地区ムーア財団が管理する施設だがな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 89,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇，真是了不起的表演啊，弗里德曼。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ったく、大した名演技だったな、フリッドマン」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 92,
+	},
+	block_00007 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10306", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「何がだ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 97,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“完全是不正规的演出”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「いかにもイレギュラーで起きてしまったかの様な演出」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 100,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那个铁道王和摩尔敌对，让他站在夺走资源的位置上，你从那个动向中采取了保护摩尔财团的立场。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「あの鉄道王がムーアと敵対してそのリソースを奪う様な立ち位置にさせて、お前はその動きからムーア財団を守る様な立場を振る舞う」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 103,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“如果对摩尔财团来说给予鞭子的是铁道王的话，给予糖果的就是你。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ムーア財団にとってムチを与えるのが鉄道王なら、アメを与えるのがお前となる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 106,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「这是黑帮经常使用的手法，用恐吓和甜言蜜语来动摇。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ヤクザがよくやる手法だよ。恫喝と甘言をつかって揺さぶりをかける」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 109,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“如果那个甜言蜜语成为摩尔财团内部的人，本部的人就不得不相信。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「その甘言がムーア財団内部の人間となれば、本部の人間は信用せざるを得ない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 112,
+	},
+	block_00013 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10307", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“对你来说，这是一个很好的答案。确实，大致来说是正确的，但也不是那么简单的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「お前にしては良く出来た答えだ。",
+					{"rt2"},
+					"たしかに大筋では正解だが、それほど単純なものでもないさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 118,
+	},
+	block_00014 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10308", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“像摩尔基金会那样的组织不可能因为那种程度的动摇而行动。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ムーア財団ほどの組織があの程度の揺さぶりで動くわけがない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 123,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“你是说糖果更大吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「アメはもっと大きいという事か？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 126,
+	},
+	block_00016 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"弗里德曼略显惊讶。真是的，被这家伙一直舔着。",
+				},
+			},
+        	ja = {
+				{
+					"フリッドマンはやや驚いた顔を見せた。",
+					{"rt2"},
+					"まったく、こいつには舐められ続けている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 133,
+	},
+	block_00017 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0003", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10309", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“你脑子有点转了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「少しは頭が回る様になったのだな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 138,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“莫非也给摩尔基金会带来了相应的好处？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ムーア財団にもそれなりのメリットを与えたわけか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 142,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“也就是说，那位铁路大王为了与摩尔财团本部敌对而聚集的赞助商是至今为止摩尔所没有的面子。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「つまりは、あの鉄道王がムーア財団本部と敵対するために集めたスポンサーは",
+					{"rt2"},
+					"今までのムーアにはいない面子って事だな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 146,
+	},
+	block_00020 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10310", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“是正确答案。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「正解だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 151,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“在摩尔公开招募展开始之初，除了欧美和日本以外，几乎都是发展中国家。如果要举办大规模的投机目的公开招募的话，只要掌握G5各国就好了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ムーア公募展が開始された当初は、欧米と日本を除くほとんどが発展途上国だった。大規模な投機目的の公募を開くのであればG5諸国さえ押さえておけば良かった時代だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 154,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“但是，各国拥有力量的时代也已经远去了。如果要抓住在投资上有野心的富豪，也要向其他国家宣传。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だが、諸国が力を持っていた時代も遠くなった。投資に野心的な富豪を捕まえるのであればそれ以外の国にもアピールしなければならない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 157,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“当然，成为投资性艺术权威的摩尔的立场是那样的，但扩大范围的范围还远远不够。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「もちろん投資的な芸術権威となったムーアの立場はそれなりだが、それでも間口を広げられる範囲はまだまだだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 160,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“在这种情况下就是这次的事了。你们想大惊小怪什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そんな中で今回の話だ。",
+					{"rt2"},
+					"お前らは何をおっぱじめる気なんだ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 164,
+	},
+	block_00025 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10311", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“那正如你所说，这是商业。我们随时都是靠艺术赚钱的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「そりゃお前の言う通りビジネスだよ。我々はいつでも芸術で金を儲けている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 170,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那么？这次你在考虑什么样的商业计划？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それで？　今回はどんなビジネススキームを考えているんだ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 173,
+	},
+	block_00027 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0011", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"弗里德曼的嘴端稍微上吊了一下。",
+				},
+			},
+        	ja = {
+				{
+					"フリッドマンの口端が少しだけつり上がった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 178,
+	},
+	block_00028 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0004", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10312", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“世界看起来就像是在走向新的冷战状态。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「世界はまるで新たな冷戦状態に向かっている様に見える」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 183,
+	},
+	block_00029 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0005", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10313", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“但是，这绝对不是和美苏时代的冷战一样的构造。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「だがそれは決して、米ソ時代の冷戦と同じ構造ではない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 188,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10314", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“这是一种全新形式的对立。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「極めて新しい形の対立だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 193,
+	},
+	block_00031 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10315", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“无论在政治上如何对立，在经济上亚洲和欧美已经是无法割舍的关系。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「どれだけ政治的に対立しようとも、すでに経済的にはアジアと欧米は切っても切れない関係だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 198,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“亚洲和欧美……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「アジアと欧米か……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 201,
+	},
+	block_00033 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10316", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“从地缘政治角度看，这个国家刚刚好。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「地政学的にこの国はちょうどいい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 206,
+	},
+	block_00034 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10317", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“大约150年前开国，之后取得了惊人的发展，进入了列强国。作为亚洲唯一的帝国大国巩固其地位。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「150年ほど前に開国し、その後にめざましい発展を遂げて、列強国入りする。",
+					{"rt2"},
+					"アジアで唯一の帝国的大国としてその地位を固めるが」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 213,
+	},
+	block_00035 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10318", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“在上一次世界大战中失去了这一切。但是，也没有像德国那样东西分开，在美国的管理下作为民主主义国家重生。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「先の大戦でそのすべてを失う。",
+					{"rt2"},
+					"だが、ドイツの様に東西にわけられる事もなく、アメリカの管理下で民主主義国家として生まれ変わり」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 219,
+	},
+	block_00036 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10319", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“以被称为Japanese miracle的令人难以置信的速度完成战后复兴，1968年在GNP中排名世界第二。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「Japanese miracleと呼ばれるほどの信じがたい速度で戦後復興を成し遂げ、",
+					{"rt2"},
+					"1968年にはGNPで世界第2位となる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 225,
+	},
+	block_00037 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10320", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“之后进入长期低迷，但奇迹般的战后复兴，对其他亚洲国家产生了巨大影响。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「その後に長くの低迷に入るが、奇跡の戦後復興は、他のアジア諸国に大きな影響を与えた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 230,
+	},
+	block_00038 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10321", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“很多亚洲国家不是西欧，而是以这个国家为原型进行了经济发展。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「多くのアジア諸国が西欧ではなく、この国をモデルとした経済発展をおこなってきた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 235,
+	},
+	block_00039 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10322", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“日本这个国家在近代唯一没有在亚洲殖民地化，而是在远东这个地方保持了其独特的地位。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「日本という国は近代において唯一アジアで植民地化せずに、極東という地でその独特な地位を保ってきた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 240,
+	},
+	block_00040 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0001", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10323", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“在上一次世界大战中确实和几个国家有争执，但是除了欧洲各国以外，以这样的形式迎来成熟期的国家在亚洲只有这里。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「先の大戦でいくつかの国と確執があるのはたしかではあるが、ヨーロッパ諸国以外で円熟期をこの様な形で迎えている国はアジアではここしかない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 246,
+	},
+	block_00041 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10324", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“特别是在亚洲各国还处于发展中国家的时代，世界上影响力最大的事情是”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「特に、アジア諸国の多くがまだ発展途上国であった時代に、世界でもっとも影響力を振るった事は大きい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 251,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“失去的20年，1990年代本间一族是世界顶级的资产家。在那个时代，本间一族对亚洲产生了巨大的影响力吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「失われた20年、1990年代には本間一族は世界のトップの資産家であった。",
+					{"rt2"},
+					"あの時代には絶大な影響力をアジアに及ぼしていたのだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 255,
+	},
+	block_00043 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10325", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“就是这么回事。本间一族在欧美并没有那么大的影响力。但是，与黑暗社会有接触的本间一族在这个亚洲仍有一定的影响力。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「そういう事さ。本間一族は欧米ではそれほどの影響力があるわけではない。",
+					{"rt2"},
+					"だが、裏社会との接点すら持っていた本間一族はこのアジアにおいていま",
+					{"rt2"},
+					"だに一定の影響力を持っている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 263,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“说起亚洲，就是亚洲的超级大国。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「アジアというかアジアの超大国だな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 266,
+	},
+	block_00045 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10326", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“啊，在世界有可能再次被东西分割的今天，我想先在东西方建立艺术市场的管道。这是大部分人的真心话。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ああ、世界が再び東西に分断されかねない今こそ、先手で芸術市場でのパイプを東西に作っておきたい。これが大方の人間の本音だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 272,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“最大的是中国市场吗？然后瞄准其他亚洲国家的经济发展。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「もっとも大きいのは中国市場か。そしてその後に続くだろう他のアジア諸国の経済発展を見据えて」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 275,
+	},
+	block_00047 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10327", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“表面上看起来是敌对，或者甚至是分裂危机的这次骚动，对以西方国家为中心制作的摩尔财团来说也不只是坏事。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「表向きでは敵対、あるいは分裂の危機にすらみえる今回の騒動は、西側諸国を中心にして作られたムーア財団にとっても悪い話だけじゃない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 280,
+	},
+	block_00048 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10328", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“不管世界多么讨厌对方，下半身已经无法挽回了，这是一种很狡猾的关系。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「世界がどれだけ",
+					{"ruby", text="イデオロギー"},
+					"頭",
+					{"/ruby"},
+					"では嫌い合っていようが、すでに取り返しが付かないぐらい",
+					{"ruby", text="ビジネス"},
+					"下半身",
+					{"/ruby"},
+					"はズブズブな関係だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 287,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“原来如此，在那里是岛国日本吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なるほど、そこで島国の日本と言うわけか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 290,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“但是比起自作聪明的日本，新加坡更合适？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だがオワコンぎみの日本よりも、シンガポールあたりが一番適切にも思えるが？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 295,
+	},
+	block_00051 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10329", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“如果新加坡有千年之都就好了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「シンガポールに千年の都があるのならばな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 300,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“原来如此……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なるほど……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 303,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“无论瘦还是枯萎，都是历史悠久的国家。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「痩せても枯れても歴史が古い国ではあるからな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 306,
+	},
+	block_00054 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10330", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“你知道这样的话吗？据说曾因日本家电的不好看而畏缩的美国大富豪，看到京都的小根植工厂后勃然大怒。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「こんな話を知っているか？　日本家電の不恰好さを辟易していたアメリカの大富豪が、京都の小さな根付け工場を見て激怒したという」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 311,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“为什嚒被家电挖苦了，还被京都的工艺品骂了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なんで家電にケチ付けられた上に、京都の工芸品にキレられるんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 314,
+	},
+	block_00056 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10331", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“这是因为，制作如此美丽的东西的工厂从一千多年前就有了，为什么这个国家新制作的工业产品都是丑陋的东西呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「それはな、これほど美しいものを作る工場が千年以上前からあるのに、なぜも",
+					{"rt2"},
+					"こうもこの国が新しく作る工業製品は醜いモノばかりなのかと」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 321,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“原来如此，确实是这样啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なるほど、たしかにそうだな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 324,
+	},
+	block_00058 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0005", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10332", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“美丽的东西被当作毫无价值。丑陋的东西作为有价值的东西成为了国家的脸。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「美しいものが、まるで価値がないように扱われ。醜いものが、価値あるものとして国の顔になっている」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 329,
+	},
+	block_00059 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10333", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“包括那个不平衡，这个国家很独特。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「そのアンバランスも含めて、この国はユニークだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 334,
+	},
+	block_00060 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0001", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10334", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“在新的东西冷战时代，在东西方建立艺术市场的管道，为此需要与以往不同的新的公开征集展的形式。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「新たなる東西冷戦時代に、芸術的な市場のパイプを東西に作っておく、そのためには今までとは違う新たな公募展の形が必要となる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 339,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这次的布局应该是这样的……但是，那个大的计划，这样的事情能顺利进行吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「その布石として今回があるわけだが……",
+					{"rt2"},
+					"だが、その大それた計画が、こんな事でうまくいくのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 343,
+	},
+	block_00062 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10335", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“那要看你们的表现了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「それはお前らの活躍次第だよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 348,
+	},
+	block_00063 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0003", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10336", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“我很期待，草薙直哉老师。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「期待しているよ。草薙直哉先生」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 353,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“谁会期待像我这样无名的人的活跃呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺みたいな無名な人間の活躍なんて誰が期待するかね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 356,
+	},
+	block_00065 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0011", head="fri_z1b", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1b0000", face="b0010", head="fri_z1b", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10337", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“正因为没有人期待，所以气氛才会高涨吧。如果是预想的结果，谁都不会吃惊，也不会感兴趣。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「誰も期待していないからこそ盛り上がるのだろう。",
+					{"rt2"},
+					"予想通りの結果ならば、誰も驚かないし興味も持たない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 363,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“原来如此，和你说话容易理解就好了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なるほど、お前と話していると分かりやすくていい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 366,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“最近，我的状态很乱。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「どうも最近、調子が狂う」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 369,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这家伙总是把我捧得太高了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「どいつもこいつも俺を持ち上げすぎでな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 374,
+	},
+	block_00069 = {
+		{"fg", ch="フリッドマン", size="z1", mode=3, path=":fg/fri/z1/", file="fri_z1a0000", face="a0002", head="fri_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10338", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“因为我的生意就是看准正确的价值。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「正しい価値を見定めるのが俺の商売だからな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 379,
+	},
+	block_00070 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg062a", path=":bg/", ax=1920, ay=1080, bx=-960, by=-540, sync=0},
+		{"fg", ch="フリッドマン", size="z2", mode=3, resize=1, path=":fg/fri/z2/", file="fri_z2a0000", face="a0002", head="fri_z2a", lv=5, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那是重要的生意工具的请求。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「だったら大事な商売道具からのお願いだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 389,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“总之，我在这里画的时候请准备好这个。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「とりあえず、俺がここで描く時はこれを用意しておいてくれ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 394,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"把纸条交给弗里德曼。",
+				},
+			},
+        	ja = {
+				{
+					"メモをフリッドマンに渡す。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 397,
+	},
+	block_00073 = {
+		{"fg", ch="フリッドマン", size="z2", mode=3, path=":fg/fri/z2/", file="fri_z2a0000", face="a0010", head="fri_z2a", lv=5, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z2", mode=3, path=":fg/fri/z2/", file="fri_z2a0000", face="a0005", head="fri_z2a", lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10339", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“防滑橡胶垫……带扣球的鞋子……而且有相当细致的指定。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「防滑ゴムシート……スパイク付きのシューズ……しかもかなり細かい指定つきだな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 403,
+	},
+	block_00074 = {
+		{"fg", ch="フリッドマン", size="z2", mode=3, path=":fg/fri/z2/", file="fri_z2a0000", face="a0004", head="fri_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10340", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“不管怎么说，都是绘画所不需要的东西。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「どちらにしても絵画で必要とは到底思えないものばかりだな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 408,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"看了我的笔记，不知是不是领悟到了什么，弗里德曼开心地笑了。",
+				},
+			},
+        	ja = {
+				{
+					"俺のメモを見て何か悟ったのか、フリッドマンは楽しげに笑う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 411,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嘛，作为杂耍不是很热闹吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「まぁ、見世物としては盛り上がるんじゃないのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 414,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我的角色就是这样的吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺の役割なんてそんなもんだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 419,
+	},
+	block_00078 = {
+		{"fg", ch="フリッドマン", size="z2", mode=3, path=":fg/fri/z2/", file="fri_z2a0000", face="a0002", head="fri_z2a", lv=5, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="フリッドマン", size="z2", mode=3, path=":fg/fri/z2/", file="fri_z2a0000", face="a0004", head="fri_z2a", lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10341", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“啊，你真明白，能和你一起工作，我感到非常荣幸。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ああ、良く分かっているな。",
+					{"rt2"},
+					"お前とまた仕事が出来て、私はとても光栄だよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 426,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇，你的台词很好，准备好吧。如果是你的话，大概知道是什么目的，所以会收集最好的东西吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ウゼェ、歯の浮く台詞はいいから、それを用意してくれ。お前ならば、だいたい何の目的か分かるだろうから、最高のものを集めてくれるだろう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 429,
+	},
+	block_00080 = {
+		{"fg", ch="フリッドマン", size="z2", mode=3, path=":fg/fri/z2/", file="fri_z2a0000", face="a0003", head="fri_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_fri_10342", ch="fri"},
+			},
+		
+            cn = {
+				{
+					"“啊，让观众尽情享受吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"フリッドマン"},
+					"「ああ、大いに観衆を楽しませてくれ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 434,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是啊。杂耍店的怪物就像杂耍店的怪物，让客人很开心。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そうだな。見世物屋の怪物は見世物屋の怪物らしく、お客さんを楽しませるさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 437,
+	},
+	block_00082 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg062a", path=":bg/", sync=0},
+		{"fg", ch="フリッドマン", size="z1", mode=3, resize=1, path=":fg/fri/z1/", file="fri_z1b0000", face="b0002", head="fri_z1b", lv=4, id=9, sync=0},
+		{"extrans", time=500},
+		{"fg", ch="フリッドマン", mx=-40, mode=-1, lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"弗里德曼笑着离开了台上。",
+				},
+			},
+        	ja = {
+				{
+					"フリッドマンは笑いながら壇上を後にした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 451,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 454,
+	},
+	block_00084 = {
+		{"fg", ch="藍", size="z1", time=400, mode=3, resize=1, path=":fg/aix/z1/", file="aix_z1a0100", face="a0008", head="aix_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11179", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“直哉”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「直哉」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 465,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“怎么了？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「どうした？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 468,
+	},
+	block_00086 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a0100", face="a0009", head="aix_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11180", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“啊，不，站在这样的大舞台上真让人毛骨悚然。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「あ、いや、こんな大舞台に立つとソワソワするなぁと」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 473,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“是吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そうか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 476,
+	},
+	block_00088 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a0100", face="a0008", head="aix_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11181", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是啊。直哉真的很厉害。在这样的地方在很多人面前画画。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そうだよ。直哉は本当に凄いのだな。こんな場所で大勢の前で絵を描くのだな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 482,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“在这个会场，获得摩尔奖的人更厉害。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「この会場で、ムーアを受賞したヤツの方がすごいよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 485,
+	},
+	block_00090 = {
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b0100", face="b0005", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11182", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“当然圭也很厉害！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「もちろん圭もすごいが！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 490,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“好的。好的。我们去休息室吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「分かった。分かった。控え室に行こう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 493,
+	},
+	block_00092 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="083r", wait=250, file="black", path=":bg/", vague=40},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"通往休息室的通道上出现了透明的安全门。",
+				},
+			},
+        	ja = {
+				{
+					"控え室に向かう通路には透明のセキュリティドアがあらわれる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 499,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"从透明度来看看起来很容易碎，但使用了相当厚的丙烯酸玻璃。如果是人力的锤子的话，完全无法匹敌吧。",
+				},
+			},
+        	ja = {
+				{
+					"透明度から簡単に割れそうに見えるが、かなりの厚みがあるアクリルガラスが使用",
+					{"rt2"},
+					"されている。人力によるハンマー程度ならばまったく歯が立たないであろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 503,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"刷上卡片，透明的门就会打开。",
+				},
+			},
+        	ja = {
+				{
+					"カードをかざすと透明なドアが開く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 506,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"进入指定号码的房间。",
+				},
+			},
+        	ja = {
+				{
+					"指定された番号の部屋に入る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 509,
+	},
+	block_00096 = {
+		{"bg", speed=150000, zoom=70, rule="083r", vague=40, file="zev_etc_01_15", path=":ev/ev_etc_01/", x2=384, y2=216, x=-384, y=216, set="ev_etc_01", ax=1920, ay=1080, bx=-960, by=-540},
+		{"bgm", file="bgm152"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“安全性真高啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「えらく高いセキュリティになったな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 521,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11183", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“高安全性？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「高いセキュリティ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 524,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，只有我专用的卡和我决定的密码才能进去。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ、俺専用のカードと、俺が決めた暗証番号じゃないと入れない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 529,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11184", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是吗？那就是说只有直哉能进去吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そうなのか？　それって直哉しか入れないという事か？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 532,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「啊，是我让你这么做的。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ、俺がそうしてくれと言ったからな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 535,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11185", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“其他休息室不一样吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「他の控え室は違うのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 538,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我不知道，总之，现在是那个骚动。不管大会日是什么样的形式，在没有我的许可的情况下能进入这个房间是很抱歉的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「それは知らないが、とりあえず、今はあの騒ぎだ。大会日にどういった形であれ、俺の許可無しにこの部屋に入られるのはごめんだからな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 541,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11186", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是啊，我想一个人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そうだよな。一人になりたいだろうし」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 544,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，所以，是的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ、だから、はい」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 547,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11187", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“咦？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「へ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 557,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我把钥匙交给你。",
+				},
+			},
+        	ja = {
+				{
+					"俺はカードキーを渡す。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 560,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“卡上的密码是我的生日和蓝的生日加起来的八位数。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「カードの暗証番号は俺の誕生日と藍の誕生日を合わせた八桁の数字だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 563,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11188", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“为什么？给我卡？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「なんで？　私にカードを？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 566,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我只准备了一张卡，让其他人绝对不能进去。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「俺は一枚だけカードを用意して、他の連中が決して入れない様にしてくれと",
+					{"rt2"},
+					"言ったのだが」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 570,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“只有一张，而且只有我一个人的卡的话，我发生什么事的时候会有麻烦，所以被说要带备用的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「一枚だけ、しかも俺だけしか持ってないカードだと、俺に何かあった時にトラブルになるから、スペアは付けると言われた」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 573,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“我以为备盘在那边拿，弗里德曼说，再给我一张给信任的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「スペアはあっちが持つと思ったが、フリッドマン曰く信用している人間に",
+					{"rt2"},
+					"もう一枚は渡しておけとの事だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 577,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“弗里德曼也很清楚我的做法。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「フリッドマンも俺の扱いをよくわかっているな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 580,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11189", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“到那里一个人的事……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そこまで一人になる事を……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 583,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“需要集中精神。我想要一个尽量安静、没有人的地方。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「精神集中が必要でさ。なるべく静かで誰もいない場所が欲しかった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 586,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“就这样，只有我和蓝的钥匙，如果两个人丢了的话，不破坏门的话就不能进入这里。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そんなこんなで、俺と藍しか持ってないカードキーなんで、二人が無くしたらドアを破壊しないとここには入れないそうだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 589,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11190", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“你要把那么重要的卡片交给我吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そんな大切なカードを私に渡すのか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 593,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“啊，虽然不像酒店那样，但是比起普通的公寓，住几段比较舒服。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「ああ、ホテルほどじゃないが、普通のマンションよりかは数段住み心地が良いしな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 596,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“在东京都内的时候，基本上我打算住在这个房间里。嘛，弗里德曼安排酒店的时候我会用那个。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「都内にいる時は基本的に俺はこの部屋で寝泊まりするつもりだ。",
+					{"rt2"},
+					"まぁ、フリッドマンがホテルとか手配してくれた時はそちらを使うけどな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 600,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11191", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“真的把直哉当成VIP了，简直就像是不同世界的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「本当に直哉はVIP扱いだなぁ。まるで違う世界の人間みたいだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 603,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不同世界的人？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「違う世界の人間？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 606,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11192", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“啊，怎么说呢，这个会场的建筑物本身的特别感也很厉害。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「ああ、なんというかこの会場の建物そのものの特別感が凄いというのもあるけどさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 609,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11193", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“我一直都很害怕。总有一天会被骂‘除了相关人员以外禁止入内’。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「私は終始おっかなびっくりだよ。いつか“関係者以外は立ち入り禁止だ”って怒鳴られるんじゃないかってさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 612,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这样啊……嘛，不习惯的话可能会有这样的感觉吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「そっか……まぁ、慣れてないとそう感じるかもしれないな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 615,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11194", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“直哉完全不动啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「直哉はまったく動じないんだな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 618,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“嗯，嘛，艺术附近从小就被特别对待，所以不怎么在意。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「うん、まぁ、芸術界隈ではガキの頃から特別扱いされてたから、あんまり気にならないんだよな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 621,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不愧是弓张学园时代被摩尔提名的时候，在那个会场的人总是很大，有点害怕。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「さすがに弓張学園時代にムーアにノミネートされた時はその会場にいた人間が",
+					{"rt2"},
+					"どいつも大物で若干ビビったけどさ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 625,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“这次是和大人物的直接对决，也不是在意自己的处理的时候……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「今回はそれより大物相手との直接対決なわけで、まぁ自分の扱いなんて気にしている場合でもないし……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 628,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11195", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是吗……虽然知道，但直哉果然是个很厉害的人啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そっか……、知ってはいたけど、やっぱり直哉はすごい人なんだな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 631,
+	},
+	block_00129 = {
+		{"bgm", stop=1, time=2000},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 643,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我缩短了和蓝的距离。",
+				},
+			},
+        	ja = {
+				{
+					"俺は藍との距離を詰める。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 646,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11196", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“诶？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「え？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 649,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么？这种说法？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「なんだ？　その言い方？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 652,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11197", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"「咦？你说了什么让人生气的话吗？」",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「え？　なにか癇にさわる事言ったか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 655,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 658,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我无言地接近蓝。",
+				},
+			},
+        	ja = {
+				{
+					"俺は無言のまま藍に近づく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 661,
+	},
+	block_00136 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11198", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"「咦？那个……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「え？　あのぉ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 664,
+	},
+	block_00137 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"对于不稳定的动作，蓝退后了。",
+				},
+			},
+        	ja = {
+				{
+					"不穏な動きに、藍が後ずさりする。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 667,
+	},
+	block_00138 = {
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_11199", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“啊，直哉……咦，怎么了？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「な、直哉……えっと、どうした？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 672,
+	},
+	block_00139 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"蓝被墙逼得走投无路。",
+				},
+			},
+        	ja = {
+				{
+					"藍が壁に追い詰められる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 675,
+	},
+	block_00140 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"「……」",
+				},
+			},
+        	ja = {
+				{
+					name = {"直哉"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 678,
+	},
+	block_00141 = {
+		{"excall", file="05_07_2"},
+		{"text"},
+		linkback = "block_00140",
+		line = 680,
+	},
+	label = {
+		flagon = { block="block_00000", label=33 },
+		join = { block="block_00000", label=47 },
+		top = { block="block_00000", label=1 },
+		scene = { block="block_00096", label=1 },
+	},
+}

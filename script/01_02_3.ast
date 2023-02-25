@@ -1,0 +1,6156 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="第Ⅰ章"},
+		{"msg", no=1},
+		{"bg", time=2000, file="ev_etc_01_04", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"某一天。",
+				},
+			},
+        	ja = {
+				{
+					"とある日。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 10,
+	},
+	block_00001 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"加拉加加沙恩！",
+				},
+			},
+        	ja = {
+				{
+					"ガラガラガッシャーン！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 15,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我听到有东西滚动的声音。",
+				},
+			},
+        	ja = {
+				{
+					"何かが転がる音を聞いた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 18,
+	},
+	block_00003 = {
+		{"msgoff"},
+		{"bg", file="bg035b", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, resize=1, path=":fg/aix/z1/", file="aix_z1a0000", face="a0009", head="aix_z1a", lv=4, id=9, sync=0},
+		{"extrans"},
+		{"bgm", file="bgm026"},
+		{"fgact", ch="藍", act="quake", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00001", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“糟了……。不由得用反应打了他。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍", "？？？"},
+					"「しまった……。思わず反応で殴ってしまった」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 34,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"教室门口有一个女学生很为难。",
+				},
+			},
+        	ja = {
+				{
+					"教室の入り口で一人の女生徒が困っていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 37,
+	},
+	block_00005 = {
+		{"bg", time=500, file="bg024b", path=":bg/", ax=960, ay=563, bx=0, by=-23},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不管是什么，路过的时候窥视那个教室，地板被水淹了，水桶在滚动。",
+				},
+			},
+        	ja = {
+				{
+					"何だろうと、通り際にその教室を覗き込むと、床は水浸しになっており、バケツが転がっている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 45,
+	},
+	block_00006 = {
+		{"msgoff"},
+		{"bg", file="bg035b", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0001", head="aix_z1a", x=0, lv=4, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"情况不太清楚——平时绝对不会做那样的事——我在问那个女学生发生了什么。",
+				},
+			},
+        	ja = {
+				{
+					"状況が良く分からず――いつもなら決してそんな事はしないのだが――、",
+					{"rt2"},
+					"その女生徒に何があったか訊ねていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 55,
+	},
+	block_00007 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0009", head="aix_z1a", x=0, lv=4, id=9},
+		{"fgact", ch="藍", act="おじぎ", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0011", head="aix_z1a", x=0, lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00002", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“啊，对不起。好像有个水桶吊在门口，掉下来的时候不由得打了起来……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍", "？？？"},
+					"「あ、すみません。なんか入り口にバケツが吊されていたみたいで、",
+					{"rt2"},
+					"落ちてきたところを思わず殴ってしまって……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 64,
+	},
+	block_00008 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg024b", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"一看教室，好像设置了那个的学生，用吃惊的目光看着那个女学生。",
+				},
+			},
+        	ja = {
+				{
+					"教室を見ると、それを仕掛けたらしき生徒が、驚きのまなざしで、その女生徒を",
+					{"rt2"},
+					"見ていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 74,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那张脸真眼熟。我想。",
+				},
+			},
+        	ja = {
+				{
+					"あの顔見覚えがあるな。と思った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 77,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"大概是在丽华身边的脸。",
+				},
+			},
+        	ja = {
+				{
+					"たぶん、麗華の取り巻きにいた顔だ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 80,
+	},
+	block_00011 = {
+		{"fg", ch="藍", size="z1", mx=40, mode=3, path=":fg/aix/z1/", file="aix_z1b0000", face="b0008", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00003", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“不马上打扫的话……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍", "？？？"},
+					"「すぐに掃除しないと……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 88,
+	},
+	block_00012 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1b0010", face="b0001", head="aix_z1b", lv=4, id=9},
+		{"fgact", ch="藍", act="うなづく", lv=4, id=9},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这样说着就从教室的柜子里拿出了抹布。",
+				},
+			},
+        	ja = {
+				{
+					"そう言うと教室のロッカーから雑巾を取り出した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 94,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00117", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"「可是，你不是被恶作剧了吗？」",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「でも、君はイタズラされただけじゃない？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 99,
+	},
+	block_00014 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1b0000", face="b0011", head="aix_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00004", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“虽然是这样，但也不是不知道想让我成为眼中钉的人们的心情……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍", "？？？"},
+					"「そうなのですが、",
+					{"rt2"},
+					"まぁ、私を目の敵にしたい人達の気持ちも分からなくもないので……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 106,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"少女完全不在意恶作剧的学生，开始打扫被淋湿的地板。",
+				},
+			},
+        	ja = {
+				{
+					"少女はイタズラをしかけた生徒の事などまったく気にせずに、",
+					{"rt2"},
+					"濡れた床を掃除しはじめた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 112,
+	},
+	block_00016 = {
+		{"msgoff"},
+		{"bg", vague=64, time=400, alpha=255, lv=1, id=5, file="cinema01", path=":sys/"},
+		{"ex", time=300, func="wait"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是……。",
+				},
+			},
+        	ja = {
+				{
+					"しかし……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 125,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"好危险啊。",
+				},
+			},
+        	ja = {
+				{
+					"結構、危ない事するなぁ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 132,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"大概是想把吊着的水桶翻过来，把它浸泡在水里的恶作剧吧，不知道是金属零件掉了还是手滑了，但不管怎么说，装着水的水桶都是从她的头上掉下来的吧。",
+				},
+			},
+        	ja = {
+				{
+					"吊るしていたバケツをひっくり返して水浸しにするイタズラをしようとしたのだろうけど、金具が外れたか、手が滑ったか、どちらか分からないが、どちらにしても水が入ったままのバケツが彼女の頭上から落ちてきたのだろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 135,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这样身材矮小的少女，如果打得不好也有可能酿成大事。",
+				},
+			},
+        	ja = {
+				{
+					"こんな小柄な少女、もし打ち所でも悪かったら大事に至る可能性だってある。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 138,
+	},
+	block_00020 = {
+		{"cgdel", lv=1, id=5, rule="cinema", time=400, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, resize=1, path=":fg/shi/z1/", file="shi_z1a0010", face="a0005", head="shi_z1a", lv=4, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"就连我也注意到了丽华的围观。",
+				},
+			},
+        	ja = {
+				{
+					"さすがの私も、麗華の取り巻きに注意した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 149,
+	},
+	block_00021 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0004", head="shi_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0005", head="shi_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00118", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“基本上，我不会插嘴你们要做的事，也不关心，但这不是恶作剧的水平吧？装了水的水桶，除了凶器以外什么都没有。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「基本的には、私はあなた達のやる事に口出しはしないし、無関心だけど、",
+					{"rt2"},
+					"これってイタズラってレベルじゃないでしょ？",
+					{"rt2"},
+					"水が入ったバケツなんて、凶器以外の何物でも無いじゃん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 157,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"丽华的周围人都知道我是鸟谷的人，也没想到会变成这样，坦率地向我道歉。",
+				},
+			},
+        	ja = {
+				{
+					"麗華の取り巻き達は、私が鳥谷の人間である事も知っていたし、",
+					{"rt2"},
+					"それ以上に、こんな事になると思っていなかったらしく、素直に私に謝った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 161,
+	},
+	block_00023 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0011", head="shi_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00119", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“所以，你向我道歉也没办法，向那个女孩道歉吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「だからさ。私に謝っても仕方ないでしょ。あの娘に謝りなさいよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 166,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那可不行。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"女生徒A", "女生徒"},
+					"「それは出来ません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 171,
+	},
+	block_00025 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0001", head="shi_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00120", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“为什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「何故？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 176,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“那家伙是不能进入这个学园的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"女生徒A", "女生徒"},
+					"「そいつは、この学園に入ってきてはいけない人間なんです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 181,
+	},
+	block_00027 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0007", head="shi_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00121", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“不可以进来的人？但是已经入学了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「入ってきてはいけない人間？　でも入学してるじゃん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 186,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“所以，那就像是搞错了一样，本来是绝对不能进入的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"女生徒A", "女生徒"},
+					"「だから、それは手違いみたいなもので、",
+					{"rt2"},
+					"本来なら、絶対に入ってはいけない人間なんですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 192,
+	},
+	block_00029 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0011", head="shi_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00122", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“那是什么？后门入学什么的？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「何それ？　裏口入学とか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 197,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“不是那样的……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"女生徒A", "女生徒"},
+					"「そうじゃないのですけど……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 202,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"完全是不得要领的说明。",
+				},
+			},
+        	ja = {
+				{
+					"まったく要領を得ない説明だ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 205,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"本来就不能进来的人是怎样的？弓张只是一所私立学校吧。",
+				},
+			},
+        	ja = {
+				{
+					"そもそも入ってきてはいけない人間ってどんなだ？",
+					{"rt2"},
+					"弓張はただの私立学校だろうに。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 209,
+	},
+	block_00033 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0001", head="aix_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0001", head="shi_z1a", x=345, lv=4, id=6, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00005", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“前辈，所以不用担心。我是在这个学校被恨也没办法的立场。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍", "？？？"},
+					"「先輩、ですからお気遣い無く。",
+					{"rt2"},
+					"私はこの学園で恨まれても仕方が無い立場なのですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 223,
+	},
+	block_00034 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0011", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00123", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“嗯，不是个人，而是被学校恨。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「ふーん。個人じゃなくて、学園に恨まれるんだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 228,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这个姑娘是不是出什么事了？",
+				},
+			},
+        	ja = {
+				{
+					"この娘は何かしでかしたのだろうか？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 231,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"话虽如此，一般来说，这不是这个女儿说的话吧。大概是和中村家对立的家里的孩子吧。",
+				},
+			},
+        	ja = {
+				{
+					"とは言っても、普通に考えて、この娘がどうこうの話ではないのだろう。",
+					{"rt2"},
+					"たぶん、中村家と対立する家の子供か何かなのだろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 235,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"中村家在战前是这个城市的统治者，战后却走向了没落。当然，也有中村没落就会崛起的组织和家。",
+				},
+			},
+        	ja = {
+				{
+					"中村家はそれこそ戦前までは、この街の支配者であったが、戦後は没落の一途をたどった。当然、中村が没落すれば台頭する組織や家やらがある。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 238,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"中村的敌人，大概是一只手数不清的吧？",
+				},
+			},
+        	ja = {
+				{
+					"中村の敵というのは、たぶん片手で数え切れないほどいるのではないだろうか？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 241,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这个女儿也是那个家族的一人吧。",
+				},
+			},
+        	ja = {
+				{
+					"この娘もその家系の一人なのだろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 244,
+	},
+	block_00040 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0001", head="shi_z1a", lv=4, id=6, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“静流先生最好也不要和他扯上关系。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"女生徒A", "女生徒"},
+					"「静流さんも、そいつと関わらない方がいいです」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 257,
+	},
+	block_00041 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0005", head="shi_z1a", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00124", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“为什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「何故？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 262,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“什么都可以！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"女生徒A", "女生徒"},
+					"「なんでもです！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 267,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"没有什么说明。",
+				},
+			},
+        	ja = {
+				{
+					"あまり説明はない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 270,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"话说回来，详细说明一下，害怕名字出来吧。",
+				},
+			},
+        	ja = {
+				{
+					"というか、細かく説明して、名前が出る事を恐れているのだろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 273,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这是丽华的围观。",
+				},
+			},
+        	ja = {
+				{
+					"こいつは麗華の取り巻き。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 276,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那个围观对这个姑娘做了这样的骚扰。",
+				},
+			},
+        	ja = {
+				{
+					"その取り巻きが、この娘にこの様な嫌がらせをした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 279,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"也就是说，命令它的是中村丽华。",
+				},
+			},
+        	ja = {
+				{
+					"つまり、それを命じているのは中村麗華という事になる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 282,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不能说是因为丽华命令才做的。",
+				},
+			},
+        	ja = {
+				{
+					"麗華が命じたからやったなどとは言えないのだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 285,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"丽华在这个学园的学生中绝对是权力者。",
+				},
+			},
+        	ja = {
+				{
+					"麗華はこの学園の生徒では絶対権力者。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 288,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"如果你不高兴，任何人都会遭殃。",
+				},
+			},
+        	ja = {
+				{
+					"その機嫌を損なえば、どんな人間だって大変な目に遭う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 291,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那个和我一样。",
+				},
+			},
+        	ja = {
+				{
+					"それは、私とて変わらない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 294,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这个女学生想这么说吧。",
+				},
+			},
+        	ja = {
+				{
+					"この女生徒はそう言いたいのだろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 297,
+	},
+	block_00053 = {
+		{"fg", mode=-2, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0008", head="aix_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0001", head="shi_z1a", x=345, lv=4, id=6, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00006", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是啊。最好不要和我扯上关系。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍", "？？？"},
+					"「そうですね。私には関わらない方がいいですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 310,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"用抹布打扫的女学生也这么说。",
+				},
+			},
+        	ja = {
+				{
+					"雑巾で掃除している女生徒もそう言っている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 313,
+	},
+	block_00055 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0002", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00125", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“你叫什么名字？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「名前なんて言うの？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 318,
+	},
+	block_00056 = {
+		{"user", mode="conf", ch="藍"},
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0001", head="aix_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="藍", act="うなづく", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00007", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是我吗？我叫夏目蓝。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「私ですか？　私は夏目藍といいます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 326,
+	},
+	block_00057 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0001", head="aix_z1a", x=-345, lv=4, id=5},
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0002", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00126", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“是啊，我叫鸟谷静流。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「そうなんだ。私は鳥谷静流って言うんだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 332,
+	},
+	block_00058 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0001", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00008", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是鸟谷前辈吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「鳥谷先輩ですか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 337,
+	},
+	block_00059 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0003", head="shi_z1b", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="うなづく", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00127", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“嗯，不过你想让我说静流吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「うん、でも静流さんって言ってほしいかな」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 343,
+	},
+	block_00060 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=-600, y=-586, file="zbg024b", path=":bg/", ax=1920, ay=1126, bx=-960, by=-586, sync=0},
+		{"fg", ch="藍", size="z2", mode=3, resize=1, path=":fg/aix/z2/", file="aix_z2b0010", face="b0001", head="aix_z2b", x=-500, lv=5, id=5, sync=0},
+		{"extrans", time=500},
+		{"fg", ch="静流", size="z2", my=-40, mode=3, resize=1, path=":fg/shi/z2/", file="shi_z2b0000", face="b0002", head="shi_z2b", x=500, lv=5, id=6},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这样说的话，我也用抹布擦地板。",
+				},
+			},
+        	ja = {
+				{
+					"そう言うと、私も雑巾で床を拭く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 355,
+	},
+	block_00061 = {
+		{"fg", ch="藍", size="z2", mode=3, path=":fg/aix/z2/", file="aix_z2a0000", face="a0013", head="aix_z2a", x=-500, lv=5, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00009", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“前辈。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「せ、先輩っ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 360,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“静流！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"女生徒A", "女生徒"},
+					"「し、静流さん！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 365,
+	},
+	block_00063 = {
+		{"bgm", stop=1, time=11000},
+		{"fg", ch="静流", size="z2", mode=3, path=":fg/shi/z2/", file="shi_z2b0000", face="b0005", head="shi_z2b", x=500, lv=5, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00128", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"「什么呀，你有意见吗？就算我这样做也可以告诉丽华，我会按照我想做的去做。」",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「何よ。文句ある？　別に私がこうやったって麗華に伝えてもいいから。",
+					{"rt2"},
+					"私は私がやりたい様にやるの」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 373,
+	},
+	block_00064 = {
+		{"quake", mode="mw"},
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"“哇！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"女生徒A", "女生徒"},
+					"「っッ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 382,
+	},
+	block_00065 = {
+		{"cgdel", id=-1},
+		{"bg", time=250, rule=280, file="black", path=":bg/", vague=40},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"女学生很紧地返回教室出去。",
+				},
+			},
+        	ja = {
+				{
+					"女生徒はきつくきびすを返し教室を出て行く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 387,
+	},
+	block_00066 = {
+		{"msgoff"},
+		{"bg", file="bg024b", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, resize=1, path=":fg/aix/z1/", file="aix_z1b0000", face="b0011", head="aix_z1b", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, resize=1, path=":fg/shi/z1/", file="shi_z1b0000", face="b0001", head="shi_z1b", x=345, lv=4, id=6, sync=0},
+		{"extrans"},
+		{"bgm", file="bgm150", time=5000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00010", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“前辈，虽然很高兴，但是说实话，真的很感谢你，给我添麻烦了吗……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「先輩、うれしいのですが、正直、ありがた迷惑といいますか……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 407,
+	},
+	block_00067 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0013", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00129", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“你说的真是后辈啊。什么是给你添麻烦了？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「はっきり言う後輩だねぇ。そのありがた迷惑って何？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 412,
+	},
+	block_00068 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1b0000", face="b0009", head="aix_z1b", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00011", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“和我打交道的话，肯定不会有什么好事的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「私と関わると碌な事にならないですよ。絶対」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 417,
+	},
+	block_00069 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0011", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00130", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“没关系，不会被杀吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「いいよ。別に。殺されたりしないでしょ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 422,
+	},
+	block_00070 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1b0000", face="b0008", head="aix_z1b", x=-345, lv=4, id=5},
+		{"fgact", ch="藍", act="びっくり", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00012", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“那是不会被杀的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そりゃ、殺されたりしないでしょうけど」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 428,
+	},
+	block_00071 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0003", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00131", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“如果没有死的话，大部分的事情都可以原谅吧？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「死なないんだったら、まぁ、大半のことは許せるんじゃない？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 433,
+	},
+	block_00072 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00013", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“噗……前辈真是个奇怪的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「ぷっ……。先輩おかしい人ですね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 438,
+	},
+	block_00073 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0013", head="shi_z1b", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="いいえ", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00132", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"「所以，你不是说要叫我静流吗？」",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「だから、先輩じゃなくて、静流さんと呼べって言ってるでしょう」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 444,
+	},
+	block_00074 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"蓝苦笑着。",
+				},
+			},
+        	ja = {
+				{
+					"藍は苦笑した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 449,
+	},
+	block_00075 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="藍", act="うなづく", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00014", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是的，静流。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「はい、静流さん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 455,
+	},
+	block_00076 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0002", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00133", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“即便如此，蓝也很厉害。你不是打了掉下来的水桶吗？你在练武术吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「それにしても藍って凄いね。落ちてきたバケツを殴ったんでしょ？",
+					{"rt2"},
+					"なんか武術やってるの？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 461,
+	},
+	block_00077 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0001", head="aix_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="藍", act="うなづく", lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0010", head="aix_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00015", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“从小就在做空手道……但是没想到会反射性地出手。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「小さい頃から空手をやってまして……、",
+					{"rt2"},
+					"でも反射的に手が出るとは思いませんでした」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 469,
+	},
+	block_00078 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0008", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00134", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“我啊，根本就不擅长在文化系活动身体。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「私はさ。根っからの文化系で身体動かすのとか苦手なんだよねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 474,
+	},
+	block_00079 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0001", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00016", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是吗……是音乐还是美术？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そうですか……。",
+					{"rt2"},
+					"音楽ですか？　美術ですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 480,
+	},
+	block_00080 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0002", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00135", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“是美术关系吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「美術関係だね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 485,
+	},
+	block_00081 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0001", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00017", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“绘画什么的？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「絵画とか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 490,
+	},
+	block_00082 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0003", head="shi_z1a", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="いいえ", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00136", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“不，是烧烤。我在做陶瓷什么的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「いや、焼き物。陶磁器とか作ってる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 496,
+	},
+	block_00083 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0012", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00018", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是陶瓷器吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「陶磁器ですか」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 501,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"说了那样的话，地板的打扫也大致结束了。",
+				},
+			},
+        	ja = {
+				{
+					"そんな話をしていると、床の掃除もあらかた終わった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 504,
+	},
+	block_00085 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="083r", wait=250, file="black", path=":bg/", vague=40},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg035b", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0001", head="aix_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0002", head="shi_z1a", x=345, lv=4, id=6, sync=0},
+		{"extrans", rule="083r", vague=40},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"两个人把水桶带到走廊里的流水。",
+				},
+			},
+        	ja = {
+				{
+					"二人で、バケツを廊下にある流しまで持っていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 519,
+	},
+	block_00086 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0009", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00019", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“静流，够了，真的和我在一起会被卷入麻烦事中。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「静流さん、もういいですよ。本当に私といると厄介ごとに巻き込まれます」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 524,
+	},
+	block_00087 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0003", head="shi_z1a", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="いいえ", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00137", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“好吧，好吧，我在这个学校有点特别。这里的教导主任叫中村纱希，是我的阿姨。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「いいって、いいって、私はこの学校じゃちょっと特別な扱いでね。",
+					{"rt2"},
+					"ここの教頭って中村紗希って言うんだけど、私のおばなんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 531,
+	},
+	block_00088 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0013", head="aix_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="藍", act="びっくり", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00020", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“中村纱希老师！？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「中村紗希先生！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 537,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"出了阿姨的名字，蓝出乎意料地吃惊。",
+				},
+			},
+        	ja = {
+				{
+					"おばの名を出したら、思いの外藍は驚いていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 540,
+	},
+	block_00090 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0007", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00138", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“咦？有什么反应，你知道吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「あれ？　なんかすごく反応したけど、知ってるの？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 545,
+	},
+	block_00091 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="藍", act="うなづく", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00021", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是的，承蒙纱希老师的关照。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「はい、紗希先生にはすごくお世話になっています」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 551,
+	},
+	block_00092 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0003", head="shi_z1a", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="おじぎ", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00139", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“呵呵”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「ほほーん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 557,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽然不太明白，但听起来很有趣。",
+				},
+			},
+        	ja = {
+				{
+					"なんか良く分からんが、面白そうな話だ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 560,
+	},
+	block_00094 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=600, file="zbg035b", path=":bg/", ax=1920, ay=1126, bx=-960, by=-586, sync=0},
+		{"fg", ch="藍", size="z2", mode=3, resize=1, path=":fg/aix/z2/", file="aix_z2a0000", face="a0002", head="aix_z2a", lv=5, id=5, sync=0},
+		{"bg", alpha=255, lv=1, id=5, rule="cinema", file="cinema01", time=400, path=":sys/", vague=40, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"丽华讨厌这个姑娘。大概中村章一也一样吧。",
+				},
+			},
+        	ja = {
+				{
+					"この娘を麗華は嫌っている。",
+					{"rt2"},
+					"たぶん、中村章一も同じだろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 572,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"所以，这个女儿不应该进入这个学园。",
+				},
+			},
+        	ja = {
+				{
+					"だから、この娘はこの学園に入るべきでは無かった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 575,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"本来成绩再好也进不去的吧。",
+				},
+			},
+        	ja = {
+				{
+					"本来なら、どんなに成績が良くても入る事は出来なかったのだろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 578,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"是被安排了那样的工作的哈兹。",
+				},
+			},
+        	ja = {
+				{
+					"そういう工作が仕掛けられたハズだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 581,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"尽管如此，这个姑娘还是穿着弓张的制服。",
+				},
+			},
+        	ja = {
+				{
+					"にもかかわらずこの娘は、弓張の制服を着ている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 584,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"也就是说，有人把那个工作无效化了。",
+				},
+			},
+        	ja = {
+				{
+					"つまりは、誰かがその工作を無効化したのだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 587,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那样的人只有一个。",
+				},
+			},
+        	ja = {
+				{
+					"そんな人間など一人しかいない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 590,
+	},
+	block_00101 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg035b", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, resize=1, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0010", head="shi_z1a", x=345, lv=4, id=6, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00140", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“原来如此。那个阿姨不知道在想什么。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「なるほどねぇ。",
+					{"rt2"},
+					"あのおばさんは何を考えてるのか良く分からないところあるからねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 604,
+	},
+	block_00102 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="藍", act="いいえ", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00022", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“没有那样的事，我只能感谢那位先生。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そんな事ありませんよ。あの方には感謝しかありません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 610,
+	},
+	block_00103 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0001", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00141", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“嗯。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「ふーん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 616,
+	},
+	block_00104 = {
+		{"bg", speed=200000, file="zbg035b", path=":bg/", x2=960, y2=100, x=-960, y=100, ax=1920, ay=1126, bx=-960, by=-586},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"纱希阿姨做了什么吧。我还以为。",
+				},
+			},
+        	ja = {
+				{
+					"紗希おばさんが何かしたんだろうな。とは思った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 629,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"与此同时也没关系吗？我还以为。",
+				},
+			},
+        	ja = {
+				{
+					"それと同時に大丈夫なのかしら？　とも思った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 632,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"因为丽华是那么憎恨的对象，所以肯定是中村家的因缘吧，即使是纱希阿姨也很危险吧？",
+				},
+			},
+        	ja = {
+				{
+					"麗華がそれほど憎む相手なわけだから、間違いなく中村家がらみの因縁だろうし、",
+					{"rt2"},
+					"さすがに紗希おばさんでもやばいんじゃないか？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 636,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是，总觉得“因为是那个人的事所以有想法吧”。",
+				},
+			},
+        	ja = {
+				{
+					"なのだが、なんとなく、「あの人の事だから考えがあるんだろうな」と思った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 639,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽然不是很清楚，但我知道那个人在鸟谷一族是出类拔萃的聪明，而且是行动性的。",
+				},
+			},
+        	ja = {
+				{
+					"断言出来るほど良く知っているわけではないが、それでも、あの人が鳥谷の一族では群を抜いて頭が良く、そして行動的だというのは知っている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 642,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"没有考虑就不会过危险的桥吧。",
+				},
+			},
+        	ja = {
+				{
+					"考えも無しに危ない橋など渡らないだろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 645,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"一边拧着抹布一边考虑的话",
+				},
+			},
+        	ja = {
+				{
+					"などと雑巾を絞りながら考えていると、",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 650,
+	},
+	block_00111 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg035b", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1b0000", face="b0001", head="aix_z1b", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0001", head="shi_z1a", x=345, lv=4, id=6, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00023", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“静流是美术部的吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「静流さんは美術部なのですよね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 663,
+	},
+	block_00112 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0002", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00142", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“是的，是美术部。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「そうだよ。美術部だよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 668,
+	},
+	block_00113 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1b0000", face="b0012", head="aix_z1b", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00024", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“也有美术准备室吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「美術準備室とかも入ったりするのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 673,
+	},
+	block_00114 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0001", head="shi_z1a", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="うなづく", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00143", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“当然要进去了。为什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「そりゃもちろん入るよ。何で？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 679,
+	},
+	block_00115 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1b0000", face="b0011", head="aix_z1b", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00025", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“没什么大不了的……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「なんでって事もないのですが……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 684,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"蓝眼睛游泳。",
+				},
+			},
+        	ja = {
+				{
+					"藍の目が泳ぐ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 687,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"好像并不是什么都没有。",
+				},
+			},
+        	ja = {
+				{
+					"なんでもないわけではなさそうだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 690,
+	},
+	block_00118 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0002", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00144", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“美术部有兴趣吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「美術部興味ある？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 695,
+	},
+	block_00119 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1b0000", face="b0009", head="aix_z1b", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00026", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“啊，不是这个意思。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「あ、そういう意味ではないのですが」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 700,
+	},
+	block_00120 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0007", head="shi_z1a", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="いいえ", lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0002", head="shi_z1a", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00145", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“不是，不是。不是劝诱。我是美术部员，但是和其他部员完全没有交流。只是，这里的美术室很特殊，有准备室和阁楼，很豪华。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「違う、違う。勧誘とかじゃないんだ。私は美術部員だけど、他の部員と全然",
+					{"rt2"},
+					"交流無いしね。ただ、ここの美術室って結構特殊だからさ、準備室とかロフト",
+					{"rt2"},
+					"とかあって豪勢なんだ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 709,
+	},
+	block_00121 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1b0000", face="b0001", head="aix_z1b", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00027", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“好像是。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そうみたいですね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 714,
+	},
+	block_00122 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0001", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00146", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“你知道吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「知ってるの？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 719,
+	},
+	block_00123 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0001", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00028", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“以前，我认识的人在这所学校当美术老师……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「昔、知り合いがこの学校の美術の先生をしていたので……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 724,
+	},
+	block_00124 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0007", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0003", head="shi_z1a", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00147", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“啊，弓张的美术老师，基本上都是高水平的人。现在的老师也是文展的会友，作为艺术家也很有名。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「へぇ、弓張の美術教師って、だいたいすげぇレベル高い人しかなれないじゃん。",
+					{"rt2"},
+					"今の先生も文展の会友とかで芸術家としても結構有名なんだから」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 731,
+	},
+	block_00125 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0008", head="aix_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00029", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“好像是。话虽如此，我认识的人好像是这里的临时工。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そうみたいですね。",
+					{"rt2"},
+					"とは言っても、私が知っている人はここの非常勤だったみたいですけど」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 738,
+	},
+	block_00126 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0002", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00148", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“是啊。但是画得相当好吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「そうなんだ。でも相当絵は上手かったんだろうねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 743,
+	},
+	block_00127 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="藍", act="うなづく", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00030", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“我想是吧。我不太清楚画的事情。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「だと思いますよ。絵の事は良く分かりませんが」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 749,
+	},
+	block_00128 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0003", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00149", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“也就是说，那个人的画说不定也会留下。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「って事はさぁ。その人の絵なんかも残ってたりするかもしれないよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 754,
+	},
+	block_00129 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0012", head="aix_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="藍", act="びっくり", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00031", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「ッっ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 760,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"蓝凝视着我。期待着吧。",
+				},
+			},
+        	ja = {
+				{
+					"藍が私を見つめる。",
+					{"rt2"},
+					"期待していたのだろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 764,
+	},
+	block_00131 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0002", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0003", head="shi_z1a", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00150", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“准备室里还留有各种各样的人的作品。大家都不一定会把作品带回去。还留有历代学生和老师的画。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「準備室って、いろいろな人の作品が残ってるんだよ。みんな必ずしも作品を",
+					{"rt2"},
+					"持ち帰らないからね。そういった歴代の生徒や教師の絵が残ってるのだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 771,
+	},
+	block_00132 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="藍", act="うなづく", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00032", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「なのでしょうね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 777,
+	},
+	block_00133 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0003", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00151", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“现在不去看吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「今から見に行かない？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 782,
+	},
+	block_00134 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0003", head="aix_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="藍", act="びっくり", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00033", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“现在开始吗！？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「今からですか！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 788,
+	},
+	block_00135 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0003", head="aix_z1a", x=-345, lv=4, id=5},
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0001", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00152", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“有问题吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「問題とかある？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 794,
+	},
+	block_00136 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0008", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽然一瞬间看起来很高兴，但是蓝的表情再次模糊了。",
+				},
+			},
+        	ja = {
+				{
+					"一瞬うれしそうにしたが、藍の表情がふたたび曇る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 799,
+	},
+	block_00137 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0009", head="aix_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="藍", act="おじぎ", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00034", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“啊，不，因为是刚才发生水桶掉下来的灾难的人，所以有可能又把静流卷入什么事情中……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「あ、いや、いまさっき、バケツが落ちてくる様な災難を起こしている人間なので、また静流さんを何事かに巻き込む可能性がありますし……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 805,
+	},
+	block_00138 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0002", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00153", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“没关系吧？掉下来的话，再打不就行了吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「大丈夫でしょ？　落ちてきたら、また殴ればいいじゃない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 810,
+	},
+	block_00139 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0011", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00035", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“嘛，如果是水桶之类的就好了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「まぁ、バケツとかならそれでいいのですけど」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 815,
+	},
+	block_00140 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0003", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00154", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“那就这样吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「ならそれでいいじゃん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 820,
+	},
+	block_00141 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我笑着回答，蓝露出有点为难的表情笑了。",
+				},
+			},
+        	ja = {
+				{
+					"私が笑顔で答えると、藍は少し困った顔で笑った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 825,
+	},
+	block_00142 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="white", path=":bg/"},
+		{"ex", time=500, func="wait"},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=320, y=-340, file="zbg028a", path=":bg/", ax=1920, ay=1126, bx=-960, by=-586, sync=0},
+		{"fg", ch="藍", size="z2", mode=3, resize=1, path=":fg/aix/z2/", file="aix_z2a0000", face="a0002", head="aix_z2a", lv=5, id=5, sync=0},
+		{"bg", file="reco", id=9, lv=9, path=":sys/", sync=0},
+		{"extrans"},
+		{"bgm", file="bgm118"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"蓝是个很小的姑娘。",
+				},
+			},
+        	ja = {
+				{
+					"藍はとても小柄な娘だった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 847,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽然脸上还残留着稚气，但从他的眼睛里感受到了独特的意志力。",
+				},
+			},
+        	ja = {
+				{
+					"幼さが残る顔ではあったが、その瞳からは独特の意志の強さを感じた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 850,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"后来听说，一开始觉得不应该让他坚决参与。但是，对我飘飘然的态度，怎么也不能拒绝，不断加深了交友。",
+				},
+			},
+        	ja = {
+				{
+					"あとから聞いた話だが、最初は断固として自分に関わらせるべきではないと思ったそうだ。だが、私の飄々とした態度に、どうも断り切れずに、どんどん交友を深めていってしまったらしい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 855,
+	},
+	block_00145 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"蓝经常说。",
+				},
+			},
+        	ja = {
+				{
+					"藍は良く言う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 858,
+	},
+	block_00146 = {
+		{"msgoff"},
+		{"bg", file="ev_com_04_01", path=":ev/ev_com_04/", set="ev_com_04", sync=0},
+		{"bg", file="reco", id=9, lv=9, path=":sys/", sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00036", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“静流总觉得和健一郎很像吧。所以，我没能拒绝静流。看着静流这样的类型，就能很好地理解水菜姐姐的心情了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「静流さんは、なんとなく健一郎に似ていたんだろうな。",
+					{"rt2"},
+					"だから、私は静流さんを拒絶出来なかった。",
+					{"rt2"},
+					"静流さんみたいなタイプを見ていると、水菜姉様の気持ちが良く分かるよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 872,
+	},
+	block_00147 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00037", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“不应该让对方和自己扯上关系。即使这么想，对方也会不知不觉地进入自己的内心。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「自分と関わらせるべきじゃない。",
+					{"rt2"},
+					"そう思っても、知らず知らずに相手は自分の心の中に入り込んでいる」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 876,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00038", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“真是个麻烦的人种。静流和健一郎……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「やっかいな人種だよ。静流さんや健一郎は……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 879,
+	},
+	block_00149 = {
+		{"bg", file="black", path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"水菜姐姐好像是草薙健一郎的妻子。",
+				},
+			},
+        	ja = {
+				{
+					"水菜姉様というのはあの草薙健一郎の妻らしい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 886,
+	},
+	block_00150 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"而且蓝好像是那个人的妹妹。",
+				},
+			},
+        	ja = {
+				{
+					"そして藍はその人の妹らしい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 889,
+	},
+	block_00151 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"中村家围绕着水菜先生，引起了草薙健一郎和夏目一家等黑帮的大骚动。",
+				},
+			},
+        	ja = {
+				{
+					"中村家は、この水菜さんを巡って、草薙健一郎さんや夏目一家というヤクザなどが絡んだ一大騒動を起こした。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 892,
+	},
+	block_00152 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"本来，蓝并不是跨越这个学园门槛的存在。",
+				},
+			},
+        	ja = {
+				{
+					"本来ならば、藍はこの学園の敷居をまたげる様な存在ではなかった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 895,
+	},
+	block_00153 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"即使来了，残酷的生活也在等着你。尽管如此，蓝好像还是进入了弓张学园。",
+				},
+			},
+        	ja = {
+				{
+					"もし仮に来られても、過酷な生活が待っている。",
+					{"rt2"},
+					"それでも藍は弓張学園に入学したらしい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 899,
+	},
+	block_00154 = {
+		{"bgm", stop=1, time=12000},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"那是因为水菜和草薙健一郎相遇的地方。",
+				},
+			},
+        	ja = {
+				{
+					"それは、その水菜さんと草薙健一郎さんが出会った場所であるから。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 904,
+	},
+	block_00155 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"她想追寻那个轨迹吧。",
+				},
+			},
+        	ja = {
+				{
+					"彼女はその軌跡をたどりたかったのだろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 907,
+	},
+	block_00156 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"知道那样的事实是很久以后的事了。",
+				},
+			},
+        	ja = {
+				{
+					"そんな事実を知ったのはそれからだいぶ後の話だ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 910,
+	},
+	block_00157 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg033b", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, resize=1, path=":fg/aix/z1/", file="aix_z1b0010", face="b0012", head="aix_z1b", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0002", head="shi_z1b", x=345, lv=4, id=6, sync=0},
+		{"extrans"},
+		{"bgm", file="bgm144", time=5000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00155", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“这里就是准备室。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「ここが準備室だね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 927,
+	},
+	block_00158 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1b0010", face="b0013", head="aix_z1b", x=-345, lv=4, id=5},
+		{"fgact", ch="藍", act="びっくり", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00039", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“好大啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「広いですね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 933,
+	},
+	block_00159 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0003", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00156", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“嗯，很大。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「うん、広い」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 938,
+	},
+	block_00160 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1b0010", face="b0012", head="aix_z1b", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00040", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“同样的香味……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「同じ香りだ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 943,
+	},
+	block_00161 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0001", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00157", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“同样的香味？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「同じ香り？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 948,
+	},
+	block_00162 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0001", head="aix_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00041", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“啊，和以前做老师的熟人有同样的味道吧。香烟和之后的味道……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「あ、昔、先生やっていた知り合いと同じ匂いがするのですよね。",
+					{"rt2"},
+					"たばこと、あとなんと言うか……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 955,
+	},
+	block_00163 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0013", head="shi_z1b", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="うんうん", lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0009", head="shi_z1b", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00158", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“香烟和颜料的味道。确实油画颜料有着独特的味道，和香烟混在一起会有很厉害的味道。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「たばこと絵の具の匂いね。たしかに油絵の絵の具って独特な臭いだから、",
+					{"rt2"},
+					"たばこと混ざるとすごい匂いつくよね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 963,
+	},
+	block_00164 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00042", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是的，那个人一直散发着这样的香味。那是美术准备室的香味吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「はい、その人からはいつもこんな香りがしてました。",
+					{"rt2"},
+					"あれは美術準備室の香りだったのですね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 969,
+	},
+	block_00165 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0002", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0003", head="shi_z1a", x=345, lv=4, id=6},
+			},
+			vl02 = {
+				{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0002", head="shi_z1a", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00159", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“作为艺术家，这家伙总是喜欢抽烟。基本上都是烟鬼。现在的老师也很会抽烟。还有咖啡。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「芸術家というのはどいつもこいつもたばこ好きだからねぇ。",
+					{"rt2"},
+					"だいたいヘビースモーカー。今の先生とかもすごく吸うからねぇ。あとコーヒー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 977,
+	},
+	block_00166 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0003", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00043", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“啊，那个人也经常闻到咖啡的香味。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「あ、その人からも良くコーヒーの香りがしてました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 982,
+	},
+	block_00167 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0002", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00160", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“嘛，我也喜欢咖啡。经常到邻镇买豆子，磨着喝。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「まぁ、私もコーヒーは好きでね。",
+					{"rt2"},
+					"よく隣町まで豆を買ってきて、挽いて飲んでるよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 988,
+	},
+	block_00168 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0001", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00044", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是自己拉吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「自分で挽くのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 993,
+	},
+	block_00169 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0003", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00161", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“咖啡磨坊不是很可爱吗？下面有个木箱，上面有黄铜盖和方向盘，转动着磨。好开心啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「なんかコーヒーミルってかわいいじゃない。",
+					{"rt2"},
+					"下に木箱があって、上に",
+					{"ruby", text="しんちゅう"},
+					"真鍮",
+					{"/ruby"},
+					"の蓋とハンドルがついてて、グリグリ回して挽くの。",
+					{"rt2"},
+					"楽しいしね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 1000,
+	},
+	block_00170 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0001", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00045", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“不去邻街就没有咖啡豆吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「となり町までいかないとコーヒー豆って無いものなんですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 1005,
+	},
+	block_00171 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0002", head="shi_z1a", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="いいえ", lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0003", head="shi_z1a", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00162", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“没那回事。这条街上也有卖咖啡豆的，可以喝。啊，弓张不是咖啡，而是咖啡。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「そんな事ないさ。この街でもコーヒー豆は売ってるし、飲めるけどね。",
+					{"rt2"},
+					"あ、弓張の場合はコーヒーじゃなくてコーシーだけど」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 1014,
+	},
+	block_00172 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0012", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00046", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“柯西？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「コーシー？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 1019,
+	},
+	block_00173 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0002", head="shi_z1a", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="うなづく", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00163", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“是的，柯西。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「そうコーシー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 1025,
+	},
+	block_00174 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="083r", wait=250, file="black", path=":bg/", vague=40},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我们一边听着那样的话，一边登上阁楼开始寻找画的存货。",
+				},
+			},
+        	ja = {
+				{
+					"そんな話を聞きながら、私達はロフトにあがり絵のストックをあさりはじめる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 1031,
+	},
+	block_00175 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg032b", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0001", head="aix_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0002", head="shi_z1a", x=345, lv=4, id=6, sync=0},
+		{"extrans", rule="083r", vague=40},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00164", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“那么？那个人的名字叫什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「それで？　その人の名前って何て言うのかな？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 1044,
+	},
+	block_00176 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00047", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“我是健一郎。草薙健一郎。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「健一郎です。草薙健一郎」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 1049,
+	},
+	block_00177 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0010", head="shi_z1a", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="おじぎ", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00165", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“草薙、草薙健一郎……。嗯，草薙好像没听说过……”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「草薙、草薙健一郎……。ふむ、草薙って、聞いた事ある様なない様な……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 1055,
+	},
+	block_00178 = {
+		{"bg", y=100, speed=100000, file="zbg032b", path=":bg/", x2=0, y2=100, x=-960, ax=1920, ay=1126, bx=-960, by=-586},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"天才画家草薙健一郎的名字传遍全世界，这是大约三年后的事了。",
+				},
+			},
+        	ja = {
+				{
+					"天才画家草薙健一郎の名前が世界中に知れ渡るのは、",
+					{"rt2"},
+					"これから三年ほどあとの話である。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 1062,
+	},
+	block_00179 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"最近，在国内还不太为人所知。",
+				},
+			},
+        	ja = {
+				{
+					"この頃、国内ではまだそれほど知られてなかった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 1065,
+	},
+	block_00180 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"在他作为据点的美国，评价已经很高，晚了，在日本也是美术杂志等渐渐开始报道的时期。",
+				},
+			},
+        	ja = {
+				{
+					"彼が拠点にしているアメリカでは、すでに評価が高まっており、遅れて日本でも徐々に美術雑誌などが取り上げはじめている時期だったらしい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 1068,
+	},
+	block_00181 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"如果想当画家的话，也许我也知道。只是，我只是一味地学习陶艺，对绘画没有什么知识。",
+				},
+			},
+        	ja = {
+				{
+					"画家志望だったら、私も知っていたのかもしれない。",
+					{"rt2"},
+					"ただ、私は陶芸一筋で、絵画についてはあまり知識が無かった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 1072,
+	},
+	block_00182 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"阅读的杂志在陶艺和现代美术上也有很大的不同。",
+				},
+			},
+        	ja = {
+				{
+					"読む雑誌も陶芸と現代美術ではだいぶ異なる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 1075,
+	},
+	block_00183 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg032b", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0001", head="aix_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0008", head="shi_z1a", x=345, lv=4, id=6, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00166", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“即使知道名字也不知道那个人的签名。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「名前が分かってもその人のサインって分からないんだよねぇ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 1086,
+	},
+	block_00184 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0009", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00048", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是啊，我也不知道健一郎的签名。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「そうですね。私も健一郎のサインは分かりません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 1091,
+	},
+	block_00185 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0001", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00167", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“画的话明白吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「絵なら分かる？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 1096,
+	},
+	block_00186 = {
+		{"fgact", ch="藍", act="おじぎ", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00049", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“画的话能明白吗？虽然这么想，但是好像很难。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「絵なら分かるかなぁ。と思ったのですけど、結構難しそうですね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 1102,
+	},
+	block_00187 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1b0000", face="b0001", head="aix_z1b", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"草薙健一郎的素描以其精密度而闻名。",
+				},
+			},
+        	ja = {
+				{
+					"草薙健一郎のデッサンは、その精密さが有名であった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 1108,
+	},
+	block_00188 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"当然，如果寻找其中最精密的素描画，很可能就是草薙健一郎。",
+				},
+			},
+        	ja = {
+				{
+					"当然、この中でもっとも精密なデッサン画を探せば、",
+					{"rt2"},
+					"それが草薙健一郎である可能性は高い。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 1112,
+	},
+	block_00189 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是，本来我就不知道草薙健一郎是什么样的人，更进一步说，这里的美术老师历代都很厉害，所以很难分辨出来。",
+				},
+			},
+        	ja = {
+				{
+					"だけれども、そもそも私は草薙健一郎がどんな人かも分からず、さらに言えば、",
+					{"rt2"},
+					"ここの美術教師は歴代、凄腕揃いであったので、なかなか見分けるのは難しい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 1116,
+	},
+	block_00190 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"正如刚才所说，文展的会友水平是教师。虽说是专业画家，但都是些没关系的人。",
+				},
+			},
+        	ja = {
+				{
+					"先ほども言った通り、文展の会友レベルが教師をやっているのである。",
+					{"rt2"},
+					"プロの画家と言って差し支えない人間ばかりだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00189",
+		linknext = "block_00191",
+		line = 1120,
+	},
+	block_00191 = {
+		{"bg", file="black", path=":bg/"},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是。",
+				},
+			},
+        	ja = {
+				{
+					"なのだけど。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00190",
+		linknext = "block_00192",
+		line = 1125,
+	},
+	block_00192 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=600, y=100, file="zbg032b", path=":bg/", ax=1920, ay=1126, bx=-960, by=-586, sync=0},
+		{"fg", ch="藍", size="z2", mode=3, resize=1, path=":fg/aix/z2/", file="aix_z2b0000", face="b0003", head="aix_z2b", lv=5, id=5, sync=0},
+		{"extrans"},
+		{"fgact", ch="藍", act="びっくり", lv=5, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00050", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“有了！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「ありました！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00191",
+		linknext = "block_00193",
+		line = 1138,
+	},
+	block_00193 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"蓝拿出一幅素描画。",
+				},
+			},
+        	ja = {
+				{
+					"藍は一枚のデッサン画を取り出した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00192",
+		linknext = "block_00194",
+		line = 1141,
+	},
+	block_00194 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z2/", file="aix_z2a0000", face="a0002", head="aix_z2a", lv=5, id=5},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我看了那幅画，一瞬间冻住了。",
+				},
+			},
+        	ja = {
+				{
+					"私は、その絵を見て一瞬凍りついた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00193",
+		linknext = "block_00195",
+		line = 1146,
+	},
+	block_00195 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"因为有颜色。",
+				},
+			},
+        	ja = {
+				{
+					"だって、色があったから。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00194",
+		linknext = "block_00196",
+		line = 1149,
+	},
+	block_00196 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"明明是黑白素描，我却在那里感受到了颜色。",
+				},
+			},
+        	ja = {
+				{
+					"白黒のデッサンなのに、私はそこに色を感じたのだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00195",
+		linknext = "block_00197",
+		line = 1152,
+	},
+	block_00197 = {
+		{"fg", ch="藍", size="z2", mode=3, path=":fg/aix/z2/", file="aix_z2a0000", face="a0012", head="aix_z2a", x2=0, x=-500, lv=5, id=5},
+		{"fg", ch="静流", size="z2", mx=40, mode=3, resize=1, path=":fg/shi/z2/", file="shi_z2b0000", face="b0007", head="shi_z2b", x=500, lv=5, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00168", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“啊，这是什么！？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「な、なにこれ！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00196",
+		linknext = "block_00198",
+		line = 1167,
+	},
+	block_00198 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不由得我从蓝那里抢走了那幅素描画。",
+				},
+			},
+        	ja = {
+				{
+					"思わず私は藍からそのデッサン画を奪い取ってしまった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00197",
+		linknext = "block_00199",
+		line = 1173,
+	},
+	block_00199 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我想马上印在眼睛上。是那么的画。",
+				},
+			},
+        	ja = {
+				{
+					"すぐにでも目に焼き付けたい。",
+					{"rt2"},
+					"それほどの絵だったのだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00198",
+		linknext = "block_00200",
+		line = 1177,
+	},
+	block_00200 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"不，那可能是接近我的目标比较正确。",
+				},
+			},
+        	ja = {
+				{
+					"いや、それは、私が目指していたものに近かったという方が正しいかもしれない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00199",
+		linknext = "block_00201",
+		line = 1180,
+	},
+	block_00201 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z2/", file="aix_z2a0000", face="a0001", head="aix_z2a", x=-500, lv=5, id=5},
+		{"fg", ch="静流", mode=3, path=":fg/shi/z2/", file="shi_z2a0000", face="a0007", head="shi_z2a", x=500, lv=5, id=6},
+		{"fgact", ch="静流", act="びっくり", lv=5, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00169", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“为什么，为什么，一瞬间看到的时候感觉到了颜色？现在看也是黑白的，为什么！？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「なんで、なんで、一瞬見た時に色を感じたの？　今見ても白黒なのに、何故！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00200",
+		linknext = "block_00202",
+		line = 1187,
+	},
+	block_00202 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"陶器的趣味性，根据光线的照射情况，其器皿会大大改变姿态。",
+				},
+			},
+        	ja = {
+				{
+					"陶器の面白さは、光の当たり具合で、その器が姿を大きくかえる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00201",
+		linknext = "block_00203",
+		line = 1190,
+	},
+	block_00203 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这是因为釉药在复杂的燃烧过程中，会成为复杂的成分。",
+				},
+			},
+        	ja = {
+				{
+					"これは釉薬が複雑な燃焼過程で、複雑な成分となるからである。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00202",
+		linknext = "block_00204",
+		line = 1193,
+	},
+	block_00204 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽然全是黑色，但也有称赞七色光的器皿。",
+				},
+			},
+        	ja = {
+				{
+					"黒一色なのに、七色の光をたたえる器も存在する。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00203",
+		linknext = "block_00205",
+		line = 1196,
+	},
+	block_00205 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"当然，那个碧绯也是一样的。",
+				},
+			},
+        	ja = {
+				{
+					"当然、あの碧緋も同じだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00204",
+		linknext = "block_00206",
+		line = 1200,
+	},
+	block_00206 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"在无色的地方做颜色。从某种意义上说，这也是我憧憬碧绯的理想器皿的形状。",
+				},
+			},
+        	ja = {
+				{
+					"色無き場所に色を作る。",
+					{"rt2"},
+					"ある意味、それは碧緋を憧れとする、私の理想とする器の形でもあったのだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00205",
+		linknext = "block_00207",
+		line = 1205,
+	},
+	block_00207 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg032b", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="藍", size="z1", mode=3, resize=1, path=":fg/aix/z1/", file="aix_z1a0000", face="a0008", head="aix_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, resize=1, path=":fg/shi/z1/", file="shi_z1a0000", face="a0007", head="shi_z1a", x=345, lv=4, id=6, sync=0},
+		{"extrans", time=500},
+		{"fgact", ch="静流", act="quake", lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0012", head="shi_z1a", x=345, lv=4, id=6, sync=0},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00170", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“啊，哈哈！？对不起，我模仿抢你的样子！！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「って、は！？　ご、ごめん。奪い取る様な真似してっ！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00206",
+		linknext = "block_00208",
+		line = 1219,
+	},
+	block_00208 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="藍", act="うなづく", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00051", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“没关系，我有点吃惊，不过如果静流如此吃惊的话，果然草薙健一郎的画是真的。我明白了。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「いいですよ。少し驚きましたが、静流さんがそれほど驚くのなら、やはり草薙健一郎の絵は本物なんだな。って分かりましたし」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00207",
+		linknext = "block_00209",
+		line = 1225,
+	},
+	block_00209 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0001", head="shi_z1a", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="おじぎ", lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0008", head="shi_z1a", x=345, lv=4, id=6},
+			},
+			vl02 = {
+				{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0001", head="shi_z1a", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00171", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“是真的啊。不，绘画不是专业的，特别是素描之类的只有基础的水平才知道……，这感觉有点不一样。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「本物だねぇ。いや、絵画は専門外で、特にデッサンとか基礎的なレベルでしか",
+					{"rt2"},
+					"分からないのだけど……、これはなんか違う感じがする」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00208",
+		linknext = "block_00210",
+		line = 1234,
+	},
+	block_00210 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"这位当时的弓张美术教师也是个了不起的人。画得非常好。只能说是素描啦神啦。",
+				},
+			},
+        	ja = {
+				{
+					"この当時の弓張美術教師もすごい人だ。",
+					{"rt2"},
+					"めちゃくちゃ絵がうまい。デッサンとか神がかっているとしか言いようが無い。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00209",
+		linknext = "block_00211",
+		line = 1238,
+	},
+	block_00211 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"但是，这个人的素描不一样。",
+				},
+			},
+        	ja = {
+				{
+					"だが、この人のデッサンは違う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00210",
+		linknext = "block_00212",
+		line = 1241,
+	},
+	block_00212 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"远远超过了那样的水平。",
+				},
+			},
+        	ja = {
+				{
+					"そんなレベルを遙かに超えている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00211",
+		linknext = "block_00213",
+		line = 1244,
+	},
+	block_00213 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0001", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00172", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“画这幅画的人，现在在哪里做什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「この絵描いた人って、今どこで何やってるの？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00212",
+		linknext = "block_00214",
+		line = 1249,
+	},
+	block_00214 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0003", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00052", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“好像在美国。听说在纽约切尔西这个地方。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「アメリカにいるみたいです。",
+					{"rt2"},
+					"ニューヨークのチェルシーという場所にいると聞きました」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00213",
+		linknext = "block_00215",
+		line = 1255,
+	},
+	block_00215 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0009", head="shi_z1b", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="おじぎ", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00173", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“美国啊。那是不能去见你的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「アメリカかぁ。そりゃ会いに行けないなぁ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00214",
+		linknext = "block_00216",
+		line = 1261,
+	},
+	block_00216 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0001", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00053", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“你是想见面吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「会いたいと思ったのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00215",
+		linknext = "block_00217",
+		line = 1266,
+	},
+	block_00217 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0008", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0004", head="shi_z1b", x=345, lv=4, id=6},
+			},
+			vl02 = {
+				{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0001", head="shi_z1b", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00174", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“嗯，虽然专业不同，但这个人好像理解了我不懂的东西。所以我想如果住在附近的话，现在也会去拜访的。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「うん、専門は違うんだけど、なんかこの人、私が分からない何かを理解してそうなんだよね。だから近くに住んでたら今からでも訪ねていたと思うよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00216",
+		linknext = "block_00218",
+		line = 1273,
+	},
+	block_00218 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00054", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“好痒。静流总觉得像健一郎。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「くすくす。静流さんってなんだか健一郎みたいですね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00217",
+		linknext = "block_00219",
+		line = 1278,
+	},
+	block_00219 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0007", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00175", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"「咦？那个人也是这样吗？」",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「え？　その人もそんななの？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00218",
+		linknext = "block_00220",
+		line = 1283,
+	},
+	block_00220 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="藍", act="うなづく", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00055", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是的，健一郎是一个想做的事马上就会做的人。很厉害的执行力，还有飘飘然。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「はい、健一郎は一度思った事はすぐに実行する人でした。",
+					{"rt2"},
+					"すごい実行力で、あと飄々としてて」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00219",
+		linknext = "block_00221",
+		line = 1290,
+	},
+	block_00221 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0001", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0010", head="shi_z1a", x=345, lv=4, id=6},
+			},
+			vl02 = {
+				{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0001", head="shi_z1a", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00176", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“嗯，是啊。总觉得画起来很神经质，但是很大胆。给人的印象是那种天才般的难对付的画家。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「ふーん。そうなんだ。なんか絵からはかなり神経質でありながら、すげぇ大胆な。そんな天才肌的な気むずかしい画家ってイメージだけど」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00220",
+		linknext = "block_00222",
+		line = 1297,
+	},
+	block_00222 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0001", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0011", head="aix_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00056", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“不是很难吗？啊，但也可能不是。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「気むずかしくはないんじゃないですか？　あ、でもそうでもないかもしれませんね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00221",
+		linknext = "block_00223",
+		line = 1303,
+	},
+	block_00223 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0013", head="shi_z1a", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="びっくり", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00177", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“是哪一个呢？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「どっちやねん」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00222",
+		linknext = "block_00224",
+		line = 1309,
+	},
+	block_00224 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0003", head="aix_z1a", x=-345, lv=4, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00057", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“虽然对我很温柔，但是对在那里的人们来说静流是相当难对付的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「私には優しくしてくれましたが、たぶん、あそこにいた人達には静流さんって",
+					{"rt2"},
+					"相当気むずかしい人だと思われてますよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00223",
+		linknext = "block_00225",
+		line = 1317,
+	},
+	block_00225 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0001", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00178", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“在那里的人们？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「あそこにいた人達？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00224",
+		linknext = "block_00226",
+		line = 1322,
+	},
+	block_00226 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00058", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“是想用水桶给我浇水的人。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「私にバケツで水をかけようとした人ですよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00225",
+		linknext = "block_00227",
+		line = 1327,
+	},
+	block_00227 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0007", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0002", head="shi_z1a", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00179", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“是吗？我对谁都很友好。只是朋友很少而已。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「そうかなぁ？　私は結構誰にでもフレンドリーよ。",
+					{"rt2"},
+					"ただ、友達が少ないだけ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00226",
+		linknext = "block_00228",
+		line = 1334,
+	},
+	block_00228 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0003", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00059", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“静流先生是友好的吗？因为很会说话，所以一般来说朋友好像很多。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「静流さんは、フレンドリーといいますかお話が上手だから、普通に考えればご友人とか多そうですけど」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00227",
+		linknext = "block_00229",
+		line = 1339,
+	},
+	block_00229 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0009", head="shi_z1a", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="おじぎ", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00180", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“不，没有那个。我不讨厌人类。我没有什么朋友。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「いや、それがねぇ。私は人間嫌いでねぇ。あんまりご友人はいないんだよ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00228",
+		linknext = "block_00230",
+		line = 1345,
+	},
+	block_00230 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00060", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“果然静流先生很难接受。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「やっぱり、静流さんは気むずかしいのですね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00229",
+		linknext = "block_00231",
+		line = 1350,
+	},
+	block_00231 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0001", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0002", head="shi_z1a", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00181", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“这样啊。嘛，朋友少的理由也在那里吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「そっかなぁ。まぁ、友達が少ない理由もそこにあるのかもしれない」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00230",
+		linknext = "block_00232",
+		line = 1356,
+	},
+	block_00232 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1b0000", face="b0008", head="aix_z1b", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00061", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“人是成群结队的生物，很难忍受孤独。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「人は群れを成す生き物です。なかなか孤独に耐えられるものじゃありません」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00231",
+		linknext = "block_00233",
+		line = 1361,
+	},
+	block_00233 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"蓝好像有点寂寞地嘟囔着。",
+				},
+			},
+        	ja = {
+				{
+					"少し寂しそうに藍が呟いた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00232",
+		linknext = "block_00234",
+		line = 1364,
+	},
+	block_00234 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我尽量用困难的表情说话。",
+				},
+			},
+        	ja = {
+				{
+					"私はできる限り難しい顔して喋る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00233",
+		linknext = "block_00235",
+		line = 1367,
+	},
+	block_00235 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0004", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00182", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“另外也要警惕你的爱情发作！孤独的人，会马上向偶然相遇的人寻求握手！”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「またあなたの愛情の発作をも警戒するがいい！",
+					{"rt2"},
+					"孤独な人間は、たまたま出会った者に、すぐ握手を求めるようになる！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00234",
+		linknext = "block_00236",
+		line = 1373,
+	},
+	block_00236 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00062", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“那是什么？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「なんですかそれ？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00235",
+		linknext = "block_00237",
+		line = 1378,
+	},
+	block_00237 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"蓝有点笑了。",
+				},
+			},
+        	ja = {
+				{
+					"藍は少し笑っていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00236",
+		linknext = "block_00238",
+		line = 1381,
+	},
+	block_00238 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0003", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00183", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“我是在漫画里读到的。总觉得这是伟人的话。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「漫画で読んだ。なんか偉い人の言葉だと思う」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00237",
+		linknext = "block_00239",
+		line = 1386,
+	},
+	block_00239 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1a0000", face="a0002", head="aix_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00063", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“那个人很了解孤独。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「その人は孤独を良く知ってますね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00238",
+		linknext = "block_00240",
+		line = 1391,
+	},
+	block_00240 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0002", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00184", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“也许吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「そうかもね」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00239",
+		linknext = "block_00241",
+		line = 1397,
+	},
+	block_00241 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1b0000", face="b0001", head="aix_z1b", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00064", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“静流先生，是向偶然相遇的我伸出了手吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「静流さんは、たまたま出会った私に、手をさしのべたのですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00240",
+		linknext = "block_00242",
+		line = 1402,
+	},
+	block_00242 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0001", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0002", head="shi_z1a", x=345, lv=4, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00185", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“是啊。还有就是奇怪的家伙啊。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「そうだねぇ。あとなんか変なヤツだなぁ。と思った」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00241",
+		linknext = "block_00243",
+		line = 1408,
+	},
+	block_00243 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1b0000", face="b0009", head="aix_z1b", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00065", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“奇怪吗？”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「変ですか？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00242",
+		linknext = "block_00244",
+		line = 1413,
+	},
+	block_00244 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0002", head="shi_z1a", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="うなづく", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00186", ch="shi"},
+			},
+		
+            cn = {
+				{
+					"“那个，打掉下来的水桶逃难的女孩子很奇怪吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"静流"},
+					"「そりゃ、落ちてきたバケツを殴って難を逃れる様な女の子なんかおかしいでしょ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00243",
+		linknext = "block_00245",
+		line = 1419,
+	},
+	block_00245 = {
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1b0000", face="b0015", head="aix_z1b", x=-345, lv=4, id=5},
+		{"fgact", ch="藍", act="おじぎ", lv=4, id=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_00066", ch="aix"},
+			},
+		
+            cn = {
+				{
+					"“嘛，那是这样的吧。”",
+				},
+			},
+        	ja = {
+				{
+					name = {"藍"},
+					"「まぁ、それはそうなんでしょうけど」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00244",
+		linknext = "block_00246",
+		line = 1425,
+	},
+	block_00246 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg032b", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1b0000", face="b0002", head="aix_z1b", lv=4, id=5, sync=0},
+		{"bg", alpha=255, lv=1, id=5, rule="cinema", file="cinema01", time=400, path=":sys/", vague=40, sync=0},
+		{"extrans", time=500},
+		{"fg", ch="藍", mode=3, path=":fg/aix/z1/", file="aix_z1b0000", face="b0002", head="aix_z1b", lv=4, id=5},
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"夏目蓝对我来说是个不可思议的少女。",
+				},
+			},
+        	ja = {
+				{
+					"夏目藍は私にとって不思議な少女だった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00245",
+		linknext = "block_00247",
+		line = 1438,
+	},
+	block_00247 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"年级低一年级。",
+				},
+			},
+        	ja = {
+				{
+					"学年は一つ下。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00246",
+		linknext = "block_00248",
+		line = 1441,
+	},
+	block_00248 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"入学还不到一个月。",
+				},
+			},
+        	ja = {
+				{
+					"まだ入学して一ヶ月も経ってない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00247",
+		linknext = "block_00249",
+		line = 1444,
+	},
+	block_00249 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"虽然感觉她比那个年纪还小，但她还是有点成熟。",
+				},
+			},
+        	ja = {
+				{
+					"姿は、それ以上に幼く感じたが、",
+					{"rt2"},
+					"にもかかわらず彼女は、どこか大人びていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00248",
+		linknext = "block_00250",
+		line = 1448,
+	},
+	block_00250 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"同时代没有这种氛围的人。",
+				},
+			},
+        	ja = {
+				{
+					"同世代でこんな雰囲気の人間はいない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00249",
+		linknext = "block_00251",
+		line = 1451,
+	},
+	block_00251 = {
+		{"text"},
+		text = {
+		
+            cn = {
+				{
+					"我和蓝很快就成了好朋友。",
+				},
+			},
+        	ja = {
+				{
+					"私と藍はすぐに仲良くなった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00250",
+		linknext = "block_00252",
+		line = 1454,
+	},
+	block_00252 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="01_02_4"},
+		{"text"},
+		linkback = "block_00251",
+		line = 1460,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}
